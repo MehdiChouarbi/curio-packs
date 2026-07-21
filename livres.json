@@ -1,0 +1,45 @@
+{
+  "livresVersion": 1,
+  "livres": [
+    {
+      "id": "Civilisations",
+      "titre": "Civilisations",
+      "emoji": "🏛️"
+    },
+    {
+      "id": "etoiles",
+      "titre": "etoiles",
+      "emoji": "⭐"
+    },
+    {
+      "id": "la-terre",
+      "titre": "La Terre",
+      "emoji": "🌍"
+    },
+    {
+      "id": "les-machines",
+      "titre": "les Machines",
+      "emoji": "⚙️"
+    },
+    {
+      "id": "Les Mots",
+      "titre": "Les Mots",
+      "emoji": "📖"
+    },
+    {
+      "id": "les-nombres",
+      "titre": "Les Nombres",
+      "emoji": "🔢"
+    },
+    {
+      "id": "ocean",
+      "titre": "Océan",
+      "emoji": "🌊"
+    },
+    {
+      "id": "le-temps-profond",
+      "titre": "Temps Profond",
+      "emoji": "⏳"
+    }
+  ]
+}
