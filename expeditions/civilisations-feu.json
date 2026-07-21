@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-feu",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "Le feu, première révolution",
+  "resume": "Découvre comment une simple flamme a changé la vie des humains et leur a permis de transformer leur monde.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 6,
+  "questionsOuvertes": [
+    {
+      "id": "premieres-inventions",
+      "texte": "Quelle invention a le plus transformé la vie quotidienne des humains ?",
+      "resolueParLivre": "machines"
+    }
+  ],
+  "questionsResolues": [
+    "origine-ecriture"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🔥",
+      "titre": "Maître du Feu"
+    },
+    "decouvertes": [
+      "Les humains ont appris progressivement à maîtriser le feu",
+      "Le feu a permis de cuisiner, se protéger et se réunir",
+      "Les foyers racontent la vie quotidienne de nos ancêtres",
+      "Le feu est l'une des plus grandes transformations de l'histoire humaine"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-feu",
+      "type": "question",
+      "visuel": "🔥",
+      "titre": "Quelle invention a changé toute l'histoire humaine ?",
+      "olli": "Imagine vivre sans lumière le soir, sans repas cuits et sans chaleur quand il fait froid… Une découverte a tout changé.",
+      "choix": [
+        {
+          "emoji": "🚗",
+          "texte": "La voiture"
+        },
+        {
+          "emoji": "🔥",
+          "texte": "La maîtrise du feu",
+          "bonne": true
+        },
+        {
+          "emoji": "📱",
+          "texte": "Le téléphone"
+        }
+      ],
+      "reponseBonne": "Exactement ! Le feu a transformé la vie humaine bien avant les grandes villes, les machines et les ordinateurs.",
+      "reponseAutre": "La réponse était le feu ! 🔥 Bien avant les voitures et les téléphones, cette découverte a changé la façon de vivre des humains."
+    },
+    {
+      "id": "observation-foyer",
+      "type": "observation",
+      "visuel": "🏕️",
+      "visuelAnimation": "aucune",
+      "titre": "Autour du premier foyer",
+      "olli": "Un feu n'était pas seulement une source de chaleur. C'était aussi un endroit où les humains se retrouvaient.",
+      "hotspots": [
+        {
+          "emoji": "🍖",
+          "nom": "La cuisson",
+          "fait": "Faire cuire les aliments a changé l'alimentation humaine. La cuisson rend certains aliments plus faciles à manger et peut améliorer leur digestion."
+        },
+        {
+          "emoji": "🌙",
+          "nom": "La lumière",
+          "fait": "Grâce au feu, les humains pouvaient rester actifs après la tombée de la nuit et mieux se protéger dans l'obscurité."
+        },
+        {
+          "emoji": "👥",
+          "nom": "Le groupe",
+          "fait": "Les foyers sont devenus des lieux de rencontre où les humains pouvaient partager, apprendre et transmettre leurs connaissances."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-foyer",
+      "type": "anecdote",
+      "visuel": "🏺",
+      "etiquette": "Histoire vraie",
+      "titre": "Des traces de feu vieilles de centaines de milliers d'années",
+      "texte": "Dans plusieurs sites archéologiques, les scientifiques ont retrouvé des traces anciennes de foyers : pierres chauffées, cendres et restes brûlés. Ces indices montrent que certains groupes humains utilisaient déjà le feu il y a très longtemps. Les chercheurs étudient ces traces pour comprendre comment nos ancêtres vivaient.",
+      "olli": "Un tas de cendres peut sembler banal… mais pour un archéologue, c'est un message laissé par le passé !",
+      "sourceRef": "src-feu-archeologie"
+    },
+    {
+      "id": "question-maitrise",
+      "type": "question",
+      "visuel": "🪵",
+      "titre": "Faire un feu et contrôler un feu, est-ce pareil ?",
+      "olli": "Trouver un feu naturel après un éclair est une chose… réussir à l'utiliser quand on en a besoin en est une autre.",
+      "choix": [
+        {
+          "emoji": "✅",
+          "texte": "Non, il faut apprendre à le maîtriser",
+          "bonne": true
+        },
+        {
+          "emoji": "🔥",
+          "texte": "Oui, tous les feux sont faciles à contrôler"
+        },
+        {
+          "emoji": "🌧️",
+          "texte": "Le feu apparaît toujours avec la pluie"
+        }
+      ],
+      "reponseBonne": "Bravo ! La maîtrise du feu demande des connaissances : choisir du bois, protéger la flamme et savoir l'entretenir.",
+      "reponseAutre": "La bonne réponse est : il faut apprendre à maîtriser le feu. Une flamme peut être utile mais aussi dangereuse."
+    },
+    {
+      "id": "mission-experience",
+      "type": "mission",
+      "visuel": "🕯️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Observe la lumière autour de toi",
+      "texte": "Cherche trois objets qui utilisent aujourd'hui une idée liée au feu ou à l'énergie : une lampe, une bougie, une cuisinière ou un radiateur. Demande-toi : comment faisaient les humains avant ces objets ?",
+      "olli": "Les inventions modernes sont souvent les petites-filles de découvertes très anciennes."
+    },
+    {
+      "id": "teaser-inventions",
+      "type": "teaser",
+      "visuel": "⚙️",
+      "titre": "Le feu était une grande invention… mais d'autres allaient suivre.",
+      "texte": "Les humains ont appris à transformer leur environnement avec des outils, des machines et des idées nouvelles. Quelle invention a changé le monde après le feu ?",
+      "olli": "Une nouvelle porte de la Grande Bibliothèque commence à briller… Le Livre des Inventions t'attend ! ✨",
+      "questionOuverteRef": "premieres-inventions"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-feu-archeologie",
+      "fait": "Des traces archéologiques montrent une utilisation ancienne du feu par des groupes humains, notamment à travers des foyers, cendres et matériaux brûlés retrouvés sur différents sites.",
+      "reference": "https://humanorigins.si.edu/evidence/behavior/fire",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-cuisson",
+      "fait": "La cuisson des aliments a profondément influencé l'alimentation humaine et les comportements sociaux.",
+      "reference": "https://www.nature.com/articles/nature14967",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}

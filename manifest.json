@@ -3,6 +3,16 @@
   "engineVersion": 1,
   "expeditions": [
     {
+      "id": "civilisations-feu",
+      "livre": "Civilisations",
+      "titre": "Le feu, première révolution",
+      "resume": "Découvre comment une simple flamme a changé la vie des humains et leur a permis de transformer leur monde.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-feu.json",
+      "sha256": "24b6e880c8ef451c061ad275515530dc28e59a09579185e9c3220ed2fa371f6d",
+      "octets": 6427
+    },
+    {
       "id": "civilisations-premiers-humains",
       "livre": "Civilisations",
       "titre": "Les premiers pas de l'humanité",
