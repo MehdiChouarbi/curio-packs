@@ -24,13 +24,13 @@
     },
     {
       "id": "etoiles-terre",
-      "livre": "etoiles",
+      "livre": "Autre",
       "titre": "La planète qui abrite la vie",
       "resume": "Parmi toutes les planètes que nous connaissons, une seule déborde de forêts, d'océans et d'animaux : la Terre. Découvre pourquoi elle est si spéciale.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/etoiles-terre.json",
-      "sha256": "e563db80e7136061833cf8f357bafb0360d346021063af8974c76936ca9d40d1",
-      "octets": 5881
+      "sha256": "7c4579fe1315df9e7faf3c5dc2181a0af4a6bffdfe71dbf1f29135498b4b405d",
+      "octets": 5879
     },
     {
       "id": "etoiles-voyager",
