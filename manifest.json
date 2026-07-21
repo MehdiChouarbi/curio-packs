@@ -54,12 +54,12 @@
     },
     {
       "id": "temps-anning",
-      "livre": "le Temps Profond",
+      "livre": "le-temps-profond",
       "titre": "La fille qui déterrait des dragons",
       "resume": "Sur une plage anglaise, il y a 200 ans, une petite fille pauvre a déterré un monstre marin plus vieux que les dinosaures. Personne ne voulait la croire.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/temps-anning.json",
-      "sha256": "546cabd58ce3081c151171faf206b01473073920f0c48746f20696fd9b73e7bb",
+      "sha256": "81b6b7b38caa24416b94d9097d4b764209301ad8bde0c3b27b5b629d5b82838b",
       "octets": 9669
     }
   ]
