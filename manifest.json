@@ -13,6 +13,16 @@
       "octets": 6427
     },
     {
+      "id": "civilisations-mesopotamie",
+      "livre": "Civilisations",
+      "titre": "La naissance des premières villes",
+      "resume": "Remonte le temps jusqu'à la Mésopotamie et découvre comment les humains ont créé les premières villes, les premières écritures et de nouvelles façons de vivre ensemble.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-mesopotamie.json",
+      "sha256": "6d77ad6d2657aaf1f67344531be0875c3dfe268a7d2cdbc0674c2eb2437510ef",
+      "octets": 6434
+    },
+    {
       "id": "civilisations-premiers-humains",
       "livre": "Civilisations",
       "titre": "Les premiers pas de l'humanité",

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-mesopotamie",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "La naissance des premières villes",
+  "resume": "Remonte le temps jusqu'à la Mésopotamie et découvre comment les humains ont créé les premières villes, les premières écritures et de nouvelles façons de vivre ensemble.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 6,
+  "questionsOuvertes": [
+    {
+      "id": "premieres-villes",
+      "texte": "Comment les humains ont-ils organisé les premières grandes sociétés ?",
+      "resolueParLivre": "civilisations"
+    }
+  ],
+  "questionsResolues": [
+    "origine-ecriture"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🏺",
+      "titre": "Gardien des Premières Cités"
+    },
+    "decouvertes": [
+      "Les premières grandes villes sont apparues en Mésopotamie",
+      "L'écriture cunéiforme est l'une des plus anciennes écritures connues",
+      "Les habitants ont inventé de nouvelles règles pour vivre ensemble",
+      "Les fleuves ont permis le développement des premières civilisations"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-ville",
+      "type": "question",
+      "visuel": "🏙️",
+      "titre": "Avant les grandes villes, comment vivaient les humains ?",
+      "olli": "Pendant longtemps, les humains se déplaçaient pour trouver leur nourriture. Puis un jour, certains ont décidé de construire un endroit où rester.",
+      "choix": [
+        {
+          "emoji": "🏕️",
+          "texte": "Dans de petits groupes nomades",
+          "bonne": true
+        },
+        {
+          "emoji": "🏙️",
+          "texte": "Dans des villes géantes dès le début"
+        },
+        {
+          "emoji": "🏰",
+          "texte": "Dans des châteaux"
+        }
+      ],
+      "reponseBonne": "Exactement ! Pendant une grande partie de la Préhistoire, les humains vivaient en petits groupes mobiles. Puis l'agriculture a permis de créer des villages puis des villes.",
+      "reponseAutre": "La bonne réponse est : de petits groupes nomades. Les premières villes sont apparues beaucoup plus tard, notamment en Mésopotamie."
+    },
+    {
+      "id": "observation-mesopotamie",
+      "type": "observation",
+      "visuel": "🌊",
+      "visuelAnimation": "aucune",
+      "titre": "Au pays entre deux fleuves",
+      "olli": "Observe cette région incroyable : deux grands fleuves ont permis aux humains de transformer un paysage entier.",
+      "hotspots": [
+        {
+          "emoji": "🌊",
+          "nom": "Le Tigre et l'Euphrate",
+          "fait": "La Mésopotamie signifie 'le pays entre les fleuves'. Ces cours d'eau permettaient d'apporter de l'eau pour les cultures et les habitants."
+        },
+        {
+          "emoji": "🌾",
+          "nom": "L'agriculture",
+          "fait": "En cultivant des plantes et en élevant des animaux, certains groupes humains ont pu rester au même endroit et construire des villages permanents."
+        },
+        {
+          "emoji": "🏛️",
+          "nom": "Les cités",
+          "fait": "Des villes comme Uruk sont devenues de grands centres avec des habitants nombreux, des artisans, des commerçants et des dirigeants."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-ecriture",
+      "type": "anecdote",
+      "visuel": "✍️",
+      "etiquette": "Histoire vraie",
+      "titre": "Les premiers messages écrits",
+      "texte": "En Mésopotamie, les habitants ont créé l'écriture cunéiforme il y a plus de 5 000 ans. Au début, elle servait surtout à compter les marchandises et organiser les échanges. Petit à petit, elle a permis d'écrire des histoires, des lois et des connaissances.",
+      "olli": "Une simple tablette d'argile pouvait garder un message pendant des milliers d'années !",
+      "sourceRef": "src-ecriture-cuneiforme"
+    },
+    {
+      "id": "question-ecriture",
+      "type": "question",
+      "visuel": "📝",
+      "titre": "Pourquoi inventer une écriture ?",
+      "olli": "Imagine une grande ville avec beaucoup d'habitants. Comment se souvenir de tout ce qui est acheté, vendu ou organisé ?",
+      "choix": [
+        {
+          "emoji": "🧠",
+          "texte": "Pour mieux garder des informations",
+          "bonne": true
+        },
+        {
+          "emoji": "🎨",
+          "texte": "Uniquement pour décorer les murs"
+        },
+        {
+          "emoji": "🎵",
+          "texte": "Pour remplacer la musique"
+        }
+      ],
+      "reponseBonne": "Bravo ! L'écriture permet de conserver des informations et de transmettre des connaissances au-delà de la mémoire d'une seule personne.",
+      "reponseAutre": "L'écriture servait surtout à conserver et transmettre des informations importantes."
+    },
+    {
+      "id": "mission-tablette",
+      "type": "mission",
+      "visuel": "🪨",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Crée ta tablette ancienne",
+      "texte": "Prends une feuille d'argile, de pâte à modeler ou simplement du papier. Invente trois symboles pour représenter trois choses de ta vie quotidienne. Comme les premiers scribes, crée ton propre système d'écriture !",
+      "olli": "Toutes les écritures ont commencé par une idée simple : laisser une trace."
+    },
+    {
+      "id": "teaser-egypte",
+      "type": "teaser",
+      "visuel": "🐫",
+      "titre": "Une autre civilisation va naître au bord d'un grand fleuve...",
+      "texte": "Plus loin, un autre peuple construit des monuments géants au milieu du désert. Son secret ? Un fleuve qui revient chaque année.",
+      "olli": "Le Livre de l'Égypte ancienne vient de s'illuminer… Prépare ton expédition ! 🏺",
+      "questionOuverteRef": "premieres-villes"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-ecriture-cuneiforme",
+      "fait": "L'écriture cunéiforme est apparue en Mésopotamie il y a plus de 5 000 ans et fait partie des plus anciennes écritures connues.",
+      "reference": "https://www.britishmuseum.org/collection/galleries/writing",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-uruk",
+      "fait": "Uruk est considérée comme l'une des premières grandes villes connues de l'histoire humaine.",
+      "reference": "https://www.metmuseum.org/toah/hd/uruk/hd_uruk.htm",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}
