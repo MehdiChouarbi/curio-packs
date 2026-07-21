@@ -3,6 +3,16 @@
   "engineVersion": 1,
   "expeditions": [
     {
+      "id": "civilisations-premiers-humains",
+      "livre": "Civilisations",
+      "titre": "Les premiers pas de l'humanité",
+      "resume": "Pars sur les traces des premiers humains et découvre comment nos ancêtres ont appris à survivre, inventer et explorer le monde.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-premiers-humains.json",
+      "sha256": "1763c491acd44972c073ee83bc865fdd03aefa6b48b4547fea871dfca5ed7500",
+      "octets": 6693
+    },
+    {
       "id": "etoiles-mars",
       "livre": "etoiles",
       "titre": "Les secrets de la planète rouge",

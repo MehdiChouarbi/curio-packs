@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-premiers-humains",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "Les premiers pas de l'humanité",
+  "resume": "Pars sur les traces des premiers humains et découvre comment nos ancêtres ont appris à survivre, inventer et explorer le monde.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 6,
+  "questionsOuvertes": [
+    {
+      "id": "origine-ecriture",
+      "texte": "Comment les humains ont-ils commencé à garder une trace de leurs idées ?",
+      "resolueParLivre": "langages"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🦴",
+      "titre": "Explorateur du Temps"
+    },
+    "decouvertes": [
+      "Les humains modernes existent depuis environ 300 000 ans",
+      "Nos ancêtres ont fabriqué des outils bien avant l'invention des villes",
+      "Les humains et les grands singes actuels partagent des ancêtres communs",
+      "Les migrations ont permis aux humains de peupler presque toute la planète"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-origine",
+      "type": "question",
+      "visuel": "🌍",
+      "titre": "D'où viennent les premiers humains ?",
+      "olli": "Avant les villes, les livres et les machines, il y avait des humains qui exploraient un monde immense. Mais où leur aventure a-t-elle commencé ?",
+      "choix": [
+        {
+          "emoji": "🌋",
+          "texte": "Au sommet d'un volcan"
+        },
+        {
+          "emoji": "🌍",
+          "texte": "En Afrique",
+          "bonne": true
+        },
+        {
+          "emoji": "❄️",
+          "texte": "Dans les régions glacées"
+        }
+      ],
+      "reponseBonne": "Bravo ! Les plus anciens ancêtres humains connus sont apparus en Afrique. Puis, au fil du temps, certains humains ont exploré d'autres continents.",
+      "reponseAutre": "La réponse était l'Afrique ! 🌍 Les plus anciens ancêtres humains connus sont apparus sur ce continent avant de partir explorer le reste du monde."
+    },
+    {
+      "id": "observation-outils",
+      "type": "observation",
+      "visuel": "🪨",
+      "visuelAnimation": "aucune",
+      "titre": "Observe les premiers outils",
+      "olli": "Un petit morceau de pierre peut raconter une immense histoire. Regarde bien : chaque détail nous apprend quelque chose sur nos ancêtres.",
+      "hotspots": [
+        {
+          "emoji": "🔨",
+          "nom": "La pierre taillée",
+          "fait": "Les premiers humains ont fabriqué des outils en pierre pour couper, gratter ou transformer des matériaux. Ces objets sont parmi les plus anciennes traces de leur intelligence technique."
+        },
+        {
+          "emoji": "✋",
+          "nom": "La main",
+          "fait": "Fabriquer un outil demande de choisir une matière, prévoir un résultat et apprendre une technique. Ce savoir pouvait ensuite être transmis aux autres."
+        },
+        {
+          "emoji": "🧠",
+          "nom": "Le cerveau",
+          "fait": "L'évolution humaine est une longue histoire. Les humains modernes ont développé des capacités complexes comme le langage, la coopération et la création artistique."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-lascaux",
+      "type": "anecdote",
+      "visuel": "🎨",
+      "etiquette": "Histoire vraie",
+      "titre": "Les messages cachés de Lascaux",
+      "texte": "En 1940, quatre adolescents découvrent une grotte exceptionnelle en Dordogne : la grotte de Lascaux. Sur ses parois, des humains préhistoriques avaient peint des animaux il y a environ 21 000 ans. Ces peintures montrent que nos ancêtres ne cherchaient pas seulement à survivre : ils créaient aussi de l'art et partageaient des histoires.",
+      "olli": "Imagine découvrir un dessin laissé par quelqu'un qui vivait il y a des milliers d'années… C'est comme recevoir une carte postale du passé !",
+      "sourceRef": "src-lascaux"
+    },
+    {
+      "id": "question-evolution",
+      "type": "question",
+      "visuel": "🧬",
+      "titre": "Les humains descendent-ils des singes actuels ?",
+      "olli": "Cette question a longtemps été mal comprise. Cherchons ensemble la bonne réponse !",
+      "choix": [
+        {
+          "emoji": "🐒",
+          "texte": "Oui, les singes actuels sont nos ancêtres"
+        },
+        {
+          "emoji": "🌳",
+          "texte": "Nous avons des ancêtres communs avec eux",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Exactement ! Les humains et les grands singes actuels ont des ancêtres communs très anciens. Nous sommes comme des branches différentes d'un même grand arbre de l'évolution.",
+      "reponseAutre": "La bonne réponse est : nous avons des ancêtres communs avec les grands singes actuels. L'évolution ressemble à un arbre avec beaucoup de branches."
+    },
+    {
+      "id": "mission-famille",
+      "type": "mission",
+      "visuel": "🔎",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Deviens archéologue chez toi",
+      "texte": "Choisis un objet ancien de ta maison : une vieille photo, un jouet, un livre ou un objet transmis par ta famille. Cherche son histoire : qui l'a utilisé ? À quoi servait-il ? Comme un archéologue, tu vas découvrir les traces du passé.",
+      "olli": "Les archéologues enquêtent sur les objets laissés par les humains. Aujourd'hui, c'est toi l'enquêteur !"
+    },
+    {
+      "id": "teaser-ecriture",
+      "type": "teaser",
+      "visuel": "✍️",
+      "titre": "Les humains ont créé des outils… mais comment ont-ils commencé à écrire ?",
+      "texte": "Pendant des milliers d'années, les humains ont transmis leurs histoires par la parole et les dessins. Puis un jour, ils ont inventé un nouveau pouvoir : laisser des messages qui traversent le temps.",
+      "olli": "Une nouvelle porte de la Grande Bibliothèque vient de s'illuminer… Direction le Livre des Langages ! 📖",
+      "questionOuverteRef": "origine-ecriture"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-lascaux",
+      "fait": "La grotte de Lascaux contient des peintures préhistoriques réalisées il y a environ 21 000 ans par des humains du Paléolithique supérieur.",
+      "reference": "https://archeologie.culture.gouv.fr/lascaux/fr",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-evolution",
+      "fait": "Homo sapiens est apparu en Afrique il y a environ 300 000 ans et partage des ancêtres communs avec les autres grands singes.",
+      "reference": "https://humanorigins.si.edu/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}
