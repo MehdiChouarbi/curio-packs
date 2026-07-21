@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "temps-anning",
+  "minEngineVersion": 1,
+  "livre": "le Temps Profond",
+  "titre": "La fille qui déterrait des dragons",
+  "resume": "Sur une plage anglaise, il y a 200 ans, une petite fille pauvre a déterré un monstre marin plus vieux que les dinosaures. Personne ne voulait la croire.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "insectes-geants",
+      "texte": "A-t-il existé des libellules aussi grandes qu'un aigle ?",
+      "resolueParLivre": "petites-betes"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🦴",
+      "titre": "Chercheuse de Dragons"
+    },
+    "decouvertes": [
+      "Mary Anning trouve un monstre marin à 12 ans",
+      "C'était un ichtyosaure, un reptile des mers anciennes",
+      "Une roche peut garder la forme d'un animal disparu",
+      "On l'a ignorée parce qu'elle était une fille pauvre",
+      "Une statue lui rend justice, 200 ans après"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "monstre-falaise",
+      "type": "question",
+      "visuel": "🌊",
+      "titre": "Une fille de 12 ans déterre un « dragon » dans une falaise. C'est quoi ?",
+      "olli": "Nous sommes en Angleterre, il y a plus de 200 ans, sur une plage pleine de falaises. Une petite fille pauvre cherche des pierres à vendre. Et soudain, elle voit d'énormes os sortir de la roche. À ton avis, c'est le squelette de quoi ?",
+      "choix": [
+        {
+          "emoji": "🐉",
+          "texte": "Un vrai dragon"
+        },
+        {
+          "emoji": "🐬",
+          "texte": "Un reptile marin plus vieux que les dinosaures",
+          "bonne": true
+        },
+        {
+          "emoji": "🐋",
+          "texte": "Une grosse baleine moderne"
+        }
+      ],
+      "reponseBonne": "Un reptile marin géant ! Un ichtyosaure : cinq mètres de long, une gueule de crocodile, des nageoires de dauphin, d'immenses yeux. Il nageait dans les océans il y a près de 200 millions d'années, bien avant les dinosaures. Les gens du village l'appelaient « le dragon des mers »… mais c'était bien réel.",
+      "reponseAutre": "Un reptile marin géant ! Un ichtyosaure : cinq mètres de long, une gueule de crocodile, des nageoires de dauphin. Il nageait dans les océans il y a près de 200 millions d'années, bien avant les dinosaures. On l'appelait « le dragon des mers »… mais c'était bien réel."
+    },
+    {
+      "id": "la-pierre-memoire",
+      "type": "observation",
+      "visuel": "🦴",
+      "visuelAnimation": "flotte",
+      "titre": "Comment une pierre peut-elle garder la forme d'un animal ?",
+      "olli": "Touche chaque partie pour comprendre ce petit miracle : un être vivant transformé en roche.",
+      "hotspots": [
+        {
+          "emoji": "⏳",
+          "nom": "Un fossile, c'est du temps",
+          "fait": "Quand un animal meurt et se retrouve enseveli, ses os peuvent, très très lentement, se changer en pierre. Il faut des milliers, parfois des millions d'années. Un fossile, c'est une photo prise par le temps lui-même."
+        },
+        {
+          "emoji": "💩",
+          "nom": "Même le caca !",
+          "fait": "Mary a compris que certaines pierres bizarres trouvées dans les squelettes étaient… du caca fossilisé ! En l'étudiant, on sait ce que ces animaux mangeaient. Le passé se cache parfois dans les endroits les plus rigolos."
+        },
+        {
+          "emoji": "🐚",
+          "nom": "Des trésors partout",
+          "fait": "Sa plage, à Lyme Regis, est un livre d'histoire géant : les falaises gardent 200 millions d'années empilées comme les pages d'un livre. Encore aujourd'hui, on y trouve des fossiles."
+        }
+      ]
+    },
+    {
+      "id": "pourquoi-ignoree",
+      "type": "question",
+      "visuel": "🤐",
+      "titre": "Mary trouvait des trésors. Pourquoi son nom a-t-il été oublié ?",
+      "olli": "Voici la partie injuste de l'histoire. Mary était la meilleure chasseuse de fossiles de son temps. Les grands savants venaient lui acheter ses découvertes. Et pourtant, dans leurs livres… son nom n'apparaissait pas. Pourquoi ?",
+      "choix": [
+        {
+          "emoji": "🤫",
+          "texte": "Elle voulait rester secrète"
+        },
+        {
+          "emoji": "🚫",
+          "texte": "Parce qu'elle était une femme, et pauvre",
+          "bonne": true
+        },
+        {
+          "emoji": "❓",
+          "texte": "Ses fossiles étaient faux"
+        }
+      ],
+      "reponseBonne": "Parce qu'elle était une femme pauvre. À cette époque, les femmes n'avaient pas le droit d'entrer dans les sociétés savantes, ni de signer les articles. Des hommes achetaient ses fossiles et publiaient les découvertes sous leur propre nom. Mary savait pourtant tout : elle avait tout appris seule, en lisant et en observant.",
+      "reponseAutre": "Parce qu'elle était une femme pauvre. À cette époque, les femmes n'avaient pas le droit d'entrer dans les sociétés savantes. Des hommes achetaient ses fossiles et publiaient sous leur propre nom. Mary savait pourtant tout : elle avait appris seule, en lisant et en observant."
+    },
+    {
+      "id": "she-sells",
+      "type": "anecdote",
+      "visuel": "🐚",
+      "etiquette": "Histoire vraie",
+      "titre": "La marchande de coquillages entrée dans une comptine",
+      "texte": "Mary Anning naît en 1799, dans une famille si pauvre qu'elle vend des fossiles aux touristes pour manger. Bébé, la foudre tombe sur l'arbre au-dessus d'elle : elle survit. Enfant, on la surnomme méchamment « la fille aux cailloux ». Toute sa vie, elle arpente les falaises, souvent en danger, pour arracher des trésors à la roche. On raconte que la comptine anglaise « she sells seashells by the sea shore » parle d'elle. Longtemps oubliée, elle a enfin sa statue à Lyme Regis depuis 2022. 🗿",
+      "olli": "Une enfant d'aujourd'hui s'est battue pour qu'une enfant d'il y a 200 ans soit enfin reconnue. J'adore cette histoire.",
+      "sourceRef": "src-anning"
+    },
+    {
+      "id": "mission-fossile",
+      "type": "mission",
+      "visuel": "🔍",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Deviens chasseur de traces du passé",
+      "texte": "Tu n'as pas de falaise ? Pas grave. Cherche autour de toi des « traces du temps » : un caillou avec une forme étrange, une empreinte de feuille dans la boue séchée, les cernes d'une bûche coupée (chaque cercle = une année de l'arbre !). Regarde un galet et demande-toi : d'où viens-tu, depuis combien de temps existes-tu ? Choisis ton plus bel objet et montre-le à quelqu'un en racontant son histoire possible.",
+      "olli": "Mary regardait des cailloux que tout le monde ignorait, et elle y voyait des mondes. Ouvre l'œil comme elle. 😄"
+    },
+    {
+      "id": "teaser-insectes-geants",
+      "type": "teaser",
+      "visuel": "🦗",
+      "titre": "Si les mers cachaient des géants… et le ciel, alors ?",
+      "texte": "Les falaises de Mary gardaient des reptiles marins immenses. Mais les fossiles racontent d'autres géants encore plus surprenants. Très, très longtemps avant les dinosaures, il a existé des libellules dont les ailes étaient larges comme les bras d'un adulte. Des insectes grands comme des oiseaux de proie ! Comment est-ce possible ? Et pourquoi n'en existe-t-il plus aujourd'hui ?",
+      "olli": "La réponse t'attend dans le Livre des Petites Bêtes… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "insectes-geants"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-anning",
+      "fait": "Mary Anning (1799-1847), de Lyme Regis (Dorset), découvre avec son frère le premier squelette d'ichtyosaure identifié : crâne en 1811, squelette (~5 m) dégagé vers 1812, alors qu'elle a 12 ans.",
+      "reference": "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-autodidacte",
+      "fait": "Issue d'une famille pauvre, autodidacte, Anning apprend seule l'anatomie et la géologie ; exclue des sociétés savantes car femme, ses découvertes sont souvent publiées par des hommes sans la créditer.",
+      "reference": "https://www.dmns.org/catalyst/museum-stories/this-undervalued-hero-of-paleontology-uncovered-an-ichthyosaur-when-she-was-12-years-old/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-coprolithes",
+      "fait": "Anning identifie que des pierres trouvées dans les squelettes sont des excréments fossilisés (coprolithes), révélant le régime alimentaire des animaux — travail mené avec le géologue William Buckland.",
+      "reference": "https://ncse.ngo/mary-anning-fossil-hunter",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-lyme",
+      "fait": "Les falaises de Lyme Regis (« Jurassic Coast », patrimoine mondial UNESCO) exposent une séquence quasi continue couvrant ~200 millions d'années du Mésozoïque.",
+      "reference": "https://ncse.ngo/mary-anning-fossil-hunter",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-statue",
+      "fait": "Une statue de Mary Anning et son chien est inaugurée à Lyme Regis en 2022, après une campagne lancée par Evie Swire, 11 ans. La comptine « she sells seashells » lui est souvent associée.",
+      "reference": "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}

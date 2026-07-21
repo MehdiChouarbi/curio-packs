@@ -51,6 +51,16 @@
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/ocean-pieuvre.json",
       "sha256": "9ead66760fcab2fba2e2eac7123542918e3f5384776a0505d2900ea92d0f2da4",
       "octets": 6366
+    },
+    {
+      "id": "temps-anning",
+      "livre": "le Temps Profond",
+      "titre": "La fille qui déterrait des dragons",
+      "resume": "Sur une plage anglaise, il y a 200 ans, une petite fille pauvre a déterré un monstre marin plus vieux que les dinosaures. Personne ne voulait la croire.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/temps-anning.json",
+      "sha256": "546cabd58ce3081c151171faf206b01473073920f0c48746f20696fd9b73e7bb",
+      "octets": 9669
     }
   ]
 }
