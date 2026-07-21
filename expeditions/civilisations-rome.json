@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-rome",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "Rome, l'empire des routes",
+  "resume": "Découvre comment une petite ville est devenue un immense empire grâce à ses routes, ses inventions et son organisation.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 7,
+  "questionsOuvertes": [
+    {
+      "id": "inventions-voyagent",
+      "texte": "Comment les idées et les inventions voyagent-elles entre les peuples ?",
+      "resolueParLivre": "mondes-connectes"
+    }
+  ],
+  "questionsResolues": [
+    "mesurer-monde"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🦅",
+      "titre": "Ingénieur de Rome"
+    },
+    "decouvertes": [
+      "Les Romains ont construit un immense réseau de routes",
+      "Les aqueducs transportaient l'eau sur de longues distances",
+      "Le latin a influencé de nombreuses langues actuelles",
+      "Le droit romain a marqué l'histoire juridique"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-rome",
+      "type": "question",
+      "visuel": "🏛️",
+      "titre": "Comment Rome a-t-elle relié un immense territoire ?",
+      "olli": "Imagine devoir voyager à travers un empire immense sans voiture ni avion. Quel serait le grand secret pour se déplacer ?",
+      "choix": [
+        {
+          "emoji": "🛣️",
+          "texte": "Construire des routes",
+          "bonne": true
+        },
+        {
+          "emoji": "🚀",
+          "texte": "Utiliser des fusées"
+        },
+        {
+          "emoji": "🐉",
+          "texte": "Monter sur des dragons"
+        }
+      ],
+      "reponseBonne": "Exactement ! Les routes romaines ont permis aux soldats, aux commerçants et aux voyageurs de circuler dans tout l'empire.",
+      "reponseAutre": "La réponse était : construire des routes. Les Romains étaient de grands bâtisseurs."
+    },
+    {
+      "id": "observation-rome",
+      "type": "observation",
+      "visuel": "🏟️",
+      "visuelAnimation": "aucune",
+      "titre": "Explore les inventions romaines",
+      "olli": "Les Romains n'ont pas seulement conquis des territoires : ils ont aussi construit et organisé leur monde.",
+      "hotspots": [
+        {
+          "emoji": "🛣️",
+          "nom": "Les routes",
+          "fait": "Les Romains ont construit des milliers de kilomètres de routes pavées. Certaines étaient encore utilisées longtemps après la fin de l'Empire romain."
+        },
+        {
+          "emoji": "💧",
+          "nom": "Les aqueducs",
+          "fait": "Les aqueducs transportaient l'eau depuis des sources éloignées jusqu'aux villes grâce à une construction précise utilisant notamment la pente naturelle."
+        },
+        {
+          "emoji": "📜",
+          "nom": "Le droit",
+          "fait": "Les Romains ont développé des règles juridiques qui ont influencé de nombreux systèmes de droit dans le monde."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-pompeii",
+      "type": "anecdote",
+      "visuel": "🌋",
+      "etiquette": "Histoire vraie",
+      "titre": "Une ville figée dans le temps",
+      "texte": "En l'an 79, le volcan Vésuve entre en éruption près de la ville romaine de Pompéi. Les couches de cendres ont recouvert une partie de la ville et ont conservé de nombreux bâtiments, objets et traces de la vie quotidienne des habitants.",
+      "olli": "Grâce aux archéologues, une ville ancienne peut encore nous raconter son histoire des milliers d'années plus tard.",
+      "sourceRef": "src-pompei"
+    },
+    {
+      "id": "question-aqueduc",
+      "type": "question",
+      "visuel": "💧",
+      "titre": "Comment les Romains faisaient-ils circuler l'eau ?",
+      "olli": "Une ville a besoin d'eau pour boire, cuisiner et se laver. Mais comment apporter de l'eau depuis une source éloignée ?",
+      "choix": [
+        {
+          "emoji": "💧",
+          "texte": "Avec des aqueducs",
+          "bonne": true
+        },
+        {
+          "emoji": "🌧️",
+          "texte": "Avec des nuages capturés"
+        },
+        {
+          "emoji": "🪣",
+          "texte": "Uniquement avec des seaux"
+        }
+      ],
+      "reponseBonne": "Bravo ! Les aqueducs utilisaient des canaux et des ponts pour transporter l'eau jusqu'aux villes.",
+      "reponseAutre": "La réponse était : les aqueducs. Les Romains étaient de grands spécialistes de l'ingénierie."
+    },
+    {
+      "id": "mission-route",
+      "type": "mission",
+      "visuel": "🗺️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Cherche les traces de Rome",
+      "texte": "Observe autour de toi ou sur une carte : existe-t-il une route, un monument ou un lieu proche de chez toi lié à l'époque romaine ? Cherche son histoire.",
+      "olli": "Les traces du passé sont parfois cachées juste à côté de nous."
+    },
+    {
+      "id": "teaser-mondes",
+      "type": "teaser",
+      "visuel": "🌏",
+      "titre": "Pendant que Rome grandit, d'autres grandes civilisations brillent ailleurs...",
+      "texte": "Très loin à l'est, des peuples inventent, écrivent et construisent leurs propres mondes. L'histoire humaine ne se passe pas à un seul endroit.",
+      "olli": "Les portes vers la Chine ancienne et l'Inde commencent à s'ouvrir… 🌏",
+      "questionOuverteRef": "inventions-voyagent"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-pompei",
+      "fait": "La ville romaine de Pompéi a été ensevelie lors de l'éruption du Vésuve en 79 et constitue une source majeure pour comprendre la vie quotidienne romaine.",
+      "reference": "https://www.britannica.com/place/Pompeii",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-rome-aqueducs",
+      "fait": "Les Romains ont construit des réseaux d'aqueducs permettant d'approvisionner les villes en eau.",
+      "reference": "https://www.britannica.com/technology/Roman-aqueduct",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}

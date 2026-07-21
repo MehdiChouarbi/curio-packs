@@ -53,6 +53,16 @@
       "octets": 6693
     },
     {
+      "id": "civilisations-rome",
+      "livre": "Civilisations",
+      "titre": "Rome, l'empire des routes",
+      "resume": "Découvre comment une petite ville est devenue un immense empire grâce à ses routes, ses inventions et son organisation.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-rome.json",
+      "sha256": "59794740c50aa328fec82a06a1d96398894a1453132f90b8426e7be2665f6744",
+      "octets": 6044
+    },
+    {
       "id": "etoiles-mars",
       "livre": "etoiles",
       "titre": "Les secrets de la planète rouge",
