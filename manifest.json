@@ -33,6 +33,16 @@
       "octets": 9248
     },
     {
+      "id": "nombres-zero",
+      "livre": "les-nombres",
+      "titre": "Le nombre qui a mis mille ans à naître",
+      "resume": "Compter jusqu'à un million, les humains savaient. Mais compter « rien » ? Écrire le vide ? Il a fallu des siècles pour oser inventer le zéro.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-zero.json",
+      "sha256": "23ee57bde75c94e108db3196e3af1c5e1b36c1c64d7800ea5bda540bdfd2751a",
+      "octets": 9316
+    },
+    {
       "id": "ocean-pieuvre",
       "livre": "ocean",
       "titre": "Le mystère des profondeurs",

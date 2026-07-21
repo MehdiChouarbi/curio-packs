@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "nombres-zero",
+  "minEngineVersion": 1,
+  "livre": "les-nombres",
+  "titre": "Le nombre qui a mis mille ans à naître",
+  "resume": "Compter jusqu'à un million, les humains savaient. Mais compter « rien » ? Écrire le vide ? Il a fallu des siècles pour oser inventer le zéro.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "infini-grand",
+      "texte": "Existe-t-il un plus grand nombre que tous les autres ?",
+      "resolueParLivre": "les-nombres"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "0️⃣",
+      "titre": "Amie du Zéro"
+    },
+    "decouvertes": [
+      "Le zéro est une invention, pas une évidence",
+      "Les Romains n'avaient pas de zéro du tout",
+      "C'est en Inde qu'il devient un vrai nombre",
+      "« Chiffre » vient d'un mot qui veut dire « vide »",
+      "L'Europe s'en est méfiée pendant des siècles"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "ecris-rien",
+      "type": "question",
+      "visuel": "0️⃣",
+      "titre": "Comment écris-tu « rien du tout » avec un chiffre ?",
+      "olli": "Facile, tu vas dire : « zéro ! ». Mais réfléchis un instant… Comment dessiner une quantité qui n'existe pas ? Comment écrire l'absence ? Pendant très longtemps, personne ne savait le faire. À ton avis, pourquoi c'est si dur ?",
+      "choix": [
+        {
+          "emoji": "🔢",
+          "texte": "Ce n'est pas dur, ça a toujours existé"
+        },
+        {
+          "emoji": "🕳️",
+          "texte": "Écrire le « rien » est une idée très étrange",
+          "bonne": true
+        },
+        {
+          "emoji": "✏️",
+          "texte": "On n'avait pas de crayons avant"
+        }
+      ],
+      "reponseBonne": "Écrire le rien, c'est vertigineux ! On compte des moutons, des pièces, des jours… mais compter ce qui n'est PAS là ? Donner un signe au vide ? Cette idée a semblé si folle qu'il a fallu attendre des siècles, et un peuple courageux, pour oser inventer le zéro.",
+      "reponseAutre": "Écrire le rien, c'est vertigineux ! On compte des moutons, des pièces, des jours… mais compter ce qui n'est PAS là ? Cette idée a semblé si folle qu'il a fallu attendre des siècles, et un peuple courageux, pour oser inventer le zéro."
+    },
+    {
+      "id": "sans-zero",
+      "type": "observation",
+      "visuel": "🏛️",
+      "visuelAnimation": "flotte",
+      "titre": "Regarde comme la vie est compliquée sans zéro.",
+      "olli": "Touche chaque partie pour voir à quel point ce petit rond change tout.",
+      "hotspots": [
+        {
+          "emoji": "🏛️",
+          "nom": "Les chiffres romains",
+          "fait": "Les Romains écrivaient IV, IX, MMXXVI… mais n'avaient AUCUN signe pour zéro. Pour eux, le rien n'était pas un nombre. Essaie de poser une multiplication avec des chiffres romains : c'est un cauchemar."
+        },
+        {
+          "emoji": "🔟",
+          "nom": "Le gardien de place",
+          "fait": "Sans zéro, comment distinguer 15, 105 et 150 ? Le zéro tient la place vide et dit « ici, il n'y a rien ». C'est lui qui permet d'écrire des grands nombres simplement, juste en déplaçant les chiffres."
+        },
+        {
+          "emoji": "🧮",
+          "nom": "La clé du calcul",
+          "fait": "Avec le zéro et la position des chiffres, additionner et multiplier devient facile — tu l'apprends à l'école sans même y penser. Sans lui, il fallait un boulier ou des années d'entraînement pour le moindre calcul."
+        }
+      ]
+    },
+    {
+      "id": "qui-a-ose",
+      "type": "question",
+      "visuel": "🌏",
+      "titre": "Qui a osé faire du « rien » un vrai nombre ?",
+      "olli": "Plusieurs peuples ont utilisé un petit signe pour marquer une place vide. Mais un seul a osé dire : « le zéro est un nombre, comme 1 ou 7, on peut calculer avec ». Où ça, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "🏛️",
+          "texte": "Chez les Romains"
+        },
+        {
+          "emoji": "🇮🇳",
+          "texte": "En Inde",
+          "bonne": true
+        },
+        {
+          "emoji": "🗽",
+          "texte": "En Amérique, récemment"
+        }
+      ],
+      "reponseBonne": "En Inde ! Il y a presque 1400 ans, un savant nommé Brahmagupta a écrit les règles du zéro : un nombre moins lui-même fait zéro, un nombre plus zéro ne change pas… Pour la première fois, le vide devenait un nombre à part entière, avec qui on pouvait calculer. Une révolution silencieuse.",
+      "reponseAutre": "En Inde ! Il y a presque 1400 ans, le savant Brahmagupta a écrit les règles du zéro : un nombre moins lui-même fait zéro, un nombre plus zéro ne change pas… Pour la première fois, le vide devenait un vrai nombre, avec qui on pouvait calculer."
+    },
+    {
+      "id": "le-voyage",
+      "type": "anecdote",
+      "visuel": "🐫",
+      "etiquette": "Histoire vraie",
+      "titre": "Le long voyage du zéro, et la peur qu'il a fait naître",
+      "texte": "De l'Inde, le zéro a voyagé à dos de chameau avec les marchands, jusqu'à Bagdad. Là, les savants arabes l'ont adopté et l'ont appelé « sifr », qui veut dire « vide ». Ce mot a donné notre mot « chiffre » — et aussi « zéro » ! Puis le zéro est arrivé en Europe… où on s'en est méfié pendant des siècles. Certaines villes l'ont même interdit ! Les marchands avaient peur qu'on transforme un 0 en 6 ou en 9 pour tricher sur les comptes. Il a fallu très longtemps avant que l'Europe accepte enfin ce petit rond venu de loin.",
+      "olli": "Une idée géniale peut faire peur, au début. Le zéro a mis mille ans à voyager et à convaincre. Aujourd'hui, tu t'en sers sans même y penser.",
+      "sourceRef": "src-sifr"
+    },
+    {
+      "id": "mission-romain",
+      "type": "mission",
+      "visuel": "✖️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Essaie de calculer comme un Romain",
+      "texte": "Prends une feuille. Écris le nombre 2026 en chiffres romains : MMXXVI. Maintenant, essaie de le multiplier par deux SANS le retraduire en chiffres normaux, juste avec les lettres. Alors ? Impossible, ou presque ! Puis fais-le normalement : 2026 × 2 = 4052, en quelques secondes. Tu viens de sentir la puissance du zéro et des chiffres à position. Montre le défi à un adulte : il galèrera autant que toi.",
+      "olli": "Ce que tu fais sans effort en classe, des civilisations entières ne savaient pas le faire. Merci qui ? Merci le zéro. 😄"
+    },
+    {
+      "id": "teaser-infini",
+      "type": "teaser",
+      "visuel": "♾️",
+      "titre": "Si le plus petit « rien » a un nom… le plus grand nombre existe-t-il ?",
+      "texte": "Le zéro nous a appris à écrire le vide. Mais partons dans l'autre sens, vers le très grand. Un million ? Un milliard ? Un nombre avec cent zéros ? Peu importe le nombre que tu imagines, tu peux toujours lui ajouter 1. Toujours. Alors… y a-t-il un plus grand nombre que tous les autres, tout au bout ? Ou ça ne s'arrête jamais ?",
+      "olli": "Ce vertige-là t'attend dans une prochaine page du Livre des Nombres… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "infini-grand"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-brahmagupta",
+      "fait": "En 628, le mathématicien indien Brahmagupta (Brahmasphutasiddhanta) est le premier à traiter le zéro comme un nombre à part entière et à énoncer des règles de calcul (n+0=n, n−n=0, n×0=0).",
+      "reference": "https://www.kroneckerwallis.com/the-invention-of-zero-how-nothing-changed-mathematics/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-placeholder",
+      "fait": "NUANCE : plusieurs peuples (Babyloniens, Mayas) ont utilisé un zéro comme simple marqueur de position, sans en faire un nombre. Le saut vers « zéro = nombre » est réalisé en Inde.",
+      "reference": "https://sointeresting.net/2026/05/13/invention-of-zero/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-romains",
+      "fait": "Les systèmes romain, grec et égyptien n'avaient pas de vrai zéro. La numération de position (avec zéro) rend le calcul écrit bien plus simple.",
+      "reference": "https://globalindianschool.org/pune/guide/who-discovered-zero-first/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-sifr",
+      "fait": "Transmis au monde arabe au VIIIᵉ s., le zéro est appelé « sifr » (vide) ; ce mot donne « chiffre » et « zéro ». Il arrive en Europe vers le XIIᵉ s.",
+      "reference": "https://geoalliance.asu.edu/sites/default/files/LessonFiles/Jenkins/Zero/JenkinsZeroS.pdf",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-mefiance",
+      "fait": "L'Europe résiste longtemps au zéro et aux chiffres arabes ; certaines cités marchandes les restreignent, par crainte notamment qu'un 0 soit falsifié en 6 ou 9.",
+      "reference": "https://sointeresting.net/2026/05/13/invention-of-zero/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}
