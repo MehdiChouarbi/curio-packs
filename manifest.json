@@ -23,6 +23,16 @@
       "octets": 6427
     },
     {
+      "id": "civilisations-grece",
+      "livre": "Civilisations",
+      "titre": "La Grèce, le laboratoire des idées",
+      "resume": "Explore la Grèce antique et découvre comment des philosophes, des scientifiques et des citoyens ont changé notre façon de penser le monde.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-grece.json",
+      "sha256": "b8456aa555ae9a03d45cd69b0d76f9d3aed1ddf982587a2519b6a97b06e1c265",
+      "octets": 6128
+    },
+    {
       "id": "civilisations-mesopotamie",
       "livre": "Civilisations",
       "titre": "La naissance des premières villes",

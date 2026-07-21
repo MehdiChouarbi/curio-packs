@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-grece",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "La Grèce, le laboratoire des idées",
+  "resume": "Explore la Grèce antique et découvre comment des philosophes, des scientifiques et des citoyens ont changé notre façon de penser le monde.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 7,
+  "questionsOuvertes": [
+    {
+      "id": "mesurer-monde",
+      "texte": "Comment les humains ont-ils appris à mesurer et comprendre le monde ?",
+      "resolueParLivre": "nombres"
+    }
+  ],
+  "questionsResolues": [
+    "construction-pyramides"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🏛️",
+      "titre": "Chercheur d'idées"
+    },
+    "decouvertes": [
+      "Les cités grecques avaient leurs propres organisations politiques",
+      "La philosophie grecque cherchait à comprendre le monde par la réflexion",
+      "Les Grecs ont développé des avancées en mathématiques et en sciences",
+      "Les Jeux olympiques sont nés dans la Grèce antique"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-grece",
+      "type": "question",
+      "visuel": "🏛️",
+      "titre": "Qu'ont cherché les Grecs anciens ?",
+      "olli": "Imagine un monde où des personnes passent leur temps à poser de grandes questions : pourquoi le ciel bouge ? Comment fonctionne la nature ?",
+      "choix": [
+        {
+          "emoji": "🧠",
+          "texte": "Comprendre le monde",
+          "bonne": true
+        },
+        {
+          "emoji": "💰",
+          "texte": "Trouver uniquement des trésors"
+        },
+        {
+          "emoji": "🚀",
+          "texte": "Construire des fusées"
+        }
+      ],
+      "reponseBonne": "Bravo ! Beaucoup de penseurs grecs cherchaient à expliquer le monde grâce à l'observation, au raisonnement et au débat.",
+      "reponseAutre": "La réponse était : comprendre le monde. Les Grecs ont développé une grande tradition de réflexion."
+    },
+    {
+      "id": "observation-grece",
+      "type": "observation",
+      "visuel": "🏺",
+      "visuelAnimation": "aucune",
+      "titre": "Découvre la cité grecque",
+      "olli": "La Grèce antique n'était pas un seul royaume. Elle était composée de nombreuses cités avec leurs propres habitudes.",
+      "hotspots": [
+        {
+          "emoji": "🏙️",
+          "nom": "La cité",
+          "fait": "Une cité grecque, appelée polis, regroupait une ville et son territoire. Athènes et Sparte étaient deux cités célèbres mais très différentes."
+        },
+        {
+          "emoji": "🗣️",
+          "nom": "Le débat",
+          "fait": "À Athènes, certains citoyens participaient aux décisions de la cité. Cette démocratie concernait cependant seulement une partie de la population."
+        },
+        {
+          "emoji": "🏅",
+          "nom": "Les Jeux olympiques",
+          "fait": "Les premiers Jeux olympiques connus ont eu lieu à Olympie en 776 avant notre ère. Ils étaient liés aux fêtes religieuses grecques."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-pythagore",
+      "type": "anecdote",
+      "visuel": "🔢",
+      "etiquette": "Histoire vraie",
+      "titre": "Le triangle qui porte un nom",
+      "texte": "Le mathématicien Pythagore est associé à un célèbre théorème qui explique une relation entre les côtés d'un triangle rectangle. Les mathématiques grecques ont contribué à développer une manière de décrire le monde avec des nombres et des règles.",
+      "olli": "Les nombres peuvent devenir des outils pour comprendre les formes, les distances et même l'univers !",
+      "sourceRef": "src-pythagore"
+    },
+    {
+      "id": "question-democratie",
+      "type": "question",
+      "visuel": "🗣️",
+      "titre": "Quel était le principe de la démocratie athénienne ?",
+      "olli": "À Athènes, certains habitants pouvaient participer aux décisions de la cité.",
+      "choix": [
+        {
+          "emoji": "🗣️",
+          "texte": "Discuter et voter des décisions",
+          "bonne": true
+        },
+        {
+          "emoji": "👑",
+          "texte": "Un roi décidait de tout"
+        },
+        {
+          "emoji": "🎲",
+          "texte": "Choisir au hasard toutes les décisions"
+        }
+      ],
+      "reponseBonne": "Exactement ! Certains citoyens athéniens participaient aux débats et aux votes.",
+      "reponseAutre": "La bonne réponse est : discuter et voter des décisions. Cette démocratie avait toutefois des limites."
+    },
+    {
+      "id": "mission-philosophe",
+      "type": "mission",
+      "visuel": "🤔",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Pose une grande question",
+      "texte": "Choisis une question sur le monde : Pourquoi les étoiles brillent ? Comment les animaux communiquent ? Comment fonctionne ton corps ? Écris-la et discute-en avec quelqu'un.",
+      "olli": "Les philosophes commencent souvent par une chose simple : une question."
+    },
+    {
+      "id": "teaser-rome",
+      "type": "teaser",
+      "visuel": "🦅",
+      "titre": "Une autre puissance arrive sur la scène...",
+      "texte": "Une petite ville d'Italie va construire des routes, des ponts et un immense empire qui reliera de nombreux peuples.",
+      "olli": "Le Livre de Rome s'ouvre bientôt dans la Grande Bibliothèque ! 🏛️",
+      "questionOuverteRef": "mesurer-monde"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-pythagore",
+      "fait": "Les mathématiques grecques ont développé des démonstrations et des théories influentes, notamment autour de la géométrie.",
+      "reference": "https://www.britannica.com/biography/Pythagoras",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-democratie-athenes",
+      "fait": "La démocratie athénienne permettait à certains citoyens de participer directement aux décisions politiques.",
+      "reference": "https://www.britannica.com/topic/ancient-Greek-civilization",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}
