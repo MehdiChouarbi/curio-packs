@@ -3,6 +3,16 @@
   "engineVersion": 1,
   "expeditions": [
     {
+      "id": "civilisations-egypte",
+      "livre": "Civilisations",
+      "titre": "Les secrets de l'Égypte ancienne",
+      "resume": "Pars au bord du Nil et découvre comment les pharaons, les bâtisseurs et les scribes ont créé l'une des civilisations les plus fascinantes de l'histoire.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-egypte.json",
+      "sha256": "a1997266fffe378825ca6eef95140d1187ad215796901295876296bbe9e82b9a",
+      "octets": 6236
+    },
+    {
       "id": "civilisations-feu",
       "livre": "Civilisations",
       "titre": "Le feu, première révolution",

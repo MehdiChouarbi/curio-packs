@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-egypte",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "Les secrets de l'Égypte ancienne",
+  "resume": "Pars au bord du Nil et découvre comment les pharaons, les bâtisseurs et les scribes ont créé l'une des civilisations les plus fascinantes de l'histoire.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 7,
+  "questionsOuvertes": [
+    {
+      "id": "construction-pyramides",
+      "texte": "Comment construire un monument géant sans machines modernes ?",
+      "resolueParLivre": "machines"
+    }
+  ],
+  "questionsResolues": [
+    "premieres-villes"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🐫",
+      "titre": "Explorateur du Nil"
+    },
+    "decouvertes": [
+      "Le Nil était au cœur de la vie des Égyptiens",
+      "Les hiéroglyphes permettaient d'écrire et transmettre des informations",
+      "Les pyramides sont des monuments construits par des humains organisés",
+      "Les pharaons dirigeaient un royaume pendant des milliers d'années"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-nil",
+      "type": "question",
+      "visuel": "🌊",
+      "titre": "Comment vivre au milieu d'un désert ?",
+      "olli": "Imagine un immense désert jaune. Pourtant, une grande civilisation va y grandir. Quel est son secret ?",
+      "choix": [
+        {
+          "emoji": "🌊",
+          "texte": "Un grand fleuve",
+          "bonne": true
+        },
+        {
+          "emoji": "🏔️",
+          "texte": "Des montagnes de glace"
+        },
+        {
+          "emoji": "🌧️",
+          "texte": "Il pleut toute l'année"
+        }
+      ],
+      "reponseBonne": "Bravo ! Le Nil a permis aux Égyptiens de cultiver, transporter des marchandises et construire leurs villes au milieu d'une région très sèche.",
+      "reponseAutre": "La réponse était le Nil ! 🌊 Ce fleuve était le cœur de la civilisation égyptienne."
+    },
+    {
+      "id": "observation-egypte",
+      "type": "observation",
+      "visuel": "🏺",
+      "visuelAnimation": "aucune",
+      "titre": "Explore le monde des pharaons",
+      "olli": "Chaque détail raconte une histoire. Observe les symboles d'une civilisation qui a traversé des milliers d'années.",
+      "hotspots": [
+        {
+          "emoji": "🌊",
+          "nom": "Le Nil",
+          "fait": "Les crues annuelles du Nil déposaient des terres riches qui permettaient de cultiver des céréales et de nourrir la population."
+        },
+        {
+          "emoji": "✍️",
+          "nom": "Les hiéroglyphes",
+          "fait": "Les Égyptiens utilisaient des signes représentant des objets, des sons ou des idées. Cette écriture était gravée sur des monuments ou écrite sur du papyrus."
+        },
+        {
+          "emoji": "🔺",
+          "nom": "Les pyramides",
+          "fait": "Les grandes pyramides d'Égypte sont des tombeaux monumentaux construits pour certains pharaons de l'Ancien Empire."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-tombe-toutankhamon",
+      "type": "anecdote",
+      "visuel": "👑",
+      "etiquette": "Histoire vraie",
+      "titre": "La découverte du tombeau oublié",
+      "texte": "En 1922, l'archéologue Howard Carter découvre dans la Vallée des Rois le tombeau presque intact du jeune pharaon Toutânkhamon. À l'intérieur, les chercheurs trouvent de nombreux objets précieux qui permettent de mieux comprendre la vie et les croyances de l'Égypte ancienne.",
+      "olli": "Imagine ouvrir une porte restée fermée pendant plus de 3 000 ans… Quelle découverte incroyable !",
+      "sourceRef": "src-toutankhamon"
+    },
+    {
+      "id": "question-pyramides",
+      "type": "question",
+      "visuel": "🔺",
+      "titre": "Pourquoi les Égyptiens construisaient-ils des pyramides ?",
+      "olli": "Ces immenses monuments demandent énormément de travail. Mais pourquoi les construire ?",
+      "choix": [
+        {
+          "emoji": "👑",
+          "texte": "Comme tombeaux pour certains pharaons",
+          "bonne": true
+        },
+        {
+          "emoji": "🏠",
+          "texte": "Comme maisons pour tous les habitants"
+        },
+        {
+          "emoji": "🎭",
+          "texte": "Comme théâtres géants"
+        }
+      ],
+      "reponseBonne": "Exactement ! Les pyramides servaient principalement de tombeaux monumentaux pour certains pharaons et accompagnaient des croyances liées à l'au-delà.",
+      "reponseAutre": "La bonne réponse est : des tombeaux monumentaux pour certains pharaons."
+    },
+    {
+      "id": "mission-hieroglyphe",
+      "type": "mission",
+      "visuel": "✍️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Crée ton message secret",
+      "texte": "Imagine que tu es un scribe égyptien. Invente cinq symboles pour écrire ton prénom ou un petit message secret. Ensuite, explique à quelqu'un comment le lire.",
+      "olli": "Les écritures sont des inventions incroyables : elles permettent aux idées de voyager dans le temps."
+    },
+    {
+      "id": "teaser-grece",
+      "type": "teaser",
+      "visuel": "🏛️",
+      "titre": "Au nord de l'Égypte, d'autres peuples imaginent de nouvelles idées...",
+      "texte": "Une civilisation de navigateurs, de philosophes et de bâtisseurs va chercher à comprendre le monde autrement.",
+      "olli": "Le Livre de la Grèce antique commence à briller dans la Grande Bibliothèque… Une nouvelle aventure approche ! 🏛️",
+      "questionOuverteRef": "construction-pyramides"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-toutankhamon",
+      "fait": "Le tombeau de Toutânkhamon a été découvert en 1922 dans la Vallée des Rois par Howard Carter et son équipe.",
+      "reference": "https://www.britishmuseum.org/collection/galleries/ancient-egypt",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-egypte-nil",
+      "fait": "Le Nil a joué un rôle central dans le développement agricole, économique et culturel de l'Égypte ancienne.",
+      "reference": "https://www.metmuseum.org/toah/hd/egyp/hd_egyp.htm",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}
