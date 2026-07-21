@@ -15,6 +15,11 @@
       "id": "olympus-mons-plus-haute-montagne",
       "texte": "Pourquoi la plus haute montagne du Système solaire est-elle sur Mars ?",
       "resolueParLivre": "volcans"
+    },
+    {
+      "id": "soleil-chaud-espace-froid",
+      "texte": "Pourquoi Mars est-elle si froide alors que le Soleil est brûlant ?",
+      "resolueParLivre": "etoiles"
     }
   ],
   "questionsResolues": [],

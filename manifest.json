@@ -9,8 +9,8 @@
       "resume": "Une planète rouge cache des montagnes géantes, des tempêtes de poussière et des robots explorateurs. Pars à la découverte de Mars !",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/etoiles-mars.json",
-      "sha256": "f85c3d82629031268119aca727b06eb2eef3af2b1c5bd3eaa482659b3b32f40d",
-      "octets": 6180
+      "sha256": "74da3cb3611ccef44307844c02df189216939d7f445193b6706971e3b77bbecc",
+      "octets": 6355
     },
     {
       "id": "etoiles-soleil",
@@ -24,13 +24,13 @@
     },
     {
       "id": "etoiles-terre",
-      "livre": "Autre",
+      "livre": "la-terre",
       "titre": "La planète qui abrite la vie",
       "resume": "Parmi toutes les planètes que nous connaissons, une seule déborde de forêts, d'océans et d'animaux : la Terre. Découvre pourquoi elle est si spéciale.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/etoiles-terre.json",
-      "sha256": "7c4579fe1315df9e7faf3c5dc2181a0af4a6bffdfe71dbf1f29135498b4b405d",
-      "octets": 5879
+      "sha256": "adcb394947961955722006183587d446ad73aec667fe42bfc62d8d8d9d75e27b",
+      "octets": 5882
     },
     {
       "id": "etoiles-voyager",
