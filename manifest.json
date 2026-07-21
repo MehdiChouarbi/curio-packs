@@ -3,6 +3,16 @@
   "engineVersion": 1,
   "expeditions": [
     {
+      "id": "etoiles-mars",
+      "livre": "etoiles",
+      "titre": "Les secrets de la planète rouge",
+      "resume": "Une planète rouge cache des montagnes géantes, des tempêtes de poussière et des robots explorateurs. Pars à la découverte de Mars !",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/etoiles-mars.json",
+      "sha256": "f85c3d82629031268119aca727b06eb2eef3af2b1c5bd3eaa482659b3b32f40d",
+      "octets": 6180
+    },
+    {
       "id": "etoiles-voyager",
       "livre": "etoiles",
       "titre": "La bouteille à la mer des étoiles",

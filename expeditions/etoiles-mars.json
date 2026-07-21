@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "etoiles-mars",
+  "minEngineVersion": 1,
+  "livre": "etoiles",
+  "titre": "Les secrets de la planète rouge",
+  "resume": "Une planète rouge cache des montagnes géantes, des tempêtes de poussière et des robots explorateurs. Pars à la découverte de Mars !",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "olympus-mons-plus-haute-montagne",
+      "texte": "Pourquoi la plus haute montagne du Système solaire est-elle sur Mars ?",
+      "resolueParLivre": "volcans"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🔴",
+      "titre": "Exploratrice de Mars"
+    },
+    "decouvertes": [
+      "Mars est rouge à cause de la rouille présente dans son sol.",
+      "Olympus Mons est le plus grand volcan du Système solaire.",
+      "Une journée martienne dure presque comme une journée terrestre.",
+      "Des robots explorent Mars depuis des années."
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette",
+      "type": "question",
+      "visuel": "🔴",
+      "titre": "Pourquoi Mars est-elle rouge ?",
+      "olli": "On l'appelle la planète rouge. Mais à ton avis... pourquoi ?",
+      "choix": [
+        {
+          "emoji": "🔥",
+          "texte": "Parce qu'elle est en feu"
+        },
+        {
+          "emoji": "🧲",
+          "texte": "Parce qu'elle est faite de métal rouge"
+        },
+        {
+          "emoji": "🪨",
+          "texte": "Parce que son sol contient de la rouille",
+          "bonne": true
+        },
+        {
+          "emoji": "🌋",
+          "texte": "Parce que des volcans crachent de la lave rouge"
+        }
+      ],
+      "reponseBonne": "Exact ! Les roches de Mars contiennent beaucoup de fer. Avec le temps, ce fer s'est oxydé, comme un vieux vélo qui rouille. C'est cette poussière rouillée qui donne à Mars sa couleur rouge.",
+      "reponseAutre": "En réalité, Mars est rouge à cause de la rouille ! Son sol est recouvert d'une fine poussière riche en oxyde de fer."
+    },
+    {
+      "id": "observation",
+      "type": "observation",
+      "visuel": "🤖",
+      "visuelAnimation": "flotte",
+      "titre": "Regardons Mars de plus près",
+      "olli": "Touche les différents éléments pour découvrir les secrets de cette planète.",
+      "hotspots": [
+        {
+          "emoji": "⛰️",
+          "nom": "Olympus Mons",
+          "fait": "Ce volcan mesure près de 22 kilomètres de haut. C'est presque trois fois la hauteur du mont Everest !"
+        },
+        {
+          "emoji": "🌪️",
+          "nom": "Les tempêtes",
+          "fait": "Certaines tempêtes de poussière peuvent recouvrir presque toute la planète pendant plusieurs semaines."
+        },
+        {
+          "emoji": "🤖",
+          "nom": "Les robots",
+          "fait": "Des robots comme Perseverance roulent sur Mars, prennent des photos et cherchent des indices d'une ancienne vie."
+        }
+      ]
+    },
+    {
+      "id": "journee-mars",
+      "type": "question",
+      "visuel": "⏰",
+      "titre": "Une journée sur Mars dure...",
+      "olli": "À ton avis, combien de temps dure une journée sur Mars ?",
+      "choix": [
+        {
+          "emoji": "⌛",
+          "texte": "12 heures"
+        },
+        {
+          "emoji": "🌍",
+          "texte": "Presque comme sur Terre",
+          "bonne": true
+        },
+        {
+          "emoji": "🌙",
+          "texte": "2 jours terrestres"
+        }
+      ],
+      "reponseBonne": "Bravo ! Une journée martienne dure 24 heures et 39 minutes. Les scientifiques parlent d'un 'sol' pour désigner une journée sur Mars.",
+      "reponseAutre": "Surprise ! Une journée martienne dure presque comme sur Terre : 24 heures et 39 minutes."
+    },
+    {
+      "id": "anecdote-perseverance",
+      "type": "anecdote",
+      "visuel": "🚀",
+      "titre": "Un hélicoptère sur Mars",
+      "etiquette": "Histoire vraie",
+      "olli": "Tu crois qu'un hélicoptère peut voler sur une planète où l'air est très léger ?",
+      "texte": "En 2021, le petit hélicoptère Ingenuity est devenu le premier appareil à effectuer un vol motorisé sur une autre planète. Prévu pour seulement cinq vols d'essai, il en a réalisé des dizaines avant la fin de sa mission. Il accompagnait le rover Perseverance dans son exploration de Mars.",
+      "sourceRef": "src-ingenuity"
+    },
+    {
+      "id": "mission-ciel",
+      "type": "mission",
+      "visuel": "🌙",
+      "titre": "Mission dans le monde réel",
+      "etiquette": "Mission dans le monde réel",
+      "olli": "Les meilleurs explorateurs commencent toujours par observer le ciel.",
+      "texte": "Ce soir, sors quelques minutes avec un adulte. Regarde la Lune et cherche les points très lumineux autour d'elle. Demande-toi : lequel pourrait être une planète ? Peut-être que Mars est justement en train de voyager dans ton ciel !"
+    },
+    {
+      "id": "teaser-volcan",
+      "type": "teaser",
+      "visuel": "🌋",
+      "titre": "Le plus grand volcan du Système solaire...",
+      "olli": "Une dernière énigme avant de ranger ton passeport.",
+      "texte": "Comment un volcan peut-il devenir presque trois fois plus haut que l'Everest ? La réponse t'attend dans le Livre des Volcans...",
+      "questionOuverteRef": "olympus-mons-plus-haute-montagne"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-mars",
+      "fait": "La couleur rouge de Mars provient principalement de l'oxyde de fer présent dans sa poussière et ses roches.",
+      "reference": "https://mars.nasa.gov/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-olympus",
+      "fait": "Olympus Mons est le plus grand volcan connu du Système solaire, culminant à environ 22 km.",
+      "reference": "ESA & NASA Mars Facts",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-ingenuity",
+      "fait": "Ingenuity a réalisé le premier vol motorisé sur une autre planète en 2021.",
+      "reference": "NASA Ingenuity Mission",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}
