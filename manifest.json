@@ -114,12 +114,12 @@
     },
     {
       "id": "mots-silbo",
-      "livre": "les-mots",
+      "livre": "Les Mots",
       "titre": "L'île qui parle en sifflant",
       "resume": "Sur une île, les gens se parlent d'une montagne à l'autre sans crier, sans téléphone. Ils sifflent. Et ils se comprennent parfaitement, à cinq kilomètres.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/mots-silbo.json",
-      "sha256": "b385c136df6161f13db074022a6673d7c4ac3140492de06e008b719612b9c475",
+      "sha256": "2864dd8dd0c1d14ada3dd37364a47e6ffc32089dbd2d4ec849f6f7863ec8c033",
       "octets": 9248
     },
     {

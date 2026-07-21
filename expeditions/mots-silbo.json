@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "mots-silbo",
   "minEngineVersion": 1,
-  "livre": "les-mots",
+  "livre": "Les Mots",
   "titre": "L'île qui parle en sifflant",
   "resume": "Sur une île, les gens se parlent d'une montagne à l'autre sans crier, sans téléphone. Ils sifflent. Et ils se comprennent parfaitement, à cinq kilomètres.",
   "age": {
