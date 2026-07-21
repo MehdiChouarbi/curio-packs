@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "etoiles-terre",
+  "minEngineVersion": 1,
+  "livre": "etoiles",
+  "titre": "La planète qui abrite la vie",
+  "resume": "Parmi toutes les planètes que nous connaissons, une seule déborde de forêts, d'océans et d'animaux : la Terre. Découvre pourquoi elle est si spéciale.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "lune-ne-tombe-pas",
+      "texte": "Pourquoi la Lune ne tombe-t-elle jamais sur la Terre ?",
+      "resolueParLivre": "etoiles"
+    }
+  ],
+  "questionsResolues": [
+    "terre-habitable"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🌍",
+      "titre": "Gardienne de la Terre"
+    },
+    "decouvertes": [
+      "La Terre possède de l'eau liquide à sa surface.",
+      "Son atmosphère nous protège et permet de respirer.",
+      "Elle est à la bonne distance du Soleil.",
+      "La Lune aide à stabiliser notre planète."
+    ]
+  },
+  "scenes": [
+    {
+      "id": "question-vie",
+      "type": "question",
+      "visuel": "🌍",
+      "titre": "Pourquoi la Terre est-elle pleine de vie ?",
+      "olli": "Mars est presque vide... Pourtant ici, la vie est partout. Quel est son secret ?",
+      "choix": [
+        {
+          "emoji": "💧",
+          "texte": "Parce qu'il y a de l'eau liquide",
+          "bonne": true
+        },
+        {
+          "emoji": "🌳",
+          "texte": "Parce qu'il y a des arbres"
+        },
+        {
+          "emoji": "🦖",
+          "texte": "Parce que les dinosaures sont venus avant"
+        }
+      ],
+      "reponseBonne": "Bravo ! L'eau liquide est indispensable à toute la vie que nous connaissons. Mais ce n'est pas le seul ingrédient...",
+      "reponseAutre": "L'un des plus grands secrets de la Terre est son eau liquide. Sans elle, aucune plante, aucun animal, aucun humain."
+    },
+    {
+      "id": "observation",
+      "type": "observation",
+      "visuel": "🌍",
+      "visuelAnimation": "flotte",
+      "titre": "Observons notre planète",
+      "olli": "Découvrons ce qui rend la Terre si accueillante.",
+      "hotspots": [
+        {
+          "emoji": "💧",
+          "nom": "Les océans",
+          "fait": "Environ 70 % de la surface terrestre est recouverte d'eau. Vue de l'espace, la Terre ressemble à une immense planète bleue."
+        },
+        {
+          "emoji": "🛡️",
+          "nom": "L'atmosphère",
+          "fait": "Elle nous protège des rayons dangereux du Soleil et garde une partie de la chaleur nécessaire à la vie."
+        },
+        {
+          "emoji": "☀️",
+          "nom": "La distance idéale",
+          "fait": "La Terre tourne ni trop près, ni trop loin du Soleil. Les scientifiques appellent cette région la zone habitable."
+        }
+      ]
+    },
+    {
+      "id": "question-eau",
+      "type": "question",
+      "visuel": "🥶",
+      "titre": "Si la Terre était un peu plus proche du Soleil...",
+      "olli": "Que pourrait-il arriver ?",
+      "choix": [
+        {
+          "emoji": "🔥",
+          "texte": "Une partie de l'eau pourrait s'évaporer",
+          "bonne": true
+        },
+        {
+          "emoji": "🧊",
+          "texte": "Les océans gèleraient complètement"
+        },
+        {
+          "emoji": "🌙",
+          "texte": "La Lune disparaîtrait"
+        }
+      ],
+      "reponseBonne": "Exact ! La position de la Terre est très importante. Un peu plus près ou un peu plus loin du Soleil, les conditions seraient très différentes.",
+      "reponseAutre": "La Terre se trouve dans une région idéale autour du Soleil. Quelques changements suffiraient à transformer complètement son climat."
+    },
+    {
+      "id": "anecdote-apollo",
+      "type": "anecdote",
+      "visuel": "📷",
+      "titre": "La photo qui a changé le monde",
+      "etiquette": "Histoire vraie",
+      "olli": "Parfois, une seule photo peut faire réfléchir toute l'humanité.",
+      "texte": "En 1972, les astronautes d'Apollo 17 ont photographié la Terre entière depuis l'espace. Cette image, surnommée « Blue Marble », a montré pour la première fois notre planète comme une petite boule bleue perdue dans l'immensité du cosmos. Des millions de personnes ont alors réalisé à quel point notre monde était précieux.",
+      "sourceRef": "src-blue-marble"
+    },
+    {
+      "id": "mission",
+      "type": "mission",
+      "visuel": "🌱",
+      "titre": "Mission dans le monde réel",
+      "etiquette": "Mission dans le monde réel",
+      "olli": "Aujourd'hui, regarde la Terre comme un explorateur.",
+      "texte": "Pendant cinq minutes, observe tout ce qui est vivant autour de toi : une plante, un insecte, un oiseau, un arbre ou même de la mousse entre deux pierres. Imagine qu'un robot venu de Mars découvre tout cela pour la première fois."
+    },
+    {
+      "id": "teaser-lune",
+      "type": "teaser",
+      "visuel": "🌕",
+      "titre": "Notre mystérieuse voisine",
+      "olli": "Chaque nuit, elle veille sur la Terre...",
+      "texte": "La Lune tourne autour de nous depuis plus de 4 milliards d'années. Mais pourquoi ne tombe-t-elle jamais ? Et pourquoi voit-on toujours presque la même face ? La prochaine expédition t'emmène à sa rencontre.",
+      "questionOuverteRef": "lune-ne-tombe-pas"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-blue-marble",
+      "fait": "La photographie 'Blue Marble' a été prise par l'équipage d'Apollo 17 le 7 décembre 1972.",
+      "reference": "NASA Apollo 17 - Blue Marble",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-terre",
+      "fait": "La Terre est située dans la zone habitable du Soleil et possède de l'eau liquide en abondance.",
+      "reference": "NASA Solar System Exploration - Earth",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}
