@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "etoiles-soleil",
+  "minEngineVersion": 1,
+  "livre": "etoiles",
+  "titre": "Le géant qui nourrit la vie",
+  "resume": "Une immense boule de feu éclaire la Terre depuis plus de 4 milliards d'années. Mais comment sa chaleur voyage-t-elle jusqu'à nous ?",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "terre-habitable",
+      "texte": "Pourquoi la Terre est-elle la seule planète que nous connaissons où la vie existe ?",
+      "resolueParLivre": "etoiles"
+    }
+  ],
+  "questionsResolues": [
+    "soleil-chaud-espace-froid"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "☀️",
+      "titre": "Exploratrice du Soleil"
+    },
+    "decouvertes": [
+      "Le Soleil est une étoile.",
+      "La lumière met environ 8 minutes à arriver jusqu'à la Terre.",
+      "Dans le vide de l'espace, la chaleur ne voyage pas comme dans l'air.",
+      "Sans le Soleil, la Terre serait une planète glacée."
+    ]
+  },
+  "scenes": [
+    {
+      "id": "question",
+      "type": "question",
+      "visuel": "☀️",
+      "titre": "Pourquoi Mars est-elle froide si le Soleil est brûlant ?",
+      "olli": "Tu viens de quitter Mars. Une question est restée sans réponse...",
+      "choix": [
+        {
+          "emoji": "🥶",
+          "texte": "Le Soleil ne chauffe que la Terre"
+        },
+        {
+          "emoji": "🌌",
+          "texte": "Dans l'espace il n'y a presque rien pour transporter la chaleur",
+          "bonne": true
+        },
+        {
+          "emoji": "🧊",
+          "texte": "Mars fabrique son propre froid"
+        }
+      ],
+      "reponseBonne": "Exact ! Dans l'espace, il n'y a presque pas de matière. La chaleur du Soleil voyage surtout sous forme de lumière. Les planètes en reçoivent plus ou moins selon leur distance et leur atmosphère.",
+      "reponseAutre": "En réalité, l'espace est presque vide. La chaleur du Soleil voyage grâce à sa lumière."
+    },
+    {
+      "id": "observation",
+      "type": "observation",
+      "visuel": "☀️",
+      "visuelAnimation": "flotte",
+      "titre": "Approchons-nous du Soleil",
+      "olli": "Regarde ce géant de plus près.",
+      "hotspots": [
+        {
+          "emoji": "🔥",
+          "nom": "Sa surface",
+          "fait": "La surface du Soleil atteint environ 5 500 °C. C'est assez pour faire fondre presque tous les métaux."
+        },
+        {
+          "emoji": "💥",
+          "nom": "Son cœur",
+          "fait": "Au centre, la température dépasse 15 millions de degrés. C'est là que l'énergie du Soleil est fabriquée."
+        },
+        {
+          "emoji": "✨",
+          "nom": "Sa lumière",
+          "fait": "Chaque seconde, le Soleil envoie dans toutes les directions une quantité incroyable de lumière et d'énergie."
+        }
+      ]
+    },
+    {
+      "id": "question-lumiere",
+      "type": "question",
+      "visuel": "💡",
+      "titre": "La lumière du Soleil est très rapide...",
+      "olli": "À ton avis, combien de temps met-elle pour arriver jusqu'à la Terre ?",
+      "choix": [
+        {
+          "emoji": "⚡",
+          "texte": "8 secondes"
+        },
+        {
+          "emoji": "⏱️",
+          "texte": "8 minutes",
+          "bonne": true
+        },
+        {
+          "emoji": "🌍",
+          "texte": "8 heures"
+        }
+      ],
+      "reponseBonne": "Bravo ! La lumière parcourt 150 millions de kilomètres en seulement environ 8 minutes.",
+      "reponseAutre": "Elle met environ 8 minutes. C'est incroyablement rapide !"
+    },
+    {
+      "id": "anecdote",
+      "type": "anecdote",
+      "visuel": "🌞",
+      "titre": "Le Soleil que tu vois...",
+      "etiquette": "Histoire vraie",
+      "olli": "Prépare-toi pour un drôle de voyage dans le temps.",
+      "texte": "Quand tu regardes le Soleil (jamais directement !), tu ne le vois pas tel qu'il est maintenant. Tu le vois tel qu'il était il y a environ 8 minutes, le temps que sa lumière arrive jusqu'à toi. En regardant le ciel, tu regardes toujours un peu dans le passé.",
+      "sourceRef": "src-lumiere"
+    },
+    {
+      "id": "mission",
+      "type": "mission",
+      "visuel": "🌞",
+      "titre": "Mission dans le monde réel",
+      "etiquette": "Mission dans le monde réel",
+      "olli": "Une petite expérience à faire aujourd'hui.",
+      "texte": "Pose une feuille blanche au soleil puis une autre à l'ombre. Après quelques minutes, touche-les délicatement. Tu découvriras que c'est la lumière du Soleil qui apporte son énergie."
+    },
+    {
+      "id": "teaser",
+      "type": "teaser",
+      "visuel": "🌍",
+      "titre": "Pourquoi la Terre est-elle parfaite ?",
+      "olli": "Toutes les planètes reçoivent la lumière du Soleil...",
+      "texte": "Alors pourquoi seule la Terre possède de vastes océans d'eau liquide, une atmosphère respirable et une incroyable diversité de vie ? La réponse t'attend dans le Livre de la Terre.",
+      "questionOuverteRef": "terre-habitable"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-lumiere",
+      "fait": "La lumière du Soleil met environ 8 minutes et 20 secondes pour atteindre la Terre.",
+      "reference": "NASA Solar System Exploration",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-soleil",
+      "fait": "Le Soleil est une étoile dont la surface atteint environ 5 500 °C et le cœur environ 15 millions de degrés.",
+      "reference": "ESA / NASA - Sun Facts",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}

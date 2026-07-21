@@ -13,6 +13,16 @@
       "octets": 6180
     },
     {
+      "id": "etoiles-soleil",
+      "livre": "etoiles",
+      "titre": "Le géant qui nourrit la vie",
+      "resume": "Une immense boule de feu éclaire la Terre depuis plus de 4 milliards d'années. Mais comment sa chaleur voyage-t-elle jusqu'à nous ?",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/etoiles-soleil.json",
+      "sha256": "f4d00622f49ae8f6e6a095ba944ae928c0700b605e1375f82fdb79f4c7d45211",
+      "octets": 5615
+    },
+    {
       "id": "etoiles-voyager",
       "livre": "etoiles",
       "titre": "La bouteille à la mer des étoiles",
