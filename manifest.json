@@ -13,6 +13,16 @@
       "octets": 9945
     },
     {
+      "id": "machines-lumiere",
+      "livre": "les-machines",
+      "titre": "La championne que rien ne dépasse",
+      "resume": "La lumière est si rapide qu'elle fait 7 fois le tour de la Terre en une seconde. Et pourtant, quand tu regardes le ciel, tu vois toujours le passé.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/machines-lumiere.json",
+      "sha256": "b97f0c360a1438566ffdca02e5759674ab42f2a57fa51678a9f0589afd99b87d",
+      "octets": 9585
+    },
+    {
       "id": "ocean-pieuvre",
       "livre": "ocean",
       "titre": "Le mystère des profondeurs",

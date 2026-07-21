@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "machines-lumiere",
+  "minEngineVersion": 1,
+  "livre": "les-machines",
+  "titre": "La championne que rien ne dépasse",
+  "resume": "La lumière est si rapide qu'elle fait 7 fois le tour de la Terre en une seconde. Et pourtant, quand tu regardes le ciel, tu vois toujours le passé.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "etoile-morte",
+      "texte": "Peut-on voir briller une étoile qui n'existe déjà plus ?",
+      "resolueParLivre": "etoiles"
+    }
+  ],
+  "questionsResolues": [
+    "vitesse-lumiere"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "💡",
+      "titre": "Gardienne de la Lumière"
+    },
+    "decouvertes": [
+      "La lumière fait 7 fois le tour de la Terre en 1 seconde",
+      "Rien dans l'univers ne va plus vite qu'elle",
+      "Le Soleil que tu vois date de 8 minutes",
+      "Regarder loin, c'est regarder dans le passé",
+      "La lumière d'Andromède a 2,5 millions d'années"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "a-quelle-vitesse",
+      "type": "question",
+      "visuel": "💡",
+      "titre": "En une seconde, la lumière fait combien de tours de la Terre ?",
+      "olli": "On a dit que la voix de Voyager mettait 23 heures à revenir, à la vitesse de la lumière. Cette vitesse, c'est la plus grande de tout l'univers. Mais à quel point est-elle grande ? Devine !",
+      "choix": [
+        {
+          "emoji": "🚶",
+          "texte": "Elle traverse une ville"
+        },
+        {
+          "emoji": "✈️",
+          "texte": "Elle traverse un pays"
+        },
+        {
+          "emoji": "🌍",
+          "texte": "Elle fait 7 fois le tour de la Terre",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Sept fois et demie ! En le temps de dire « un », la lumière a fait sept fois et demie le tour complet de la Terre. 300 000 kilomètres en une seule seconde. C'est la chose la plus rapide qui existe — et rien, jamais, ne pourra la dépasser.",
+      "reponseAutre": "Sept fois et demie le tour de la Terre ! En le temps de dire « un », la lumière a parcouru 300 000 kilomètres. C'est la chose la plus rapide qui existe — et rien, jamais, ne pourra la dépasser."
+    },
+    {
+      "id": "le-retard",
+      "type": "observation",
+      "visuel": "🌌",
+      "visuelAnimation": "flotte",
+      "titre": "Si elle est si rapide, comment peut-elle être en retard ?",
+      "olli": "Voici le secret vertigineux : même à cette vitesse folle, l'espace est SI grand que la lumière met du temps à le traverser. Touche chaque astre pour voir de quand date sa lumière.",
+      "hotspots": [
+        {
+          "emoji": "🌙",
+          "nom": "La Lune",
+          "fait": "La lumière de la Lune met un peu plus d'une seconde à t'atteindre. Tu la vois telle qu'elle était il y a une seconde. Presque en direct… mais pas tout à fait."
+        },
+        {
+          "emoji": "☀️",
+          "nom": "Le Soleil",
+          "fait": "Sa lumière met 8 minutes et 20 secondes à venir. Si le Soleil s'éteignait là, maintenant, tu continuerais à le voir briller pendant 8 minutes sans le savoir. Tu vois toujours un Soleil du passé."
+        },
+        {
+          "emoji": "✨",
+          "nom": "Les étoiles",
+          "fait": "L'étoile la plus proche est à 4 ans de lumière : tu la vois telle qu'elle était il y a 4 ans. Certaines que tu admires ce soir ont envoyé leur lumière il y a des milliers d'années."
+        }
+      ]
+    },
+    {
+      "id": "machine-a-remonter",
+      "type": "question",
+      "visuel": "🔭",
+      "titre": "Un télescope très puissant, c'est un peu comme quoi ?",
+      "olli": "Plus une chose est loin, plus sa lumière est vieille quand elle t'arrive. Alors, si tu regardes TRÈS loin avec un grand télescope, qu'est-ce que tu observes, en vrai ?",
+      "choix": [
+        {
+          "emoji": "🔮",
+          "texte": "Le futur de l'univers"
+        },
+        {
+          "emoji": "⏪",
+          "texte": "Le passé, de plus en plus lointain",
+          "bonne": true
+        },
+        {
+          "emoji": "🎨",
+          "texte": "Une image inventée par la machine"
+        }
+      ],
+      "reponseBonne": "Le passé ! Un grand télescope est une vraie machine à remonter le temps. Il capte la lumière d'objets si lointains qu'elle a voyagé des millions d'années. Les astronomes voient des galaxies telles qu'elles étaient bien avant les dinosaures. Regarder loin, c'est regarder tôt.",
+      "reponseAutre": "Le passé, de plus en plus lointain ! Un grand télescope est une vraie machine à remonter le temps. Il capte la lumière d'objets si lointains qu'elle a voyagé des millions d'années. Les astronomes voient des galaxies telles qu'elles étaient bien avant les dinosaures."
+    },
+    {
+      "id": "galilee",
+      "type": "anecdote",
+      "visuel": "🏮",
+      "etiquette": "Histoire vraie",
+      "titre": "Les deux lanternes de Galilée",
+      "texte": "Il y a 400 ans, personne ne savait si la lumière allait vite ou était instantanée. Galilée a voulu en avoir le cœur net. Une nuit, il envoie un assistant sur une colline avec une lanterne, et grimpe sur une autre en face avec la sienne. Le plan : il découvre sa lanterne, et dès que l'autre voit la lumière, il découvre la sienne. En mesurant le délai, il espérait calculer la vitesse. Mais la lumière allait bien trop vite : l'aller-retour se faisait avant qu'ils clignent des yeux. L'expérience a « raté »… et prouvé quelque chose d'énorme : la lumière est insaisissable à main d'homme.",
+      "olli": "Rater une expérience et apprendre quand même : ça arrive tout le temps en science. Galilée n'a pas trouvé le chiffre, mais il a compris que la lumière était insaisissable.",
+      "sourceRef": "src-galilee"
+    },
+    {
+      "id": "mission-eclair",
+      "type": "mission",
+      "visuel": "⛈️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Mesure la lenteur du son avec la lumière",
+      "texte": "Le prochain orage, tu vas voir la vitesse de la lumière de tes yeux. Quand tu vois un éclair, compte les secondes lentement jusqu'à ce que tu entendes le tonnerre : « un-mississippi, deux-mississippi… ». L'éclair et le tonnerre partent en même temps — mais la lumière arrive INSTANTANÉMENT à tes yeux, tandis que le son traîne. Chaque « mississippi » compté = environ 340 mètres. Trois secondes ? L'orage est à un kilomètre.",
+      "olli": "La lumière gagne toujours la course contre le son, et de très loin. Tu viens de transformer un orage en règle graduée. 😄"
+    },
+    {
+      "id": "teaser-etoile-morte",
+      "type": "teaser",
+      "visuel": "⭐",
+      "titre": "Sa lumière voyage depuis si longtemps… l'étoile existe-t-elle encore ?",
+      "texte": "Voici la pensée la plus vertigineuse de toutes. La lumière d'une étoile lointaine a mis des milliers d'années à t'atteindre. Pendant ce très long voyage, il a pu se passer beaucoup de choses, là-bas. Et si l'étoile s'était éteinte entre-temps ? Tu verrais alors briller, ce soir, une étoile qui n'existe déjà plus…",
+      "olli": "Ce mystère magnifique t'attend dans le Livre des Étoiles… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "etoile-morte"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-vitesse",
+      "fait": "La lumière voyage à 299 792 km/s dans le vide, soit environ 7,5 tours de la Terre par seconde. C'est la vitesse limite de l'univers (relativité restreinte).",
+      "reference": "https://spaceplace.nasa.gov/light-year/en/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-lune-soleil",
+      "fait": "La lumière de la Lune met ~1,3 s à nous atteindre ; celle du Soleil ~8 min 20 s (Soleil à ~150 millions de km). On voit donc toujours ces astres avec un léger retard.",
+      "reference": "https://spaceplace.nasa.gov/light-year/en/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-etoiles-passe",
+      "fait": "L'étoile la plus proche (Proxima Centauri) est à ~4,2 années-lumière : on la voit telle qu'il y a ~4 ans. La galaxie d'Andromède est à ~2,5 millions d'années-lumière.",
+      "reference": "https://spaceplace.nasa.gov/light-year/en/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-telescope-passe",
+      "fait": "Observer des objets lointains revient à regarder dans le passé : la lumière captée a voyagé des millions à des milliards d'années. Base de l'astronomie observationnelle.",
+      "reference": "https://spaceplace.nasa.gov/light-year/en/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-galilee",
+      "fait": "Vers 1638, Galilée décrit une expérience à deux lanternes sur des collines pour mesurer la vitesse de la lumière ; trop rapide, elle échoue mais suggère une vitesse immense.",
+      "reference": "https://starlust.org/how-long-does-it-takes-for-light-to-reach-earth/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-son",
+      "fait": "Le son voyage à ~340 m/s dans l'air, environ un million de fois plus lentement que la lumière : d'où le décalage éclair/tonnerre (~3 s par km).",
+      "reference": "https://sketchplanations.com/looking-back-in-time",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}
