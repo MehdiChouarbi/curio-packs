@@ -1,0 +1,26 @@
+{
+  "manifestVersion": 1,
+  "engineVersion": 1,
+  "expeditions": [
+    {
+      "id": "etoiles-voyager",
+      "livre": "etoiles",
+      "titre": "La bouteille à la mer des étoiles",
+      "resume": "Un objet fabriqué par des humains file dans le noir depuis presque 50 ans. Il transporte un disque doré. Et sur ce disque, il y a peut-être toi.",
+      "minEngineVersion": 1,
+      "url": "https://MehdiChouarbi.github.io/curio-packs/expeditions/etoiles-voyager.json",
+      "sha256": "50a84351c348328d2ea8c40ad5a71f153321099d75320eee04fa3a0427f30102",
+      "octets": 10126
+    },
+    {
+      "id": "ocean-pieuvre",
+      "livre": "ocean",
+      "titre": "Le mystère des profondeurs",
+      "resume": "Un animal à trois cœurs, neuf cerveaux et sang bleu se cache dans l'océan. Pars à sa rencontre et découvre son incroyable pouvoir.",
+      "minEngineVersion": 1,
+      "url": "https://MehdiChouarbi.github.io/curio-packs/expeditions/ocean-pieuvre.json",
+      "sha256": "9ead66760fcab2fba2e2eac7123542918e3f5384776a0505d2900ea92d0f2da4",
+      "octets": 6366
+    }
+  ]
+}

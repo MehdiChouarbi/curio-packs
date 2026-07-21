@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "ocean-pieuvre",
+  "minEngineVersion": 1,
+  "livre": "ocean",
+  "titre": "Le mystère des profondeurs",
+  "resume": "Un animal à trois cœurs, neuf cerveaux et sang bleu se cache dans l'océan. Pars à sa rencontre et découvre son incroyable pouvoir.",
+  "age": { "min": 8, "max": 12 },
+  "dureeMinutes": 5,
+
+  "questionsOuvertes": [
+    {
+      "id": "sang-insectes",
+      "texte": "De quelle couleur est le sang des insectes ?",
+      "resolueParLivre": "petites-betes"
+    }
+  ],
+  "questionsResolues": [],
+
+  "passeport": {
+    "tampon": { "emoji": "🐙", "titre": "Exploratrice de l'Océan" },
+    "decouvertes": [
+      "La pieuvre a 3 cœurs, 9 cerveaux et du sang bleu",
+      "Ses ventouses peuvent goûter ce qu'elles touchent",
+      "Sans os, elle passe par un trou minuscule",
+      "L'incroyable évasion d'Inky en Nouvelle-Zélande"
+    ]
+  },
+
+  "scenes": [
+    {
+      "id": "devinette",
+      "type": "question",
+      "visuel": "🌊",
+      "titre": "Quel animal a 3 cœurs, 9 cerveaux… et du sang bleu ?",
+      "olli": "Une devinette pour commencer ! Cet animal vit caché dans l'océan. À ton avis ?",
+      "choix": [
+        { "emoji": "🦈", "texte": "Le requin" },
+        { "emoji": "🐙", "texte": "La pieuvre", "bonne": true },
+        { "emoji": "🐬", "texte": "Le dauphin" },
+        { "emoji": "🪼", "texte": "La méduse" }
+      ],
+      "reponseBonne": "Bien vu, c'est la pieuvre ! 🐙 Trois cœurs qui battent, neuf cerveaux qui réfléchissent — un dans la tête, et un dans chaque bras !",
+      "reponseAutre": "C'était… la pieuvre ! 🐙 Trois cœurs qui battent, neuf cerveaux qui réfléchissent — un dans la tête, et un dans chaque bras !"
+    },
+    {
+      "id": "observation",
+      "type": "observation",
+      "visuel": "🐙",
+      "visuelAnimation": "nage",
+      "titre": "Approchons-nous… sans faire de bruit.",
+      "olli": "Touche chaque partie de la pieuvre pour l'observer de près. Un vrai explorateur regarde partout !",
+      "hotspots": [
+        {
+          "emoji": "🖐️",
+          "nom": "Ses ventouses",
+          "fait": "Elle en a environ 2 000, et chacune peut GOÛTER ce qu'elle touche. Imagine goûter ton goûter avec tes doigts !"
+        },
+        {
+          "emoji": "👁️",
+          "nom": "Ses yeux",
+          "fait": "Sa pupille est en forme de trait horizontal, comme une fente. Et surprise : la pieuvre ne voit probablement pas les couleurs…"
+        },
+        {
+          "emoji": "🎨",
+          "nom": "Sa peau",
+          "fait": "…et pourtant elle change de couleur ET de texture en une seconde pour se camoufler. Personne ne sait exactement comment elle fait. C'est encore un mystère pour les scientifiques !"
+        }
+      ]
+    },
+    {
+      "id": "decouverte-trou",
+      "type": "question",
+      "visuel": "🕳️",
+      "titre": "La pieuvre n'a AUCUN os. Alors… par quel trou peut-elle passer ?",
+      "olli": "Une pieuvre grosse comme un ballon de foot veut s'échapper. Quel est le plus petit trou possible pour elle ?",
+      "choix": [
+        { "emoji": "🍽️", "texte": "Un trou grand comme une assiette" },
+        { "emoji": "🍎", "texte": "Un trou grand comme une pomme" },
+        { "emoji": "🪙", "texte": "Un trou à peine plus grand qu'une pièce de 2 €", "bonne": true }
+      ],
+      "reponseBonne": "Incroyable mais vrai ! Sans squelette, tout son corps est mou comme de la pâte. La seule partie dure, c'est son petit bec de perroquet. Si le bec passe… TOUT passe !",
+      "reponseAutre": "Encore plus fort : un trou à peine plus grand qu'une pièce de 2 € ! Sans squelette, tout son corps est mou. La seule partie dure, c'est son petit bec de perroquet. Si le bec passe… TOUT passe !"
+    },
+    {
+      "id": "anecdote-inky",
+      "type": "anecdote",
+      "visuel": "🏃💨",
+      "etiquette": "Histoire vraie",
+      "titre": "La grande évasion d'Inky",
+      "texte": "En Nouvelle-Zélande, une pieuvre nommée Inky vivait dans un aquarium. Une nuit, quelqu'un a mal refermé le couvercle de son bassin… Inky est sortie, a traversé la pièce, puis a trouvé un tuyau d'évacuation qui menait à la mer. Elle s'est glissée dedans, a parcouru 50 mètres dans le noir… et a retrouvé l'océan. On ne l'a jamais revue. 🌊",
+      "olli": "Les gardiens ont retrouvé ses traces le lendemain matin. Quelle exploratrice, cette Inky !",
+      "sourceRef": "src-inky"
+    },
+    {
+      "id": "mission-main",
+      "type": "mission",
+      "visuel": "👌",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "À toi de jouer, sans écran !",
+      "texte": "Fais un rond avec ton pouce et ton index. Essaie d'y faire passer ta main entière… Impossible, n'est-ce pas ? Touche ton poignet : tu sens tes os ? Ce sont eux qui te bloquent. Une pieuvre de ta taille, elle, passerait sans problème !",
+      "olli": "Tu peux aussi montrer l'expérience à quelqu'un de ta famille et lui poser la devinette des 3 cœurs. Je parie qu'il se trompera ! 😄"
+    },
+    {
+      "id": "teaser-insectes",
+      "type": "teaser",
+      "visuel": "🐜",
+      "titre": "Le sang de la pieuvre est bleu à cause du cuivre. Mais alors…",
+      "texte": "…de quelle couleur est le sang des insectes ? Indice : ce n'est ni rouge, ni bleu…",
+      "olli": "La réponse se cache dans le Livre des Petites Bêtes. Il s'ouvrira bientôt sur l'étagère… En attendant, ton passeport a reçu son premier tampon ! 🎉",
+      "questionOuverteRef": "sang-insectes"
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "src-inky",
+      "fait": "Évasion d'Inky de l'Aquarium national de Nouvelle-Zélande (Napier) par un tuyau d'évacuation menant à la mer, avril 2016.",
+      "reference": "https://www.theguardian.com/world/2016/apr/13/inky-the-octopus-escapes-from-new-zealand-aquarium",
+      "verifiePar": "mehdi",
+      "date": "2026-07-16"
+    },
+    {
+      "id": "src-anatomie",
+      "fait": "La pieuvre possède 3 cœurs, un système nerveux distribué (cerveau central + ganglions dans chaque bras) et un sang à hémocyanine (cuivre) de couleur bleue.",
+      "reference": "https://www.smithsonianmag.com/science-nature/ten-curious-facts-about-octopuses-7625828/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-16"
+    }
+  ]
+}

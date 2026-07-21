@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "etoiles-voyager",
+  "minEngineVersion": 1,
+  "livre": "etoiles",
+  "titre": "La bouteille à la mer des étoiles",
+  "resume": "Un objet fabriqué par des humains file dans le noir depuis presque 50 ans. Il transporte un disque doré. Et sur ce disque, il y a peut-être toi.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "vitesse-lumiere",
+      "texte": "Pourquoi rien ne peut aller plus vite que la lumière ?",
+      "resolueParLivre": "les-machines"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🛸",
+      "titre": "Messagère des Étoiles"
+    },
+    "decouvertes": [
+      "Voyager 1 est l'objet humain le plus lointain",
+      "Il porte un disque doré, message pour les étoiles",
+      "Dessus : des rires, des baleines, 55 bonjours",
+      "Une femme y a enregistré son cerveau amoureux",
+      "Le disque doit durer un milliard d'années"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "objet-lointain",
+      "type": "question",
+      "visuel": "🛸",
+      "titre": "L'objet humain le plus loin de la Terre, il est à quelle distance ?",
+      "olli": "Une petite sonde nommée Voyager 1 est partie en 1977, avant même la naissance de tes parents peut-être. Depuis, elle fonce sans jamais s'arrêter. À ton avis, elle est où, maintenant ?",
+      "choix": [
+        {
+          "emoji": "🌙",
+          "texte": "Un peu plus loin que la Lune"
+        },
+        {
+          "emoji": "🪐",
+          "texte": "Près de Saturne"
+        },
+        {
+          "emoji": "✨",
+          "texte": "Si loin que sa voix met 23 heures à nous revenir",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Vingt-trois heures ! Voyager 1 est à plus de 24 milliards de kilomètres. Sa voix radio voyage à la vitesse de la lumière, la chose la plus rapide de l'univers… et il lui faut presque un jour entier pour nous parvenir. Aucun objet fabriqué par des humains n'est allé plus loin.",
+      "reponseAutre": "En vrai : si loin que sa voix met presque un jour à nous revenir ! Voyager 1 est à plus de 24 milliards de kilomètres. Même à la vitesse de la lumière, son signal met 23 heures à nous parvenir. Aucun objet fabriqué par des humains n'est allé plus loin."
+    },
+    {
+      "id": "le-disque",
+      "type": "observation",
+      "visuel": "💿",
+      "visuelAnimation": "flotte",
+      "titre": "Sur son flanc, un disque doré. Regardons ce qu'il cache.",
+      "olli": "Ce disque est un message, au cas où quelqu'un, un jour, très loin, le trouverait. Touche chaque partie pour découvrir ce qu'on a voulu dire de nous.",
+      "hotspots": [
+        {
+          "emoji": "👋",
+          "nom": "Cinquante-cinq bonjours",
+          "fait": "On y a gravé « bonjour » dans 55 langues. Le dernier, en anglais, est dit par un enfant de six ans, le fils de Carl Sagan : « Bonjour de la part des enfants de la planète Terre. »"
+        },
+        {
+          "emoji": "🐋",
+          "nom": "Le chant des baleines",
+          "fait": "Il y a des rires, du tonnerre, des pas, un baiser, le cri d'un bébé qui vient de naître… et le chant des baleines, glissé exprès entre les musiques, comme un invité venu d'un autre monde que le nôtre."
+        },
+        {
+          "emoji": "🎵",
+          "nom": "Fait pour durer",
+          "fait": "Le disque est gravé dans le cuivre doré à l'or fin. Dans l'espace, rien ne l'abîme : pas d'air, pas de pluie, pas de rouille. Il est prévu pour rester lisible pendant un MILLIARD d'années."
+        }
+      ]
+    },
+    {
+      "id": "quoi-dessus",
+      "type": "question",
+      "visuel": "🧠",
+      "titre": "Une femme a enregistré une chose très intime pour la mettre dessus. Quoi ?",
+      "olli": "Elle s'appelait Ann Druyan. Elle venait de tomber amoureuse. Et elle a eu une idée un peu folle pour le message envoyé aux étoiles…",
+      "choix": [
+        {
+          "emoji": "🎤",
+          "texte": "Une chanson qu'elle avait écrite"
+        },
+        {
+          "emoji": "🧠",
+          "texte": "Les ondes de son cerveau amoureux",
+          "bonne": true
+        },
+        {
+          "emoji": "📷",
+          "texte": "Une photo d'elle"
+        }
+      ],
+      "reponseBonne": "Ses pensées ! Branchée à une machine qui lit l'activité du cerveau, elle a pensé à la Terre, à l'histoire des humains, et à l'amour. Une heure d'ondes, compressée en une minute, gravée sur le disque. En ce moment même, à des milliards de kilomètres, les pensées d'une femme amoureuse voyagent entre les étoiles.",
+      "reponseAutre": "Les ondes de son cerveau ! Branchée à une machine qui lit l'activité du cerveau, Ann Druyan a pensé à la Terre et à l'amour. Une heure d'ondes, compressée en une minute, gravée sur le disque. En ce moment même, à des milliards de kilomètres, les pensées d'une femme amoureuse voyagent entre les étoiles."
+    },
+    {
+      "id": "sagan-druyan",
+      "type": "anecdote",
+      "visuel": "💛",
+      "etiquette": "Histoire vraie",
+      "titre": "La lettre d'amour la plus lointaine de l'univers",
+      "texte": "En 1977, une équipe prépare le message de Voyager, dirigée par le savant Carl Sagan. Dans l'équipe, une jeune femme, Ann Druyan, cherche quels sons graver. Un jour, au téléphone, Carl et Ann se rendent compte qu'ils s'aiment. Deux jours plus tard, Ann s'installe dans un hôpital, branchée à une machine, et enregistre les ondes de son cerveau en pensant à lui. Cette minute est partie dans l'espace. Carl et Ann se sont mariés. Aujourd'hui, longtemps après leur mort, leur histoire d'amour continue de filer entre les étoiles, gravée dans l'or. 💫",
+      "olli": "On a envoyé aux étoiles nos sciences, nos musiques, nos bonjours… et, sans vraiment le vouloir, le battement de cœur de deux personnes qui venaient de s'aimer.",
+      "sourceRef": "src-druyan"
+    },
+    {
+      "id": "mission-bouteille",
+      "type": "mission",
+      "visuel": "✉️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Grave ton propre disque d'or",
+      "texte": "Si TU devais envoyer un seul message aux étoiles, pour raconter la Terre à quelqu'un qui ne l'a jamais vue, tu mettrais quoi ? Un son, une image, une phrase, un seul. Prends une feuille et écris-le. C'est plus dur qu'on croit : comment expliquer un chien, la pluie, ou un câlin à quelqu'un qui ne connaît rien de tout ça ? Montre ton message à quelqu'un de ta famille, et demande-lui le sien.",
+      "olli": "L'équipe de Voyager a mis presque un an à choisir. Toi, tu tiens ton message dans une main et un crayon dans l'autre. 😄"
+    },
+    {
+      "id": "teaser-lumiere",
+      "type": "teaser",
+      "visuel": "💡",
+      "titre": "La voix de Voyager met 23 heures à revenir. Pourquoi pas plus vite ?",
+      "texte": "Son signal file à la vitesse de la lumière : 300 000 kilomètres par seconde. C'est la championne absolue de l'univers — rien, jamais, ne va plus vite. Une fusée, non. Un vaisseau du futur, non plus. C'est une règle du cosmos que personne ne peut briser. Mais pourquoi ? Qu'est-ce qui empêche d'aller plus vite que la lumière ?",
+      "olli": "Ce mystère t'attend dans le Livre des Machines, là où l'on parle des lois qu'on ne peut pas tricher… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "vitesse-lumiere"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-distance",
+      "fait": "Voyager 1 (lancée en 1977) est l'objet humain le plus lointain : ~24-25 milliards de km en 2026. Son signal radio, à la vitesse de la lumière, met environ 23 h à atteindre la Terre.",
+      "reference": "https://science.nasa.gov/mission/voyager/voyager-1/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-disque",
+      "fait": "Chaque sonde Voyager porte un disque phonographique plaqué or (30 cm) : 115 images, salutations en 55 langues, 12 min de sons terrestres, 90 min de musique. Conçu pour durer ~1 milliard d'années.",
+      "reference": "https://www.smithsonianmag.com/science-nature/what-is-on-voyagers-golden-record-73063839/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-bonjour-enfant",
+      "fait": "La salutation finale en anglais est dite par Nick Sagan, 6 ans, fils de Carl Sagan : « Hello from the children of planet Earth ». Chant de baleine mêlé aux salutations.",
+      "reference": "https://www.smithsonianmag.com/science-nature/what-is-on-voyagers-golden-record-73063839/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-druyan",
+      "fait": "Ann Druyan, directrice créative du message, enregistre son EEG (ondes cérébrales) le 3 juin 1977, peu après avoir décidé d'épouser Carl Sagan, en méditant sur l'amour. Compressé sur le disque.",
+      "reference": "https://www.smithsonianmag.com/science-nature/what-is-on-voyagers-golden-record-73063839/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-materiau",
+      "fait": "Disque en cuivre plaqué or ; l'environnement spatial (vide, absence d'oxygène et d'eau) préserve l'objet de la corrosion, d'où une longévité estimée en centaines de millions à un milliard d'années.",
+      "reference": "https://en.wikipedia.org/wiki/Voyager_Golden_Record",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-lumiere",
+      "fait": "La lumière voyage à ~299 792 km/s dans le vide ; c'est la vitesse limite de l'univers selon la relativité restreinte. Sujet du teaser (Livre des Machines).",
+      "reference": "https://www.nasa.gov/mission_pages/voyager/index.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}
