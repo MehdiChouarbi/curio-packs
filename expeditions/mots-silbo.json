@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "mots-silbo",
+  "minEngineVersion": 1,
+  "livre": "les-mots",
+  "titre": "L'île qui parle en sifflant",
+  "resume": "Sur une île, les gens se parlent d'une montagne à l'autre sans crier, sans téléphone. Ils sifflent. Et ils se comprennent parfaitement, à cinq kilomètres.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "cerveau-langues",
+      "texte": "Comment ton cerveau fait-il pour comprendre une langue ?",
+      "resolueParLivre": "le-corps"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🎶",
+      "titre": "Siffleuse des Vallées"
+    },
+    "decouvertes": [
+      "Le silbo est une vraie langue, mais sifflée",
+      "Un sifflement porte à 5 km, la voix à 200 m",
+      "Le cerveau l'entend comme des mots, pas de la musique",
+      "On l'apprend à l'école sur l'île de La Gomera",
+      "Il a failli disparaître, on l'a sauvé"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "sans-crier",
+      "type": "question",
+      "visuel": "🏝️",
+      "titre": "Comment se parler d'une montagne à l'autre, sans crier ni téléphone ?",
+      "olli": "Bienvenue sur La Gomera, une petite île de volcans, pleine de vallées profondes. Ton ami est sur la colline d'en face, à des kilomètres. Tu veux lui dire quelque chose. Comment fais-tu ?",
+      "choix": [
+        {
+          "emoji": "📣",
+          "texte": "Tu cries très, très fort"
+        },
+        {
+          "emoji": "🎶",
+          "texte": "Tu siffles ton message",
+          "bonne": true
+        },
+        {
+          "emoji": "🏃",
+          "texte": "Tu descends et tu remontes en face"
+        }
+      ],
+      "reponseBonne": "Tu siffles ! Sur cette île, les gens ont inventé une vraie langue faite de sifflements : le silbo. Un cri se perd au bout de 200 mètres, mais un sifflement puissant traverse les vallées et porte jusqu'à 5 kilomètres. Ton ami entend, et te répond en sifflant.",
+      "reponseAutre": "Ils sifflent ! Sur cette île, les gens ont inventé une vraie langue faite de sifflements : le silbo. Un cri se perd au bout de 200 mètres, mais un sifflement puissant traverse les vallées et porte jusqu'à 5 kilomètres. Ton ami entend, et te répond en sifflant."
+    },
+    {
+      "id": "vraie-langue",
+      "type": "observation",
+      "visuel": "🎶",
+      "visuelAnimation": "flotte",
+      "titre": "Ce n'est pas un code secret. C'est une vraie langue.",
+      "olli": "Touche chaque partie pour comprendre pourquoi le silbo est bien plus qu'une série de bips.",
+      "hotspots": [
+        {
+          "emoji": "🗣️",
+          "nom": "De l'espagnol sifflé",
+          "fait": "Le silbo n'invente pas de mots : il siffle l'espagnol. Chaque voyelle, chaque consonne devient un sifflement aigu ou grave, court ou long. Un bon siffleur peut dire absolument tout ce qu'il dirait en parlant."
+        },
+        {
+          "emoji": "🖐️",
+          "nom": "Les doigts dans la bouche",
+          "fait": "Pour siffler assez fort et assez précis, on met un ou deux doigts dans la bouche et on module avec la langue et la main. Ça demande des années d'entraînement pour bien le maîtriser."
+        },
+        {
+          "emoji": "🏫",
+          "nom": "Appris à l'école",
+          "fait": "Aujourd'hui, tous les enfants de l'île apprennent le silbo en classe, comme les maths. C'est une matière obligatoire ! Plus de 22 000 personnes le parlent — pardon, le sifflent."
+        }
+      ]
+    },
+    {
+      "id": "musique-ou-mots",
+      "type": "question",
+      "visuel": "🧠",
+      "titre": "Dans la tête d'un siffleur, le silbo ressemble à quoi ?",
+      "olli": "Voici la question qui a intrigué les scientifiques. Quand un habitant de l'île entend siffler, qu'est-ce que son cerveau fait de ces sons ?",
+      "choix": [
+        {
+          "emoji": "🎵",
+          "texte": "Il entend de la musique"
+        },
+        {
+          "emoji": "🗣️",
+          "texte": "Il entend des mots, comme une langue",
+          "bonne": true
+        },
+        {
+          "emoji": "🐦",
+          "texte": "Il entend des chants d'oiseaux"
+        }
+      ],
+      "reponseBonne": "Des mots ! Des chercheurs ont regardé le cerveau des siffleurs : la partie qui s'allume, c'est celle du langage — la même que quand tu écoutes quelqu'un parler. Pas celle de la musique. Pour eux, siffler et parler, c'est pareil. Leur cerveau traite les sifflements comme une vraie langue.",
+      "reponseAutre": "Des mots ! Des chercheurs ont regardé le cerveau des siffleurs : la partie qui s'allume, c'est celle du langage — la même que quand tu écoutes quelqu'un parler. Pas celle de la musique. Pour leur cerveau, siffler et parler, c'est pareil."
+    },
+    {
+      "id": "sauvetage",
+      "type": "anecdote",
+      "visuel": "🕰️",
+      "etiquette": "Histoire vraie",
+      "titre": "La langue qui a failli s'éteindre",
+      "texte": "Au milieu du XXᵉ siècle, le silbo a failli mourir. Les téléphones sont arrivés, plus besoin de siffler pour se parler de loin. Les jeunes quittaient l'île, et sifit devenait vu comme un truc de vieux paysans un peu honteux. Presque plus personne ne l'apprenait. Alors, en 1999, les habitants ont pris une décision : ils ont rendu le silbo obligatoire à l'école, pour tous les enfants. Le pari a marché. Aujourd'hui, une nouvelle génération siffle à nouveau dans les vallées, et l'UNESCO a classé le silbo trésor de l'humanité. 🎶",
+      "olli": "Une langue, ça peut mourir comme un animal peut disparaître. Mais celle-là, des gens ont décidé de la sauver — et ils ont réussi.",
+      "sourceRef": "src-sauvetage"
+    },
+    {
+      "id": "mission-siffler",
+      "type": "mission",
+      "visuel": "🎵",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Invente ton code sifflé",
+      "texte": "Avec quelqu'un, mettez-vous d'accord sur trois messages sifflés : un sifflement court pour « oui », deux courts pour « non », un long pour « viens ». Éloignez-vous chacun dans une pièce différente, ou aux deux bouts du jardin. Maintenant, essayez de « parler » seulement en sifflant. C'est dur, hein ? Imagine dire des phrases entières comme les siffleurs de La Gomera !",
+      "olli": "Tu viens de sentir à quel point c'est difficile — et à quel point ces siffleurs sont forts. Demande à quelqu'un de ta famille s'il sait siffler avec les doigts. 😄"
+    },
+    {
+      "id": "teaser-cerveau",
+      "type": "teaser",
+      "visuel": "🧠",
+      "titre": "Parler, siffler, lire… ton cerveau comprend tout ça. Comment ?",
+      "texte": "Le plus étonnant dans cette histoire, c'est ton cerveau. Il transforme des sifflements, des sons, des lettres sur une page, des gestes de mains… en sens, en idées, en images. Une bouillie de bruits devient une phrase que tu comprends, instantanément, sans même y penser. Mais comment fait-il, là-dedans, pour changer un son en mot ?",
+      "olli": "Ce mystère t'attend dans le Livre du Corps, tout près de là où tu dors et où tu rêves… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "cerveau-langues"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-silbo",
+      "fait": "Le silbo gomero (La Gomera, Canaries) est de l'espagnol sifflé : 2 sifflements pour les 5 voyelles, 4 pour les consonnes. Il porte jusqu'à ~5 km à travers les ravins.",
+      "reference": "https://ich.unesco.org/en/RL/whistled-language-of-the-island-of-la-gomera-canary-islands-the-silbo-gomero-00172",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-portee",
+      "fait": "Un sifflement porte bien plus loin que la voix parlée (jusqu'à ~5 km contre ~200 m), franchissant vallées et ravins de l'île volcanique.",
+      "reference": "https://en.wikipedia.org/wiki/Silbo_Gomero",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-cerveau",
+      "fait": "Des études (dont Carreiras et al.) montrent que le cerveau des siffleurs traite le silbo dans les aires du langage, comme une langue parlée, et non comme de la musique.",
+      "reference": "https://www.nature.com/articles/433031a",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-ecole",
+      "fait": "Menacé de disparition avec l'arrivée du téléphone, le silbo est enseigné obligatoirement dans les écoles de La Gomera depuis 1999 ; plus de 22 000 habitants le pratiquent.",
+      "reference": "https://ich.unesco.org/en/RL/whistled-language-of-the-island-of-la-gomera-canary-islands-the-silbo-gomero-00172",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "src-sauvetage",
+      "fait": "Déclin au XXᵉ siècle (téléphone, exode rural, stigmatisation), puis revitalisation : matière obligatoire à l'école dès 1999, inscription au patrimoine immatériel de l'UNESCO en 2009.",
+      "reference": "https://languagemuseum.org/language-of-the-month-august-2023-silbo-gomero/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-21"
+    }
+  ]
+}

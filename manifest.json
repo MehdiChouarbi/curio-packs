@@ -23,6 +23,16 @@
       "octets": 9585
     },
     {
+      "id": "mots-silbo",
+      "livre": "les-mots",
+      "titre": "L'île qui parle en sifflant",
+      "resume": "Sur une île, les gens se parlent d'une montagne à l'autre sans crier, sans téléphone. Ils sifflent. Et ils se comprennent parfaitement, à cinq kilomètres.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/mots-silbo.json",
+      "sha256": "b385c136df6161f13db074022a6673d7c4ac3140492de06e008b719612b9c475",
+      "octets": 9248
+    },
+    {
       "id": "ocean-pieuvre",
       "livre": "ocean",
       "titre": "Le mystère des profondeurs",
