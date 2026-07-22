@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "etoiles-vivantes",
+  "minEngineVersion": 1,
+  "livre": "etoiles",
+  "titre": "Ces étoiles sont-elles encore vivantes ?",
+  "resume": "On répète partout que les étoiles du ciel sont déjà mortes. C'est une très belle idée… et elle est fausse. La vérité est encore plus intéressante.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "observer-etoiles",
+      "texte": "Qui regardait le ciel avant les télescopes, et qu'y voyaient-ils ?",
+      "resolueParLivre": "civilisations"
+    }
+  ],
+  "questionsResolues": [
+    "etoile-morte"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "⭐",
+      "titre": "Vérificatrice d'Étoiles"
+    },
+    "decouvertes": [
+      "Presque toutes les étoiles visibles sont bien vivantes",
+      "Une belle idée peut être fausse : on vérifie",
+      "Bételgeuse est à 642 années-lumière",
+      "En l'an 1054, une étoile a explosé sous nos yeux",
+      "Les étoiles vivent des milliards d'années"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "le-mythe",
+      "type": "question",
+      "visuel": "⭐",
+      "titre": "Combien des étoiles que tu vois ce soir sont déjà mortes ?",
+      "olli": "Tu as sûrement entendu cette phrase : « les étoiles que tu regardes sont mortes depuis longtemps, tu vois juste leur vieille lumière ». C'est joli, ça donne le frisson… mais est-ce vrai ? À ton avis, combien sont éteintes ?",
+      "choix": [
+        {
+          "emoji": "💀",
+          "texte": "Presque toutes"
+        },
+        {
+          "emoji": "🌗",
+          "texte": "À peu près la moitié"
+        },
+        {
+          "emoji": "✨",
+          "texte": "Presque aucune",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Presque aucune ! C'est une des idées fausses les plus répandues sur le ciel. Les étoiles qu'on voit à l'œil nu sont plutôt proches, et une étoile vit des milliards d'années. Parmi toutes celles visibles ce soir, il en meurt à peu près une… tous les 10 000 ans.",
+      "reponseAutre": "Presque aucune ! C'est une des idées fausses les plus répandues sur le ciel. Les étoiles visibles à l'œil nu sont plutôt proches, et une étoile vit des milliards d'années. Parmi toutes celles du ciel de ce soir, il en meurt environ une… tous les 10 000 ans."
+    },
+    {
+      "id": "regarder-de-pres",
+      "type": "observation",
+      "visuel": "🔭",
+      "visuelAnimation": "flotte",
+      "titre": "Alors regardons vraiment ce qu'on voit.",
+      "olli": "Touche chaque partie pour comprendre pourquoi cette idée est fausse — et pourquoi la vérité est plus belle.",
+      "hotspots": [
+        {
+          "emoji": "📏",
+          "nom": "Elles sont proches",
+          "fait": "La plupart des étoiles visibles sans télescope sont à quelques centaines d'années-lumière. Leur lumière a voyagé quelques siècles, pas des millions d'années. Trop peu de temps pour qu'elles meurent en chemin."
+        },
+        {
+          "emoji": "🔴",
+          "nom": "Bételgeuse, la candidate",
+          "fait": "L'épaule rouge d'Orion est une géante fatiguée, à 642 années-lumière. Elle explosera dans les 100 000 ans à venir. Si elle explosait aujourd'hui, on ne le saurait qu'en l'an 2667 !"
+        },
+        {
+          "emoji": "🥇",
+          "nom": "La plus lointaine",
+          "fait": "L'étoile la plus éloignée qu'on distingue à l'œil nu s'appelle V762 Cassiopeiae. Sa lumière est partie il y a environ 16 000 ans, quand les humains peignaient encore sur les parois des grottes."
+        }
+      ]
+    },
+    {
+      "id": "si-elle-explose",
+      "type": "question",
+      "visuel": "💥",
+      "titre": "Bételgeuse explose ce soir. Tu le verras quand ?",
+      "olli": "Imaginons. Ce soir, très exactement, Bételgeuse explose. Elle est à 642 années-lumière de nous. Quand est-ce que tu verras quelque chose dans le ciel ?",
+      "choix": [
+        {
+          "emoji": "⚡",
+          "texte": "Tout de suite, ce soir"
+        },
+        {
+          "emoji": "🕰️",
+          "texte": "Dans 642 ans, vers l'an 2667",
+          "bonne": true
+        },
+        {
+          "emoji": "🚫",
+          "texte": "Jamais, c'est trop loin"
+        }
+      ],
+      "reponseBonne": "Dans 642 ans ! Sa lumière doit traverser 642 années-lumière, et rien ne va plus vite. Personne d'aujourd'hui ne le verra. Mais l'inverse est vrai aussi : si elle a explosé il y a 500 ans, la nouvelle est déjà en route… et arrivera dans 142 ans.",
+      "reponseAutre": "Dans 642 ans, vers l'an 2667 ! Sa lumière doit traverser 642 années-lumière, et rien ne va plus vite. Mais l'inverse est vrai aussi : si elle a explosé il y a 500 ans, la nouvelle est déjà en route et arrivera dans 142 ans."
+    },
+    {
+      "id": "an-1054",
+      "type": "anecdote",
+      "visuel": "📜",
+      "etiquette": "Histoire vraie",
+      "titre": "L'étoile invitée de l'an 1054",
+      "texte": "Un matin de juillet 1054, des astronomes chinois lèvent les yeux et voient une chose impossible : une étoile nouvelle, si brillante qu'on la distingue en plein jour. Ils l'appellent « l'étoile invitée » et notent soigneusement sa position et sa lumière, jour après jour, pendant presque deux ans. Puis elle s'efface. Neuf siècles plus tard, des astronomes pointent un télescope exactement au même endroit… et trouvent un nuage de gaz en expansion : les restes de l'étoile qui a explosé. Grâce à des notes prises il y a mille ans, on sait précisément quand elle est morte. 📖",
+      "olli": "Ils n'avaient ni télescope ni photo. Juste des yeux, du papier, et l'idée qu'il fallait tout écrire, chaque nuit. C'est ça, faire de la science.",
+      "sourceRef": "src-1054"
+    },
+    {
+      "id": "mission-ciel",
+      "type": "mission",
+      "visuel": "🌌",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Répare une idée fausse",
+      "texte": "Ce soir, sors regarder le ciel quelques minutes, si les nuages le permettent. Choisis une étoile, une seule, et regarde-la un moment : sa lumière est partie il y a des dizaines, parfois des centaines d'années — et elle brille probablement encore. Maintenant, va voir quelqu'un de ta famille et demande-lui : « c'est vrai que les étoiles du ciel sont mortes ? » Écoute sa réponse… puis raconte-lui la vraie.",
+      "olli": "Corriger gentiment une idée fausse, c'est un des plus beaux pouvoirs qu'on gagne en apprenant. Tu viens de l'obtenir. 😄"
+    },
+    {
+      "id": "teaser-observateurs",
+      "type": "teaser",
+      "visuel": "🏛️",
+      "titre": "Ils notaient les étoiles il y a mille ans. Et avant eux ?",
+      "texte": "Les astronomes chinois de 1054 n'étaient pas les premiers. Bien avant les télescopes, partout sur la Terre, des peuples ont scruté le ciel nuit après nuit. Certains ont bâti des monuments alignés sur le Soleil, prévu des éclipses, et suivi des planètes avec une précision qui étonne encore aujourd'hui. Comment faisaient-ils, sans aucun instrument ?",
+      "olli": "Cette réponse t'attend dans le Livre des Civilisations… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "observer-etoiles"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-mythe",
+      "fait": "Idée fausse répandue : la quasi-totalité des étoiles visibles à l'œil nu sont encore vivantes. Parmi elles, environ une meurt tous les 10 000 ans, soit bien moins de 1 % déjà éteintes.",
+      "reference": "https://www.scienceabc.com/nature/universe/are-dead-stars-visible-in-the-night-sky.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-distances",
+      "fait": "La majorité des étoiles visibles sans instrument sont à quelques centaines d'années-lumière ; les durées de vie stellaires se comptent en millions à milliards d'années.",
+      "reference": "https://bigthink.com/starts-with-a-bang/stars-visible-already-died/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-betelgeuse",
+      "fait": "Bételgeuse : supergéante rouge d'Orion à ~642 années-lumière, susceptible d'exploser dans les 100 000 ans. Probabilité estimée qu'elle ait déjà explosé : environ 1 sur 4000.",
+      "reference": "https://bigthink.com/starts-with-a-bang/stars-visible-already-died/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-v762",
+      "fait": "V762 Cassiopeiae est l'étoile la plus lointaine visible à l'œil nu, à environ 16 000 années-lumière.",
+      "reference": "https://astronex.net/do-we-see-stars-that-dont-exist-anymore/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-1054",
+      "fait": "SN 1054 : « étoile invitée » observée et consignée par des astronomes chinois en juillet 1054, visible de jour plusieurs semaines. Ses restes forment la nébuleuse du Crabe.",
+      "reference": "https://astronex.net/do-we-see-stars-that-dont-exist-anymore/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-kepler",
+      "fait": "La dernière supernova de notre galaxie observée à l'œil nu date de 1604 (étoile de Kepler). Depuis, aucune n'a été vue sans instrument.",
+      "reference": "https://www.scienceabc.com/nature/universe/are-dead-stars-visible-in-the-night-sky.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}
