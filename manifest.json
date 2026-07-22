@@ -13,6 +13,16 @@
       "octets": 5862
     },
     {
+      "id": "civilisations-chine",
+      "livre": "Civilisations",
+      "titre": "La Chine des grandes inventions",
+      "resume": "Explore la Chine ancienne et découvre comment ses inventeurs ont transformé le monde avec le papier, la boussole et bien d'autres découvertes.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-chine.json",
+      "sha256": "07e4f4556cdc3a9a9a0679a7bfcdd394ded9b049d2812a71cf8e294868a78492",
+      "octets": 5826
+    },
+    {
       "id": "civilisations-egypte",
       "livre": "Civilisations",
       "titre": "Les secrets de l'Égypte ancienne",

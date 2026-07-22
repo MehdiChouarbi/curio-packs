@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-chine",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "La Chine des grandes inventions",
+  "resume": "Explore la Chine ancienne et découvre comment ses inventeurs ont transformé le monde avec le papier, la boussole et bien d'autres découvertes.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 7,
+  "questionsOuvertes": [
+    {
+      "id": "inventions-voyagent",
+      "texte": "Comment les inventions d'un peuple arrivent-elles jusqu'à d'autres civilisations ?",
+      "resolueParLivre": "route-soie"
+    }
+  ],
+  "questionsResolues": [
+    "inventions-voyagent"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🐉",
+      "titre": "Explorateur d'Asie"
+    },
+    "decouvertes": [
+      "La Chine ancienne a créé des inventions majeures",
+      "Le papier a changé la transmission des connaissances",
+      "La Route de la Soie reliait plusieurs régions du monde",
+      "Les civilisations échangeaient leurs idées depuis des siècles"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-inventions",
+      "type": "question",
+      "visuel": "📜",
+      "titre": "Quelle invention a permis de mieux partager les connaissances ?",
+      "olli": "Imagine devoir recopier chaque livre à la main sur des morceaux de pierre ou de bois. Une invention va changer cela.",
+      "choix": [
+        {
+          "emoji": "📜",
+          "texte": "Le papier",
+          "bonne": true
+        },
+        {
+          "emoji": "📱",
+          "texte": "Le smartphone"
+        },
+        {
+          "emoji": "🚗",
+          "texte": "La voiture"
+        }
+      ],
+      "reponseBonne": "Bravo ! Le papier a rendu l'écriture plus facile et a permis aux connaissances de voyager plus rapidement.",
+      "reponseAutre": "La réponse était le papier. Cette invention a changé l'histoire de la transmission des idées."
+    },
+    {
+      "id": "observation-chine",
+      "type": "observation",
+      "visuel": "🏯",
+      "titre": "Les inventions d'un grand empire",
+      "olli": "Pendant des milliers d'années, la Chine ancienne a développé des techniques qui ont voyagé très loin.",
+      "hotspots": [
+        {
+          "emoji": "📜",
+          "nom": "Le papier",
+          "fait": "La fabrication du papier s'est développée en Chine ancienne et a ensuite été diffusée vers d'autres régions du monde."
+        },
+        {
+          "emoji": "🧭",
+          "nom": "La boussole",
+          "fait": "Les connaissances chinoises sur le magnétisme ont contribué au développement de la boussole utilisée ensuite par les navigateurs."
+        },
+        {
+          "emoji": "🖨️",
+          "nom": "L'impression",
+          "fait": "Les techniques d'impression chinoises ont permis de reproduire des textes en plusieurs exemplaires."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-route-soie",
+      "type": "anecdote",
+      "visuel": "🐫",
+      "titre": "Des marchandises qui traversent les continents",
+      "texte": "La Route de la Soie était un ensemble de routes commerciales reliant l'Asie à l'Europe et au Moyen-Orient. Des marchands transportaient de la soie, des épices, des objets précieux mais aussi des idées et des connaissances.",
+      "olli": "Les marchandises voyagent… mais les histoires et les inventions aussi !",
+      "sourceRef": "src-route-soie"
+    },
+    {
+      "id": "question-echanges",
+      "type": "question",
+      "visuel": "🌏",
+      "titre": "Que transportaient les anciennes routes commerciales ?",
+      "olli": "Les voyageurs ne transportaient pas seulement des objets dans leurs sacs.",
+      "choix": [
+        {
+          "emoji": "💡",
+          "texte": "Des idées et des connaissances",
+          "bonne": true
+        },
+        {
+          "emoji": "🌪️",
+          "texte": "Uniquement du sable"
+        },
+        {
+          "emoji": "🎮",
+          "texte": "Des jeux vidéo"
+        }
+      ],
+      "reponseBonne": "Exactement ! Les échanges permettent aux inventions et aux cultures de se rencontrer.",
+      "reponseAutre": "La bonne réponse est : des idées et des connaissances voyageaient aussi avec les marchandises."
+    },
+    {
+      "id": "mission-invention",
+      "type": "mission",
+      "visuel": "💡",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Imagine une invention utile",
+      "texte": "Imagine un objet qui améliorerait la vie quotidienne. Dessine-le et explique à quoi il sert. Comme les anciens inventeurs, commence par un besoin.",
+      "olli": "Les grandes inventions commencent souvent par une simple question : 'Comment faire mieux ?'"
+    },
+    {
+      "id": "teaser-inde",
+      "type": "teaser",
+      "visuel": "🪷",
+      "titre": "Plus au sud, une autre civilisation invente une idée incroyable...",
+      "texte": "Des savants indiens vont créer des outils mathématiques qui changeront la manière de compter dans le monde entier.",
+      "olli": "Le Livre de l'Inde ancienne commence à apparaître… Prépare tes chiffres ! 🔢",
+      "questionOuverteRef": "inventions-voyagent"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-route-soie",
+      "fait": "La Route de la Soie désigne un ensemble de routes commerciales reliant l'Asie à l'Europe et favorisant les échanges de marchandises et de cultures.",
+      "reference": "https://www.britannica.com/topic/Silk-Road-trade-route",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-papier",
+      "fait": "La fabrication du papier s'est développée en Chine ancienne avant de se diffuser dans d'autres régions.",
+      "reference": "https://www.britannica.com/technology/paper",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}
