@@ -43,6 +43,16 @@
       "octets": 6427
     },
     {
+      "id": "civilisations-grands-explorateurs",
+      "livre": "Civilisations",
+      "titre": "Les voyageurs du bout du monde",
+      "resume": "Découvre les grands voyageurs qui ont parcouru la planète et comment leurs voyages ont rapproché les peuples.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-grands-explorateurs.json",
+      "sha256": "bf92cf4be4ee6585397fae1af40cdc870f0da4afc9e26281731ac7cb4804fb75",
+      "octets": 5729
+    },
+    {
       "id": "civilisations-grece",
       "livre": "Civilisations",
       "titre": "La Grèce, le laboratoire des idées",

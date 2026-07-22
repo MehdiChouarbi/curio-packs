@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-grands-explorateurs",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "Les voyageurs du bout du monde",
+  "resume": "Découvre les grands voyageurs qui ont parcouru la planète et comment leurs voyages ont rapproché les peuples.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 7,
+  "questionsOuvertes": [
+    {
+      "id": "mille-cultures",
+      "texte": "Comment des peuples différents peuvent-ils construire une histoire commune ?",
+      "resolueParLivre": "mille-cultures"
+    }
+  ],
+  "questionsResolues": [
+    "melanges-cultures"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🧭",
+      "titre": "Grand Voyageur"
+    },
+    "decouvertes": [
+      "Les humains explorent depuis des milliers d'années",
+      "Les voyages permettent de rencontrer d'autres cultures",
+      "Les cartes du monde se sont construites progressivement",
+      "Explorer demande de la curiosité et du courage"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-exploration",
+      "type": "question",
+      "visuel": "🧭",
+      "titre": "Pourquoi les humains explorent-ils ?",
+      "olli": "Depuis toujours, certains humains prennent la route vers des endroits inconnus. Mais pourquoi partir ?",
+      "choix": [
+        {
+          "emoji": "🌍",
+          "texte": "Découvrir et apprendre",
+          "bonne": true
+        },
+        {
+          "emoji": "😴",
+          "texte": "Rester toujours au même endroit"
+        },
+        {
+          "emoji": "🎲",
+          "texte": "Jouer uniquement"
+        }
+      ],
+      "reponseBonne": "Exactement ! Explorer permet de découvrir des lieux, des peuples et de nouvelles connaissances.",
+      "reponseAutre": "La bonne réponse est : découvrir et apprendre."
+    },
+    {
+      "id": "observation-voyageurs",
+      "type": "observation",
+      "visuel": "⛵",
+      "titre": "Des voyageurs très différents",
+      "olli": "Chaque explorateur avait ses propres objectifs : commercer, comprendre, cartographier ou raconter.",
+      "hotspots": [
+        {
+          "emoji": "🚢",
+          "nom": "Zheng He",
+          "fait": "L'amiral chinois Zheng He a dirigé de grandes expéditions maritimes au XVe siècle dans l'océan Indien."
+        },
+        {
+          "emoji": "🐪",
+          "nom": "Ibn Battûta",
+          "fait": "Le voyageur marocain Ibn Battûta a parcouru une immense partie du monde connu au XIVe siècle et a raconté ses voyages."
+        },
+        {
+          "emoji": "🛶",
+          "nom": "Les Vikings",
+          "fait": "Les Vikings ont exploré l'Atlantique Nord et atteint notamment l'Amérique du Nord plusieurs siècles avant les voyages européens de la Renaissance."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-magellan",
+      "type": "anecdote",
+      "visuel": "🌎",
+      "etiquette": "Histoire vraie",
+      "titre": "Le premier tour du monde",
+      "texte": "L'expédition commencée par Fernand de Magellan au XVIe siècle a permis de réaliser le premier tour du monde achevé par une expédition. Magellan lui-même n'a pas terminé le voyage, mais son équipage a poursuivi la route et confirmé l'immensité du monde.",
+      "olli": "Une expédition peut parfois révéler une planète beaucoup plus grande que ce que l'on imaginait.",
+      "sourceRef": "src-magellan"
+    },
+    {
+      "id": "question-cartes",
+      "type": "question",
+      "visuel": "🗺️",
+      "titre": "Comment les cartes du monde ont-elles évolué ?",
+      "olli": "Chaque voyage apporte de nouvelles informations aux personnes qui dessinent les cartes.",
+      "choix": [
+        {
+          "emoji": "✏️",
+          "texte": "Grâce aux observations des voyageurs",
+          "bonne": true
+        },
+        {
+          "emoji": "🔮",
+          "texte": "Uniquement grâce à la magie"
+        },
+        {
+          "emoji": "🎨",
+          "texte": "En inventant au hasard"
+        }
+      ],
+      "reponseBonne": "Bravo ! Les cartes se sont améliorées grâce aux récits et observations des voyageurs.",
+      "reponseAutre": "La bonne réponse est : grâce aux observations des voyageurs."
+    },
+    {
+      "id": "mission-curiosite",
+      "type": "mission",
+      "visuel": "📖",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Ton carnet d'explorateur",
+      "texte": "Choisis un endroit du monde que tu aimerais visiter. Cherche une chose étonnante sur sa culture, son histoire ou ses habitants.",
+      "olli": "Un explorateur commence toujours par une question."
+    },
+    {
+      "id": "teaser-final-civilisations",
+      "type": "teaser",
+      "visuel": "🌍",
+      "titre": "Toutes les civilisations racontent une seule grande histoire...",
+      "texte": "Des pyramides aux gratte-ciels, des premiers villages aux grandes villes, les humains ont toujours cherché à comprendre et construire.",
+      "olli": "Le dernier chapitre du Livre des Civilisations révèle le grand voyage de l'humanité.",
+      "questionOuverteRef": "mille-cultures"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-magellan",
+      "fait": "L'expédition initiée par Magellan a réalisé le premier tour du monde achevé par un équipage après sa mort.",
+      "reference": "https://www.britannica.com/biography/Ferdinand-Magellan",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-ibn-battuta",
+      "fait": "Ibn Battûta est un voyageur marocain du XIVe siècle connu pour ses nombreux voyages et récits.",
+      "reference": "https://www.britannica.com/biography/Ibn-Battuta",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}
