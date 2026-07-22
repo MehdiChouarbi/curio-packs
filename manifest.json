@@ -113,6 +113,16 @@
       "octets": 6044
     },
     {
+      "id": "civilisations-route-soie",
+      "livre": "Civilisations",
+      "titre": "La grande route des idées",
+      "resume": "Suis les chemins de la Route de la Soie et découvre comment marchandises, inventions et histoires ont voyagé entre les civilisations.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-route-soie.json",
+      "sha256": "6e8bdacce252ab8e1d51c04055885d5828d6ede634f4dddccf2babe9742eee14",
+      "octets": 5591
+    },
+    {
       "id": "etoiles-mars",
       "livre": "etoiles",
       "titre": "Les secrets de la planète rouge",

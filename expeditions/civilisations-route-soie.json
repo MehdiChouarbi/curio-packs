@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-route-soie",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "La grande route des idées",
+  "resume": "Suis les chemins de la Route de la Soie et découvre comment marchandises, inventions et histoires ont voyagé entre les civilisations.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 7,
+  "questionsOuvertes": [
+    {
+      "id": "melanges-cultures",
+      "texte": "Comment les rencontres entre peuples transforment-elles les cultures ?",
+      "resolueParLivre": "mille-cultures"
+    }
+  ],
+  "questionsResolues": [
+    "civilisations-connectees",
+    "inventions-voyagent"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🐫",
+      "titre": "Voyageur des Routes"
+    },
+    "decouvertes": [
+      "La Route de la Soie reliait plusieurs continents",
+      "Les marchands transportaient aussi des idées",
+      "Les inventions voyageaient avec les voyageurs",
+      "Les cultures se transformaient au contact des autres"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-route",
+      "type": "question",
+      "visuel": "🐫",
+      "titre": "Que transportaient les anciennes routes ?",
+      "olli": "Un marchand pouvait parcourir des milliers de kilomètres. Mais que trouvait-on vraiment dans ses bagages ?",
+      "choix": [
+        {
+          "emoji": "🧵",
+          "texte": "Des marchandises ET des idées",
+          "bonne": true
+        },
+        {
+          "emoji": "🪨",
+          "texte": "Uniquement des pierres"
+        },
+        {
+          "emoji": "🌧️",
+          "texte": "Des nuages"
+        }
+      ],
+      "reponseBonne": "Exactement ! Les routes commerciales transportaient des objets mais aussi des langues, des techniques et des histoires.",
+      "reponseAutre": "La bonne réponse est : des marchandises et des idées voyageaient ensemble."
+    },
+    {
+      "id": "observation-route",
+      "type": "observation",
+      "visuel": "🗺️",
+      "titre": "Une autoroute avant les autoroutes",
+      "olli": "La Route de la Soie n'était pas une seule route, mais un immense réseau de chemins.",
+      "hotspots": [
+        {
+          "emoji": "🐫",
+          "nom": "Les caravanes",
+          "fait": "Les marchands traversaient parfois des déserts et des montagnes avec des caravanes d'animaux chargés de marchandises."
+        },
+        {
+          "emoji": "🧵",
+          "nom": "La soie",
+          "fait": "La soie produite en Chine était l'une des marchandises précieuses échangées sur ces routes."
+        },
+        {
+          "emoji": "💡",
+          "nom": "Les idées",
+          "fait": "Les voyageurs échangeaient aussi des connaissances sur les sciences, les techniques et les cultures."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-papier",
+      "type": "anecdote",
+      "visuel": "📜",
+      "etiquette": "Histoire vraie",
+      "titre": "Une invention qui voyage",
+      "texte": "La fabrication du papier s'est développée en Chine puis s'est diffusée progressivement vers d'autres régions d'Asie, du monde arabe et enfin d'Europe. Cette transmission a changé la manière de conserver et partager les connaissances.",
+      "olli": "Une invention née dans un endroit peut transformer la vie de personnes très éloignées.",
+      "sourceRef": "src-papier-voyage"
+    },
+    {
+      "id": "question-idees",
+      "type": "question",
+      "visuel": "💡",
+      "titre": "Qu'est-ce qui voyage le plus loin ?",
+      "olli": "Les objets peuvent disparaître, mais certaines choses continuent leur voyage pendant des siècles.",
+      "choix": [
+        {
+          "emoji": "💡",
+          "texte": "Les idées",
+          "bonne": true
+        },
+        {
+          "emoji": "📦",
+          "texte": "Seulement les coffres"
+        },
+        {
+          "emoji": "🪵",
+          "texte": "Uniquement le bois"
+        }
+      ],
+      "reponseBonne": "Bravo ! Les idées peuvent traverser les frontières et changer le monde.",
+      "reponseAutre": "La bonne réponse est : les idées. Elles peuvent voyager plus loin que les objets."
+    },
+    {
+      "id": "mission-voyage",
+      "type": "mission",
+      "visuel": "🎒",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Cherche un objet voyageur",
+      "texte": "Choisis un objet chez toi et essaie de découvrir d'où viennent ses matériaux, ses inventions ou son histoire.",
+      "olli": "Beaucoup d'objets du quotidien sont de petits morceaux d'histoire mondiale."
+    },
+    {
+      "id": "teaser-explorateurs",
+      "type": "teaser",
+      "visuel": "🧭",
+      "titre": "Certains voyageurs vont bientôt changer la carte du monde...",
+      "texte": "Des explorateurs vont partir vers l'inconnu et rencontrer de nouveaux peuples.",
+      "olli": "Le prochain chapitre ouvre le carnet des grands voyages !",
+      "questionOuverteRef": "melanges-cultures"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-route-soie",
+      "fait": "La Route de la Soie désigne un réseau de routes commerciales reliant l'Asie, le Moyen-Orient et l'Europe.",
+      "reference": "https://www.britannica.com/topic/Silk-Road-trade-route",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-papier-voyage",
+      "fait": "La fabrication du papier s'est diffusée depuis la Chine vers d'autres régions grâce aux échanges entre civilisations.",
+      "reference": "https://www.britannica.com/technology/paper",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}
