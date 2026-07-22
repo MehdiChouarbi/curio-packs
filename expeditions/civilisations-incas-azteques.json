@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-incas-azteques",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "Les empires des Amériques",
+  "resume": "Pars à la découverte des Incas et des Aztèques, deux grandes civilisations américaines qui ont construit des villes, des routes et des systèmes incroyables.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 7,
+  "questionsOuvertes": [
+    {
+      "id": "adapter-environnement",
+      "texte": "Comment les civilisations s'adaptent-elles à leur environnement ?",
+      "resolueParLivre": "mille-cultures"
+    }
+  ],
+  "questionsResolues": [
+    "observer-etoiles"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🗿",
+      "titre": "Explorateur des Andes"
+    },
+    "decouvertes": [
+      "Les Incas ont construit un immense réseau de routes dans les Andes",
+      "Machu Picchu est une cité célèbre construite en altitude",
+      "Les Aztèques ont créé une grande capitale autour d'un lac",
+      "Les peuples adaptent leurs inventions à leur environnement"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-andes",
+      "type": "question",
+      "visuel": "⛰️",
+      "titre": "Construire une ville dans les montagnes, impossible ?",
+      "olli": "Imagine devoir construire une cité tout en haut de montagnes immenses. Comment faire ?",
+      "choix": [
+        {
+          "emoji": "🏗️",
+          "texte": "Avec de l'organisation et des techniques adaptées",
+          "bonne": true
+        },
+        {
+          "emoji": "🚁",
+          "texte": "Avec des hélicoptères"
+        },
+        {
+          "emoji": "❄️",
+          "texte": "En attendant que les montagnes disparaissent"
+        }
+      ],
+      "reponseBonne": "Exactement ! Les Incas ont développé des techniques adaptées aux montagnes : routes, agriculture en terrasses et constructions solides.",
+      "reponseAutre": "La réponse était : avec de l'organisation et des techniques adaptées."
+    },
+    {
+      "id": "observation-ameriques",
+      "type": "observation",
+      "visuel": "🏔️",
+      "titre": "Des civilisations adaptées à leur monde",
+      "olli": "Chaque environnement apporte des défis. Les Incas et les Aztèques ont trouvé leurs propres solutions.",
+      "hotspots": [
+        {
+          "emoji": "⛰️",
+          "nom": "Les terrasses incas",
+          "fait": "Les Incas aménageaient les pentes des montagnes en terrasses agricoles pour cultiver malgré le relief difficile."
+        },
+        {
+          "emoji": "🛣️",
+          "nom": "Les routes incas",
+          "fait": "L'Empire inca possédait un vaste réseau de chemins reliant différentes régions des Andes."
+        },
+        {
+          "emoji": "🏙️",
+          "nom": "Tenochtitlan",
+          "fait": "La capitale aztèque était construite sur une île du lac Texcoco et était une grande ville de Mésoamérique."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-machu-picchu",
+      "type": "anecdote",
+      "visuel": "🗿",
+      "etiquette": "Histoire vraie",
+      "titre": "La cité cachée des montagnes",
+      "texte": "Machu Picchu est une ancienne cité inca située dans les Andes du Pérou. Construite au XVe siècle, elle est devenue célèbre dans le monde entier après sa présentation internationale au début du XXe siècle.",
+      "olli": "Une ville entière construite dans les montagnes… Les humains peuvent être incroyablement ingénieux !",
+      "sourceRef": "src-machu-picchu"
+    },
+    {
+      "id": "question-adaptation",
+      "type": "question",
+      "visuel": "🌎",
+      "titre": "Pourquoi les civilisations sont-elles différentes ?",
+      "olli": "Les humains ne vivent pas tous dans les mêmes paysages. Alors ils inventent des solutions différentes.",
+      "choix": [
+        {
+          "emoji": "🌎",
+          "texte": "Parce qu'ils s'adaptent à leur environnement",
+          "bonne": true
+        },
+        {
+          "emoji": "🎲",
+          "texte": "Parce que tout est choisi au hasard"
+        },
+        {
+          "emoji": "🪄",
+          "texte": "Grâce à la magie"
+        }
+      ],
+      "reponseBonne": "Bravo ! Les climats, les paysages et les ressources influencent les façons de construire et de vivre.",
+      "reponseAutre": "La bonne réponse est : les civilisations s'adaptent à leur environnement."
+    },
+    {
+      "id": "mission-environnement",
+      "type": "mission",
+      "visuel": "🏡",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Observe ton environnement",
+      "texte": "Regarde autour de toi : quelles solutions les humains utilisent-ils pour s'adapter à leur lieu de vie ? Pense aux maisons, aux routes, aux transports ou à l'agriculture.",
+      "olli": "Une invention raconte souvent un défi que les humains ont voulu résoudre."
+    },
+    {
+      "id": "teaser-mondes",
+      "type": "teaser",
+      "visuel": "🌍",
+      "titre": "Chaque peuple a créé son propre chapitre...",
+      "texte": "Des milliers de cultures ont développé leurs langues, leurs inventions et leurs histoires. Comment toutes ces cultures forment-elles une seule histoire humaine ?",
+      "olli": "Le Livre des Mille Cultures va bientôt révéler la grande fresque de l'humanité ! 🌎",
+      "questionOuverteRef": "adapter-environnement"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-machu-picchu",
+      "fait": "Machu Picchu est une cité inca construite au XVe siècle dans les Andes péruviennes.",
+      "reference": "https://whc.unesco.org/en/list/274/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-inca-routes",
+      "fait": "L'Empire inca possédait un vaste réseau routier reliant les différentes régions de son territoire.",
+      "reference": "https://www.britannica.com/topic/Inca",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}

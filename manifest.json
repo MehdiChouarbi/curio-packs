@@ -53,6 +53,16 @@
       "octets": 6128
     },
     {
+      "id": "civilisations-incas-azteques",
+      "livre": "Civilisations",
+      "titre": "Les empires des Amériques",
+      "resume": "Pars à la découverte des Incas et des Aztèques, deux grandes civilisations américaines qui ont construit des villes, des routes et des systèmes incroyables.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-incas-azteques.json",
+      "sha256": "6f5b99987daf49555d72cfd965b8b1a91acfbc3a53081d05c9d29b8c312d2564",
+      "octets": 5966
+    },
+    {
       "id": "civilisations-inde",
       "livre": "Civilisations",
       "titre": "L'Inde et le secret des nombres",
