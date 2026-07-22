@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "petites-betes-geants",
+  "minEngineVersion": 1,
+  "livre": "petites-betes",
+  "titre": "Le temps des insectes géants",
+  "resume": "Il y a 300 millions d'années, des libellules aussi larges qu'un bras chassaient dans le ciel. Aucun oiseau ne volait encore. Pourquoi ont-elles disparu ?",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "plantes-lumiere",
+      "texte": "D'où venait tout cet oxygène dans l'air d'autrefois ?",
+      "resolueParLivre": "volcans"
+    }
+  ],
+  "questionsResolues": [
+    "insectes-geants"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🦋",
+      "titre": "Exploratrice des Géants"
+    },
+    "decouvertes": [
+      "Meganeura avait 70 cm d'envergure, comme un bras",
+      "Elle volait dans un ciel sans aucun oiseau",
+      "L'air d'alors contenait bien plus d'oxygène",
+      "Les insectes respirent par des petits tuyaux",
+      "Le fossile a été trouvé en France, en 1880"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "quelle-taille",
+      "type": "question",
+      "visuel": "🦗",
+      "titre": "La plus grande libellule de tous les temps faisait quelle taille ?",
+      "olli": "Mary Anning trouvait des monstres marins dans la roche. Mais les fossiles cachent aussi des géants qui volaient. Le plus impressionnant ressemblait à une libellule. Ouvre les bras… et devine.",
+      "choix": [
+        {
+          "emoji": "🖐️",
+          "texte": "Comme ta main ouverte"
+        },
+        {
+          "emoji": "📄",
+          "texte": "Comme une feuille de cahier"
+        },
+        {
+          "emoji": "💪",
+          "texte": "70 centimètres : presque ton bras entier",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Soixante-dix centimètres d'envergure ! Elle s'appelait Meganeura. Imagine un insecte de la taille d'un gros oiseau qui fonce vers toi entre les fougères géantes. C'est le plus grand insecte volant qui ait jamais existé sur Terre.",
+      "reponseAutre": "Soixante-dix centimètres, presque un bras entier ! Elle s'appelait Meganeura. Imagine un insecte de la taille d'un gros oiseau filant entre les fougères géantes. C'est le plus grand insecte volant qui ait jamais existé."
+    },
+    {
+      "id": "son-monde",
+      "type": "observation",
+      "visuel": "🌿",
+      "visuelAnimation": "flotte",
+      "titre": "Entrons dans son monde, il y a 300 millions d'années.",
+      "olli": "Touche chaque partie pour découvrir la forêt où elle chassait. Attention, ce monde ne ressemble à rien de ce que tu connais.",
+      "hotspots": [
+        {
+          "emoji": "🕊️",
+          "nom": "Un ciel totalement vide",
+          "fait": "Pas un oiseau, pas une chauve-souris, pas un ptérodactyle. Aucun animal à squelette ne savait encore voler. Meganeura régnait sur un ciel qui n'appartenait qu'aux insectes."
+        },
+        {
+          "emoji": "🫁",
+          "nom": "Respirer sans poumons",
+          "fait": "Un insecte n'a pas de poumons : l'air entre par de petits trous sur son corps et circule dans un réseau de tuyaux minuscules. Ça marche très bien en petit… beaucoup moins bien quand on grandit."
+        },
+        {
+          "emoji": "🪶",
+          "nom": "Grande mais légère",
+          "fait": "Malgré son envergure, elle ne pesait qu'environ 100 à 150 grammes : presque tout était dans les ailes, très fines. Certains gros scarabées d'aujourd'hui sont plus lourds qu'elle !"
+        }
+      ]
+    },
+    {
+      "id": "pourquoi-si-grande",
+      "type": "question",
+      "visuel": "💨",
+      "titre": "Pourquoi pouvait-elle devenir aussi grande, et plus aujourd'hui ?",
+      "olli": "Voilà l'énigme que se posent les scientifiques. Qu'est-ce qui a changé entre son époque et la nôtre ?",
+      "choix": [
+        {
+          "emoji": "🍽️",
+          "texte": "Elle mangeait beaucoup plus qu'aujourd'hui"
+        },
+        {
+          "emoji": "💨",
+          "texte": "L'air lui-même n'était pas le même",
+          "bonne": true
+        },
+        {
+          "emoji": "🌡️",
+          "texte": "Il faisait beaucoup plus froid"
+        }
+      ],
+      "reponseBonne": "L'air était différent ! Il contenait bien plus d'oxygène qu'aujourd'hui : environ un tiers, contre un cinquième maintenant. Avec des tuyaux respiratoires, plus l'air est riche, plus on peut être gros. Mais attention : les scientifiques débattent encore. L'absence d'oiseaux a sûrement compté aussi.",
+      "reponseAutre": "L'air lui-même ! Il contenait bien plus d'oxygène qu'aujourd'hui : environ un tiers, contre un cinquième maintenant. Plus l'air est riche, plus un insecte peut grossir. Mais les scientifiques débattent encore : l'absence totale d'oiseaux a sûrement compté aussi."
+    },
+    {
+      "id": "commentry",
+      "type": "anecdote",
+      "visuel": "⛏️",
+      "etiquette": "Histoire vraie",
+      "titre": "L'aile trouvée dans une mine de charbon",
+      "texte": "En 1880, dans une mine de charbon de Commentry, en France, des ouvriers cassent la roche comme chaque jour. Dans une plaque de pierre noire apparaît un dessin étrange : l'empreinte d'une aile immense, parcourue d'un fin réseau de nervures. Cinq ans plus tard, un savant français, Charles Brongniart, l'examine et lui donne un nom : Meganeura, « les grandes nervures ». Ce fossile est aujourd'hui conservé à Paris. Une aile de 300 millions d'années, restée intacte dans du charbon — c'est-à-dire dans les restes de la forêt même où l'animal volait. 🌿",
+      "olli": "Le charbon qu'on brûlait dans les cheminées, c'est cette forêt disparue. Et dedans dormait la plus grande libellule du monde.",
+      "sourceRef": "src-commentry"
+    },
+    {
+      "id": "mission-envergure",
+      "type": "mission",
+      "visuel": "📏",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Mesure un géant avec tes bras",
+      "texte": "Prends une règle, un mètre de couture, ou même une feuille A4 (elle fait 30 cm de long). Mesure 70 centimètres sur une table ou par terre, et regarde bien cette distance : c'est l'envergure de Meganeura. Maintenant, écarte les bras et compare. Enfin, cherche une vraie petite bête dehors — une mouche, une coccinelle, une fourmi — et mesure-la du regard. Combien de fois tiendrait-elle dans une aile de Meganeura ?",
+      "olli": "Montre les 70 centimètres à quelqu'un de ta famille sans rien dire, puis demande : « tu crois qu'un insecte a déjà été grand comme ça ? » 😄"
+    },
+    {
+      "id": "teaser-oxygene",
+      "type": "teaser",
+      "visuel": "🫧",
+      "titre": "Un air bien plus riche en oxygène… mais qui l'avait fabriqué ?",
+      "texte": "Voilà ce qui me trotte dans la tête. Ces insectes géants respiraient un air gorgé d'oxygène. Mais l'oxygène ne tombe pas du ciel : au tout début, la Terre n'en avait presque pas, et l'air y était irrespirable. Quelqu'un, ou quelque chose, a rempli l'atmosphère de ce gaz avant l'arrivée des animaux. Qui a fait ça ?",
+      "olli": "La réponse t'attend dans le Livre des Volcans — et elle est bien plus surprenante qu'on ne croit… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "plantes-lumiere"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-taille",
+      "fait": "Meganeura monyi : envergure d'environ 65 à 70 cm, Carbonifère supérieur (~305-299 millions d'années). Plus grand insecte volant connu avec son proche parent Meganeuropsis (~71 cm).",
+      "reference": "https://www.geologypage.com/2020/03/meganeura-the-largest-insect-ever-existed-was-a-giant-dragonfly.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-oxygene",
+      "fait": "L'oxygène atmosphérique atteignait environ 30-35 % au Carbonifère supérieur, contre 21 % aujourd'hui. Les insectes respirent par trachées, ce qui limite leur taille selon la richesse de l'air.",
+      "reference": "https://www.discovermagazine.com/insects-of-the-oxygeniferous-11783",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-debat",
+      "fait": "NUANCE : l'explication par l'oxygène seul est discutée. Des Meganeuridae géants vivaient au Permien, moins riche en oxygène. L'absence de vertébrés volants est aussi invoquée.",
+      "reference": "https://ecosystemsinthesky.com/blog/six-wings-and-giants-the-earliest-fliers-and-largest-insects-that-ever-lived",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-poids",
+      "fait": "Une étude d'ingénierie estime la masse des plus grands spécimens (envergure > 70 cm) entre 100 et 150 grammes ; certains coléoptères actuels sont plus lourds.",
+      "reference": "https://www.gbif.org/species/144094433",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-commentry",
+      "fait": "Fossile découvert dans les couches houillères de Commentry (France) en 1880 ; décrit et nommé Meganeura (« grandes nervures ») par Charles Brongniart en 1885. Holotype au Muséum de Paris.",
+      "reference": "https://www.geologypage.com/2020/03/meganeura-the-largest-insect-ever-existed-was-a-giant-dragonfly.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-ciel-vide",
+      "fait": "Aucun vertébré volant n'existait alors : oiseaux, chauves-souris et ptérosaures apparaissent bien plus tard. Meganeura est un « griffinfly » (Meganisoptera), parent des libellules actuelles.",
+      "reference": "https://ecosystemsinthesky.com/blog/six-wings-and-giants-the-earliest-fliers-and-largest-insects-that-ever-lived",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}

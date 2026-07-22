@@ -243,6 +243,16 @@
       "octets": 9677
     },
     {
+      "id": "petites-betes-geants",
+      "livre": "petites-betes",
+      "titre": "Le temps des insectes géants",
+      "resume": "Il y a 300 millions d'années, des libellules aussi larges qu'un bras chassaient dans le ciel. Aucun oiseau ne volait encore. Pourquoi ont-elles disparu ?",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/petites-betes-geants.json",
+      "sha256": "f7a26dba27d15712487ba7d2491686f88a19a1dd3990f771b8595857a9688b65",
+      "octets": 9869
+    },
+    {
       "id": "temps-anning",
       "livre": "le-temps-profond",
       "titre": "La fille qui déterrait des dragons",
