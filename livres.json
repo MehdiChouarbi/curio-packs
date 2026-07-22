@@ -8,37 +8,37 @@
     },
     {
       "id": "etoiles",
-      "titre": "etoiles",
-      "emoji": "⭐"
+      "titre": "Le Livre des Etoiles",
+      "emoji": "✨"
     },
     {
       "id": "la-terre",
-      "titre": "La Terre",
+      "titre": "Le Livre de la Terre",
       "emoji": "🌍"
     },
     {
       "id": "les-machines",
-      "titre": "les Machines",
+      "titre": "Le Livre des Machines",
       "emoji": "⚙️"
     },
     {
       "id": "Les Mots",
-      "titre": "Mots",
+      "titre": "Le Livre des Mots",
       "emoji": "📖"
     },
     {
       "id": "les-nombres",
-      "titre": "Nombres",
+      "titre": "Le Livre des Nombres",
       "emoji": "🔢"
     },
     {
       "id": "ocean",
-      "titre": "Océan",
+      "titre": "Le Livre de l'Océan",
       "emoji": "🌊"
     },
     {
       "id": "le-temps-profond",
-      "titre": "Temps Profond",
+      "titre": "Le Livre du Temps",
       "emoji": "⏳"
     }
   ]
