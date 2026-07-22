@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-mayas",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "Les Mayas, observateurs du ciel",
+  "resume": "Découvre la civilisation maya et ses incroyables connaissances en astronomie, en mathématiques et en architecture.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 7,
+  "questionsOuvertes": [
+    {
+      "id": "observer-etoiles",
+      "texte": "Comment les humains utilisent-ils le ciel pour comprendre le monde ?",
+      "resolueParLivre": "etoiles"
+    }
+  ],
+  "questionsResolues": [
+    "origine-zero"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🌽",
+      "titre": "Observateur du Ciel"
+    },
+    "decouvertes": [
+      "Les Mayas étudiaient les mouvements du Soleil, de la Lune et des planètes",
+      "Ils avaient un système mathématique utilisant le zéro",
+      "Leurs cités possédaient de grands monuments en pierre",
+      "Le calendrier était lié à leurs observations du ciel"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-mayas",
+      "type": "question",
+      "visuel": "🌌",
+      "titre": "Que regardaient les savants mayas ?",
+      "olli": "Sans télescope moderne, certains peuples observaient pourtant le ciel avec une grande précision.",
+      "choix": [
+        {
+          "emoji": "🌙",
+          "texte": "Les astres",
+          "bonne": true
+        },
+        {
+          "emoji": "📺",
+          "texte": "Des écrans"
+        },
+        {
+          "emoji": "🚗",
+          "texte": "Des moteurs"
+        }
+      ],
+      "reponseBonne": "Bravo ! Les Mayas observaient le Soleil, la Lune et les planètes pour mieux comprendre le temps.",
+      "reponseAutre": "La réponse était : les astres. Le ciel était un immense livre pour les astronomes mayas."
+    },
+    {
+      "id": "observation-maya",
+      "type": "observation",
+      "visuel": "🏛️",
+      "titre": "Explore une cité maya",
+      "olli": "Les villes mayas étaient des lieux de vie, de savoir et de cérémonies.",
+      "hotspots": [
+        {
+          "emoji": "🔭",
+          "nom": "Les astronomes",
+          "fait": "Les Mayas observaient les cycles du Soleil, de la Lune et de certaines planètes comme Vénus."
+        },
+        {
+          "emoji": "0️⃣",
+          "nom": "Le zéro",
+          "fait": "Les mathématiciens mayas utilisaient un symbole représentant le zéro dans leur système de numération."
+        },
+        {
+          "emoji": "🏯",
+          "nom": "Les temples",
+          "fait": "Les grandes constructions mayas étaient souvent liées aux cérémonies et aux observations astronomiques."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-calendrier",
+      "type": "anecdote",
+      "visuel": "📅",
+      "etiquette": "Histoire vraie",
+      "titre": "Un calendrier très précis",
+      "texte": "Les Mayas ont développé plusieurs calendriers complexes pour organiser le temps. Ils combinaient des observations astronomiques avec des cycles de jours utilisés dans leur société.",
+      "olli": "Pour les Mayas, observer le ciel permettait aussi de comprendre le passage du temps.",
+      "sourceRef": "src-calendrier-maya"
+    },
+    {
+      "id": "question-calendrier",
+      "type": "question",
+      "visuel": "☀️",
+      "titre": "Pourquoi observer le ciel ?",
+      "olli": "Regarder les étoiles ne servait pas seulement à rêver. Cela pouvait aider à organiser la vie quotidienne.",
+      "choix": [
+        {
+          "emoji": "🌱",
+          "texte": "Comprendre les saisons et le temps",
+          "bonne": true
+        },
+        {
+          "emoji": "🎮",
+          "texte": "Créer des jeux vidéo"
+        },
+        {
+          "emoji": "🏎️",
+          "texte": "Conduire des voitures"
+        }
+      ],
+      "reponseBonne": "Exactement ! Les observations du ciel aidaient à suivre les saisons et certains moments importants.",
+      "reponseAutre": "La bonne réponse est : comprendre les saisons et le temps."
+    },
+    {
+      "id": "mission-ciel",
+      "type": "mission",
+      "visuel": "⭐",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Observe le ciel",
+      "texte": "Ce soir, regarde le ciel pendant quelques minutes. Repère la Lune ou une étoile brillante. Imagine comment les anciens observateurs auraient interprété ce qu'ils voyaient.",
+      "olli": "Chaque civilisation a essayé de comprendre le grand mystère au-dessus de nos têtes."
+    },
+    {
+      "id": "teaser-incas",
+      "type": "teaser",
+      "visuel": "🗿",
+      "titre": "Plus au sud, un autre empire construit dans les montagnes...",
+      "texte": "Dans les Andes, un peuple va créer des routes incroyables et des cités perchées très haut.",
+      "olli": "Le Livre des Incas et des Aztèques commence à apparaître… Prépare ton sac d'explorateur !",
+      "questionOuverteRef": "observer-etoiles"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-calendrier-maya",
+      "fait": "Les Mayas possédaient plusieurs calendriers basés sur des cycles astronomiques et religieux.",
+      "reference": "https://www.britannica.com/topic/Maya-calendar",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-maya-zero",
+      "fait": "Les Mayas utilisaient un symbole du zéro dans leur système mathématique.",
+      "reference": "https://www.britannica.com/science/zero-number",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}

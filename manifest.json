@@ -63,6 +63,16 @@
       "octets": 5893
     },
     {
+      "id": "civilisations-mayas",
+      "livre": "Civilisations",
+      "titre": "Les Mayas, observateurs du ciel",
+      "resume": "Découvre la civilisation maya et ses incroyables connaissances en astronomie, en mathématiques et en architecture.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-mayas.json",
+      "sha256": "0dfe0403bb9b8e0a2189333e98039c61d5a1d7b3f5067ca346f93817fc81d739",
+      "octets": 5527
+    },
+    {
       "id": "civilisations-mesopotamie",
       "livre": "Civilisations",
       "titre": "La naissance des premières villes",
