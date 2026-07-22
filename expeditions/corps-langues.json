@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "corps-langues",
+  "minEngineVersion": 1,
+  "livre": "le-corps",
+  "titre": "Le super-pouvoir que tu as perdu à un an",
+  "resume": "Avant ton premier anniversaire, tu entendais les sons de toutes les langues du monde. Puis ton cerveau a fait un choix, et tu as perdu ce pouvoir.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "pourquoi-dormir",
+      "texte": "Ton cerveau range-t-il ce qu'il apprend pendant que tu dors ?",
+      "resolueParLivre": "le-corps"
+    }
+  ],
+  "questionsResolues": [
+    "cerveau-langues"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🧠",
+      "titre": "Exploratrice des Langues"
+    },
+    "decouvertes": [
+      "Un bébé distingue les sons de toutes les langues",
+      "Entre 6 et 12 mois, il se spécialise dans la sienne",
+      "Un son qu'on n'entend pas devient dur à prononcer",
+      "Une expérience de 1984 l'a montré avec le hindi",
+      "Le cerveau traite même les sifflements comme des mots"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "qui-entend-mieux",
+      "type": "question",
+      "visuel": "👂",
+      "titre": "Qui entend le mieux les sons de toutes les langues du monde ?",
+      "olli": "Tu te souviens des siffleurs de La Gomera ? Leur cerveau traite les sifflements comme de vraies paroles. Ça pose une question : qui, dans une famille, distingue le mieux les sons des langues étrangères ?",
+      "choix": [
+        {
+          "emoji": "👨",
+          "texte": "Un adulte, il a plus d'expérience"
+        },
+        {
+          "emoji": "🧒",
+          "texte": "Toi, à ton âge"
+        },
+        {
+          "emoji": "👶",
+          "texte": "Un bébé de six mois",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Le bébé ! Avant un an, il distingue les sons de toutes les langues de la planète, même celles qu'il n'a jamais entendues. Les scientifiques l'appellent joliment un « citoyen du monde ». Toi et les adultes autour de toi, vous avez perdu cette capacité — et personne ne s'en est aperçu.",
+      "reponseAutre": "Un bébé de six mois ! Avant un an, il distingue les sons de toutes les langues de la planète, même celles qu'il n'a jamais entendues. Les scientifiques l'appellent un « citoyen du monde ». Toi et les adultes, vous avez perdu cette capacité sans vous en apercevoir."
+    },
+    {
+      "id": "dans-la-tete",
+      "type": "observation",
+      "visuel": "🧠",
+      "visuelAnimation": "flotte",
+      "titre": "Que se passe-t-il là-dedans pendant la première année ?",
+      "olli": "Touche chaque partie pour suivre ce qui se joue dans une toute petite tête.",
+      "hotspots": [
+        {
+          "emoji": "🌍",
+          "nom": "Citoyen du monde",
+          "fait": "À six mois, un bébé français entend la différence entre deux sons du hindi que ses parents confondent totalement. Son cerveau est prêt pour n'importe quelle langue de la Terre, il attend juste de savoir laquelle."
+        },
+        {
+          "emoji": "📊",
+          "nom": "Un compteur secret",
+          "fait": "Sans rien comprendre aux mots, le bébé compte. Il repère quels sons reviennent souvent autour de lui, lesquels jamais. Son cerveau fait des statistiques bien avant de savoir dire « maman »."
+        },
+        {
+          "emoji": "🎯",
+          "nom": "Le grand tri",
+          "fait": "Entre six et douze mois, il se spécialise : il devient meilleur pour les sons de sa langue, et perd peu à peu ceux des autres. Il échange un pouvoir immense contre un pouvoir précis."
+        }
+      ]
+    },
+    {
+      "id": "pourquoi-perdre",
+      "type": "question",
+      "visuel": "🔀",
+      "titre": "Pourquoi le cerveau abandonne-t-il un si beau pouvoir ?",
+      "olli": "C'est étrange, non ? Pouvoir tout entendre, puis y renoncer. Pourquoi un cerveau ferait-il ça ?",
+      "choix": [
+        {
+          "emoji": "😴",
+          "texte": "Il devient paresseux avec le temps"
+        },
+        {
+          "emoji": "🔍",
+          "texte": "Il se spécialise pour aller plus vite",
+          "bonne": true
+        },
+        {
+          "emoji": "💔",
+          "texte": "C'est une panne, un défaut du corps"
+        }
+      ],
+      "reponseBonne": "Il se spécialise ! Reconnaître les sons de sa langue instantanément, sans effort, c'est bien plus utile au quotidien que de reconnaître tous les sons du monde. Le cerveau abandonne ce qui ne sert pas pour être excellent dans ce qui sert. Ce n'est pas une perte : c'est un choix.",
+      "reponseAutre": "Il se spécialise ! Reconnaître les sons de sa langue instantanément est bien plus utile que de reconnaître tous les sons du monde. Le cerveau abandonne ce qui ne sert pas pour devenir excellent dans ce qui sert. Ce n'est pas une panne : c'est un choix."
+    },
+    {
+      "id": "hindi-1984",
+      "type": "anecdote",
+      "visuel": "🔬",
+      "etiquette": "Histoire vraie",
+      "titre": "Les bébés qui entendaient le hindi",
+      "texte": "En 1984, deux chercheuses, Janet Werker et Richard Tees, imaginent un test tout simple. Elles font écouter à des bébés canadiens deux sons du hindi, presque identiques pour une oreille française ou anglaise. Quand le son change, le bébé tourne la tête : il a entendu la différence. À six mois, presque tous réussissent. Les mêmes bébés reviennent à douze mois… et ne tournent plus la tête. Le son a cessé d'exister pour eux. Pendant ce temps, les bébés indiens, eux, continuaient d'entendre parfaitement. 👶",
+      "olli": "Une expérience toute simple, un mouvement de tête, et l'on voit un cerveau se transformer sous nos yeux.",
+      "sourceRef": "src-werker"
+    },
+    {
+      "id": "mission-son",
+      "type": "mission",
+      "visuel": "🗣️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Cherche un son que ta bouche ne sait pas faire",
+      "texte": "Trouve quelqu'un qui parle une autre langue — dans ta famille, un voisin, un ami. Demande-lui de dire un mot contenant un son qui n'existe pas en français : le « th » anglais, le « r » roulé espagnol, un son guttural de l'arabe. Écoute bien, puis essaie de le répéter. Fais-le juger : est-ce exactement pareil ? Bébé, tu entendais cette différence sans effort. Aujourd'hui, il faut t'entraîner.",
+      "olli": "Bonne nouvelle : ce pouvoir n'est pas complètement perdu. Avec de l'écoute et de la pratique, l'oreille réapprend. Elle est juste devenue difficile. 😄"
+    },
+    {
+      "id": "teaser-sommeil",
+      "type": "teaser",
+      "visuel": "🌙",
+      "titre": "Ton cerveau trie sans arrêt. Mais quand range-t-il tout ça ?",
+      "texte": "Depuis ta naissance, ton cerveau apprend, trie, garde, abandonne. Il fait ça tous les jours, encore aujourd'hui, avec chaque mot nouveau et chaque visage croisé. Mais tout ranger demande du calme, et la journée n'en laisse guère. Alors il faut bien un moment où il s'occupe du rangement, à l'abri du bruit et de l'agitation. Ce moment, tu le passes les yeux fermés…",
+      "olli": "La réponse t'attend juste à côté, dans ce même Livre du Corps… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "pourquoi-dormir"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-citoyen",
+      "fait": "Avant 12 mois, les nourrissons discriminent les contrastes phonétiques de toutes les langues du monde ; Patricia Kuhl les qualifie de « citoyens du monde ».",
+      "reference": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00690/full",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-narrowing",
+      "fait": "Entre 6 et 12 mois se produit un « rétrécissement perceptif » : la discrimination des sons de la langue maternelle progresse, celle des sons étrangers décline nettement.",
+      "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3795304/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-werker",
+      "fait": "Werker et Tees (1984) : des nourrissons anglophones discriminent des contrastes hindi et salish à 6 mois, mais nettement moins à 12 mois ; les bébés hindi les gardent.",
+      "reference": "https://www.sciencedirect.com/science/article/pii/S1053811922003664",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-statistiques",
+      "fait": "Les bébés réalisent un apprentissage statistique : ils repèrent inconsciemment la fréquence des sons entendus autour d'eux pour se régler sur leur langue.",
+      "reference": "https://www.banterspeech.com.au/speech-talk-2-patricia-kuhl/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-recuperable",
+      "fait": "NUANCE : cette sensibilité peut être maintenue par une exposition précoce à une langue étrangère, voire partiellement réactivée plus tard. Ce n'est pas une perte définitive.",
+      "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3793506/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}
