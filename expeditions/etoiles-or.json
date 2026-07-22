@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "etoiles-or",
+  "minEngineVersion": 1,
+  "livre": "etoiles",
+  "titre": "Le trésor venu d'une collision d'étoiles",
+  "resume": "Le masque de Toutânkhamon brille comme au premier jour après 3 250 ans. Le secret de l'or ne se cache pas en Égypte, mais très loin dans le ciel.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "poussiere-etoiles",
+      "texte": "Et toi, de quoi es-tu faite ? Ton corps vient-il aussi des étoiles ?",
+      "resolueParLivre": "le-corps"
+    }
+  ],
+  "questionsResolues": [
+    "or-inoxydable"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "👑",
+      "titre": "Gardienne du Trésor"
+    },
+    "decouvertes": [
+      "L'or ne rouille jamais, même après 3 000 ans",
+      "Le masque de Toutânkhamon pèse plus de 10 kilos",
+      "L'or naît quand deux étoiles mortes se percutent",
+      "On a vu une de ces collisions le 17 août 2017",
+      "L'or de la Terre est plus vieux que le Soleil"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "masque-intact",
+      "type": "question",
+      "visuel": "👑",
+      "titre": "Après 3 250 ans dans le noir, pourquoi ce masque brille-t-il encore ?",
+      "olli": "Tu te souviens du fer qui rouille et de l'argenterie qui noircit ? En Égypte, le masque d'or de Toutânkhamon est resté enfermé plus de trois mille ans. Et quand on l'a sorti… pas une tache. À ton avis, pourquoi ?",
+      "choix": [
+        {
+          "emoji": "🧽",
+          "texte": "On l'a beaucoup frotté après l'avoir trouvé"
+        },
+        {
+          "emoji": "🏺",
+          "texte": "Le tombeau était magique et protégeait tout"
+        },
+        {
+          "emoji": "✨",
+          "texte": "L'or ne rouille jamais, c'est dans sa nature",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "L'or ne rouille pas ! Le fer se marie très facilement avec l'air, c'est ça la rouille. L'or, lui, refuse. Il ne s'accroche presque à rien, il reste lui-même. Les savants disent que c'est un métal « noble » : il traverse les siècles sans changer.",
+      "reponseAutre": "En vrai : l'or ne rouille jamais ! Le fer se marie très facilement avec l'air, c'est ça la rouille. L'or, lui, refuse. Il ne s'accroche presque à rien, il reste lui-même. Les savants disent que c'est un métal « noble »."
+    },
+    {
+      "id": "le-masque",
+      "type": "observation",
+      "visuel": "🏺",
+      "visuelAnimation": "flotte",
+      "titre": "Approchons-nous de ce visage d'or.",
+      "olli": "Touche chaque partie du masque pour découvrir ce qu'il cache.",
+      "hotspots": [
+        {
+          "emoji": "⚖️",
+          "nom": "Plus lourd qu'il n'y paraît",
+          "fait": "Le masque mesure 54 centimètres et pèse plus de 10 kilos d'or massif. C'est le poids d'un gros chien, en métal précieux, posé sur un visage."
+        },
+        {
+          "emoji": "🕯️",
+          "nom": "Rouvert en 1925",
+          "fait": "Howard Carter soulève le dernier couvercle le 28 octobre 1925. Personne n'avait vu ce visage depuis plus de trente siècles. Il écrit dans son carnet qu'il le trouve « paisible et beau »."
+        },
+        {
+          "emoji": "🔬",
+          "nom": "Deux ors différents",
+          "fait": "En l'examinant, on a découvert que le visage n'a pas tout à fait la même teinte que le reste : les artisans ont utilisé deux mélanges d'or légèrement différents. Un détail invisible à l'œil nu."
+        }
+      ]
+    },
+    {
+      "id": "ou-nait-lor",
+      "type": "question",
+      "visuel": "💫",
+      "titre": "Cet or existe depuis toujours dans la Terre. Mais il est né où ?",
+      "olli": "Voilà la vraie question. On trouve l'or dans les roches, dans les rivières… mais il a bien fallu le fabriquer quelque part. Fabriquer de l'or, c'est très difficile : il faut une énergie que rien sur Terre ne peut produire. Alors, où ?",
+      "choix": [
+        {
+          "emoji": "🌋",
+          "texte": "Au fond des volcans de la Terre"
+        },
+        {
+          "emoji": "💥",
+          "texte": "Dans la collision de deux étoiles mortes",
+          "bonne": true
+        },
+        {
+          "emoji": "🌊",
+          "texte": "Au fond des océans, très lentement"
+        }
+      ],
+      "reponseBonne": "Dans le ciel ! Quand deux étoiles mortes très lourdes se percutent, le choc est si violent qu'il fabrique les métaux les plus précieux : l'or, le platine. Puis l'explosion les disperse dans l'espace. Tout l'or de la Terre était déjà là avant que le Soleil existe.",
+      "reponseAutre": "Dans la collision de deux étoiles mortes ! Le choc est si violent qu'il fabrique les métaux les plus précieux : l'or, le platine. Puis l'explosion les disperse dans l'espace. Tout l'or de la Terre était là avant même que le Soleil existe."
+    },
+    {
+      "id": "collision-2017",
+      "type": "anecdote",
+      "visuel": "💥",
+      "etiquette": "Histoire vraie",
+      "titre": "Le jour où on a vu naître de l'or",
+      "texte": "Le 17 août 2017, des instruments très sensibles ressentent un frisson : l'espace lui-même vient de trembler. Quelque part, très loin, deux étoiles mortes se sont percutées. En quelques heures, des télescopes du monde entier se tournent vers le même point du ciel — dans une galaxie à 130 millions d'années-lumière — et voient une lueur inconnue s'allumer puis pâlir. C'était une usine à or. Cette seule collision a fabriqué plusieurs fois la masse de la Terre en or et en platine. Pour la première fois, des humains regardaient de l'or en train de naître. ✨",
+      "olli": "Les scientifiques cherchaient cette réponse depuis très longtemps. Ce soir-là, le ciel la leur a donnée en direct.",
+      "sourceRef": "src-collision"
+    },
+    {
+      "id": "mission-or",
+      "type": "mission",
+      "visuel": "💍",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Trouve un morceau d'étoile chez toi",
+      "texte": "Pars à la chasse à l'or dans la maison : une alliance, une petite chaîne, une boucle d'oreille, une dorure sur un cadre. Demande la permission avant de toucher. Regarde-le bien : a-t-il terni ? Maintenant, cherche un objet en fer un peu oublié — une vieille clé, un clou, un outil au garage. Compare les deux. L'un a changé, l'autre non. Et raconte à quelqu'un d'où vient vraiment cet or.",
+      "olli": "Tu tiens dans ta main quelque chose de plus vieux que le Soleil, fabriqué dans un choc entre deux astres. Ça change un peu le regard sur un bijou, non ? 😄"
+    },
+    {
+      "id": "teaser-poussiere",
+      "type": "teaser",
+      "visuel": "🌟",
+      "titre": "Si l'or vient des étoiles… et toi, tu viens d'où ?",
+      "texte": "L'or de ta maison est né dans le ciel. Mais l'or n'est pas le seul. Le fer de ton sang, le calcium de tes os, l'oxygène que tu respires… tous ces morceaux minuscules ont été fabriqués ailleurs, avant la Terre, avant le Soleil. Alors la question devient vertigineuse : de quoi es-tu faite, exactement ? Et d'où viennent tes propres atomes ?",
+      "olli": "Cette réponse-là t'attend dans le Livre du Corps… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "poussiere-etoiles"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-masque",
+      "fait": "Le masque funéraire de Toutânkhamon mesure 54 cm, pèse 10,23 kg, en or 23 carats allié de cuivre. Surface couverte de deux nuances d'or (18,4 et 22,5 carats).",
+      "reference": "https://en.wikipedia.org/wiki/Mask_of_Tutankhamun",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-carter",
+      "fait": "Howard Carter ouvre le cercueil le plus interne le 28 octobre 1925, révélant le masque après environ 3 250 ans. Il le décrit dans son carnet comme « placid and beautiful ».",
+      "reference": "https://en.wikipedia.org/wiki/Mask_of_Tutankhamun",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-noble",
+      "fait": "L'or est un métal noble : très peu réactif, il ne s'oxyde pas à l'air, contrairement au fer (rouille) ou à l'argent (ternissement). D'où sa conservation sur des millénaires.",
+      "reference": "https://en.wikipedia.org/wiki/Noble_metal",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-collision",
+      "fait": "GW170817 : fusion de deux étoiles à neutrons détectée le 17 août 2017 par LIGO/Virgo, dans NGC 4993 à ~130 millions d'années-lumière ; première observation d'une kilonova.",
+      "reference": "https://theconversation.com/cosmic-alchemy-colliding-neutron-stars-show-us-how-the-universe-creates-gold-86104",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-quantite",
+      "fait": "NUANCE : les estimations d'or produit par GW170817 varient selon les modèles, d'environ 3-13 masses terrestres à plus de 100. D'où la formulation prudente « plusieurs fois la masse de la Terre ».",
+      "reference": "https://arxiv.org/pdf/1710.05875",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-r-process",
+      "fait": "NUANCE : les fusions d'étoiles à neutrons sont considérées comme la source dominante des éléments lourds (processus r), sans exclure d'autres sites. Question encore active.",
+      "reference": "https://arxiv.org/pdf/1710.05931",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}
