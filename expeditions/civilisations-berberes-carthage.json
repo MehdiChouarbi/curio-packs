@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-berberes-carthage",
+  "minEngineVersion": 1,
+  "livre": "civilisations",
+  "titre": "Les peuples du Nord de l'Afrique",
+  "resume": "Découvre les peuples amazighs et la cité de Carthage, au cœur des échanges entre l'Afrique, l'Europe et la Méditerranée.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 7,
+  "questionsOuvertes": [
+    {
+      "id": "civilisations-connectees",
+      "texte": "Comment les peuples anciens échangeaient-ils leurs idées et leurs inventions ?",
+      "resolueParLivre": "mondes-connectes"
+    }
+  ],
+  "questionsResolues": [
+    "premieres-villes"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🌊",
+      "titre": "Voyageur de Méditerranée"
+    },
+    "decouvertes": [
+      "Les peuples amazighs vivent en Afrique du Nord depuis l'Antiquité",
+      "Carthage était une grande puissance maritime",
+      "La Méditerranée était un lieu d'échanges entre civilisations",
+      "Rome et Carthage se sont affrontées lors des guerres puniques"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-mediteranee",
+      "type": "question",
+      "visuel": "🌊",
+      "titre": "La Méditerranée était-elle une frontière ?",
+      "olli": "Aujourd'hui on pense parfois aux mers comme à des obstacles. Mais dans l'Antiquité, elles pouvaient devenir de grandes routes.",
+      "choix": [
+        {
+          "emoji": "🚢",
+          "texte": "Une route entre les peuples",
+          "bonne": true
+        },
+        {
+          "emoji": "🚧",
+          "texte": "Un mur impossible à traverser"
+        },
+        {
+          "emoji": "🏜️",
+          "texte": "Un désert sans voyage"
+        }
+      ],
+      "reponseBonne": "Exactement ! Les bateaux permettaient aux peuples méditerranéens de commercer et d'échanger leurs connaissances.",
+      "reponseAutre": "La réponse était : une route entre les peuples. La mer reliait les civilisations."
+    },
+    {
+      "id": "observation-berberes",
+      "type": "observation",
+      "visuel": "⛰️",
+      "titre": "À la rencontre des peuples amazighs",
+      "olli": "Les Amazighs, aussi appelés Berbères, sont des peuples anciens d'Afrique du Nord avec leurs propres langues et traditions.",
+      "hotspots": [
+        {
+          "emoji": "⛰️",
+          "nom": "Les territoires",
+          "fait": "Les peuples amazighs sont présents depuis l'Antiquité dans de nombreuses régions d'Afrique du Nord, des montagnes de l'Atlas aux zones sahariennes."
+        },
+        {
+          "emoji": "🔤",
+          "nom": "Les écritures",
+          "fait": "Le tifinagh est une écriture traditionnellement associée aux langues amazighes. Des formes anciennes de cette écriture sont liées aux inscriptions libyques."
+        },
+        {
+          "emoji": "🐪",
+          "nom": "Les échanges",
+          "fait": "Les populations nord-africaines ont participé aux échanges entre Méditerranée, Sahara et Afrique intérieure."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-carthage",
+      "type": "anecdote",
+      "visuel": "⛵",
+      "titre": "Carthage, la grande cité maritime",
+      "texte": "Fondée par des Phéniciens venus de la cité de Tyr, Carthage devient une grande puissance commerciale en Méditerranée. Installée dans l'actuelle Tunisie, elle échange avec de nombreux peuples d'Afrique du Nord et d'Europe.",
+      "olli": "Une seule ville pouvait posséder des navires capables de parcourir toute une mer !",
+      "sourceRef": "src-carthage"
+    },
+    {
+      "id": "question-rome-carthage",
+      "type": "question",
+      "visuel": "⚔️",
+      "titre": "Pourquoi Rome et Carthage se sont-elles affrontées ?",
+      "olli": "Deux grandes puissances veulent controler les routes commerciales de la Méditerranée.",
+      "choix": [
+        {
+          "emoji": "🌊",
+          "texte": "Pour contrôler des territoires et des échanges",
+          "bonne": true
+        },
+        {
+          "emoji": "🎲",
+          "texte": "Pour organiser un jeu"
+        },
+        {
+          "emoji": "🏠",
+          "texte": "Pour construire une seule maison"
+        }
+      ],
+      "reponseBonne": "Bravo ! Les guerres puniques opposaient deux puissances qui voulaient étendre leur influence.",
+      "reponseAutre": "La réponse était : contrôler des territoires et des échanges."
+    },
+    {
+      "id": "mission-origines",
+      "type": "mission",
+      "visuel": "🗺️",
+      "titre": "Cherche les traces autour de toi",
+      "texte": "Cherche une ville, un monument ou un nom de lieu près de chez toi qui vient de l'époque antique. Découvre quel peuple y est passé.",
+      "olli": "L'histoire n'est pas seulement dans les livres : elle est parfois sous nos pieds."
+    },
+    {
+      "id": "teaser-rome",
+      "type": "teaser",
+      "visuel": "🦅",
+      "titre": "Rome et Carthage vont bientôt se rencontrer...",
+      "texte": "Une nouvelle puissance va construire des routes immenses et un empire reliant de nombreux peuples.",
+      "olli": "Le Livre de Rome attend ton exploration !",
+      "questionOuverteRef": "civilisations-connectees"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-carthage",
+      "fait": "Carthage était une importante cité fondée par des Phéniciens et devenue une puissance commerciale majeure de Méditerranée.",
+      "reference": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-amazigh",
+      "fait": "Les peuples amazighs sont des populations anciennes d'Afrique du Nord possédant des langues et traditions propres.",
+      "reference": "https://www.britannica.com/topic/Berber",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}

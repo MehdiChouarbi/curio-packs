@@ -3,6 +3,16 @@
   "engineVersion": 1,
   "expeditions": [
     {
+      "id": "civilisations-berberes-carthage",
+      "livre": "civilisations",
+      "titre": "Les peuples du Nord de l'Afrique",
+      "resume": "Découvre les peuples amazighs et la cité de Carthage, au cœur des échanges entre l'Afrique, l'Europe et la Méditerranée.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-berberes-carthage.json",
+      "sha256": "0f61b1825ca52367e4d7d55c5b462efcc0ddef8e12326750e9d173ea92b55006",
+      "octets": 5862
+    },
+    {
       "id": "civilisations-egypte",
       "livre": "Civilisations",
       "titre": "Les secrets de l'Égypte ancienne",

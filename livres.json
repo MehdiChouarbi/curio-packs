@@ -2,6 +2,11 @@
   "livresVersion": 1,
   "livres": [
     {
+      "id": "civilisations",
+      "titre": "Le Livre de Civilisations",
+      "emoji": "📘"
+    },
+    {
       "id": "Civilisations",
       "titre": "Le Livre des Civilisations",
       "emoji": "🏛️"
