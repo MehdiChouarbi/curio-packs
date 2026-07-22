@@ -233,6 +233,16 @@
       "octets": 6366
     },
     {
+      "id": "petites-betes-fourmis",
+      "livre": "petites-betes",
+      "titre": "Le plus court chemin, sans carte ni chef",
+      "resume": "Une file de fourmis trouve toujours le trajet le plus court jusqu'à la nourriture. Pourtant, aucune ne connaît le chemin. Comment font-elles ?",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/petites-betes-fourmis.json",
+      "sha256": "3a9c455e2c201b428cbbb2f920ff52a2a9ec7d6730fb12d627a82fe0700ca8b5",
+      "octets": 9677
+    },
+    {
       "id": "temps-anning",
       "livre": "le-temps-profond",
       "titre": "La fille qui déterrait des dragons",

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "petites-betes-fourmis",
+  "minEngineVersion": 1,
+  "livre": "petites-betes",
+  "titre": "Le plus court chemin, sans carte ni chef",
+  "resume": "Une file de fourmis trouve toujours le trajet le plus court jusqu'à la nourriture. Pourtant, aucune ne connaît le chemin. Comment font-elles ?",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "danse-abeille",
+      "texte": "Et les abeilles, comment se disent-elles où trouver les fleurs ?",
+      "resolueParLivre": "petites-betes"
+    }
+  ],
+  "questionsResolues": [
+    "fourmis-chemin"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🐜",
+      "titre": "Suiveuse de Pistes"
+    },
+    "decouvertes": [
+      "Les fourmis laissent une piste d'odeur derrière elles",
+      "Aucune fourmi ne commande, il n'y a pas de chef",
+      "Le chemin court reçoit plus d'odeur, plus vite",
+      "Une expérience avec deux ponts l'a prouvé",
+      "Des ordinateurs copient les fourmis pour calculer"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "sans-carte",
+      "type": "question",
+      "visuel": "🐜",
+      "titre": "Comment une fourmi trouve-t-elle le plus court chemin ?",
+      "olli": "Regarde une file de fourmis : elle file droit vers la nourriture, presque sans détour. Pourtant aucune n'a de carte, aucune ne voit très loin, et personne ne leur dit où aller. À ton avis, quel est leur truc ?",
+      "choix": [
+        {
+          "emoji": "👑",
+          "texte": "La reine leur indique la direction"
+        },
+        {
+          "emoji": "👃",
+          "texte": "Chacune laisse une odeur derrière elle",
+          "bonne": true
+        },
+        {
+          "emoji": "🧠",
+          "texte": "Elles apprennent le plan par cœur"
+        }
+      ],
+      "reponseBonne": "Une odeur ! En marchant, chaque fourmi dépose une trace parfumée sur le sol. Les suivantes la sentent et ont envie de la suivre… en déposant à leur tour leur propre odeur. Plus une piste est empruntée, plus elle sent fort, et plus elle attire. Personne ne décide : ça s'organise tout seul.",
+      "reponseAutre": "Une odeur ! Chaque fourmi dépose en marchant une trace parfumée sur le sol. Les suivantes la sentent, la suivent, et déposent la leur. Plus une piste est empruntée, plus elle sent fort et plus elle attire. Personne ne décide : ça s'organise tout seul."
+    },
+    {
+      "id": "la-piste",
+      "type": "observation",
+      "visuel": "〰️",
+      "visuelAnimation": "flotte",
+      "titre": "Penchons-nous sur cette petite autoroute invisible.",
+      "olli": "Touche chaque partie pour comprendre le mécanisme. Il est simple… et pourtant il résout un problème compliqué.",
+      "hotspots": [
+        {
+          "emoji": "⏱️",
+          "nom": "Le secret, c'est le temps",
+          "fait": "Voilà l'astuce géniale. Sur le chemin le plus court, une fourmi fait l'aller-retour plus vite. Elle repasse donc plus souvent, et dépose son odeur plus tôt. Le court chemin sent plus fort simplement parce qu'il est plus rapide."
+        },
+        {
+          "emoji": "💨",
+          "nom": "Une odeur qui s'efface",
+          "fait": "La trace ne dure pas éternellement : elle s'évapore peu à peu. Les mauvais chemins, peu empruntés, finissent par disparaître tout seuls. La fourmilière oublie ses erreurs sans que personne ait à les corriger."
+        },
+        {
+          "emoji": "🚫",
+          "nom": "Aucun chef, même pas la reine",
+          "fait": "On croit souvent que la reine commande. C'est faux : elle pond des œufs, c'est tout. Aucune fourmi ne donne d'ordre, aucune ne connaît le plan général. L'intelligence naît du groupe, pas d'une cheffe."
+        }
+      ]
+    },
+    {
+      "id": "deux-ponts",
+      "type": "question",
+      "visuel": "🌉",
+      "titre": "Deux ponts mènent au sucre : un court, un long. Que se passe-t-il ?",
+      "olli": "Des scientifiques ont voulu vérifier pour de vrai. Ils ont posé deux passerelles entre le nid et la nourriture : une courte, une longue. Au départ, les fourmis partent au hasard, moitié-moitié. Et après quelques minutes ?",
+      "choix": [
+        {
+          "emoji": "⚖️",
+          "texte": "Elles continuent moitié-moitié, sans changer"
+        },
+        {
+          "emoji": "🎯",
+          "texte": "Presque toutes finissent sur le pont court",
+          "bonne": true
+        },
+        {
+          "emoji": "😵",
+          "texte": "Elles se perdent et abandonnent"
+        }
+      ],
+      "reponseBonne": "Presque toutes sur le pont court ! Celles qui l'ont pris rentrent les premières, donc leur odeur s'accumule plus vite. Ça attire les suivantes, qui renforcent encore la piste. En quelques minutes, la colonie entière a « choisi » le meilleur chemin — sans que personne n'ait choisi.",
+      "reponseAutre": "Presque toutes finissent sur le pont court ! Celles qui l'ont pris rentrent les premières, donc leur odeur s'accumule plus vite. Ça attire les suivantes, qui renforcent la piste. En quelques minutes, la colonie a « choisi » le meilleur chemin — sans que personne n'ait choisi."
+    },
+    {
+      "id": "fourmis-ordinateurs",
+      "type": "anecdote",
+      "visuel": "💻",
+      "etiquette": "Histoire vraie",
+      "titre": "Quand les fourmis ont appris à calculer aux machines",
+      "texte": "À la fin des années 1980, à Bruxelles, une équipe menée par Jean-Louis Deneubourg installe ces fameux ponts devant un nid de fourmis d'Argentine. Le résultat est si net qu'il intrigue un jeune chercheur italien, Marco Dorigo. Il se demande : et si on faisait pareil dans un ordinateur ? Il invente alors des « fourmis virtuelles » qui explorent des trajets en laissant des traces numériques. Aujourd'hui, cette méthode aide à organiser des tournées de livraison et à faire circuler l'information sur les réseaux. Des fourmis vivantes ont soufflé une idée aux machines. 🐜",
+      "olli": "Des insectes de deux millimètres ont résolu un problème que des humains très savants trouvaient difficile. C'est ma partie préférée de l'histoire.",
+      "sourceRef": "src-deneubourg"
+    },
+    {
+      "id": "mission-fourmis",
+      "type": "mission",
+      "visuel": "🍞",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fabrique une piste de fourmis",
+      "texte": "Dehors, cherche une file de fourmis — près d'un mur, sur une terrasse, au pied d'un arbre. Pose une miette de pain ou de gâteau à un mètre de leur file, et attends sans bouger. Au début, quelques fourmis errent au hasard. Puis, petit à petit, une file se forme. Tu viens de voir une piste naître sous tes yeux. Ensuite, passe doucement le doigt en travers du chemin pour effacer l'odeur : regarde-les hésiter, puis retrouver la route.",
+      "olli": "Sois patiente et douce : on observe les fourmis, on ne les écrase pas. Elles t'offrent un spectacle que peu de gens prennent le temps de regarder. 😄"
+    },
+    {
+      "id": "teaser-abeilles",
+      "type": "teaser",
+      "visuel": "🐝",
+      "titre": "Les fourmis se parlent par l'odeur. Et les abeilles, alors ?",
+      "texte": "Une fourmi laisse un message parfumé sur le sol : ça marche parce qu'elle marche, justement. Mais une abeille, elle, vole. Elle ne peut pas dessiner de piste dans les airs. Pourtant, quand une abeille trouve un massif de fleurs à deux kilomètres, ses sœurs y vont directement. Elle a donc trouvé un autre moyen de leur dire où c'est. Lequel ?",
+      "olli": "La réponse t'attend juste à côté, dans ce même Livre des Petites Bêtes… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "danse-abeille"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-pheromone",
+      "fait": "Les fourmis déposent des phéromones de piste en se déplaçant ; le renforcement des pistes les plus empruntées est un processus auto-catalytique (stigmergie), sans contrôle central.",
+      "reference": "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1002592",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-deneubourg",
+      "fait": "Expérience du double pont (Goss et al. 1989 ; Deneubourg et al. 1990) sur la fourmi d'Argentine Linepithema humile : la colonie converge vers le chemin le plus court.",
+      "reference": "https://arxiv.org/pdf/1908.08007",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-temps",
+      "fait": "Mécanisme : le pont court est parcouru plus vite, il reçoit donc de la phéromone plus tôt, ce qui augmente la probabilité que les fourmis suivantes le choisissent.",
+      "reference": "https://web2.qatar.cmu.edu/~gdicaro/15382/additional/aco-book.pdf",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-aco",
+      "fait": "Ces travaux ont inspiré l'optimisation par colonies de fourmis (ACO), développée par Marco Dorigo à partir de 1992, appliquée aux tournées et au routage réseau.",
+      "reference": "https://web2.qatar.cmu.edu/~gdicaro/15382/additional/aco-book.pdf",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-evaporation",
+      "fait": "NUANCE : dans les expériences originales, l'évaporation des phéromones jouait un rôle négligeable ; elle est en revanche utile dans les algorithmes artificiels.",
+      "reference": "https://web2.qatar.cmu.edu/~gdicaro/15382/additional/aco-book.pdf",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}
