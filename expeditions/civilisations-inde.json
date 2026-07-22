@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-inde",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "L'Inde et le secret des nombres",
+  "resume": "Découvre comment les savants de l'Inde ancienne ont transformé les mathématiques avec le zéro et un nouveau système de nombres.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 7,
+  "questionsOuvertes": [
+    {
+      "id": "origine-zero",
+      "texte": "Comment un symbole vide peut-il devenir une invention extraordinaire ?",
+      "resolueParLivre": "nombres"
+    }
+  ],
+  "questionsResolues": [
+    "inventions-voyagent"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🪷",
+      "titre": "Gardien des Nombres"
+    },
+    "decouvertes": [
+      "Le zéro a joué un rôle majeur dans l'histoire des mathématiques",
+      "Le système de numération indien est devenu utilisé dans le monde entier",
+      "Les savants indiens ont développé de grands savoirs scientifiques",
+      "Les idées voyagent d'une civilisation à l'autre"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette-zero",
+      "type": "question",
+      "visuel": "0️⃣",
+      "titre": "Comment écrire un nombre qui signifie rien ?",
+      "olli": "Imagine essayer d'écrire 10, 100 ou 1000 sans avoir de symbole pour représenter l'absence. Une petite invention va tout changer.",
+      "choix": [
+        {
+          "emoji": "0️⃣",
+          "texte": "Le zéro",
+          "bonne": true
+        },
+        {
+          "emoji": "⭐",
+          "texte": "Une étoile"
+        },
+        {
+          "emoji": "🔺",
+          "texte": "Un triangle"
+        }
+      ],
+      "reponseBonne": "Bravo ! Le zéro permet de représenter une absence mais aussi de construire des nombres beaucoup plus grands grâce à sa position.",
+      "reponseAutre": "La réponse était le zéro. Ce petit symbole a révolutionné les mathématiques."
+    },
+    {
+      "id": "observation-inde",
+      "type": "observation",
+      "visuel": "🔢",
+      "titre": "Les grandes idées des savants indiens",
+      "olli": "Une idée simple peut transformer toute une façon de penser. Observe ces découvertes.",
+      "hotspots": [
+        {
+          "emoji": "0️⃣",
+          "nom": "Le zéro",
+          "fait": "Les mathématiciens indiens ont contribué à développer l'utilisation du zéro comme un nombre dans un système de calcul."
+        },
+        {
+          "emoji": "🔢",
+          "nom": "Les chiffres",
+          "fait": "Le système de numération utilisé aujourd'hui dans beaucoup de pays est souvent appelé chiffres indo-arabes car il a voyagé de l'Inde vers le monde arabe puis l'Europe."
+        },
+        {
+          "emoji": "📚",
+          "nom": "Les centres de savoir",
+          "fait": "L'Inde ancienne possédait des lieux d'étude importants où des savants travaillaient sur les mathématiques, l'astronomie et la médecine."
+        }
+      ]
+    },
+    {
+      "id": "anecdote-aryabhata",
+      "type": "anecdote",
+      "visuel": "🌌",
+      "etiquette": "Histoire vraie",
+      "titre": "Un savant qui regardait les étoiles",
+      "texte": "Aryabhata, mathématicien et astronome indien du Ve siècle, a étudié les nombres, les mouvements des astres et proposé des méthodes de calcul avancées pour son époque. Ses travaux ont influencé l'histoire des sciences.",
+      "olli": "Observer le ciel et comprendre les nombres : deux façons de chercher les secrets de l'univers.",
+      "sourceRef": "src-aryabhata"
+    },
+    {
+      "id": "question-calcul",
+      "type": "question",
+      "visuel": "🧮",
+      "titre": "Pourquoi le zéro est-il si important ?",
+      "olli": "Le zéro semble représenter 'rien'. Alors pourquoi est-il si utile ?",
+      "choix": [
+        {
+          "emoji": "🔢",
+          "texte": "Il aide à écrire de grands nombres",
+          "bonne": true
+        },
+        {
+          "emoji": "🎨",
+          "texte": "Il sert seulement à décorer"
+        },
+        {
+          "emoji": "🌧️",
+          "texte": "Il annonce la pluie"
+        }
+      ],
+      "reponseBonne": "Exactement ! Sans le zéro, notre manière actuelle d'écrire les nombres serait beaucoup plus compliquée.",
+      "reponseAutre": "La bonne réponse est : il aide à construire et comprendre les nombres."
+    },
+    {
+      "id": "mission-zero",
+      "type": "mission",
+      "visuel": "✏️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Imagine un monde sans zéro",
+      "texte": "Essaie d'écrire les nombres 10, 100 et 1000 sans utiliser le chiffre zéro. Explique pourquoi ce serait difficile.",
+      "olli": "Les inventions les plus puissantes sont parfois celles qu'on remarque le moins."
+    },
+    {
+      "id": "teaser-route-soie",
+      "type": "teaser",
+      "visuel": "🐫",
+      "titre": "Les idées ne restent jamais enfermées...",
+      "texte": "Le zéro, le papier, la soie et bien d'autres inventions vont voyager grâce aux grandes routes commerciales qui relient les civilisations.",
+      "olli": "La prochaine aventure suit les chemins des voyageurs, des marchands et des explorateurs ! 🌏",
+      "questionOuverteRef": "origine-zero"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-zero",
+      "fait": "Les mathématiciens indiens ont joué un rôle majeur dans le développement du zéro comme nombre et dans le système de numération positionnelle.",
+      "reference": "https://www.britannica.com/science/zero-number",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "src-aryabhata",
+      "fait": "Aryabhata était un mathématicien et astronome indien du Ve siècle connu pour ses travaux scientifiques.",
+      "reference": "https://www.britannica.com/biography/Aryabhata",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-22"
+    }
+  ]
+}

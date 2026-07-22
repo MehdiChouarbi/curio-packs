@@ -53,6 +53,16 @@
       "octets": 6128
     },
     {
+      "id": "civilisations-inde",
+      "livre": "Civilisations",
+      "titre": "L'Inde et le secret des nombres",
+      "resume": "Découvre comment les savants de l'Inde ancienne ont transformé les mathématiques avec le zéro et un nouveau système de nombres.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-inde.json",
+      "sha256": "0b7b60787df1f64966d5efe95fb3cea6b3f305708cc1d531dacd88eb3a81ab32",
+      "octets": 5893
+    },
+    {
       "id": "civilisations-mesopotamie",
       "livre": "Civilisations",
       "titre": "La naissance des premières villes",
