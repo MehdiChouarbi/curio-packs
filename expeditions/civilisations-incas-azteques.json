@@ -14,7 +14,7 @@
     {
       "id": "adapter-environnement",
       "texte": "Comment les civilisations s'adaptent-elles à leur environnement ?",
-      "resolueParLivre": "mille-cultures"
+      "resolueParLivre": "civilisations"
     }
   ],
   "questionsResolues": [
@@ -128,9 +128,9 @@
       "id": "teaser-mondes",
       "type": "teaser",
       "visuel": "🌍",
-      "titre": "Chaque peuple a créé son propre chapitre...",
-      "texte": "Des milliers de cultures ont développé leurs langues, leurs inventions et leurs histoires. Comment toutes ces cultures forment-elles une seule histoire humaine ?",
-      "olli": "Le Livre des Mille Cultures va bientôt révéler la grande fresque de l'humanité ! 🌎",
+      "titre": "Des jardins sur un lac, des champs sur la montagne…",
+      "texte": "Les Incas ont taillé la montagne en escaliers pour cultiver à 3 000 mètres. Les Aztèques ont fabriqué des jardins flottants au milieu d'un lac. Deux peuples, deux terrains impossibles, deux solutions que personne n'aurait imaginées. Partout sur Terre, les humains ont dû s'arranger avec le lieu où ils vivaient : le désert, la banquise, la forêt. Comment font-ils ?",
+      "olli": "La réponse t'attend dans une autre page du Livre des Civilisations… En attendant, ton passeport a un nouveau tampon ! 🎉",
       "questionOuverteRef": "adapter-environnement"
     }
   ],
@@ -140,14 +140,14 @@
       "fait": "Machu Picchu est une cité inca construite au XVe siècle dans les Andes péruviennes.",
       "reference": "https://whc.unesco.org/en/list/274/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-inca-routes",
       "fait": "L'Empire inca possédait un vaste réseau routier reliant les différentes régions de son territoire.",
       "reference": "https://www.britannica.com/topic/Inca",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     }
   ]
 }
