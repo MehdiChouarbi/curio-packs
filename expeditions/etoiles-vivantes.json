@@ -142,42 +142,42 @@
       "fait": "Idée fausse répandue : la quasi-totalité des étoiles visibles à l'œil nu sont encore vivantes. Parmi elles, environ une meurt tous les 10 000 ans, soit bien moins de 1 % déjà éteintes.",
       "reference": "https://www.scienceabc.com/nature/universe/are-dead-stars-visible-in-the-night-sky.html",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-distances",
       "fait": "La majorité des étoiles visibles sans instrument sont à quelques centaines d'années-lumière ; les durées de vie stellaires se comptent en millions à milliards d'années.",
       "reference": "https://bigthink.com/starts-with-a-bang/stars-visible-already-died/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-betelgeuse",
       "fait": "Bételgeuse : supergéante rouge d'Orion à ~642 années-lumière, susceptible d'exploser dans les 100 000 ans. Probabilité estimée qu'elle ait déjà explosé : environ 1 sur 4000.",
       "reference": "https://bigthink.com/starts-with-a-bang/stars-visible-already-died/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-v762",
       "fait": "V762 Cassiopeiae est l'étoile la plus lointaine visible à l'œil nu, à environ 16 000 années-lumière.",
       "reference": "https://astronex.net/do-we-see-stars-that-dont-exist-anymore/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-1054",
       "fait": "SN 1054 : « étoile invitée » observée et consignée par des astronomes chinois en juillet 1054, visible de jour plusieurs semaines. Ses restes forment la nébuleuse du Crabe.",
       "reference": "https://astronex.net/do-we-see-stars-that-dont-exist-anymore/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-kepler",
       "fait": "La dernière supernova de notre galaxie observée à l'œil nu date de 1604 (étoile de Kepler). Depuis, aucune n'a été vue sans instrument.",
       "reference": "https://www.scienceabc.com/nature/universe/are-dead-stars-visible-in-the-night-sky.html",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     }
   ]
 }
