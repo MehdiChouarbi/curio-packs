@@ -153,6 +153,16 @@
       "octets": 9242
     },
     {
+      "id": "corps-poussiere",
+      "livre": "le-corps",
+      "titre": "Tu es faite de poussière d'étoiles",
+      "resume": "Le fer de ton sang, le calcium de tes os, l'oxygène que tu respires : rien de tout cela n'est né sur Terre. Ton corps vient du ciel.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/corps-poussiere.json",
+      "sha256": "369b15a45afbbc02b432bcf3a7b6c6ac60356ce873a8343fa4452675bea686cd",
+      "octets": 9867
+    },
+    {
       "id": "etoiles-mars",
       "livre": "etoiles",
       "titre": "Les secrets de la planète rouge",

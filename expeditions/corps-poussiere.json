@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "corps-poussiere",
+  "minEngineVersion": 1,
+  "livre": "le-corps",
+  "titre": "Tu es faite de poussière d'étoiles",
+  "resume": "Le fer de ton sang, le calcium de tes os, l'oxygène que tu respires : rien de tout cela n'est né sur Terre. Ton corps vient du ciel.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "sang-insectes",
+      "texte": "Ton sang est rouge grâce au fer. Et le sang des insectes, alors ?",
+      "resolueParLivre": "petites-betes"
+    }
+  ],
+  "questionsResolues": [
+    "poussiere-etoiles"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🌟",
+      "titre": "Enfant des Étoiles"
+    },
+    "decouvertes": [
+      "Presque tous tes atomes sont nés dans des étoiles",
+      "L'hydrogène de ton corps a 13,8 milliards d'années",
+      "L'oxygène est ton plus gros morceau : 65 %",
+      "Le fer de ton sang vient d'explosions d'étoiles",
+      "Carl Sagan a résumé ça en une phrase célèbre"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "fer-du-sang",
+      "type": "question",
+      "visuel": "🩸",
+      "titre": "Le fer qui rend ton sang rouge, il a été fabriqué où ?",
+      "olli": "On a vu que l'or naissait dans le choc de deux étoiles mortes. Mais l'or, tu n'en as pas dans le corps. Le fer, si : c'est lui qui rend ton sang rouge. Alors, ce fer-là, il vient d'où à ton avis ?",
+      "choix": [
+        {
+          "emoji": "🥬",
+          "texte": "Des épinards et des lentilles que tu manges"
+        },
+        {
+          "emoji": "🌋",
+          "texte": "Du centre brûlant de la Terre"
+        },
+        {
+          "emoji": "💥",
+          "texte": "De l'explosion d'étoiles, il y a très longtemps",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "D'une étoile ! Tu manges bien du fer dans les lentilles, et il y en a au centre de la Terre — mais ce fer-là a d'abord été fabriqué ailleurs. Aucune planète ne sait faire du fer : il faut le cœur d'une étoile, puis son explosion pour le disperser. Ton sang contient de la poussière d'étoile.",
+      "reponseAutre": "De l'explosion d'étoiles ! Tu manges bien du fer dans les lentilles, et il y en a au centre de la Terre — mais ce fer a d'abord été fabriqué ailleurs. Aucune planète ne sait faire du fer : il faut le cœur d'une étoile, puis son explosion pour le disperser."
+    },
+    {
+      "id": "inventaire",
+      "type": "observation",
+      "visuel": "🧍",
+      "visuelAnimation": "flotte",
+      "titre": "Faisons l'inventaire de ce qui te compose.",
+      "olli": "Touche chaque partie pour découvrir de quoi tu es faite, et surtout d'où ça vient. Prépare-toi : c'est vertigineux.",
+      "hotspots": [
+        {
+          "emoji": "💨",
+          "nom": "L'oxygène, ton plus gros morceau",
+          "fait": "À lui seul, il représente environ 65 % de ton poids — surtout dans l'eau de ton corps. Et tout l'oxygène du système solaire vient d'explosions de très grosses étoiles. Chaque respiration est un héritage."
+        },
+        {
+          "emoji": "⏳",
+          "nom": "L'hydrogène, le plus vieux de tous",
+          "fait": "Environ un dixième de ton poids. Ces atomes-là se sont formés quelques minutes après le début de l'univers, il y a 13,8 milliards d'années. C'est de très loin la chose la plus ancienne que tu possèdes."
+        },
+        {
+          "emoji": "🦴",
+          "nom": "Le calcium de tes os",
+          "fait": "Environ 1,4 % de ton poids, surtout dans les os et les dents. La moitié provient d'explosions d'étoiles géantes, l'autre moitié d'explosions d'étoiles mortes plus petites. Tes os sont de la cendre d'étoiles."
+        }
+      ]
+    },
+    {
+      "id": "le-plus-vieux",
+      "type": "question",
+      "visuel": "🕰️",
+      "titre": "Quelle partie de toi est la plus ancienne ?",
+      "olli": "Tu as l'âge que tu as. Mais les atomes qui te composent, eux, sont bien plus vieux. Lequel de ces morceaux de toi bat tous les records d'ancienneté ?",
+      "choix": [
+        {
+          "emoji": "🦷",
+          "texte": "Tes dents, elles durent longtemps"
+        },
+        {
+          "emoji": "💧",
+          "texte": "L'hydrogène de l'eau de ton corps",
+          "bonne": true
+        },
+        {
+          "emoji": "💇",
+          "texte": "Tes cheveux les plus longs"
+        }
+      ],
+      "reponseBonne": "L'hydrogène ! Il s'est formé quelques minutes après la naissance de l'univers : 13,8 milliards d'années. Il a traversé le vide, des nuages, peut-être plusieurs étoiles, avant de finir dans un verre d'eau… puis en toi. Tu transportes les plus vieux objets qui existent.",
+      "reponseAutre": "L'hydrogène de l'eau de ton corps ! Il s'est formé quelques minutes après la naissance de l'univers : 13,8 milliards d'années. Il a traversé le vide, des nuages, peut-être des étoiles, avant de finir dans un verre d'eau… puis en toi."
+    },
+    {
+      "id": "sagan-poussiere",
+      "type": "anecdote",
+      "visuel": "📺",
+      "etiquette": "Histoire vraie",
+      "titre": "L'homme qui a dit « nous sommes de la poussière d'étoiles »",
+      "texte": "En 1980, un astronome américain présente une série télévisée qui va marquer des millions de gens. Il s'appelle Carl Sagan. Devant la caméra, il prononce cette phrase devenue célèbre : « L'azote de notre ADN, le calcium de nos dents, le fer de notre sang, le carbone de nos tartes aux pommes ont été fabriqués à l'intérieur d'étoiles qui s'effondraient. Nous sommes faits de poussière d'étoiles. » Ce même Carl Sagan avait dirigé, trois ans plus tôt, l'équipe du Disque d'or envoyé dans l'espace à bord de Voyager. L'homme qui écrivait un message aux étoiles savait déjà que nous venions d'elles. ✨",
+      "olli": "Tu l'as déjà croisé, cet homme-là, dans le Livre des Étoiles. Le monde est petit, même quand il est immense.",
+      "sourceRef": "src-sagan"
+    },
+    {
+      "id": "mission-pouls",
+      "type": "mission",
+      "visuel": "🫀",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Sens la poussière d'étoiles circuler",
+      "texte": "Pose deux doigts sur ton poignet, du côté du pouce, et cherche ton pouls. Quand tu le sens battre, dis-toi bien ce qui se passe : à chaque battement, du fer né dans une étoile en explosion circule dans ton bras. Ensuite, va chercher un objet en fer — une clé, une casserole, un clou. Tiens-le dans une main, ton poignet dans l'autre. Le même métal, la même origine : une étoile morte avant la Terre.",
+      "olli": "Et pour finir, respire un grand coup. Cet oxygène-là aussi sort d'une étoile qui a explosé. Raconte ça à quelqu'un ce soir. 😄"
+    },
+    {
+      "id": "teaser-sang-bleu",
+      "type": "teaser",
+      "visuel": "🐜",
+      "titre": "Ton sang est rouge à cause du fer. Et celui des petites bêtes ?",
+      "texte": "Voilà ce qui me chiffonne. Si ton sang est rouge parce qu'il transporte du fer venu des étoiles, alors tous les animaux devraient avoir du sang rouge, non ? Sauf que la pieuvre, elle, a le sang bleu — elle utilise du cuivre à la place. Alors les insectes, les fourmis, les papillons : de quelle couleur est leur sang à eux ?",
+      "olli": "La réponse t'attend dans le Livre des Petites Bêtes… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "sang-insectes"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-stardust",
+      "fait": "Presque tous les éléments du corps humain (carbone, oxygène, azote, calcium, fer) ont été formés dans les étoiles ; l'hydrogène provient du Big Bang.",
+      "reference": "https://www.amnh.org/exhibitions/permanent/the-universe/stars/a-spectacular-stellar-finale/we-are-stardust",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-composition",
+      "fait": "Composition massique du corps humain : oxygène ~65 %, carbone ~18 %, hydrogène ~10 %, azote ~3 %, calcium ~1,4 %, phosphore ~1 %. Ces six éléments font ~99 % de la masse.",
+      "reference": "https://chandra.si.edu/resources/illustrations/chemistry_universe.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-origines",
+      "fait": "Tout l'oxygène du système solaire provient d'explosions d'étoiles massives ; environ la moitié du calcium et 40 % du fer aussi, le reste venant d'explosions de naines blanches.",
+      "reference": "https://chandra.si.edu/resources/illustrations/chemistry_universe.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-hydrogene",
+      "fait": "L'hydrogène s'est formé lors de la nucléosynthèse primordiale, quelques minutes après le Big Bang, il y a environ 13,8 milliards d'années.",
+      "reference": "https://www.nhm.ac.uk/discover/are-we-really-made-of-stardust.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-sagan",
+      "fait": "Carl Sagan, série « Cosmos » (1980) : « The nitrogen in our DNA, the calcium in our teeth, the iron in our blood... were made in the interiors of collapsing stars. We are made of starstuff. »",
+      "reference": "https://www.pbs.org/wgbh/nova/article/star-in-you/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-93",
+      "fait": "NUANCE : une étude de 2017 (UC Santa Cruz) estime à environ 93 % la part de la masse corporelle issue d'éléments formés dans les étoiles, le reste étant surtout l'hydrogène primordial.",
+      "reference": "https://www.michelegargiulo.com/blog/star-inside-you-cosmic-dust-human-body",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    }
+  ]
+}
