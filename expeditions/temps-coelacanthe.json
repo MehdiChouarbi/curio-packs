@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "temps-coelacanthe",
+  "minEngineVersion": 1,
+  "livre": "Le Temps Profond",
+  "titre": "Le poisson qui a démenti les savants",
+  "resume": "On le connaissait par ses fossiles, disparu depuis 66 millions d'années. Un matin de décembre 1938, une jeune femme en a trouvé un dans un filet de pêche.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "yeux-nuit",
+      "texte": "Il vit dans le noir presque total. Comment fait-il pour voir ?",
+      "resolueParLivre": "le-corps"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🐟",
+      "titre": "Découvreuse de Survivants"
+    },
+    "decouvertes": [
+      "Le cœlacanthe était cru disparu depuis 66 millions d'années",
+      "Il a été retrouvé vivant le 22 décembre 1938",
+      "Ses nageoires bougent comme de petits bras",
+      "Il vit sur des pentes volcaniques, très profond",
+      "Aucun fossile ne se forme là-bas : voilà le mystère résolu"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "dans-le-filet",
+      "type": "question",
+      "visuel": "🎣",
+      "titre": "Décembre 1938 : que trouve-t-on dans ce filet de pêche ?",
+      "olli": "Les fossiles racontent les disparus. Celui-ci, on le connaissait bien : un gros poisson aux nageoires bizarres, éteint depuis 66 millions d'années — en même temps que les dinosaures. Puis, un matin en Afrique du Sud, un chalutier remonte ses filets…",
+      "choix": [
+        {
+          "emoji": "🪨",
+          "texte": "Un fossile encore plus ancien que les autres"
+        },
+        {
+          "emoji": "🐟",
+          "texte": "Un de ces poissons, bien vivant",
+          "bonne": true
+        },
+        {
+          "emoji": "❌",
+          "texte": "La preuve qu'il n'avait jamais existé"
+        }
+      ],
+      "reponseBonne": "Un poisson vivant ! Un cœlacanthe, un mètre cinquante, bleu acier, tout juste sorti de l'eau. Un animal que le monde entier croyait disparu depuis 66 millions d'années nageait tranquillement dans l'océan Indien, sans que personne ne s'en doute. Il n'avait jamais cessé d'être là.",
+      "reponseAutre": "Un de ces poissons, bien vivant ! Un cœlacanthe, un mètre cinquante, bleu acier, tout juste sorti de l'eau. Un animal que le monde croyait disparu depuis 66 millions d'années nageait tranquillement dans l'océan Indien. Il n'avait jamais cessé d'être là."
+    },
+    {
+      "id": "bete-etrange",
+      "type": "observation",
+      "visuel": "🐟",
+      "visuelAnimation": "nage",
+      "titre": "Approchons-nous de cette bête impossible.",
+      "olli": "Touche chaque partie. Ce poisson ne ressemble à aucun de ceux que tu as pu voir sur un étal.",
+      "hotspots": [
+        {
+          "emoji": "💪",
+          "nom": "Des nageoires qui font des bras",
+          "fait": "Chez un poisson ordinaire, la nageoire sort à plat du corps. Chez lui, elle est portée par une sorte de petit bras charnu, avec des os dedans, qui bouge en alternance — comme un animal qui marcherait dans l'eau."
+        },
+        {
+          "emoji": "🛡️",
+          "nom": "Une armure d'écailles",
+          "fait": "Ses écailles sont épaisses et se recouvrent comme des plaques de blindage. Marjorie, qui l'a découvert, a dit que c'était le plus beau poisson qu'elle ait jamais vu, semblable à un grand bibelot de porcelaine."
+        },
+        {
+          "emoji": "🌋",
+          "nom": "Une adresse très particulière",
+          "fait": "Il vit accroché aux pentes de volcans sous-marins, entre 150 et 700 mètres de fond, dans des grottes. Un endroit sombre, rocheux, escarpé — et c'est justement là que se cache l'explication du mystère."
+        }
+      ]
+    },
+    {
+      "id": "pourquoi-pas-de-fossiles",
+      "type": "question",
+      "visuel": "🕳️",
+      "titre": "Pourquoi n'a-t-on trouvé aucun fossile pendant 66 millions d'années ?",
+      "olli": "Voilà la vraie énigme. S'il n'a jamais disparu, pourquoi les roches n'en gardent-elles aucune trace pendant tout ce temps ? Réfléchis à l'endroit où il habite.",
+      "choix": [
+        {
+          "emoji": "🔁",
+          "texte": "Il a disparu, puis il est revenu"
+        },
+        {
+          "emoji": "⛰️",
+          "texte": "Il vit là où les fossiles ne se forment pas",
+          "bonne": true
+        },
+        {
+          "emoji": "🔦",
+          "texte": "On n'a pas cherché au bon endroit sur terre"
+        }
+      ],
+      "reponseBonne": "Il vit au mauvais endroit pour devenir fossile ! Un fossile a besoin d'être enseveli doucement dans de la vase ou du sable. Or lui habite des pentes rocheuses escarpées, en eau profonde : rien ne s'y dépose, tout dégringole. Il ne se cachait pas. C'est la roche qui ne prenait pas de photos.",
+      "reponseAutre": "Il vit là où les fossiles ne se forment pas ! Un fossile a besoin d'être enseveli doucement dans la vase ou le sable. Lui habite des pentes rocheuses escarpées en eau profonde : rien ne s'y dépose. Il ne se cachait pas — c'est la roche qui ne prenait pas de photos."
+    },
+    {
+      "id": "marjorie",
+      "type": "anecdote",
+      "visuel": "🚕",
+      "etiquette": "Histoire vraie",
+      "titre": "La conservatrice qui a pris un taxi pour les docks",
+      "texte": "Le 22 décembre 1938, Marjorie Courtenay-Latimer, trente-et-un ans, dirige un petit musée à East London, en Afrique du Sud. Elle a demandé aux pêcheurs de l'appeler s'ils remontaient quelque chose d'inhabituel. Ce matin-là, le capitaine Goosen l'appelle. Elle prend un taxi, fouille un tas de requins et d'algues sur le pont… et découvre un poisson bleu qu'elle ne reconnaît pas. Elle ignore ce que c'est. Mais elle est certaine que c'est important — et elle a raison. Le spécialiste qu'elle alerte écrira, en le voyant : « ce fut comme un souffle incandescent, je suis resté pétrifié ». 🐟",
+      "olli": "Elle ne savait pas ce qu'elle tenait. Elle savait seulement qu'il fallait le garder et demander à quelqu'un. C'est souvent comme ça que commencent les grandes découvertes.",
+      "sourceRef": "src-marjorie"
+    },
+    {
+      "id": "mission-nageoire",
+      "type": "mission",
+      "visuel": "🖐️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Compare une nageoire et ton bras",
+      "texte": "Trouve un poisson à observer : au marché, dans une assiette, dans un aquarium, ou même sur une photo. Regarde bien comment ses nageoires sortent du corps — à plat, directement collées, comme des éventails. Maintenant, lève ton bras et fais-le tourner à l'épaule : le tien est porté par un os, il pivote, il pousse. Les nageoires du cœlacanthe ressemblent bien plus à ton bras qu'à celles du poisson que tu regardes.",
+      "olli": "Demande à quelqu'un de ta famille s'il connaît un animal qu'on croyait disparu et qu'on a retrouvé. Tu pourras lui raconter celui-là. 😄"
+    },
+    {
+      "id": "teaser-voir-noir",
+      "type": "teaser",
+      "visuel": "👁️",
+      "titre": "Deux cents mètres de fond, presque aucune lumière. Il voit comment ?",
+      "texte": "Là où vit le cœlacanthe, le soleil n'arrive quasiment plus : c'est une pénombre permanente, bleu très sombre. Pourtant il chasse, il évite les rochers, il se repère dans ses grottes. Il a donc des yeux capables de faire beaucoup avec très peu de lumière. Et tu connais d'autres animaux comme ça — le chat qui traverse une pièce noire sans rien renverser…",
+      "olli": "La réponse t'attend dans le Livre du Corps… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "yeux-nuit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-marjorie",
+      "fait": "Le 22 décembre 1938, Marjorie Courtenay-Latimer, conservatrice du musée d'East London (Afrique du Sud), identifie un poisson inconnu dans la pêche du capitaine Hendrik Goosen.",
+      "reference": "https://www.nhm.ac.uk/discover/coelacanths-the-fish-that-outdid-the-loch-ness-monster.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-extinction",
+      "fait": "Les cœlacanthes disparaissent du registre fossile il y a environ 66 millions d'années, à la fin du Crétacé, lors de l'extinction qui emporte les dinosaures non-aviens.",
+      "reference": "https://allthatsinteresting.com/coelacanth",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-smith",
+      "fait": "J.L.B. Smith confirme l'identification et publie dans Nature en 1939 sous le titre « A living fish of Mesozoic type ». L'espèce est nommée Latimeria chalumnae en l'honneur de Courtenay-Latimer.",
+      "reference": "https://www.historytoday.com/archive/months-past/discovery-living-fossil",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-habitat",
+      "fait": "Les cœlacanthes vivent sur des pentes volcaniques abruptes, généralement entre 150 et 700 mètres de profondeur. Deux espèces connues : Comores et Sulawesi (Indonésie).",
+      "reference": "https://www.nationalgeographic.com/animals/fish/facts/coelacanths",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-fossilisation",
+      "fait": "Leur habitat rocheux et escarpé en eau profonde est très défavorable à la fossilisation : cela explique l'absence de fossiles récents sans supposer une disparition réelle.",
+      "reference": "https://www.maloriesadventures.com/blog/the-coelacanth-scientists-declared-it-extinct-in-1938-and-found-one-alive-the-same-year/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-nuance-fossile",
+      "fait": "NUANCE : l'expression « fossile vivant » est trompeuse. Les cœlacanthes n'ont pas cessé d'évoluer depuis le Crétacé ; ils ne sont pas identiques à leurs ancêtres fossiles.",
+      "reference": "https://www.smithsonianmag.com/smart-news/1930s-curator-discovered-living-fossil-well-sort-180967616/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    }
+  ]
+}

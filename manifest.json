@@ -301,6 +301,16 @@
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/temps-anning.json",
       "sha256": "81b6b7b38caa24416b94d9097d4b764209301ad8bde0c3b27b5b629d5b82838b",
       "octets": 9669
+    },
+    {
+      "id": "temps-coelacanthe",
+      "livre": "Le Temps Profond",
+      "titre": "Le poisson qui a démenti les savants",
+      "resume": "On le connaissait par ses fossiles, disparu depuis 66 millions d'années. Un matin de décembre 1938, une jeune femme en a trouvé un dans un filet de pêche.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/temps-coelacanthe.json",
+      "sha256": "db519f360850b2f9317a0e7e206bfea6578128f02e296f4d29e45fd9fefd8c88",
+      "octets": 10215
     }
   ]
 }
