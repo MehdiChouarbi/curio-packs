@@ -32,6 +32,11 @@
       "emoji": "📖"
     },
     {
+      "id": "les-mots",
+      "titre": "Le Livre de Mots",
+      "emoji": "📘"
+    },
+    {
       "id": "Les Nombres",
       "titre": "Le Livre de Nombres",
       "emoji": "📘"

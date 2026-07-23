@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "mots-silbo",
   "minEngineVersion": 1,
-  "livre": "Les Mots",
+  "livre": "les-mots",
   "titre": "L'île qui parle en sifflant",
   "resume": "Sur une île, les gens se parlent d'une montagne à l'autre sans crier, sans téléphone. Ils sifflent. Et ils se comprennent parfaitement, à cinq kilomètres.",
   "age": {
@@ -140,35 +140,35 @@
       "fait": "Le silbo gomero (La Gomera, Canaries) est de l'espagnol sifflé : 2 sifflements pour les 5 voyelles, 4 pour les consonnes. Il porte jusqu'à ~5 km à travers les ravins.",
       "reference": "https://ich.unesco.org/en/RL/whistled-language-of-the-island-of-la-gomera-canary-islands-the-silbo-gomero-00172",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-23"
     },
     {
       "id": "src-portee",
       "fait": "Un sifflement porte bien plus loin que la voix parlée (jusqu'à ~5 km contre ~200 m), franchissant vallées et ravins de l'île volcanique.",
       "reference": "https://en.wikipedia.org/wiki/Silbo_Gomero",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-23"
     },
     {
       "id": "src-cerveau",
       "fait": "Des études (dont Carreiras et al.) montrent que le cerveau des siffleurs traite le silbo dans les aires du langage, comme une langue parlée, et non comme de la musique.",
       "reference": "https://www.nature.com/articles/433031a",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-23"
     },
     {
       "id": "src-ecole",
       "fait": "Menacé de disparition avec l'arrivée du téléphone, le silbo est enseigné obligatoirement dans les écoles de La Gomera depuis 1999 ; plus de 22 000 habitants le pratiquent.",
       "reference": "https://ich.unesco.org/en/RL/whistled-language-of-the-island-of-la-gomera-canary-islands-the-silbo-gomero-00172",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-23"
     },
     {
       "id": "src-sauvetage",
       "fait": "Déclin au XXᵉ siècle (téléphone, exode rural, stigmatisation), puis revitalisation : matière obligatoire à l'école dès 1999, inscription au patrimoine immatériel de l'UNESCO en 2009.",
       "reference": "https://languagemuseum.org/language-of-the-month-august-2023-silbo-gomero/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-23"
     }
   ]
 }
