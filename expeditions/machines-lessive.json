@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "machines-lessive",
+  "minEngineVersion": 1,
+  "livre": "les-machines",
+  "titre": "L'invention qui a offert des livres aux enfants",
+  "resume": "Quelle machine a le plus changé la vie de tous les jours ? Pas la fusée, pas l'ordinateur. Un savant suédois a défendu une réponse que personne n'attendait.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "fer-rouille",
+      "texte": "Pleine d'eau et de métal, pourquoi cette machine ne rouille-t-elle pas ?",
+      "resolueParLivre": "les-machines"
+    }
+  ],
+  "questionsResolues": [
+    "premieres-inventions"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🫧",
+      "titre": "Chercheuse d'Inventions"
+    },
+    "decouvertes": [
+      "Laver le linge à la main prenait une journée entière",
+      "Il fallait d'abord aller chercher l'eau et le bois",
+      "Ce travail revenait presque toujours aux femmes",
+      "La machine a rendu du temps, et le temps a rendu des livres",
+      "Hans Rosling a raconté cette histoire au monde entier"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "quelle-invention",
+      "type": "question",
+      "visuel": "⚙️",
+      "titre": "Quelle machine a le plus changé la vie de tous les jours ?",
+      "olli": "Les humains ont inventé le feu, la roue, l'écriture… puis des milliers de machines. Un savant suédois a posé cette question à une grande salle pleine de gens très savants. Sa réponse les a tous surpris. Devine laquelle il a choisie.",
+      "choix": [
+        {
+          "emoji": "🚀",
+          "texte": "La fusée, qui nous a emmenés dans l'espace"
+        },
+        {
+          "emoji": "💻",
+          "texte": "L'ordinateur, qui calcule pour nous"
+        },
+        {
+          "emoji": "🫧",
+          "texte": "La machine à laver le linge",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "La machine à laver ! Ça paraît petit à côté d'une fusée. Mais réfléchis : combien de gens sont allés dans l'espace ? Quelques centaines. Combien lavent du linge ? Presque tout le monde, toutes les semaines, depuis toujours. Une invention qui change le quotidien de milliards de gens change beaucoup le monde.",
+      "reponseAutre": "La machine à laver ! Ça paraît petit à côté d'une fusée. Mais combien de gens sont allés dans l'espace ? Quelques centaines. Combien lavent du linge ? Presque tout le monde, chaque semaine, depuis toujours. Une invention qui change le quotidien de milliards de gens change le monde."
+    },
+    {
+      "id": "jour-de-lessive",
+      "type": "observation",
+      "visuel": "🪣",
+      "visuelAnimation": "flotte",
+      "titre": "À quoi ressemblait un jour de lessive, avant ?",
+      "olli": "Touche chaque partie pour découvrir ce que voulait dire « faire la lessive » du temps de tes arrière-grands-parents.",
+      "hotspots": [
+        {
+          "emoji": "🚰",
+          "nom": "D'abord, aller chercher l'eau",
+          "fait": "Avant de laver quoi que ce soit, il fallait rapporter l'eau du puits ou de la rivière, seau par seau. Puis couper et porter du bois pour la chauffer. La lessive commençait bien avant le linge."
+        },
+        {
+          "emoji": "💪",
+          "nom": "Frotter pendant des heures",
+          "fait": "Ensuite venait le frottage, pièce par pièce, penchée au-dessus d'un baquet brûlant, les mains dans l'eau et la cendre. Puis tordre, rincer, tordre encore. Une journée entière y passait, parfois deux."
+        },
+        {
+          "emoji": "👵",
+          "nom": "Toujours les mêmes mains",
+          "fait": "Ce travail immense revenait presque toujours aux femmes et aux filles de la maison. Une vie entière de jours de lessive, semaine après semaine, sans jamais que cela compte comme un métier."
+        }
+      ]
+    },
+    {
+      "id": "le-temps-libere",
+      "type": "question",
+      "visuel": "⏳",
+      "titre": "La machine arrive et libère une journée. Elle sert à quoi, cette journée ?",
+      "olli": "Voilà le vrai sujet. Une machine ne lave pas seulement du linge : elle rend du temps. Et ce temps-là, chez la famille de ce savant suédois, a servi à quoi ?",
+      "choix": [
+        {
+          "emoji": "😴",
+          "texte": "À se reposer, tout simplement"
+        },
+        {
+          "emoji": "📚",
+          "texte": "À lire, apprendre, aller à la bibliothèque",
+          "bonne": true
+        },
+        {
+          "emoji": "🧺",
+          "texte": "À laver encore plus de linge"
+        }
+      ],
+      "reponseBonne": "À lire ! Le jour où la machine est arrivée, la mère de Hans lui a dit : maintenant, on peut aller à la bibliothèque. Elle a emprunté des livres, appris l'anglais, et lu à son fils tous les soirs. Ce garçon est devenu professeur. Une machine à laver a fabriqué un savant.",
+      "reponseAutre": "À lire, apprendre, aller à la bibliothèque ! Le jour où la machine est arrivée, la mère de Hans lui a dit : maintenant on peut aller emprunter des livres. Elle a appris l'anglais et lu à son fils chaque soir. Ce garçon est devenu professeur."
+    },
+    {
+      "id": "grand-mere",
+      "type": "anecdote",
+      "visuel": "📺",
+      "etiquette": "Histoire vraie",
+      "titre": "La grand-mère qui regardait tourner la machine",
+      "texte": "Suède, années 1950. La famille de Hans Rosling économise depuis des années. Le jour arrive enfin : on installe la machine à laver. Toute la famille se rassemble autour, comme pour une cérémonie. Mais celle qu'on invite à appuyer sur le bouton, c'est la grand-mère : elle a lavé le linge à la main toute sa vie, pour ses enfants. Elle appuie. Puis elle approche une chaise, s'assoit devant le hublot… et regarde le tambour tourner pendant tout le cycle, sans bouger, fascinée. Bien plus tard, devenu professeur, Hans a raconté cette scène au monde entier. 🫧",
+      "olli": "Elle avait passé sa vie à faire ce travail. Elle regardait une machine le faire à sa place. Je trouve cette image bouleversante.",
+      "sourceRef": "src-grandmere"
+    },
+    {
+      "id": "mission-chaussette",
+      "type": "mission",
+      "visuel": "🧦",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Lave une chaussette à la main, et compte",
+      "texte": "Demande la permission, prends une bassine ou un lavabo, un peu de savon, et lave UNE seule chaussette à la main : frotte, rince, essore bien. Chronomètre-toi. Maintenant fais le calcul : combien de vêtements ta famille lave-t-elle en une semaine ? Multiplie par ton temps. Et souviens-toi qu'avant, il fallait d'abord aller chercher l'eau et la faire chauffer au feu de bois.",
+      "olli": "Va montrer ton résultat à quelqu'un, puis demande-lui s'il connaît quelqu'un qui a lavé son linge à la main. Tu vas peut-être entendre une belle histoire de famille. 😄"
+    },
+    {
+      "id": "teaser-rouille",
+      "type": "teaser",
+      "visuel": "💧",
+      "titre": "De l'eau, du métal, vingt ans de service… et pas une trace de rouille ?",
+      "texte": "Regarde la machine à laver de chez toi. C'est une boîte de métal remplie d'eau chaude et de savon, qui tourne plusieurs fois par semaine, parfois depuis dix ou vingt ans. Or tu sais ce qui arrive à un clou ou à un vieux vélo oublié sous la pluie : il rouille. Alors pourquoi cette machine, elle, ne rouille-t-elle pas ?",
+      "olli": "La réponse t'attend juste à côté, dans ce même Livre des Machines… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "fer-rouille"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-rosling",
+      "fait": "Dans sa conférence TED « The magic washing machine » (2010), Hans Rosling soutient que la machine à laver est la plus grande invention de la révolution industrielle.",
+      "reference": "https://www.ted.com/talks/hans_rosling_the_magic_washing_machine",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-grandmere",
+      "fait": "Rosling raconte l'arrivée de la première machine à laver familiale dans les années 1950 ; sa grand-mère, qui avait lavé à la main toute sa vie, s'assied et regarde tourner le cycle entier.",
+      "reference": "https://www.electroluxgroup.com/en/ted-lecture-about-the-magic-washing-machine-9634/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-livres",
+      "fait": "Le temps libéré permet à sa mère d'aller à la bibliothèque, d'apprendre l'anglais et de lire à ses enfants. Rosling relie directement cette machine à son propre parcours de professeur.",
+      "reference": "https://www.independent.org/article/2013/04/25/hans-rosling-and-the-magic-washing-machine-a-lesson/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-femmes",
+      "fait": "L'argument central : les machines domestiques ont libéré un temps considérable, surtout celui des femmes, rendant possibles études et lecture.",
+      "reference": "https://www.forbes.com/sites/artcarden/2013/04/24/hans-rosling-and-the-magic-washing-machine-a-lesson/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE IMPORTANTE : c'est une thèse argumentée, pas un fait établi. D'autres défendent l'imprimerie, l'électricité ou les vaccins. L'expédition la présente comme un point de vue.",
+      "reference": "https://www.ted.com/talks/hans_rosling_the_magic_washing_machine",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-bio",
+      "fait": "Hans Rosling (1948-2017), médecin suédois, professeur de santé internationale au Karolinska Institutet, cofondateur de la fondation Gapminder.",
+      "reference": "https://en.wikipedia.org/wiki/Hans_Rosling",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    }
+  ]
+}

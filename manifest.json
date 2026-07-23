@@ -213,6 +213,16 @@
       "octets": 9945
     },
     {
+      "id": "machines-lessive",
+      "livre": "les-machines",
+      "titre": "L'invention qui a offert des livres aux enfants",
+      "resume": "Quelle machine a le plus changé la vie de tous les jours ? Pas la fusée, pas l'ordinateur. Un savant suédois a défendu une réponse que personne n'attendait.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/machines-lessive.json",
+      "sha256": "fe5c2d600c855791b916fead88dee6d305ab5b9013220a235c00a260ad75802c",
+      "octets": 10025
+    },
+    {
       "id": "machines-lumiere",
       "livre": "les-machines",
       "titre": "La championne que rien ne dépasse",
