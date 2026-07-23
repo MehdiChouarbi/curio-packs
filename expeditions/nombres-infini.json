@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "nombres-infini",
+  "minEngineVersion": 1,
+  "livre": "Les Nombres",
+  "titre": "Le nombre inventé par un enfant de neuf ans",
+  "resume": "Cherche le plus grand nombre du monde : tu ne le trouveras jamais. Mais en chemin, tu croiseras un nombre si énorme qu'il n'y a rien pour le compter.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "origine-zero",
+      "texte": "D'autres peuples ont-ils inventé le zéro, chacun de leur côté ?",
+      "resolueParLivre": "civilisations"
+    }
+  ],
+  "questionsResolues": [
+    "infini-grand"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "♾️",
+      "titre": "Exploratrice de l'Infini"
+    },
+    "decouvertes": [
+      "Il n'existe pas de plus grand nombre : on ajoute toujours 1",
+      "Un googol, c'est 1 suivi de cent zéros",
+      "Il n'y a pas un googol d'atomes dans l'univers",
+      "Un enfant de 9 ans a inventé ce mot en 1920",
+      "Google doit son nom à une faute d'orthographe"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "le-plus-grand",
+      "type": "question",
+      "visuel": "🔢",
+      "titre": "Existe-t-il un nombre plus grand que tous les autres ?",
+      "olli": "On a vu comment le zéro, le tout petit, avait mis mille ans à naître. Partons maintenant dans l'autre sens, vers le très grand. Imagine le plus grand nombre que tu peux. Vraiment le plus grand. Ça y est ? À ton avis, existe-t-il ?",
+      "choix": [
+        {
+          "emoji": "💰",
+          "texte": "Oui : un milliard de milliards de milliards"
+        },
+        {
+          "emoji": "🤷",
+          "texte": "Oui, mais personne ne le connaît encore"
+        },
+        {
+          "emoji": "♾️",
+          "texte": "Non, il ne peut pas exister",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Il ne peut pas exister ! Quel que soit le nombre que tu imagines, tu peux toujours lui ajouter 1. Et recommencer. Et recommencer encore. Il n'y a pas de dernier nombre, pas de bout, pas de mur. C'est ça, l'infini : pas un nombre géant, mais l'idée qu'on ne s'arrête jamais.",
+      "reponseAutre": "Il ne peut pas exister ! Quel que soit le nombre que tu imagines, tu peux toujours lui ajouter 1. Et recommencer. Il n'y a pas de dernier nombre, pas de bout, pas de mur. C'est ça, l'infini : pas un nombre géant, mais l'idée qu'on ne s'arrête jamais."
+    },
+    {
+      "id": "les-tres-grands",
+      "type": "observation",
+      "visuel": "💯",
+      "visuelAnimation": "flotte",
+      "titre": "Approchons-nous quand même des nombres énormes.",
+      "olli": "L'infini n'est pas un nombre. Mais il existe des nombres bien réels, gigantesques, qui ont un nom. Touche chaque partie pour les rencontrer.",
+      "hotspots": [
+        {
+          "emoji": "1️⃣",
+          "nom": "Le googol",
+          "fait": "Un googol, c'est 1 suivi de cent zéros. Écrit en entier, il tient sur une seule ligne de cahier. Mais ce qu'il représente ne tient nulle part : c'est un nombre plus grand que tout ce qu'on peut compter."
+        },
+        {
+          "emoji": "⚛️",
+          "nom": "Plus grand que l'univers",
+          "fait": "Dans tout l'univers visible, on estime qu'il y a environ 4 suivi de 79 zéros atomes. C'est moins qu'un googol. Autrement dit : il n'existe un googol de rien du tout. Ni grains de sable, ni gouttes d'eau, ni étoiles."
+        },
+        {
+          "emoji": "😵",
+          "nom": "Le googolplex",
+          "fait": "Encore plus fort : 1 suivi d'un googol de zéros. Impossible à écrire, même en y passant toute sa vie : il n'y aurait pas assez de place dans l'univers pour poser tous ces zéros. Et pourtant, ce n'est pas l'infini."
+        }
+      ]
+    },
+    {
+      "id": "un-googol-de-quoi",
+      "type": "question",
+      "visuel": "🏖️",
+      "titre": "Y a-t-il un googol de grains de sable sur Terre ?",
+      "olli": "Essayons de nous représenter ce googol. Prends toutes les plages, tous les déserts, tout le sable du fond des océans. Est-ce qu'on approche du compte ?",
+      "choix": [
+        {
+          "emoji": "🌊",
+          "texte": "Oui, et bien plus même"
+        },
+        {
+          "emoji": "⚖️",
+          "texte": "À peu près, on doit y être"
+        },
+        {
+          "emoji": "🌌",
+          "texte": "Non — même en comptant tout l'univers",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Même pas ! Si tu comptais chaque atome de chaque étoile, de chaque planète, de tout l'univers visible, tu n'atteindrais toujours pas un googol. Ce nombre est plus grand que la quantité de choses qui existent. Il est vrai, il est écrit… et il ne compte rien.",
+      "reponseAutre": "Non, même pas ! Si tu comptais chaque atome de chaque étoile, de chaque planète, de tout l'univers visible, tu n'atteindrais toujours pas un googol. Ce nombre est plus grand que la quantité de choses qui existent."
+    },
+    {
+      "id": "milton",
+      "type": "anecdote",
+      "visuel": "🧒",
+      "etiquette": "Histoire vraie",
+      "titre": "L'enfant qui a donné un nom à un géant",
+      "texte": "En 1920, aux États-Unis, un mathématicien nommé Edward Kasner se promène avec son neveu Milton, neuf ans. Kasner lui explique qu'il cherche un nom pour un nombre immense : 1 suivi de cent zéros. Milton réfléchit, puis lance : « googol ! ». Le mot est adopté. L'enfant ajoute même un nom pour un nombre encore plus grand, le googolplex : « 1 suivi de zéros jusqu'à ce qu'on soit fatigué ». Et bien plus tard, deux étudiants qui cherchaient un nom pour leur moteur de recherche ont voulu l'appeler « Googol »… mais ils ont mal écrit le mot. C'est devenu Google. 🔎",
+      "olli": "Milton avait ton âge. Il a compris quelque chose d'important : ce nombre n'était pas l'infini, donc il méritait un nom.",
+      "sourceRef": "src-milton"
+    },
+    {
+      "id": "mission-zeros",
+      "type": "mission",
+      "visuel": "✏️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Essaie d'écrire un googol",
+      "texte": "Prends une feuille et un crayon. Écris un 1, puis cent zéros derrière. Compte-les bien : exactement cent. Chronomètre-toi si tu veux. Tu viens d'écrire un googol : ça tient sur une ligne ou deux. Maintenant réfléchis à ceci : pour écrire un googolplex, il faudrait poser un googol de zéros — soit plus de zéros qu'il n'y a d'atomes dans l'univers. Même en écrivant toute ta vie, tu n'aurais pas commencé.",
+      "olli": "Montre ta feuille à quelqu'un et demande-lui de deviner combien de zéros il y a. Puis raconte-lui le googolplex. 😄"
+    },
+    {
+      "id": "teaser-zero-ailleurs",
+      "type": "teaser",
+      "visuel": "🌍",
+      "titre": "Le zéro est né en Inde. Mais était-il vraiment le seul ?",
+      "texte": "Nous voilà allés très loin dans le très grand. Revenons au tout petit, au zéro. Tu sais qu'il est devenu un vrai nombre en Inde, il y a presque 1400 ans. Mais à l'autre bout du monde, sans aucun contact, d'autres peuples comptaient aussi, bâtissaient, observaient le ciel. Ont-ils eu la même idée de leur côté ? Et si oui, comment le sait-on ?",
+      "olli": "La réponse t'attend dans le Livre des Civilisations… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "origine-zero"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-infini",
+      "fait": "Il n'existe pas de plus grand entier : pour tout nombre n, n+1 est plus grand. L'infini n'est pas un nombre mais un concept ; un googolplex, bien qu'immense, reste fini.",
+      "reference": "https://en.wikipedia.org/wiki/Googolplex",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-googol",
+      "fait": "Un googol vaut 10^100, soit 1 suivi de 100 zéros. Un googolplex vaut 10 puissance googol : 1 suivi d'un googol de zéros, impossible à écrire physiquement.",
+      "reference": "https://en.wikipedia.org/wiki/Googol",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-atomes",
+      "fait": "On estime à environ 4×10^79 le nombre d'atomes de l'univers observable, soit moins qu'un googol. Il n'existe donc un googol d'aucune chose réelle connue.",
+      "reference": "https://atomichands.com/videos/what-the-heck-is-googol-and-how-did-it-contribute-to-the-birth-of-google/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-milton",
+      "fait": "Le mot « googol » est inventé en 1920 par Milton Sirotta, 9 ans, neveu du mathématicien Edward Kasner, qui lui demandait un nom pour 10^100. Publié dans « Mathematics and the Imagination » (1940).",
+      "reference": "https://en.wikipedia.org/wiki/Googol",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-milton-citation",
+      "fait": "Kasner rapporte que l'enfant était certain que ce nombre n'était pas infini, et donc qu'il devait avoir un nom. Il proposa aussi « googolplex » : 1 suivi de zéros jusqu'à fatigue.",
+      "reference": "https://en.wiktionary.org/wiki/googol",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-google",
+      "fait": "Le nom du moteur de recherche Google provient d'une orthographe erronée de « googol », par Larry Page et Sergey Brin, étudiants à Stanford à la fin des années 1990.",
+      "reference": "https://googology.fandom.com/wiki/Googol",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    }
+  ]
+}

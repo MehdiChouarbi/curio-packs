@@ -253,6 +253,16 @@
       "octets": 9248
     },
     {
+      "id": "nombres-infini",
+      "livre": "Les Nombres",
+      "titre": "Le nombre inventé par un enfant de neuf ans",
+      "resume": "Cherche le plus grand nombre du monde : tu ne le trouveras jamais. Mais en chemin, tu croiseras un nombre si énorme qu'il n'y a rien pour le compter.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-infini.json",
+      "sha256": "52dbab86a31b424d0d5d204421db98f2b28e2791b16997ee7988e891852ce379",
+      "octets": 9650
+    },
+    {
       "id": "nombres-zero",
       "livre": "les-nombres",
       "titre": "Le nombre qui a mis mille ans à naître",
