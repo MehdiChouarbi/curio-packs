@@ -142,35 +142,35 @@
       "fait": "Les fourmis déposent des phéromones de piste en se déplaçant ; le renforcement des pistes les plus empruntées est un processus auto-catalytique (stigmergie), sans contrôle central.",
       "reference": "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1002592",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-deneubourg",
       "fait": "Expérience du double pont (Goss et al. 1989 ; Deneubourg et al. 1990) sur la fourmi d'Argentine Linepithema humile : la colonie converge vers le chemin le plus court.",
       "reference": "https://arxiv.org/pdf/1908.08007",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-temps",
       "fait": "Mécanisme : le pont court est parcouru plus vite, il reçoit donc de la phéromone plus tôt, ce qui augmente la probabilité que les fourmis suivantes le choisissent.",
       "reference": "https://web2.qatar.cmu.edu/~gdicaro/15382/additional/aco-book.pdf",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-aco",
       "fait": "Ces travaux ont inspiré l'optimisation par colonies de fourmis (ACO), développée par Marco Dorigo à partir de 1992, appliquée aux tournées et au routage réseau.",
       "reference": "https://web2.qatar.cmu.edu/~gdicaro/15382/additional/aco-book.pdf",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-evaporation",
       "fait": "NUANCE : dans les expériences originales, l'évaporation des phéromones jouait un rôle négligeable ; elle est en revanche utile dans les algorithmes artificiels.",
       "reference": "https://web2.qatar.cmu.edu/~gdicaro/15382/additional/aco-book.pdf",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     }
   ]
 }
