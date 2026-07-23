@@ -14,7 +14,7 @@
     {
       "id": "mille-cultures",
       "texte": "Comment des peuples différents peuvent-ils construire une histoire commune ?",
-      "resolueParLivre": "mille-cultures"
+      "resolueParLivre": "civilisations"
     }
   ],
   "questionsResolues": [
@@ -128,9 +128,9 @@
       "id": "teaser-final-civilisations",
       "type": "teaser",
       "visuel": "🌍",
-      "titre": "Toutes les civilisations racontent une seule grande histoire...",
-      "texte": "Des pyramides aux gratte-ciels, des premiers villages aux grandes villes, les humains ont toujours cherché à comprendre et construire.",
-      "olli": "Le dernier chapitre du Livre des Civilisations révèle le grand voyage de l'humanité.",
+      "titre": "Tant de peuples différents… et une seule histoire ?",
+      "texte": "Tu viens de suivre des voyageurs qui ont relié des mondes qui s'ignoraient. Chacun avait sa langue, ses maisons, ses recettes, ses dieux. Sur toute la Terre, des milliers de cultures ont grandi séparément, sans jamais se connaître. Et pourtant, ce sont les mêmes humains partout. Alors comment toutes ces histoires si différentes n'en forment-elles qu'une seule ?",
+      "olli": "La réponse t'attend dans une autre page du Livre des Civilisations… En attendant, ton passeport a un nouveau tampon ! 🎉",
       "questionOuverteRef": "mille-cultures"
     }
   ],
@@ -140,14 +140,14 @@
       "fait": "L'expédition initiée par Magellan a réalisé le premier tour du monde achevé par un équipage après sa mort.",
       "reference": "https://www.britannica.com/biography/Ferdinand-Magellan",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-ibn-battuta",
       "fait": "Ibn Battûta est un voyageur marocain du XIVe siècle connu pour ses nombreux voyages et récits.",
       "reference": "https://www.britannica.com/biography/Ibn-Battuta",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     }
   ]
 }
