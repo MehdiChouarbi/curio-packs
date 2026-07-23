@@ -142,42 +142,42 @@
       "fait": "Meganeura monyi : envergure d'environ 65 à 70 cm, Carbonifère supérieur (~305-299 millions d'années). Plus grand insecte volant connu avec son proche parent Meganeuropsis (~71 cm).",
       "reference": "https://www.geologypage.com/2020/03/meganeura-the-largest-insect-ever-existed-was-a-giant-dragonfly.html",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-oxygene",
       "fait": "L'oxygène atmosphérique atteignait environ 30-35 % au Carbonifère supérieur, contre 21 % aujourd'hui. Les insectes respirent par trachées, ce qui limite leur taille selon la richesse de l'air.",
       "reference": "https://www.discovermagazine.com/insects-of-the-oxygeniferous-11783",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-debat",
       "fait": "NUANCE : l'explication par l'oxygène seul est discutée. Des Meganeuridae géants vivaient au Permien, moins riche en oxygène. L'absence de vertébrés volants est aussi invoquée.",
       "reference": "https://ecosystemsinthesky.com/blog/six-wings-and-giants-the-earliest-fliers-and-largest-insects-that-ever-lived",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-poids",
       "fait": "Une étude d'ingénierie estime la masse des plus grands spécimens (envergure > 70 cm) entre 100 et 150 grammes ; certains coléoptères actuels sont plus lourds.",
       "reference": "https://www.gbif.org/species/144094433",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-commentry",
       "fait": "Fossile découvert dans les couches houillères de Commentry (France) en 1880 ; décrit et nommé Meganeura (« grandes nervures ») par Charles Brongniart en 1885. Holotype au Muséum de Paris.",
       "reference": "https://www.geologypage.com/2020/03/meganeura-the-largest-insect-ever-existed-was-a-giant-dragonfly.html",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-ciel-vide",
       "fait": "Aucun vertébré volant n'existait alors : oiseaux, chauves-souris et ptérosaures apparaissent bien plus tard. Meganeura est un « griffinfly » (Meganisoptera), parent des libellules actuelles.",
       "reference": "https://ecosystemsinthesky.com/blog/six-wings-and-giants-the-earliest-fliers-and-largest-insects-that-ever-lived",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     }
   ]
 }
