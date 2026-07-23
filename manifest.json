@@ -324,12 +324,12 @@
     },
     {
       "id": "temps-coelacanthe",
-      "livre": "Le Temps Profond",
+      "livre": "le-temps-profond",
       "titre": "Le poisson qui a démenti les savants",
       "resume": "On le connaissait par ses fossiles, disparu depuis 66 millions d'années. Un matin de décembre 1938, une jeune femme en a trouvé un dans un filet de pêche.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/temps-coelacanthe.json",
-      "sha256": "db519f360850b2f9317a0e7e206bfea6578128f02e296f4d29e45fd9fefd8c88",
+      "sha256": "22b9187ac2eafe03b6e02af389fa452772f9569aa390b35480a272799bc9bd8b",
       "octets": 10215
     }
   ]
