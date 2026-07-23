@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "civilisations-mille-cultures",
+  "minEngineVersion": 1,
+  "livre": "Civilisations",
+  "titre": "Mille façons de vivre, une seule famille",
+  "resume": "Partout sur Terre, les humains ont eu les mêmes problèmes et inventé des solutions totalement différentes. Pourtant, nous sommes presque identiques.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "cerveau-langues",
+      "texte": "Mille cultures, mille langues. Comment ton cerveau en apprend-il une ?",
+      "resolueParLivre": "le-corps"
+    }
+  ],
+  "questionsResolues": [
+    "mille-cultures",
+    "adapter-environnement"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🌍",
+      "titre": "Gardienne de la Grande Famille"
+    },
+    "decouvertes": [
+      "Dans le Grand Nord, on bâtit des maisons avec de la neige",
+      "Chaque peuple invente sa solution au même problème",
+      "Deux humains sont identiques à 99,9 %",
+      "Les plus grandes différences sont entre voisins",
+      "Un savant l'a mesuré en 1972, et ça a tout changé"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "maison-sans-bois",
+      "type": "question",
+      "visuel": "❄️",
+      "titre": "Ni arbre, ni pierre, ni terre. Avec quoi construis-tu ta maison ?",
+      "olli": "Tu as suivi des peuples qui ont bâti des pyramides, des routes, des jardins flottants. Voici leur défi commun : se loger là où on vit. Imagine le Grand Nord — que de la neige jusqu'à l'horizon. Avec quoi bâtir ?",
+      "choix": [
+        {
+          "emoji": "🧊",
+          "texte": "Avec la neige elle-même",
+          "bonne": true
+        },
+        {
+          "emoji": "🦴",
+          "texte": "Avec des os d'animaux uniquement"
+        },
+        {
+          "emoji": "⛺",
+          "texte": "On ne construit pas, on dort dehors"
+        }
+      ],
+      "reponseBonne": "Avec la neige ! Ça paraît absurde : construire un abri chaud avec du froid. Mais la neige est pleine de minuscules bulles d'air, et l'air emprisonné garde la chaleur — comme ton manteau. Dedans, la chaleur des corps suffit à faire remonter la température bien au-dessus du dehors.",
+      "reponseAutre": "Avec la neige elle-même ! Ça semble absurde : bâtir un abri chaud avec du froid. Mais la neige est pleine de minuscules bulles d'air, et l'air emprisonné garde la chaleur — comme ton manteau. Dedans, la chaleur des corps suffit à réchauffer l'abri."
+    },
+    {
+      "id": "memes-problemes",
+      "type": "observation",
+      "visuel": "🏘️",
+      "visuelAnimation": "flotte",
+      "titre": "Même problème, trois solutions que rien ne relie.",
+      "olli": "Touche chaque maison. Aucun de ces peuples ne connaissait les autres. Et pourtant, chacun a résolu la même question à sa façon.",
+      "hotspots": [
+        {
+          "emoji": "🐎",
+          "nom": "Suivre les troupeaux",
+          "fait": "Dans les steppes d'Asie, on se déplace avec les bêtes toute l'année. La maison doit donc voyager : la yourte se démonte, se charge, se remonte ailleurs en quelques heures. Une maison qu'on emporte."
+        },
+        {
+          "emoji": "🌊",
+          "nom": "Vivre au-dessus de l'eau",
+          "fait": "Là où le fleuve monte chaque année, inutile de lutter : on bâtit la maison sur de hauts pieux de bois. L'eau passe dessous, la famille reste au sec. On ne combat pas l'inondation, on la laisse passer."
+        },
+        {
+          "emoji": "⛰️",
+          "nom": "Sculpter la montagne",
+          "fait": "Sur une pente, la pluie emporte la terre et rien ne pousse. Alors on taille le versant en immenses marches d'escalier, retenues par des murets. La montagne devient un champ. C'est le choix des Andes."
+        }
+      ]
+    },
+    {
+      "id": "ressemblance",
+      "type": "question",
+      "visuel": "🧬",
+      "titre": "Si différents… mais ressemblants à quel point, au fond ?",
+      "olli": "Des maisons de neige, des maisons qui voyagent, des champs en escalier. Des langues et des cuisines par milliers. Maintenant regardons à l'intérieur : deux humains pris au hasard sur la Terre se ressemblent à combien ?",
+      "choix": [
+        {
+          "emoji": "🔢",
+          "texte": "Environ la moitié"
+        },
+        {
+          "emoji": "📊",
+          "texte": "À peu près 90 %"
+        },
+        {
+          "emoji": "💯",
+          "texte": "Plus de 99,9 %",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Plus de 99,9 % ! Deux personnes nées aux deux bouts du monde, qui ne se ressemblent pas du tout, sont presque exactement pareilles à l'intérieur. Tout ce que tu vois — la peau, les yeux, les cheveux — tient dans le tout petit reste. Mille cultures, une seule espèce.",
+      "reponseAutre": "Plus de 99,9 % ! Deux personnes nées aux deux bouts du monde, qui ne se ressemblent pas du tout, sont presque exactement pareilles à l'intérieur. Ce que tu vois — la peau, les yeux, les cheveux — tient dans le tout petit reste."
+    },
+    {
+      "id": "lewontin",
+      "type": "anecdote",
+      "visuel": "🔬",
+      "etiquette": "Histoire vraie",
+      "titre": "Le savant qui cherchait des groupes et n'en a pas trouvé",
+      "texte": "En 1972, un chercheur américain, Richard Lewontin, se pose une question simple : peut-on ranger les humains en groupes bien nets ? Il rassemble des échantillons venus de partout et compare. Le résultat le stupéfie. Les plus grandes différences ne séparent pas les continents : elles séparent des gens du même village ! Plus de huit dixièmes de la variété humaine se trouve à l'intérieur de chaque population. Des décennies plus tard, l'ADN a confirmé son calcul. Deux voisins peuvent être plus différents que deux inconnus vivant à dix mille kilomètres. 🌍",
+      "olli": "Il cherchait des frontières entre les humains. Ses propres chiffres lui ont répondu qu'elles n'existaient pas. Un savant honnête accepte ce que ses mesures lui disent.",
+      "sourceRef": "src-lewontin"
+    },
+    {
+      "id": "mission-maison",
+      "type": "mission",
+      "visuel": "🏷️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Compte les pays cachés chez toi",
+      "texte": "Fais le tour de ta maison avec une feuille. Regarde les étiquettes des vêtements, le dos des objets, les emballages dans les placards : « fabriqué en… ». Note chaque pays que tu trouves, sans en oublier. Ajoute les plats que ta famille cuisine et d'où viennent leurs recettes. Compte à la fin. Ta maison est déjà un morceau de la grande fresque humaine — et tu ne l'avais peut-être jamais vue comme ça.",
+      "olli": "Montre ta liste à quelqu'un et demande-lui de deviner combien de pays tu as trouvés. Il dira sûrement un chiffre bien trop petit. 😄"
+    },
+    {
+      "id": "teaser-langues",
+      "type": "teaser",
+      "visuel": "🧠",
+      "titre": "Mille cultures, mille langues. Et toi, comment apprends-tu la tienne ?",
+      "texte": "Voilà ce qui reste à comprendre. Il existe des milliers de langues sur Terre : certaines se parlent, une se siffle, d'autres se signent avec les mains. Aucune n'est plus simple qu'une autre. Et chaque enfant, où qu'il naisse, apprend la sienne sans effort avant même de savoir marcher correctement. Comment ton cerveau réussit-il cet exploit ?",
+      "olli": "La réponse t'attend dans le Livre du Corps… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "cerveau-langues"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-999",
+      "fait": "L'ADN de deux êtres humains quelconques est identique à environ 99,9 %, quel que soit leur continent d'origine. Les chimpanzés partagent environ 98,8 % de leurs gènes avec nous.",
+      "reference": "https://www.amacad.org/publication/daedalus/unequal-nature-geneticists-perspective-human-differences",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-lewontin",
+      "fait": "Richard Lewontin (1972) montre que plus de 85 % de la diversité génétique humaine se trouve À L'INTÉRIEUR des populations, et moins de 15 % entre les groupes.",
+      "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9014189/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-adn-confirme",
+      "fait": "Confirmation par l'ADN (109 loci) : 84,4 % de la diversité s'observe entre membres d'une même population ; les différences entre continents représentent environ un dixième du total.",
+      "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC20754",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-neige",
+      "fait": "La neige tassée est un bon isolant car elle emprisonne de l'air ; un abri de neige permet de maintenir une température intérieure très supérieure à l'extérieur.",
+      "reference": "https://www.nps.gov/articles/000/snow-shelter-science.htm",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    }
+  ]
+}

@@ -103,6 +103,16 @@
       "octets": 6434
     },
     {
+      "id": "civilisations-mille-cultures",
+      "livre": "Civilisations",
+      "titre": "Mille façons de vivre, une seule famille",
+      "resume": "Partout sur Terre, les humains ont eu les mêmes problèmes et inventé des solutions totalement différentes. Pourtant, nous sommes presque identiques.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-mille-cultures.json",
+      "sha256": "1e87ab13d18de2e96a6d27a86fda336561da0dd99bb13a9033712bad53dbcbb7",
+      "octets": 9145
+    },
+    {
       "id": "civilisations-premiers-humains",
       "livre": "Civilisations",
       "titre": "Les premiers pas de l'humanité",
