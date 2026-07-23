@@ -213,6 +213,16 @@
       "octets": 9585
     },
     {
+      "id": "mots-nicaragua",
+      "livre": "Les Mots",
+      "titre": "Les enfants qui ont inventé une langue",
+      "resume": "Dans une cour d'école du Nicaragua, des enfants sourds réunis pour la première fois ont fabriqué une langue entière. Les adultes n'y ont rien compris.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/mots-nicaragua.json",
+      "sha256": "cd373a4281f5686a1584803fc3a212561c4f24a80145b1d678870187f40603fd",
+      "octets": 10039
+    },
+    {
       "id": "mots-silbo",
       "livre": "Les Mots",
       "titre": "L'île qui parle en sifflant",

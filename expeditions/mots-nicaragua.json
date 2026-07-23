@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "mots-nicaragua",
+  "minEngineVersion": 1,
+  "livre": "Les Mots",
+  "titre": "Les enfants qui ont inventé une langue",
+  "resume": "Dans une cour d'école du Nicaragua, des enfants sourds réunis pour la première fois ont fabriqué une langue entière. Les adultes n'y ont rien compris.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "origine-ecriture",
+      "texte": "Parler, signer… mais qui a eu le premier l'idée de dessiner les mots ?",
+      "resolueParLivre": "civilisations"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🤟",
+      "titre": "Témoin d'une Naissance"
+    },
+    "decouvertes": [
+      "Une langue est née dans une cour d'école, en 1980",
+      "Elle a été inventée par des enfants, pas par des adultes",
+      "Ce sont les plus jeunes qui lui ont donné sa grammaire",
+      "Les professeurs croyaient qu'ils faisaient du mime",
+      "C'est la seule langue qu'on ait vue naître"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "la-cour",
+      "type": "question",
+      "visuel": "🏫",
+      "titre": "400 enfants sourds réunis pour la première fois. Que se passe-t-il ?",
+      "olli": "Nicaragua, 1980. Jusque-là, les enfants sourds du pays vivaient chacun dans sa famille, sans se connaître. On ouvre une école et on les réunit. Les maîtres essaient de leur apprendre à lire sur les lèvres — ça ne marche pas du tout. Alors, dans la cour ?",
+      "choix": [
+        {
+          "emoji": "🤐",
+          "texte": "Ils restent chacun dans leur coin, sans se parler"
+        },
+        {
+          "emoji": "🤟",
+          "texte": "Ils fabriquent leur propre langue, tout seuls",
+          "bonne": true
+        },
+        {
+          "emoji": "📖",
+          "texte": "Ils finissent par apprendre l'espagnol quand même"
+        }
+      ],
+      "reponseBonne": "Ils inventent une langue ! Chacun arrive avec quelques gestes bricolés à la maison, différents d'une famille à l'autre. Dans la cour, dans la rue, dans le bus, ils se mettent d'accord sans jamais le décider : un geste pour « manger », un pour « demain ». En quelques années, une vraie langue existe.",
+      "reponseAutre": "Ils fabriquent leur propre langue ! Chacun arrive avec quelques gestes bricolés à la maison. Dans la cour, dans la rue, dans le bus, ils se mettent d'accord sans jamais le décider : un geste pour « manger », un pour « demain ». En quelques années, une vraie langue existe."
+    },
+    {
+      "id": "ou-et-comment",
+      "type": "observation",
+      "visuel": "🚌",
+      "visuelAnimation": "flotte",
+      "titre": "Où naît une langue ? Sûrement pas là où on croit.",
+      "olli": "Touche chaque partie pour voir où et comment ça s'est passé. Le lieu va peut-être te surprendre.",
+      "hotspots": [
+        {
+          "emoji": "🏠",
+          "nom": "Avant : chacun tout seul",
+          "fait": "Avant cette école, un enfant sourd du Nicaragua ne rencontrait presque jamais un autre enfant sourd. Il inventait quelques gestes avec ses parents, pour manger ou dormir. Une dizaine de signes, pas plus, et rien pour raconter."
+        },
+        {
+          "emoji": "🚌",
+          "nom": "Ni la classe, ni le maître",
+          "fait": "La langue n'est pas née pendant les leçons. Elle est née dans la cour de récréation, sur le trottoir et dans le bus scolaire — partout où les enfants étaient enfin ensemble et libres de se parler."
+        },
+        {
+          "emoji": "🤷",
+          "nom": "Les adultes n'ont rien vu",
+          "fait": "Les professeurs pensaient que leurs élèves faisaient du mime, et qu'ils échouaient simplement à apprendre l'espagnol. Ils ne comprenaient pas ce qui se déroulait sous leurs yeux, alors ils ont appelé à l'aide."
+        }
+      ]
+    },
+    {
+      "id": "qui-a-fait-la-grammaire",
+      "type": "question",
+      "visuel": "🧒",
+      "titre": "Qui a transformé ce paquet de gestes en vraie langue ?",
+      "olli": "Au début, c'était encore approximatif : des gestes collés bout à bout, sans règles. Puis c'est devenu une langue complète, avec une grammaire, capable de tout dire. Qui a fait ce travail-là, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "👩‍🏫",
+          "texte": "Les professeurs, en s'y mettant enfin"
+        },
+        {
+          "emoji": "🧑",
+          "texte": "Les grands, les plus âgés de l'école"
+        },
+        {
+          "emoji": "🧒",
+          "texte": "Les plus petits, arrivés après",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Les plus petits ! Les grands avaient bricolé un système un peu bancal. Les jeunes qui sont arrivés ensuite l'ont attrapé… et l'ont rendu meilleur : plus rapide, plus régulier, avec de vraies règles. Un cerveau d'enfant ne se contente pas de copier une langue : il la répare et la complète.",
+      "reponseAutre": "Les plus petits, arrivés après ! Les grands avaient bricolé un système bancal. Les jeunes l'ont attrapé et l'ont rendu meilleur : plus rapide, plus régulier, avec de vraies règles. Un cerveau d'enfant ne se contente pas de copier une langue : il la répare."
+    },
+    {
+      "id": "judy",
+      "type": "anecdote",
+      "visuel": "🎥",
+      "etiquette": "Histoire vraie",
+      "titre": "La spécialiste venue pour trois semaines",
+      "texte": "En juin 1986, le ministère de l'Éducation du Nicaragua fait venir Judy Kegl, une spécialiste américaine des langues des signes. Elle pense conseiller les professeurs quelques semaines, puis rentrer chez elle. Sur place, elle comprend autre chose : ces enfants ne miment pas, ils parlent — dans une langue que personne n'a jamais vue, en train de se former sous ses yeux. Elle sort des caméras et se met à filmer. Elle restera des années. C'est le seul cas connu où des humains ont pu observer une langue naître, du tout premier jour. 🎥",
+      "olli": "Un de ces enfants, devenu adulte, a décrit ce moment où il a enfin pu se faire comprendre : « c'est comme une fusée qui décolle dans ta tête ».",
+      "sourceRef": "src-kegl"
+    },
+    {
+      "id": "mission-signes",
+      "type": "mission",
+      "visuel": "🤝",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fabrique une langue à deux",
+      "texte": "Trouve quelqu'un et posez une règle : plus un seul son, plus un seul mot écrit, pendant cinq minutes. Inventez ensemble cinq signes seulement — par exemple « oui », « non », « viens », « j'ai faim », « regarde ». Puis essaie de raconter ce que tu as fait aujourd'hui, rien qu'avec ça. Tu vas vite manquer de signes et devoir en créer d'autres sur le moment. C'est exactement ce qu'ont vécu ces enfants.",
+      "olli": "Compte combien de signes il vous a fallu au bout de cinq minutes. Eux en ont fabriqué des milliers, sans que personne les aide. 😄"
+    },
+    {
+      "id": "teaser-ecriture",
+      "type": "teaser",
+      "visuel": "✍️",
+      "titre": "On peut parler, on peut signer. Mais dessiner les mots ?",
+      "texte": "Ces enfants ont montré quelque chose d'énorme : dès que des humains se retrouvent ensemble, une langue apparaît. Avec la bouche, avec les mains, en sifflant sur une île. Mais toutes ces langues s'envolent dès qu'on a fini de parler. Il a fallu qu'un jour, quelque part, quelqu'un ait une idée renversante : poser un mot sur une surface pour qu'il reste. Qui a osé le premier ?",
+      "olli": "La réponse t'attend dans le Livre des Civilisations… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "origine-ecriture"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-ecoles",
+      "fait": "Avant 1980, les sourds du Nicaragua étaient isolés et utilisaient des « signes maison ». En 1977 ouvre un centre à Managua ; en 1980 une école professionnelle ; en 1983, plus de 400 élèves sourds.",
+      "reference": "https://en.wikipedia.org/wiki/Nicaraguan_Sign_Language",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-cour",
+      "fait": "L'enseignement visait l'espagnol oral et la lecture labiale, sans succès. La langue a émergé hors de la classe : cour de récréation, rue, bus scolaire.",
+      "reference": "https://en.wikipedia.org/wiki/Nicaraguan_Sign_Language",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-jeunes",
+      "fait": "Les enfants les plus jeunes ont porté le système pidgin des aînés à un niveau de complexité supérieur, avec accord du verbe et autres règles de grammaire.",
+      "reference": "https://twistedsifter.com/videos/how-deaf-children-in-nicaragua-birthed-a-new-language/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-kegl",
+      "fait": "En juin 1986, le ministère de l'Éducation invite Judy Kegl, linguiste du MIT. Venue pour une courte mission, elle assiste à la naissance d'une langue et la documentera des années durant.",
+      "reference": "https://www.handsandvoices.org/articles/misc/V8-2_nicaragua.htm",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-unique",
+      "fait": "L'ISN (Idioma de Señas de Nicaragua) est le seul cas connu de langue apparue spontanément et documentée depuis sa naissance.",
+      "reference": "https://www.uslanguageservices.com/blog/nicaraguan-sign-language/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : ce n'est pas « à partir de rien ». Les enfants apportaient leurs signes familiaux, et la langue s'est construite sur plusieurs générations d'élèves, pas en un jour.",
+      "reference": "https://www.atlasobscura.com/articles/what-is-nicaraguan-sign-language",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-23"
+    }
+  ]
+}
