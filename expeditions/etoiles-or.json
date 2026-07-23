@@ -142,42 +142,42 @@
       "fait": "Le masque funéraire de Toutânkhamon mesure 54 cm, pèse 10,23 kg, en or 23 carats allié de cuivre. Surface couverte de deux nuances d'or (18,4 et 22,5 carats).",
       "reference": "https://en.wikipedia.org/wiki/Mask_of_Tutankhamun",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-carter",
       "fait": "Howard Carter ouvre le cercueil le plus interne le 28 octobre 1925, révélant le masque après environ 3 250 ans. Il le décrit dans son carnet comme « placid and beautiful ».",
       "reference": "https://en.wikipedia.org/wiki/Mask_of_Tutankhamun",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-noble",
       "fait": "L'or est un métal noble : très peu réactif, il ne s'oxyde pas à l'air, contrairement au fer (rouille) ou à l'argent (ternissement). D'où sa conservation sur des millénaires.",
       "reference": "https://en.wikipedia.org/wiki/Noble_metal",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-collision",
       "fait": "GW170817 : fusion de deux étoiles à neutrons détectée le 17 août 2017 par LIGO/Virgo, dans NGC 4993 à ~130 millions d'années-lumière ; première observation d'une kilonova.",
       "reference": "https://theconversation.com/cosmic-alchemy-colliding-neutron-stars-show-us-how-the-universe-creates-gold-86104",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-quantite",
       "fait": "NUANCE : les estimations d'or produit par GW170817 varient selon les modèles, d'environ 3-13 masses terrestres à plus de 100. D'où la formulation prudente « plusieurs fois la masse de la Terre ».",
       "reference": "https://arxiv.org/pdf/1710.05875",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     },
     {
       "id": "src-r-process",
       "fait": "NUANCE : les fusions d'étoiles à neutrons sont considérées comme la source dominante des éléments lourds (processus r), sans exclure d'autres sites. Question encore active.",
       "reference": "https://arxiv.org/pdf/1710.05931",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
     }
   ]
 }
