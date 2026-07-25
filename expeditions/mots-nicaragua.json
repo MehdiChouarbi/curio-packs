@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "mots-nicaragua",
   "minEngineVersion": 1,
-  "livre": "Les Mots",
+  "livre": "les-mots",
   "titre": "Les enfants qui ont inventé une langue",
   "resume": "Dans une cour d'école du Nicaragua, des enfants sourds réunis pour la première fois ont fabriqué une langue entière. Les adultes n'y ont rien compris.",
   "age": {
@@ -140,42 +140,42 @@
       "fait": "Avant 1980, les sourds du Nicaragua étaient isolés et utilisaient des « signes maison ». En 1977 ouvre un centre à Managua ; en 1980 une école professionnelle ; en 1983, plus de 400 élèves sourds.",
       "reference": "https://en.wikipedia.org/wiki/Nicaraguan_Sign_Language",
       "verifiePar": "Mehdi",
-      "date": "2026-07-23"
+      "date": "2026-07-25"
     },
     {
       "id": "src-cour",
       "fait": "L'enseignement visait l'espagnol oral et la lecture labiale, sans succès. La langue a émergé hors de la classe : cour de récréation, rue, bus scolaire.",
       "reference": "https://en.wikipedia.org/wiki/Nicaraguan_Sign_Language",
       "verifiePar": "Mehdi",
-      "date": "2026-07-23"
+      "date": "2026-07-25"
     },
     {
       "id": "src-jeunes",
       "fait": "Les enfants les plus jeunes ont porté le système pidgin des aînés à un niveau de complexité supérieur, avec accord du verbe et autres règles de grammaire.",
       "reference": "https://twistedsifter.com/videos/how-deaf-children-in-nicaragua-birthed-a-new-language/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-23"
+      "date": "2026-07-25"
     },
     {
       "id": "src-kegl",
       "fait": "En juin 1986, le ministère de l'Éducation invite Judy Kegl, linguiste du MIT. Venue pour une courte mission, elle assiste à la naissance d'une langue et la documentera des années durant.",
       "reference": "https://www.handsandvoices.org/articles/misc/V8-2_nicaragua.htm",
       "verifiePar": "Mehdi",
-      "date": "2026-07-23"
+      "date": "2026-07-25"
     },
     {
       "id": "src-unique",
       "fait": "L'ISN (Idioma de Señas de Nicaragua) est le seul cas connu de langue apparue spontanément et documentée depuis sa naissance.",
       "reference": "https://www.uslanguageservices.com/blog/nicaraguan-sign-language/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-23"
+      "date": "2026-07-25"
     },
     {
       "id": "src-nuance",
       "fait": "NUANCE : ce n'est pas « à partir de rien ». Les enfants apportaient leurs signes familiaux, et la langue s'est construite sur plusieurs générations d'élèves, pas en un jour.",
       "reference": "https://www.atlasobscura.com/articles/what-is-nicaraguan-sign-language",
       "verifiePar": "Mehdi",
-      "date": "2026-07-23"
+      "date": "2026-07-25"
     }
   ]
 }
