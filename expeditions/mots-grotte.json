@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "mots-grotte",
+  "minEngineVersion": 1,
+  "livre": "les-mots",
+  "titre": "La plus vieille histoire du monde",
+  "resume": "Sur le mur d'une grotte, en Indonésie, quelqu'un a peint une scène de chasse il y a 51 000 ans. C'est la plus ancienne histoire jamais racontée qu'on ait retrouvée.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "terres-de-feu",
+      "texte": "Cette grotte est en Indonésie, une terre de volcans. Que s'y est-il passé de terrible ?",
+      "resolueParLivre": "volcans"
+    }
+  ],
+  "questionsResolues": [
+    "premiers-recits"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🎨",
+      "titre": "Lectrice des Origines"
+    },
+    "decouvertes": [
+      "La plus vieille histoire peinte a 51 000 ans",
+      "Elle montre une chasse : des figures et un cochon sauvage",
+      "On y voit déjà des êtres mi-humains, mi-animaux",
+      "Elle a été trouvée en Indonésie, pas en Europe",
+      "Raconter des histoires est un très ancien pouvoir humain"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "premiere-histoire",
+      "type": "question",
+      "visuel": "🎨",
+      "titre": "Quelle est la plus vieille histoire qu'on ait jamais retrouvée ?",
+      "olli": "Lucy marchait, mais on ne sait pas si elle parlait. Bien plus tard, les humains se sont mis à raconter. Et parfois, ils ont laissé une trace. La plus ancienne histoire qu'on ait retrouvée, à ton avis, elle ressemble à quoi ?",
+      "choix": [
+        {
+          "emoji": "📜",
+          "texte": "Un livre écrit avec des lettres"
+        },
+        {
+          "emoji": "🗿",
+          "texte": "Une histoire gravée dans la pierre par les Égyptiens"
+        },
+        {
+          "emoji": "🎨",
+          "texte": "Une scène peinte sur le mur d'une grotte",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Une peinture dans une grotte ! Bien avant l'écriture, des humains ont raconté une histoire en la peignant sur un mur. La plus ancienne qu'on ait trouvée montre une chasse : des personnages et un gros cochon sauvage. Elle a été peinte il y a environ 51 000 ans. Une histoire vieille de cinquante mille ans.",
+      "reponseAutre": "Une scène peinte sur le mur d'une grotte ! Bien avant l'écriture, des humains ont raconté une histoire en la peignant. La plus ancienne qu'on ait trouvée montre une chasse : des personnages et un gros cochon sauvage, peinte il y a environ 51 000 ans. Cinquante mille ans."
+    },
+    {
+      "id": "la-scene",
+      "type": "observation",
+      "visuel": "🐗",
+      "visuelAnimation": "flotte",
+      "titre": "Regardons cette peinture de tout près.",
+      "olli": "Touche chaque partie. Ce n'est pas un simple dessin : c'est une scène, avec des personnages qui font quelque chose ensemble. C'est ça, une histoire.",
+      "hotspots": [
+        {
+          "emoji": "🐗",
+          "nom": "Une vraie scène de chasse",
+          "fait": "On y voit un gros cochon sauvage et des petits buffles, poursuivis par des personnages armés de lances ou de cordes. Ce ne sont pas des dessins séparés : ils agissent ensemble, dans une même scène. C'est une histoire."
+        },
+        {
+          "emoji": "🦅",
+          "nom": "Des êtres qui n'existent pas",
+          "fait": "Détail stupéfiant : certains chasseurs ont un corps d'humain mais une tête ou une queue d'animal. Ils n'existent pas dans la vraie vie. Ces artistes imaginaient déjà des créatures, comme dans les contes et les mythes d'aujourd'hui."
+        },
+        {
+          "emoji": "🌏",
+          "nom": "Pas là où on croyait",
+          "fait": "On pensait que l'art était né en Europe, à Lascaux. Erreur : cette peinture est en Indonésie, sur l'île de Sulawesi, et elle est bien plus ancienne. L'envie de raconter est née un peu partout à la fois."
+        }
+      ]
+    },
+    {
+      "id": "pourquoi-important",
+      "type": "question",
+      "visuel": "💭",
+      "titre": "Pourquoi peindre une créature qui n'existe pas, c'est si important ?",
+      "olli": "Les savants se sont émerveillés devant ces figures mi-humaines, mi-animales. Pourquoi ce détail les a-t-il tant frappés, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "🎨",
+          "texte": "Parce que c'est joliment dessiné"
+        },
+        {
+          "emoji": "🧠",
+          "texte": "Parce qu'inventer, c'est déjà raconter",
+          "bonne": true
+        },
+        {
+          "emoji": "🔢",
+          "texte": "Parce que c'était très difficile à peindre"
+        }
+      ],
+      "reponseBonne": "Parce qu'inventer, c'est raconter ! Peindre un animal qu'on a vu, c'est copier le réel. Mais peindre un être qui n'existe pas, ça veut dire qu'on l'a imaginé dans sa tête d'abord. Or imaginer et raconter des histoires qui ne se sont jamais passées, c'est peut-être ce qui nous rend le plus humains.",
+      "reponseAutre": "Parce qu'inventer, c'est déjà raconter ! Peindre un animal vu, c'est copier le réel. Peindre un être qui n'existe pas, c'est l'avoir imaginé d'abord. Et imaginer des histoires qui ne se sont jamais passées, c'est peut-être ce qui nous rend le plus humains."
+    },
+    {
+      "id": "whatsapp",
+      "type": "anecdote",
+      "visuel": "📱",
+      "etiquette": "Histoire vraie",
+      "titre": "Une découverte annoncée par message",
+      "texte": "En 2017, l'archéologue Adam Brumm reçoit un message sur son téléphone. Ses collègues, en Indonésie, viennent d'explorer une grotte perchée à dix-huit mètres au-dessus du sol, cachée derrière un figuier. Les photos sont floues — mais Brumm comprend tout de suite qu'il regarde quelque chose d'immense. Il faudra des années et une nouvelle méthode pour percer l'âge de la peinture : au moins 51 000 ans. La plus vieille histoire du monde, restée seule dans le noir pendant cinq cents siècles, a été révélée au reste de l'humanité par un simple message sur un écran. 📱",
+      "olli": "Cinquante mille ans de silence, puis « ding », une notification. J'aime l'idée que la plus ancienne histoire nous soit arrivée par la plus moderne des façons.",
+      "sourceRef": "src-brumm"
+    },
+    {
+      "id": "mission-histoire",
+      "type": "mission",
+      "visuel": "✏️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Peins ton histoire sans un seul mot",
+      "texte": "Prends une feuille et des crayons, et raconte quelque chose qui t'est arrivé aujourd'hui — mais uniquement en dessins, sans écrire un seul mot, comme sur le mur de la grotte. Plusieurs personnages, une action, un début et une fin. Ensuite, montre ta feuille à quelqu'un sans rien expliquer, et demande-lui de deviner ton histoire. S'il comprend, tu viens de faire exactement ce que faisaient les humains il y a 51 000 ans.",
+      "olli": "Ajoute, si tu veux, un personnage qui n'existe pas — mi-toi, mi-animal. Tu seras dans la grande tradition des tout premiers conteurs. 😄"
+    },
+    {
+      "id": "fin-du-livre",
+      "type": "teaser",
+      "visuel": "📖",
+      "titre": "Cette grotte dort sur une terre de volcans…",
+      "texte": "Un dernier mystère avant de refermer ce livre. Cette grotte, la plus vieille histoire du monde, se trouve en Indonésie — une île posée sur des volcans. Et justement, un jour, un de ces volcans s'est réveillé si fort qu'il a changé le ciel de la planète entière, à des milliers de kilomètres. Comment un seul volcan peut-il refroidir le monde ?",
+      "olli": "La réponse t'attend dans le Livre des Volcans… Et bravo : tu as fini le Livre des Mots ! 🎉",
+      "questionOuverteRef": "terres-de-feu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-51000",
+      "fait": "Une peinture rupestre de la grotte de Leang Karampuang (Sulawesi, Indonésie), datée d'au moins 51 200 ans en 2024, est considérée comme la plus ancienne œuvre narrative connue.",
+      "reference": "https://www.nbcnews.com/news/rcna160304",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-scene",
+      "fait": "La scène montre des figures humaines entourant un gros cochon sauvage ; un panneau voisin (44 000 ans) représente une chasse au cochon et aux buffles nains (anoas) avec des lances ou cordes.",
+      "reference": "https://www.sciencenews.org/article/nearly-44000-year-old-hunting-scene-is-oldest-storytelling-art",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-therianthropes",
+      "fait": "Certaines figures sont des « thérianthropes » : mi-humaines, mi-animales. Elles témoignent d'une pensée symbolique — la capacité d'imaginer des êtres qui n'existent pas.",
+      "reference": "https://www.sciencenews.org/article/nearly-44000-year-old-hunting-scene-is-oldest-storytelling-art",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-europe",
+      "fait": "Ces œuvres précèdent Lascaux et Chauvet (~30 000-36 000 ans) de plusieurs millénaires, remettant en cause l'idée que l'art figuratif serait né en Europe.",
+      "reference": "https://www.mentalfloss.com/art/worlds-oldest-narrative-art",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-brumm",
+      "fait": "L'archéologue Adam Brumm a d'abord vu l'œuvre via des photos floues envoyées par messagerie en 2017 ; la grotte, à ~18 m de hauteur, n'avait été découverte que cette année-là.",
+      "reference": "https://qz.com/1768757/the-worlds-oldest-cave-art-was-just-dated-and-it-faces-oblivion",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-narration",
+      "fait": "NUANCE : la capacité d'inventer des récits est vue comme une étape majeure de l'évolution du langage. L'interprétation exacte de la scène reste discutée, mais son caractère narratif fait consensus.",
+      "reference": "https://qz.com/1768757/the-worlds-oldest-cave-art-was-just-dated-and-it-faces-oblivion",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    }
+  ]
+}

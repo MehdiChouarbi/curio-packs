@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "nombres-dix",
   "minEngineVersion": 1,
-  "livre": "les-nombres",
+  "livre": "Les Nombres",
   "titre": "Pourquoi comptons-nous jusqu'à dix ?",
   "resume": "Tu comptes par dix sans y penser. Mais ce n'est pas la seule façon : d'autres peuples ont compté par vingt, ou par soixante. Et ça se cache encore dans ta montre.",
   "age": {

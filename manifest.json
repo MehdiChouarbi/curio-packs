@@ -333,6 +333,16 @@
       "octets": 10303
     },
     {
+      "id": "mots-grotte",
+      "livre": "les-mots",
+      "titre": "La plus vieille histoire du monde",
+      "resume": "Sur le mur d'une grotte, en Indonésie, quelqu'un a peint une scène de chasse il y a 51 000 ans. C'est la plus ancienne histoire jamais racontée qu'on ait retrouvée.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/mots-grotte.json",
+      "sha256": "189f370a92d2786f07161912e3709fb3555ebe0e7a367b68068dd91234680f2b",
+      "octets": 10207
+    },
+    {
       "id": "mots-nicaragua",
       "livre": "les-mots",
       "titre": "Les enfants qui ont inventé une langue",
@@ -354,12 +364,12 @@
     },
     {
       "id": "nombres-dix",
-      "livre": "les-nombres",
+      "livre": "Les Nombres",
       "titre": "Pourquoi comptons-nous jusqu'à dix ?",
       "resume": "Tu comptes par dix sans y penser. Mais ce n'est pas la seule façon : d'autres peuples ont compté par vingt, ou par soixante. Et ça se cache encore dans ta montre.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-dix.json",
-      "sha256": "d0dea82c1e5d0c8b4287429dd39a0d1cdc9310a9bffd7941a24fbf442a97c468",
+      "sha256": "18426a73860b61892eded2bcb07528b9d570862ee94148590a1a0361eba91f3b",
       "octets": 9908
     },
     {
