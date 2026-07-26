@@ -353,6 +353,16 @@
       "octets": 9248
     },
     {
+      "id": "nombres-dix",
+      "livre": "les-nombres",
+      "titre": "Pourquoi comptons-nous jusqu'à dix ?",
+      "resume": "Tu comptes par dix sans y penser. Mais ce n'est pas la seule façon : d'autres peuples ont compté par vingt, ou par soixante. Et ça se cache encore dans ta montre.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-dix.json",
+      "sha256": "d0dea82c1e5d0c8b4287429dd39a0d1cdc9310a9bffd7941a24fbf442a97c468",
+      "octets": 9908
+    },
+    {
       "id": "nombres-infini",
       "livre": "Les Nombres",
       "titre": "Le nombre inventé par un enfant de neuf ans",

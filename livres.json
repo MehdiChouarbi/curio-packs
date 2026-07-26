@@ -38,6 +38,11 @@
       "cover": "les_mots"
     },
     {
+      "id": "les-nombres",
+      "titre": "Le Livre des Nombres",
+      "emoji": "📘"
+    },
+    {
       "id": "Les Nombres",
       "titre": "Le Livre de Nombres",
       "emoji": "📘",

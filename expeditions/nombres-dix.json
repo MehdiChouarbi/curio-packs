@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "nombres-dix",
+  "minEngineVersion": 1,
+  "livre": "les-nombres",
+  "titre": "Pourquoi comptons-nous jusqu'à dix ?",
+  "resume": "Tu comptes par dix sans y penser. Mais ce n'est pas la seule façon : d'autres peuples ont compté par vingt, ou par soixante. Et ça se cache encore dans ta montre.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "observer-etoiles",
+      "texte": "Compter le temps, les jours, les mois… qui a appris à lire ça dans le ciel ?",
+      "resolueParLivre": "civilisations"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🔟",
+      "titre": "Compteuse des Mondes"
+    },
+    "decouvertes": [
+      "On compte par dix parce qu'on a dix doigts",
+      "Les Mayas comptaient par vingt : doigts et orteils",
+      "« Quatre-vingts » veut dire quatre fois vingt",
+      "Les Babyloniens comptaient par soixante",
+      "C'est pour ça qu'une heure fait soixante minutes"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "pourquoi-dix",
+      "type": "question",
+      "visuel": "🔟",
+      "titre": "Pourquoi le monde entier compte-t-il par paquets de dix ?",
+      "olli": "Tu comptes 10, 20, 30… et après 9 tu changes de colonne. Pourquoi dix, précisément ? Pas huit, pas douze ? La réponse est juste au bout de tes bras. Regarde tes mains.",
+      "choix": [
+        {
+          "emoji": "✋",
+          "texte": "Parce qu'on a dix doigts",
+          "bonne": true
+        },
+        {
+          "emoji": "📖",
+          "texte": "Parce qu'un savant l'a décidé un jour"
+        },
+        {
+          "emoji": "🎲",
+          "texte": "C'est le hasard, ça aurait pu être autre chose"
+        }
+      ],
+      "reponseBonne": "Tes dix doigts ! C'est la calculatrice qu'on a tous en naissant. Les premiers humains ont compté sur leurs doigts, alors ils ont regroupé les nombres par dix, tout naturellement. Le mot « chiffre » et le mot « doigt » sont même cousins dans plusieurs langues. Ton corps a décidé comment le monde compte.",
+      "reponseAutre": "Parce qu'on a dix doigts ! C'est la calculatrice qu'on a tous en naissant. Les premiers humains comptaient sur leurs doigts, alors ils ont regroupé les nombres par dix, naturellement. « Chiffre » et « doigt » sont même cousins dans plusieurs langues. Ton corps a décidé comment le monde compte."
+    },
+    {
+      "id": "autres-facons",
+      "type": "observation",
+      "visuel": "🖐️",
+      "visuelAnimation": "flotte",
+      "titre": "Mais dix n'est pas la seule façon de faire.",
+      "olli": "Touche chaque partie. D'autres peuples ont regardé leur corps autrement… et ont compté tout autrement.",
+      "hotspots": [
+        {
+          "emoji": "🦶",
+          "nom": "Les Mayas : par vingt",
+          "fait": "Les Mayas ne comptaient pas les doigts des mains seulement : ils ajoutaient les orteils ! Dix doigts plus dix orteils, ça fait vingt. Leur système entier était bâti sur des paquets de vingt, pas de dix."
+        },
+        {
+          "emoji": "🇫🇷",
+          "nom": "Un vestige dans ta langue",
+          "fait": "Écoute le nombre 80 en français : « quatre-vingts ». Ça veut dire quatre fois vingt ! C'est un reste d'un ancien comptage par vingt, caché dans les mots que tu prononces encore aujourd'hui sans y penser."
+        },
+        {
+          "emoji": "🤲",
+          "nom": "Compter jusqu'à douze sur une main",
+          "fait": "Avec le pouce, touche les trois petits os de chacun de tes quatre doigts : 3 fois 4, ça fait 12 ! Certains peuples comptaient comme ça. Une seule main, et déjà douze — sans compter le pouce."
+        }
+      ]
+    },
+    {
+      "id": "soixante",
+      "type": "question",
+      "visuel": "⏰",
+      "titre": "Pourquoi une heure fait-elle 60 minutes, et pas 100 ?",
+      "olli": "Voici une bizarrerie. On compte par dix partout… sauf pour le temps ! Une heure fait 60 minutes, une minute 60 secondes. Pourquoi 60, ce nombre étrange ? Ça vient de très, très loin.",
+      "choix": [
+        {
+          "emoji": "🎰",
+          "texte": "C'est arrivé par hasard"
+        },
+        {
+          "emoji": "🏛️",
+          "texte": "D'un peuple qui comptait par soixante",
+          "bonne": true
+        },
+        {
+          "emoji": "🔟",
+          "texte": "Parce que 60, c'est six fois dix"
+        }
+      ],
+      "reponseBonne": "D'un peuple très ancien ! Les Babyloniens, il y a plus de 4000 ans, comptaient par paquets de soixante. Pourquoi 60 ? Parce qu'il se partage très bien : en 2, 3, 4, 5, 6, 10, 12… bien plus facilement que 100. Leur façon de compter le temps nous est restée. Ta montre parle encore babylonien.",
+      "reponseAutre": "D'un peuple qui comptait par soixante ! Les Babyloniens, il y a plus de 4000 ans. Pourquoi 60 ? Parce qu'il se partage très bien : en 2, 3, 4, 5, 6, 10, 12… bien mieux que 100. Leur façon de compter le temps nous est restée : ta montre parle encore babylonien."
+    },
+    {
+      "id": "montre-babylonienne",
+      "type": "anecdote",
+      "visuel": "🕐",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Ta montre a plus de 4000 ans",
+      "texte": "Arrête-toi sur cette idée. Chaque fois que tu regardes l'heure, tu utilises une invention des Babyloniens. Eux comptaient par soixante, sans doute en s'aidant des os de leurs doigts. Les Égyptiens, eux, ont partagé le jour en portions ; les Grecs les ont rendues égales, nos heures. Et pour découper une heure en petits morceaux, on a repris le soixante des Babyloniens : 60 minutes, puis 60 secondes. Un cercle, lui, fait 360 degrés — encore leur nombre. Tout ça a traversé quatre mille ans, d'empire en empire, pour finir sur ton poignet, sans que personne ne l'ait jamais changé. 🕰️",
+      "olli": "Le monde a fini par compter par dix presque partout. Mais le temps, lui, est resté fidèle aux Babyloniens. On dirait qu'il n'a jamais reçu la nouvelle.",
+      "sourceRef": "src-soixante"
+    },
+    {
+      "id": "mission-compter",
+      "type": "mission",
+      "visuel": "🤲",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Compte jusqu'à douze sur une seule main",
+      "texte": "Essaie la méthode babylonienne. Avec le pouce d'une main, touche les trois petits os de ton index : ça fait 1, 2, 3. Passe au majeur : 4, 5, 6. Puis l'annulaire : 7, 8, 9. Enfin l'auriculaire : 10, 11, 12. Tu viens de compter jusqu'à douze sur une seule main ! Entraîne-toi, puis montre le tour à quelqu'un et demande-lui jusqu'où il croit pouvoir compter sur une main. Il dira cinq.",
+      "olli": "Avec l'autre main pour retenir les paquets de douze, tu irais jusqu'à soixante. Exactement comme il y a quatre mille ans. 😄"
+    },
+    {
+      "id": "teaser-ciel",
+      "type": "teaser",
+      "visuel": "🌙",
+      "titre": "Compter les doigts, d'accord. Mais compter les jours et les mois ?",
+      "texte": "On a compté sur nos doigts. Mais très tôt, les humains ont voulu compter bien plus grand : les jours avant la prochaine pleine lune, les nuits avant le retour du froid, les saisons pour semer au bon moment. Pas de doigts pour ça — il fallait lever les yeux. Certains peuples sont devenus si forts pour lire le ciel qu'ils prévoyaient les éclipses. Comment ont-ils appris ?",
+      "olli": "La réponse t'attend dans le Livre des Civilisations… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "observer-etoiles"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-dix",
+      "fait": "Le système décimal (base 10) est le plus répandu car les humains ont dix doigts ; le mot « digit » signifie à la fois chiffre et doigt en anglais et en latin.",
+      "reference": "https://www.mathnasium.com/math-centers/buffalogrove/news/base-10-number-system",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-maya",
+      "fait": "Les Mayas utilisaient un système vigésimal (base 20), doigts et orteils réunis ; leur calendrier comptait en cycles de 20 jours. Ils avaient aussi un zéro, inventé indépendamment.",
+      "reference": "https://www.mathnasium.com/math-centers/buffalogrove/news/base-10-number-system",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-quatrevingts",
+      "fait": "Le français « quatre-vingts » (4 × 20) pour 80 est un vestige d'un ancien comptage en base 20.",
+      "reference": "https://www.mathnasium.com/math-centers/buffalogrove/news/base-10-number-system",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-soixante",
+      "fait": "Les Babyloniens (hérité des Sumériens) comptaient en base 60 (sexagésimal) ; d'où 60 secondes, 60 minutes, 360 degrés. 60 se divise par 2, 3, 4, 5, 6, 10, 12, 15, 20, 30.",
+      "reference": "https://www.earthdate.org/episodes/how-10-fingers-became-12-hours",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-phalanges",
+      "fait": "Compter sur les 12 phalanges des 4 doigts avec le pouce donne 12 par main ; cinq séries de 12 (autre main) donnent 60. Théorie plausible de l'origine du 12 et du 60.",
+      "reference": "https://earthlymission.com/babylonian-mathematics-phalange-counting-base-60/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : le lien entre comptage sur les phalanges et base 60 est une hypothèse plausible, pas une certitude ; aucune preuve directe ne l'établit. Les historiens la présentent comme une théorie.",
+      "reference": "https://earthlymission.com/babylonian-mathematics-phalange-counting-base-60/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    }
+  ]
+}
