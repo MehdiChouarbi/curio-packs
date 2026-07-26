@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "ocean-vague",
+  "minEngineVersion": 1,
+  "livre": "ocean",
+  "titre": "La vague que personne ne croyait",
+  "resume": "Pendant des siècles, les marins ont juré avoir vu des murs d'eau surgir de nulle part. On les prenait pour des menteurs. Jusqu'au 1er janvier 1995.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "mesurer-invisible",
+      "texte": "Un instrument a prouvé la vague. Mais comment mesure-t-on ce qu'on ne peut pas toucher ?",
+      "resolueParLivre": "les-machines"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🌊",
+      "titre": "Chasseuse de Légendes Vraies"
+    },
+    "decouvertes": [
+      "Les marins décrivaient des murs d'eau géants",
+      "Les savants n'y croyaient pas, faute de preuve",
+      "Le 1er janvier 1995, un laser en a mesuré une",
+      "Elle faisait 26 mètres : un immeuble de huit étages",
+      "Parfois, des vagues se rattrapent et s'additionnent"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "on-les-croyait-pas",
+      "type": "question",
+      "visuel": "🌊",
+      "titre": "Les marins parlaient de murs d'eau géants. Pourquoi ne les croyait-on pas ?",
+      "olli": "Depuis toujours, des marins revenaient avec la même histoire : une vague énorme, haute comme un immeuble, surgie de nulle part sur une mer presque calme. Les savants souriaient et n'y croyaient pas. À ton avis, pourquoi ?",
+      "choix": [
+        {
+          "emoji": "🤥",
+          "texte": "Parce que les marins aiment exagérer"
+        },
+        {
+          "emoji": "📷",
+          "texte": "Parce que personne n'avait de preuve",
+          "bonne": true
+        },
+        {
+          "emoji": "🌊",
+          "texte": "Parce que l'océan est toujours calme"
+        }
+      ],
+      "reponseBonne": "Pas de preuve ! Ces vagues surgissent en pleine mer, durent quelques secondes, puis disparaissent. Impossible de les photographier ou de les mesurer à temps. Sans preuve, les savants pensaient que les marins, effrayés, avaient exagéré. Une histoire vraie peut passer pour un mensonge tant qu'on ne peut pas la montrer.",
+      "reponseAutre": "Parce que personne n'avait de preuve ! Ces vagues surgissent en pleine mer, durent quelques secondes, puis disparaissent. Impossible de les mesurer à temps. Sans preuve, les savants croyaient que les marins avaient exagéré. Une histoire vraie peut passer pour un mensonge tant qu'on ne la montre pas."
+    },
+    {
+      "id": "le-1er-janvier",
+      "type": "observation",
+      "visuel": "📡",
+      "visuelAnimation": "flotte",
+      "titre": "Puis vint le 1er janvier 1995.",
+      "olli": "Touche chaque partie. Ce jour-là, sur une plateforme en pleine mer du Nord, un appareil veillait tout seul. Et il a tout enregistré.",
+      "hotspots": [
+        {
+          "emoji": "🎇",
+          "nom": "Jour de l'An, mer du Nord",
+          "fait": "Le 1er janvier 1995, la plateforme Draupner se dresse en pleine mer, au large de la Norvège. La mer est agitée, sans plus : les vagues font environ 12 mètres. Rien d'exceptionnel pour l'endroit, en plein hiver."
+        },
+        {
+          "emoji": "🔦",
+          "nom": "Un laser qui veillait",
+          "fait": "Sous la plateforme, un rayon laser pointé vers l'eau mesurait sans arrêt la hauteur des vagues, jour et nuit. Personne ne le regardait ce jour-là. Mais lui, il notait tout, seconde après seconde, sans se fatiguer."
+        },
+        {
+          "emoji": "📈",
+          "nom": "Un pic impossible",
+          "fait": "Soudain, le laser enregistre une vague de près de 26 mètres — le double des autres. Les ingénieurs ont d'abord cru à une panne de l'appareil. Mais non : les dégâts sur la plateforme l'ont confirmé. La vague était réelle."
+        }
+      ]
+    },
+    {
+      "id": "quelle-hauteur",
+      "type": "question",
+      "visuel": "🏢",
+      "titre": "26 mètres de haut, ça ressemble à quoi ?",
+      "olli": "La vague mesurait presque 26 mètres. C'est difficile à imaginer pour une vague. À quoi peux-tu la comparer pour te rendre compte ?",
+      "choix": [
+        {
+          "emoji": "🚌",
+          "texte": "À un bus posé debout"
+        },
+        {
+          "emoji": "🏢",
+          "texte": "À un immeuble de huit étages",
+          "bonne": true
+        },
+        {
+          "emoji": "🌲",
+          "texte": "À un grand sapin de Noël"
+        }
+      ],
+      "reponseBonne": "Un immeuble de huit étages ! Imagine un mur d'eau de cette hauteur qui fonce vers toi sur une mer où toutes les autres vagues t'arrivent deux fois moins haut. Voilà ce que les marins décrivaient depuis des siècles, et qu'on refusait de croire. Ce jour-là, la légende est devenue un fait mesuré.",
+      "reponseAutre": "Un immeuble de huit étages ! Un mur d'eau de cette hauteur qui fonce vers toi, sur une mer où les autres vagues sont deux fois plus basses. Voilà ce que les marins décrivaient depuis des siècles. Ce jour-là, la légende est devenue un fait mesuré."
+    },
+    {
+      "id": "pourquoi-si-haute",
+      "type": "anecdote",
+      "visuel": "🌊",
+      "etiquette": "Ça s'explique",
+      "titre": "Quand les vagues se font la courte échelle",
+      "texte": "Comment une vague devient-elle deux fois plus haute que ses voisines ? Voici l'idée, et elle est belle. Les vagues ne vont pas toutes à la même vitesse : certaines sont rapides, d'autres lentes. Parfois, une vague rapide en rattrape une plus lente, et l'espace d'un instant, elles se superposent : leurs hauteurs s'additionnent. Si trois ou quatre vagues se rejoignent au même endroit au même moment, ça forme un géant. Puis chacune repart, et le mur d'eau disparaît aussi vite qu'il est né. Une vague scélérate, c'est un embouteillage de vagues qui dure quelques secondes. 🌊",
+      "olli": "Ce n'est ni de la magie ni de la malchance : juste des vagues qui, par hasard, se font la courte échelle au même endroit. La nature n'a pas besoin de monstres pour être impressionnante.",
+      "sourceRef": "src-mecanisme"
+    },
+    {
+      "id": "mission-vagues",
+      "type": "mission",
+      "visuel": "🛁",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fabrique ta vague scélérate",
+      "texte": "Dans la baignoire, un grand saladier d'eau ou même une bassine, fais des vagues avec ta main, doucement, régulièrement. Regarde-les aller et venir. Maintenant, envoie une deuxième série de vagues qui vient croiser la première, d'un autre angle. À l'endroit où elles se rencontrent, tu verras parfois un petit pic d'eau bondir plus haut que les autres : ta vague scélérate miniature. Recommence jusqu'à en voir une belle.",
+      "olli": "Ce petit pic dans ta bassine, c'est exactement le même phénomène qui a formé un mur de 26 mètres en mer du Nord. En plus petit. 😄"
+    },
+    {
+      "id": "teaser-mesure",
+      "type": "teaser",
+      "visuel": "📏",
+      "titre": "C'est un instrument qui a tranché. Mais comment mesure-t-on l'eau ?",
+      "texte": "Repense à ce qui a tout changé. Les marins racontaient depuis des siècles, sans être crus. Il a suffi d'un appareil, un rayon laser pointé vers la mer, pour transformer une légende en certitude. C'est fascinant : on a mesuré la hauteur d'une vague sans la toucher, juste avec de la lumière. Comment une machine fait-elle pour mesurer quelque chose à distance, sans jamais y toucher ?",
+      "olli": "La réponse t'attend dans le Livre des Machines… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "mesurer-invisible"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-legende",
+      "fait": "Les vagues scélérates (rogue waves) étaient rapportées depuis des siècles par les marins mais considérées comme des exagérations, faute de mesure fiable, jusqu'aux années 1990.",
+      "reference": "https://en.wikipedia.org/wiki/Draupner_wave",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-draupner",
+      "fait": "Le 1er janvier 1995, un laser de la plateforme Draupner (mer du Nord, au large de la Norvège) mesure une vague de 25,6 m, alors que la hauteur significative environnante était d'environ 12 m.",
+      "reference": "https://en.wikipedia.org/wiki/Draupner_wave",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-premiere",
+      "fait": "C'est la première vague scélérate détectée par un instrument de mesure. La plateforme a subi des dégâts mineurs qui ont confirmé la réalité de l'événement.",
+      "reference": "https://www.energyvoice.com/all-news/127940/video-north-sea-platform-confirmed-rogue-waves-phenomena/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-mecanisme",
+      "fait": "Un mécanisme : les vagues n'ont pas toutes la même vitesse ; lorsque plusieurs trains d'ondes se superposent au même endroit, leurs crêtes s'additionnent brièvement en une vague géante.",
+      "reference": "https://gizmodo.com/this-ordinary-looking-chart-provided-the-first-proof-of-1725812068",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-duree",
+      "fait": "Les vagues scélérates sont éphémères (de l'ordre de la vingtaine de secondes) et peuvent atteindre plus du double de la hauteur des vagues environnantes.",
+      "reference": "https://www.boatnews.com/story/30169/the-mystery-of-the-villainous-waves-finally-explained",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : les mécanismes précis de formation des vagues scélérates font encore l'objet de recherches ; plusieurs modèles coexistent (superposition linéaire, effets non linéaires).",
+      "reference": "https://arxiv.org/pdf/2004.07037",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    }
+  ]
+}

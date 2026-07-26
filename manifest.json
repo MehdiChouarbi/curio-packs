@@ -423,6 +423,16 @@
       "octets": 6366
     },
     {
+      "id": "ocean-vague",
+      "livre": "ocean",
+      "titre": "La vague que personne ne croyait",
+      "resume": "Pendant des siècles, les marins ont juré avoir vu des murs d'eau surgir de nulle part. On les prenait pour des menteurs. Jusqu'au 1er janvier 1995.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/ocean-vague.json",
+      "sha256": "da443cb775223310f469a4fc10c62a61c3f8d73b35454783cbd7df88caa4d5bb",
+      "octets": 10074
+    },
+    {
       "id": "petites-betes-abeille",
       "livre": "petites-betes",
       "titre": "La couleur que tu ne verras jamais",
