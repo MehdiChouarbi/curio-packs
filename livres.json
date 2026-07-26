@@ -4,57 +4,68 @@
     {
       "id": "Civilisations",
       "titre": "Le Livre des Civilisations",
-      "emoji": "🏛️"
+      "emoji": "🏛️",
+      "cover": "les_Civilisations"
     },
     {
       "id": "le-corps",
       "titre": "Le Livre de Corps",
-      "emoji": "📘"
+      "emoji": "📘",
+      "cover": "le_corps"
     },
     {
       "id": "etoiles",
       "titre": "Le Livre des Etoiles",
-      "emoji": "✨"
+      "emoji": "✨",
+      "cover": "etoiles"
     },
     {
       "id": "la-terre",
       "titre": "Le Livre de la Terre",
-      "emoji": "🌍"
+      "emoji": "🌍",
+      "cover": null
     },
     {
       "id": "les-machines",
       "titre": "Le Livre des Machines",
-      "emoji": "⚙️"
+      "emoji": "⚙️",
+      "cover": "les_machines"
     },
     {
       "id": "les-mots",
       "titre": "Le Livre de Mots",
-      "emoji": "📘"
+      "emoji": "📘",
+      "cover": "les_mots"
     },
     {
       "id": "Les Nombres",
       "titre": "Le Livre de Nombres",
-      "emoji": "📘"
-    },
-    {
-      "id": "les-nombres",
-      "titre": "Le Livre des Nombres",
-      "emoji": "🔢"
+      "emoji": "📘",
+      "cover": "les_nombres"
     },
     {
       "id": "ocean",
       "titre": "Le Livre de l'Océan",
-      "emoji": "🌊"
+      "emoji": "🌊",
+      "cover": "ocean"
     },
     {
       "id": "petites-betes",
       "titre": "Le Livre de Petites Betes",
-      "emoji": "📘"
+      "emoji": "📘",
+      "cover": "petites_betes"
     },
     {
       "id": "le-temps-profond",
       "titre": "Le Livre du Temps",
-      "emoji": "⏳"
+      "emoji": "⏳",
+      "cover": "le_temps_profond"
+    },
+    {
+      "id": "volcans",
+      "titre": "volcans",
+      "emoji": "📘",
+      "cover": "volcans"
     }
   ]
 }
