@@ -5,11 +5,11 @@
       "id": "Civilisations",
       "titre": "Le Livre des Civilisations",
       "emoji": "🏛️",
-      "cover": "les_Civilisations"
+      "cover": "les_civilisations"
     },
     {
       "id": "le-corps",
-      "titre": "Le Livre de Corps",
+      "titre": "Le Livre du Corps",
       "emoji": "📘",
       "cover": "le_corps"
     },
@@ -33,13 +33,13 @@
     },
     {
       "id": "les-mots",
-      "titre": "Le Livre de Mots",
+      "titre": "Le Livre des Mots",
       "emoji": "📘",
       "cover": "les_mots"
     },
     {
       "id": "Les Nombres",
-      "titre": "Le Livre de Nombres",
+      "titre": "Le Livre des Nombres",
       "emoji": "📘",
       "cover": "les_nombres"
     },
@@ -51,7 +51,7 @@
     },
     {
       "id": "petites-betes",
-      "titre": "Le Livre de Petites Betes",
+      "titre": "Le Livre des Petites Betes",
       "emoji": "📘",
       "cover": "petites_betes"
     },
@@ -63,7 +63,7 @@
     },
     {
       "id": "volcans",
-      "titre": "volcans",
+      "titre": "Le Livre des Volcans",
       "emoji": "📘",
       "cover": "volcans"
     }
