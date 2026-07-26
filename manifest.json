@@ -273,6 +273,16 @@
       "octets": 9945
     },
     {
+      "id": "machines-echo",
+      "livre": "les-machines",
+      "titre": "Mesurer sans toucher, avec un écho",
+      "resume": "Comment un instrument mesure-t-il une vague, une montagne ou une planète sans jamais y toucher ? Avec une astuce si simple qu'une chauve-souris l'utilise dans le noir.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/machines-echo.json",
+      "sha256": "ebeb364d605ef7989c54230a7c63259458480a74c68e4e2affac12c14c93eb78",
+      "octets": 10063
+    },
+    {
       "id": "machines-essaim",
       "livre": "les-machines",
       "titre": "La ville sans chef",

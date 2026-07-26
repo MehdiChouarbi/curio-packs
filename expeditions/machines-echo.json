@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "machines-echo",
+  "minEngineVersion": 1,
+  "livre": "les-machines",
+  "titre": "Mesurer sans toucher, avec un écho",
+  "resume": "Comment un instrument mesure-t-il une vague, une montagne ou une planète sans jamais y toucher ? Avec une astuce si simple qu'une chauve-souris l'utilise dans le noir.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "chauvesouris-noir",
+      "texte": "La chauve-souris fait ça avec du son. Comment vole-t-elle sans rien voir ?",
+      "resolueParLivre": "petites-betes"
+    }
+  ],
+  "questionsResolues": [
+    "mesurer-invisible"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "📡",
+      "titre": "Arpenteuse de l'Invisible"
+    },
+    "decouvertes": [
+      "On mesure une distance en chronométrant un écho",
+      "La lumière et le son reviennent à vitesse connue",
+      "Un laser mesure une vague sans la toucher",
+      "La chauve-souris fait pareil, avec du son",
+      "C'est le même truc, du sous-marin à la voiture"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "sans-toucher",
+      "type": "question",
+      "visuel": "📏",
+      "titre": "Comment mesurer une chose sans pouvoir la toucher ?",
+      "olli": "On a vu qu'un laser avait mesuré une vague géante de 26 mètres. Mais une vague, on ne peut pas y poser un mètre de couturière ! Alors comment fait la machine pour connaître sa hauteur, à distance, sans jamais la toucher ? Réfléchis…",
+      "choix": [
+        {
+          "emoji": "👁️",
+          "texte": "Elle devine à l'œil, à peu près"
+        },
+        {
+          "emoji": "⏱️",
+          "texte": "Elle chronomètre un signal qui revient",
+          "bonne": true
+        },
+        {
+          "emoji": "🧮",
+          "texte": "Elle calcule au hasard"
+        }
+      ],
+      "reponseBonne": "Elle chronomètre ! La machine envoie un signal — un éclair de lumière — vers la cible, et mesure le temps qu'il met à revenir. Comme on connaît la vitesse de la lumière, le temps de l'aller-retour donne la distance exacte. Plus le signal revient tard, plus c'est loin. Mesurer, c'est compter des secondes.",
+      "reponseAutre": "Elle chronomètre un signal qui revient ! La machine envoie un éclair de lumière vers la cible et mesure le temps qu'il met à revenir. Comme on connaît la vitesse de la lumière, ce temps d'aller-retour donne la distance exacte. Plus le signal revient tard, plus c'est loin."
+    },
+    {
+      "id": "le-principe",
+      "type": "observation",
+      "visuel": "📡",
+      "visuelAnimation": "flotte",
+      "titre": "Regardons cette astuce de plus près.",
+      "olli": "Touche chaque partie. C'est une seule idée, toute simple, qu'on retrouve absolument partout autour de toi.",
+      "hotspots": [
+        {
+          "emoji": "🔦",
+          "nom": "Envoyer, attendre, compter",
+          "fait": "Le principe tient en trois temps : on envoie un signal, on attend qu'il rebondisse sur la cible, on compte le temps du retour. Rien d'autre. La machine ne fait que chronométrer un aller-retour, très, très vite."
+        },
+        {
+          "emoji": "🌊",
+          "nom": "La vague de Draupner",
+          "fait": "Le laser de la plateforme pointait vers la mer et renvoyait sa lumière des milliers de fois par seconde. En mesurant chaque retour, il dessinait la hauteur de l'eau seconde après seconde — et il a attrapé le géant de 26 mètres."
+        },
+        {
+          "emoji": "🚗",
+          "nom": "Partout autour de toi",
+          "fait": "Ce même truc mesure la profondeur des océans avec du son, guide les voitures qui se conduisent seules, et a même mesuré la distance Terre-Lune avec un rayon laser. Une idée, mille usages."
+        }
+      ]
+    },
+    {
+      "id": "chauvesouris",
+      "type": "question",
+      "visuel": "🦇",
+      "titre": "Quel animal a inventé cette astuce bien avant nous ?",
+      "olli": "Le plus beau, c'est que les humains n'ont rien inventé du tout : un animal utilise exactement ce truc depuis des millions d'années, en pleine nuit, pour ne pas se cogner. Lequel, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "🦉",
+          "texte": "Le hibou, avec ses grands yeux"
+        },
+        {
+          "emoji": "🦇",
+          "texte": "La chauve-souris, avec des cris",
+          "bonne": true
+        },
+        {
+          "emoji": "🐈",
+          "texte": "Le chat, avec ses moustaches"
+        }
+      ],
+      "reponseBonne": "La chauve-souris ! Dans le noir total, elle pousse des petits cris aigus et écoute leur écho revenir. Plus l'écho tarde, plus l'obstacle est loin. C'est exactement le principe du laser, mais avec du son au lieu de la lumière. Nos machines les plus modernes copient une souris volante.",
+      "reponseAutre": "La chauve-souris ! Dans le noir total, elle pousse des cris aigus et écoute leur écho revenir. Plus l'écho tarde, plus l'obstacle est loin. C'est exactement le principe du laser, mais avec du son. Nos machines les plus modernes copient une petite souris volante."
+    },
+    {
+      "id": "lune-laser",
+      "type": "anecdote",
+      "visuel": "🌙",
+      "etiquette": "Histoire vraie",
+      "titre": "Un miroir sur la Lune",
+      "texte": "Voici jusqu'où va cette astuce. Quand des astronautes ont marché sur la Lune, ils y ont déposé un petit miroir spécial, tourné vers la Terre. Depuis, des scientifiques envoient un rayon laser vers ce miroir, et attendent qu'il revienne. L'aller-retour dure à peine plus de deux secondes et demie. En chronométrant ce temps, on connaît la distance Terre-Lune au centimètre près ! Et on a ainsi découvert une chose surprenante : la Lune s'éloigne un peu de nous chaque année, de la même vitesse que poussent tes ongles. Un écho de lumière, et l'on mesure le ciel. 🌙",
+      "olli": "Le même geste qu'une chauve-souris dans une grange, mais pointé vers la Lune. La plus simple des idées peut mesurer les choses les plus lointaines.",
+      "sourceRef": "src-lune"
+    },
+    {
+      "id": "mission-echo",
+      "type": "mission",
+      "visuel": "🏔️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Mesure avec ton propre écho",
+      "texte": "Cherche un endroit qui renvoie l'écho : un grand mur au loin, un tunnel, une vallée, une pièce très vide. Crie un coup sec — « ho ! » — et compte à voix basse le temps avant que l'écho revienne. Plus tu attends, plus le mur est loin. Tu ne pourras pas calculer la distance exacte, mais tu sentiras le principe dans ton corps : le son part, rebondit, revient. Recommence de plus loin : l'écho met plus de temps.",
+      "olli": "Bravo, tu viens de faire du sonar avec ta bouche ! Exactement comme la chauve-souris, le sous-marin, et le laser de la vague géante. 😄"
+    },
+    {
+      "id": "teaser-chauvesouris",
+      "type": "teaser",
+      "visuel": "🦇",
+      "titre": "La chauve-souris « voit » avec du son. Comment est-ce possible ?",
+      "texte": "Il me reste une question. Notre laser envoie de la lumière et compte le temps ; la chauve-souris, elle, envoie du son. Mais elle fait ça en volant à toute vitesse, dans le noir complet, entre les branches et les autres chauves-souris, sans jamais se cogner. Se fabriquer une image du monde entier rien qu'avec des échos, à pleine vitesse… comment un si petit animal réussit-il un truc pareil ?",
+      "olli": "La réponse t'attend dans le Livre des Petites Bêtes… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "chauvesouris-noir"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-tof",
+      "fait": "La mesure « par temps de vol » : un instrument émet un signal (lumière ou son), mesure le temps de l'aller-retour jusqu'à la cible, et en déduit la distance via la vitesse connue du signal.",
+      "reference": "https://www.seeedstudio.com/blog/2020/01/08/what-is-a-time-of-flight-sensor-and-how-does-a-tof-sensor-work/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-lidar",
+      "fait": "Le lidar émet de brèves impulsions laser et chronomètre la lumière réfléchie ; distance = (vitesse de la lumière × temps aller-retour) / 2. Utilisé en géographie, transport, voitures autonomes.",
+      "reference": "https://arxiv.org/pdf/2501.17884",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-echo",
+      "fait": "Le lidar reprend le principe de l'écholocation : chauves-souris et dauphins émettent des sons et calculent la distance d'après le temps de retour de l'écho.",
+      "reference": "https://www.iqsdirectory.com/resources/how-echolocation-inspired-lidar-and-the-technologies-behind-it.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-lune",
+      "fait": "Des rétroréflecteurs déposés sur la Lune (missions Apollo) permettent de mesurer la distance Terre-Lune au laser au centimètre près ; la Lune s'éloigne d'environ 3,8 cm par an.",
+      "reference": "https://en.wikipedia.org/wiki/Lunar_Laser_Ranging_experiment",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-sonar",
+      "fait": "Le sonar applique le même principe avec le son sous l'eau pour mesurer la profondeur ou détecter des objets, la lumière se propageant mal dans l'eau.",
+      "reference": "https://www.seeedstudio.com/blog/2020/01/08/what-is-a-time-of-flight-sensor-and-how-does-a-tof-sensor-work/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-precision",
+      "fait": "NUANCE : la précision dépend de la mesure du temps. Une précision de 10 picosecondes correspond à environ 1,5 mm. Les vitesses exactes varient légèrement selon le milieu (air, eau, verre).",
+      "reference": "https://arxiv.org/pdf/2501.17884",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    }
+  ]
+}
