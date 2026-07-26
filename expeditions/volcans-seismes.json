@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "volcans-seismes",
+  "minEngineVersion": 1,
+  "livre": "volcans",
+  "titre": "Les animaux qui sentent la Terre trembler",
+  "resume": "En 1975, en Chine, des serpents sont sortis de terre en plein hiver gelé. Quelques heures plus tard, un tremblement de terre détruisait la ville. Ils avaient senti quoi ?",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "sentir-vibrations",
+      "texte": "Un serpent sent le sol trembler avant nous. Avec quelle partie de son corps ?",
+      "resolueParLivre": "le-corps"
+    }
+  ],
+  "questionsResolues": [
+    "terre-tremble"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🐍",
+      "titre": "Sentinelle des Séismes"
+    },
+    "decouvertes": [
+      "Un séisme naît quand deux plaques se libèrent d'un coup",
+      "Il envoie deux ondes : une rapide, une lente et destructrice",
+      "Les animaux sentent l'onde rapide avant nous",
+      "En 1975, une ville chinoise a été évacuée à temps",
+      "Mais prévoir un séisme reste presque impossible"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "serpents-hiver",
+      "type": "question",
+      "visuel": "🐍",
+      "titre": "Des serpents sortent de terre en plein gel. Que se passe-t-il ?",
+      "olli": "Tu as vu que les plaques de la Terre glissent et se poussent. Parfois, elles se coincent puis se libèrent d'un coup : c'est un tremblement de terre. Or, avant certains séismes, des animaux agissent bizarrement — des serpents sortant de leur trou en plein hiver glacé. Pourquoi ?",
+      "choix": [
+        {
+          "emoji": "🌡️",
+          "texte": "Ils avaient trop chaud sous terre"
+        },
+        {
+          "emoji": "📳",
+          "texte": "Ils sentaient quelque chose venir",
+          "bonne": true
+        },
+        {
+          "emoji": "🎲",
+          "texte": "C'était un pur hasard"
+        }
+      ],
+      "reponseBonne": "Ils sentaient quelque chose ! Sortir en plein gel, c'est risquer la mort pour un serpent : il ne le ferait jamais sans raison. Ces animaux percevaient un signal que les humains, eux, ne remarquaient pas encore. Quelque chose, dans le sol, les avertissait qu'un danger approchait.",
+      "reponseAutre": "Ils sentaient quelque chose venir ! Sortir en plein gel, c'est risquer la mort pour un serpent : il ne le ferait jamais sans raison. Ces animaux percevaient un signal que les humains ne remarquaient pas encore. Quelque chose, dans le sol, les avertissait d'un danger."
+    },
+    {
+      "id": "deux-ondes",
+      "type": "observation",
+      "visuel": "📳",
+      "visuelAnimation": "tremble",
+      "titre": "Comprenons comment un séisme voyage.",
+      "olli": "Touche chaque partie. Un tremblement de terre n'arrive pas d'un seul coup : il envoie deux ondes, l'une derrière l'autre. Et toute l'histoire est là.",
+      "hotspots": [
+        {
+          "emoji": "⚡",
+          "nom": "L'onde rapide, discrète",
+          "fait": "D'abord part une première onde, très rapide, mais faible : elle fait à peine vibrer le sol. La plupart des humains ne la sentent pas du tout. Elle file en avant, comme un éclaireur qui court devant l'armée."
+        },
+        {
+          "emoji": "💥",
+          "nom": "L'onde lente, destructrice",
+          "fait": "Derrière arrive une seconde onde, plus lente mais beaucoup plus puissante : c'est elle qui secoue tout, fait tomber les murs. Entre les deux, il s'écoule quelques secondes, parfois une minute."
+        },
+        {
+          "emoji": "🐕",
+          "nom": "L'avance des animaux",
+          "fait": "Beaucoup d'animaux sentent la première onde, la discrète, que nous ratons. Ils ont donc quelques secondes d'avance sur nous : le temps de s'agiter, d'aboyer, de fuir. Ils ne devinent pas l'avenir : ils entendent mieux le présent."
+        }
+      ]
+    },
+    {
+      "id": "haicheng",
+      "type": "question",
+      "visuel": "🏙️",
+      "titre": "Une ville entière est évacuée à cause des animaux. Que se passe-t-il ensuite ?",
+      "olli": "Février 1975, ville de Haicheng en Chine. Serpents dehors, animaux affolés, petites secousses répétées. Les responsables prennent une décision énorme : évacuer 90 000 personnes. Puis, le soir venu ?",
+      "choix": [
+        {
+          "emoji": "😌",
+          "texte": "Rien, c'était une fausse alerte"
+        },
+        {
+          "emoji": "🏚️",
+          "texte": "Un violent séisme rase la ville",
+          "bonne": true
+        },
+        {
+          "emoji": "🌧️",
+          "texte": "Une simple tempête arrive"
+        }
+      ],
+      "reponseBonne": "Un séisme détruit la ville ! Il rase la plupart des bâtiments. Mais grâce à l'évacuation, des dizaines de milliers de vies sont sauvées : les maisons se sont effondrées vides. Pour la première fois, on avait « prévu » un tremblement de terre. Le monde entier a cru qu'on tenait enfin le secret.",
+      "reponseAutre": "Un violent séisme rase la ville ! Il détruit la plupart des bâtiments. Mais grâce à l'évacuation, des dizaines de milliers de vies sont sauvées : les maisons se sont effondrées vides. Pour la première fois, on avait « prévu » un séisme. Le monde a cru qu'on tenait le secret."
+    },
+    {
+      "id": "tangshan",
+      "type": "anecdote",
+      "visuel": "⚠️",
+      "etiquette": "Histoire vraie",
+      "titre": "Le piège de la chance",
+      "texte": "Après Haicheng, tout le monde exulte : on sait prévoir les séismes ! Mais un an et demi plus tard, en juillet 1976, une autre ville chinoise, Tangshan, est frappée par un séisme encore plus violent. Cette fois, aucun signe : pas de serpents, pas de secousses avant-coureuses, rien. Aucune évacuation. Le bilan fut terrible. La leçon fut dure : Haicheng avait eu de la chance, prévenue par de nombreuses petites secousses. La plupart des séismes n'en donnent aucune. Aujourd'hui encore, personne ne sait dire quand un tremblement de terre va frapper. ⚠️",
+      "olli": "C'est une histoire d'humilité. On a cru avoir vaincu l'imprévisible, et la Terre nous a rappelé qu'elle garde ses secrets. Bien prévoir, c'est parfois savoir qu'on ne sait pas encore.",
+      "sourceRef": "src-tangshan"
+    },
+    {
+      "id": "mission-onde",
+      "type": "mission",
+      "visuel": "🥁",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Sens l'onde avant le bruit",
+      "texte": "Voici comment sentir qu'une onde voyage. Pose ton oreille à plat sur une table en bois. Demande à quelqu'un de toquer doucement à l'autre bout. Tu entends le coup par la table presque avant de l'entendre par l'air : le bois transmet la vibration plus vite ! Recommence en éloignant la personne. Le sol, la roche, l'eau transmettent les vibrations à des vitesses différentes — exactement comme les deux ondes d'un séisme, l'une plus rapide que l'autre.",
+      "olli": "Tu viens de faire, sur une table, ce que fait la Terre en grand : porter une onde à travers la matière. Raconte à quelqu'un pourquoi son chien pourrait s'agiter avant lui. 😄"
+    },
+    {
+      "id": "teaser-sentir",
+      "type": "teaser",
+      "visuel": "🐍",
+      "titre": "Le serpent a senti l'onde avant nous. Mais avec quoi ?",
+      "texte": "Ça me fascine. Le serpent n'a pas d'oreilles comme les tiennes, il n'a pas de mains, il rampe collé au sol. Et pourtant, il perçoit une vibration si faible que nous, avec tous nos sens, nous la ratons complètement. Il doit donc « écouter » le sol d'une façon très différente de la nôtre, avec une autre partie de son corps. Comment un animal capte-t-il le monde autrement que nous ?",
+      "olli": "La réponse t'attend dans le Livre du Corps… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "sentir-vibrations"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-ondes",
+      "fait": "Un séisme émet des ondes P (primaires, rapides, peu destructrices) puis des ondes S (secondaires, plus lentes, responsables des secousses ressenties). L'écart peut atteindre plusieurs secondes.",
+      "reference": "https://www.republicworld.com/lifestyle/animals-pets/can-animals-predict-earthquakes-heres-what-science-says",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-animaux",
+      "fait": "Selon l'USGS, de nombreux animaux perçoivent l'onde P avant l'onde S que ressentent les humains, ce qui explique une réaction quelques secondes avant nous. Le mécanisme exact reste débattu.",
+      "reference": "https://www.republicworld.com/lifestyle/animals-pets/can-animals-predict-earthquakes-heres-what-science-says",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-haicheng",
+      "fait": "Le 4 février 1975, la ville de Haicheng (Chine) est évacuée après des comportements animaux anormaux et des secousses préliminaires ; un séisme de magnitude 7,3 détruit la ville le soir même.",
+      "reference": "https://en.wikipedia.org/wiki/1975_Haicheng_earthquake",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-serpents",
+      "fait": "Des serpents seraient sortis d'hibernation malgré le gel dans les semaines précédant le séisme de Haicheng ; les serpents détectent finement les vibrations du sol via le corps et l'oreille interne.",
+      "reference": "https://www.animalsaroundtheglobe.com/the-species-that-predicted-earthquakes-before-technology-did-6-333660/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-tangshan",
+      "fait": "Le 28 juillet 1976, le séisme de Tangshan (magnitude ~7,5) frappe sans précurseurs et fait plus de 240 000 morts. Haicheng apparaît depuis comme une exception due à ses séismes précurseurs.",
+      "reference": "https://en.wikipedia.org/wiki/1975_Haicheng_earthquake",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-imprevisible",
+      "fait": "NUANCE : aucun séisme majeur n'a jamais été prédit de façon fiable. Le comportement animal n'est pas un prédicteur validé ; l'USGS souligne l'absence de mécanisme reproductible.",
+      "reference": "https://www.animalsaroundtheglobe.com/can-animals-really-sense-earthquakes-before-they-happen-3-382463/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    }
+  ]
+}
