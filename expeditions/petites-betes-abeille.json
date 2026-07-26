@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "petites-betes-abeille",
+  "minEngineVersion": 1,
+  "livre": "petites-betes",
+  "titre": "La couleur que tu ne verras jamais",
+  "resume": "Pour l'abeille, une fleur toute jaune est couverte de flèches lumineuses qui mènent au nectar. Ces flèches existent pour de vrai. Tu ne les verras jamais.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "danse-abeille",
+      "texte": "Comment une abeille explique-t-elle un chemin à ses sœurs, sans parler ?",
+      "resolueParLivre": "petites-betes"
+    }
+  ],
+  "questionsResolues": [
+    "couleurs-invisibles"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🐝",
+      "titre": "Voyante d'Ultraviolet"
+    },
+    "decouvertes": [
+      "L'abeille voit l'ultraviolet, une couleur invisible pour toi",
+      "En échange, elle ne voit pas le rouge",
+      "Les fleurs cachent des flèches en UV vers le nectar",
+      "Karl von Frisch l'a prouvé il y a 100 ans",
+      "Un coquelicot rouge paraît noir à l'abeille"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "trois-capteurs",
+      "type": "question",
+      "visuel": "🌸",
+      "titre": "Toi et l'abeille avez 3 capteurs de couleur. Qu'a-t-elle en plus ?",
+      "olli": "Dans ton œil, trois capteurs mélangent le rouge, le vert et le bleu : c'est comme ça que tu vois toutes tes couleurs. L'abeille aussi a trois capteurs. Mais pas les mêmes. Lequel a-t-elle, que tu n'as pas ?",
+      "choix": [
+        {
+          "emoji": "🌈",
+          "texte": "Un capteur pour un rouge plus vif"
+        },
+        {
+          "emoji": "🟣",
+          "texte": "Un capteur pour l'ultraviolet",
+          "bonne": true
+        },
+        {
+          "emoji": "⚫",
+          "texte": "Un capteur pour voir dans le noir"
+        }
+      ],
+      "reponseBonne": "L'ultraviolet ! Une couleur qui existe vraiment, mais que tes yeux ne captent pas — pas plus aujourd'hui que dans cent ans. En échange, l'abeille a perdu le rouge : elle ne le voit pas. On n'a pas tout ; on échange une couleur contre une autre.",
+      "reponseAutre": "L'ultraviolet ! Une couleur qui existe vraiment, mais que tes yeux ne captent pas — pas plus aujourd'hui que dans cent ans. En échange, l'abeille a perdu le rouge : elle ne le voit pas. On n'a pas tout ; on échange une couleur contre une autre."
+    },
+    {
+      "id": "la-fleur",
+      "type": "observation",
+      "visuel": "🌻",
+      "visuelAnimation": "flotte",
+      "titre": "Regardons une fleur avec les yeux d'une abeille.",
+      "olli": "Touche chaque partie. Ce que tu prends pour une simple fleur jaune est, pour elle, un panneau de signalisation.",
+      "hotspots": [
+        {
+          "emoji": "🎯",
+          "nom": "La cible cachée",
+          "fait": "Beaucoup de fleurs portent des dessins en ultraviolet : des anneaux, des flèches, une grande cible au centre. Tu ne vois rien de tout ça. L'abeille, elle, lit « le nectar, c'est ICI » écrit en gros."
+        },
+        {
+          "emoji": "🌹",
+          "nom": "Le coquelicot noir",
+          "fait": "Un coquelicot bien rouge, éclatant pour toi… paraît presque noir à l'abeille, puisqu'elle ne voit pas le rouge. Les fleurs rouges ne comptent en général pas sur les abeilles, mais sur les oiseaux !"
+        },
+        {
+          "emoji": "⚡",
+          "nom": "Ses yeux rapides",
+          "fait": "En prime, l'abeille voit le monde bien plus vite que toi : là où un film te paraît fluide, elle verrait défiler chaque image. Pratique quand on vole vite entre mille fleurs sans se cogner."
+        }
+      ]
+    },
+    {
+      "id": "pourquoi-fleches",
+      "type": "question",
+      "visuel": "🌼",
+      "titre": "Pourquoi les fleurs se donnent-elles la peine de dessiner ces flèches ?",
+      "olli": "Fabriquer des motifs invisibles pour nous, juste pour les abeilles… ça semble beaucoup d'efforts pour une fleur. Quel intérêt y trouve-t-elle ?",
+      "choix": [
+        {
+          "emoji": "💅",
+          "texte": "Pour être plus jolie"
+        },
+        {
+          "emoji": "📦",
+          "texte": "Pour que l'abeille l'aide à faire des graines",
+          "bonne": true
+        },
+        {
+          "emoji": "🛡️",
+          "texte": "Pour effrayer les insectes nuisibles"
+        }
+      ],
+      "reponseBonne": "Pour faire des bébés-fleurs ! Une fleur ne peut pas se déplacer. Elle a besoin de l'abeille pour transporter son pollen jusqu'à une autre fleur. Les flèches UV guident l'abeille droit au nectar — et au passage, elle se couvre de pollen. La fleur nourrit l'abeille, l'abeille marie les fleurs. Un échange, encore.",
+      "reponseAutre": "Pour faire des bébés-fleurs ! Une fleur ne peut pas se déplacer. Elle a besoin de l'abeille pour transporter son pollen jusqu'à une autre fleur. Les flèches UV guident l'abeille droit au nectar — et au passage, elle se couvre de pollen. La fleur nourrit l'abeille, l'abeille marie les fleurs."
+    },
+    {
+      "id": "von-frisch",
+      "type": "anecdote",
+      "visuel": "🎓",
+      "etiquette": "Histoire vraie",
+      "titre": "Le savant qu'on n'a pas cru",
+      "texte": "Il y a plus de cent ans, un scientifique autrichien nommé Karl von Frisch affirme une chose folle : les abeilles voient les couleurs. À l'époque, tout le monde est sûr que les insectes sont daltoniens, qu'ils ne voient qu'en gris. On se moque de lui. Alors il prouve, patiemment : il dresse des abeilles à trouver du sucre sur un carton bleu, jamais sur du gris. Les abeilles reviennent toujours au bleu. Elles voient donc la couleur. Bien plus tard, von Frisch reçoit le prix Nobel — et il a découvert bien d'autres secrets des abeilles. 🐝",
+      "olli": "On lui a ri au nez, puis on lui a donné le plus grand prix de la science. Écouter l'abeille plutôt que les certitudes : voilà tout son génie.",
+      "sourceRef": "src-vonfrisch"
+    },
+    {
+      "id": "mission-fleurs",
+      "type": "mission",
+      "visuel": "🔎",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Deviens détective des fleurs",
+      "texte": "Dehors, cherche des fleurs et observe leur cœur, bien au centre. Très souvent, tu verras une tache d'une autre couleur, ou des traits qui pointent vers le milieu. Ce sont des guides pour les insectes — la partie que même toi tu peux voir. Puis cherche une fleur rouge vif : dis-toi qu'une abeille, elle, la verrait presque noire, et file plutôt vers les bleues et les jaunes. Compte : les abeilles se posent-elles surtout sur les rouges, ou sur les autres ?",
+      "olli": "Tu regardes le même jardin qu'une abeille, mais vous ne voyez pas du tout la même chose. Deux mondes, au même endroit. 😄"
+    },
+    {
+      "id": "teaser-danse",
+      "type": "teaser",
+      "visuel": "💃",
+      "titre": "Une abeille a trouvé un trésor de fleurs. Comment prévient-elle les autres ?",
+      "texte": "De retour à la ruche, dans le noir complet, elle doit expliquer à ses sœurs : « les meilleures fleurs sont par là, à cette distance ». Sans parler, sans carte, sans lumière. Alors elle danse. Une danse si précise qu'elle indique la direction ET la distance. Et c'est encore Karl von Frisch qui a percé ce secret-là.",
+      "olli": "Cette danse extraordinaire t'attend dans une prochaine page du Livre des Petites Bêtes… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "danse-abeille"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-uv",
+      "fait": "Les abeilles voient d'environ 300 à 650 nm : elles perçoivent l'ultraviolet mais pas le rouge. Vision trichromatique décalée : UV, bleu, vert (au lieu de rouge, vert, bleu chez l'humain).",
+      "reference": "https://news.ncsu.edu/2024/07/wms-what-bees-see/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-guides",
+      "fait": "De nombreuses fleurs portent des « guides à nectar » en UV (anneaux, cibles, flèches) invisibles à l'œil humain, qui orientent l'abeille vers le nectar et le pollen.",
+      "reference": "https://pollinators.keystone-foundation.org/bee-vision/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-rouge",
+      "fait": "Faute de photorécepteur rouge, un coquelicot ou une rose rouge paraît sombre/noir aux abeilles ; les fleurs rouges dépendent plutôt d'autres pollinisateurs (oiseaux).",
+      "reference": "https://apiaryproject.com/blog/honey-bee-vision-uv-compound-eyes-how-bees-see",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-flicker",
+      "fait": "La fréquence de fusion visuelle des abeilles est d'environ 250–300 Hz (contre ~60 Hz chez l'humain) : elles perçoivent des changements bien plus rapides.",
+      "reference": "https://apiaryproject.com/blog/honey-bee-vision-uv-compound-eyes-how-bees-see",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-vonfrisch",
+      "fait": "Karl von Frisch démontre dès les années 1910 la vision des couleurs chez l'abeille (dressage à des cartons colorés), à rebours de la croyance en des insectes daltoniens. Prix Nobel 1973.",
+      "reference": "https://manitowoccountybeekeepers.wordpress.com/2022/05/02/bee-vision-what-is-it-and-why-is-it-different/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-danse",
+      "fait": "Von Frisch a décodé la danse frétillante (waggle dance) : l'abeille y communique direction et distance d'une source de nourriture. Sujet annoncé par le teaser.",
+      "reference": "https://www.nobelprize.org/prizes/medicine/1973/frisch/facts/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "etoiles-olympus",
+  "minEngineVersion": 1,
+  "livre": "etoiles",
+  "titre": "La montagne qui se cache",
+  "resume": "Le plus grand volcan connu n'est pas sur Terre. Et si tu marchais dessus, tu ne t'en apercevrais même pas.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "robots-mars",
+      "texte": "Comment sait-on tout ça, alors que personne n'a jamais posé le pied sur Mars ?",
+      "resolueParLivre": "les-machines"
+    }
+  ],
+  "questionsResolues": [
+    "olympus-mons"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🔴",
+      "titre": "Exploratrice de Mars"
+    },
+    "decouvertes": [
+      "Olympus Mons : presque trois fois l'Everest",
+      "Sa pente est plus douce qu'une rampe",
+      "Son cratère avalerait Paris et sa banlieue",
+      "Mars n'a pas de plaques : la lave s'empile au même endroit",
+      "Mariner 9 l'a trouvé sous une tempête, en 1971"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "au-pied",
+      "type": "question",
+      "visuel": "🔴",
+      "titre": "Tu marches au pied du plus grand volcan connu. Que vois-tu ?",
+      "olli": "Te voilà sur Mars, tout en bas d'Olympus Mons. Presque trois fois l'Everest se dresse devant toi. Alors, qu'est-ce que tu as sous les yeux ?",
+      "choix": [
+        {
+          "emoji": "🏔️",
+          "texte": "Un mur immense qui monte jusqu'au ciel"
+        },
+        {
+          "emoji": "🌄",
+          "texte": "Une pente si douce que tu ne remarques rien",
+          "bonne": true
+        },
+        {
+          "emoji": "🌋",
+          "texte": "De la lave rouge qui coule partout"
+        }
+      ],
+      "reponseBonne": "Rien du tout ! Ses pentes font 2 à 5 degrés : moins raide qu'une rampe pour fauteuil roulant. Et il est si large que son sommet, à 300 km, disparaît derrière l'horizon. Tu escaladerais la plus grande montagne du système solaire… sans t'en apercevoir.",
+      "reponseAutre": "Rien du tout ! Ses pentes font 2 à 5 degrés : moins raide qu'une rampe pour fauteuil roulant. Et il est si large que son sommet, à 300 km, disparaît derrière l'horizon. Tu escaladerais la plus grande montagne du système solaire… sans t'en apercevoir."
+    },
+    {
+      "id": "survolons",
+      "type": "observation",
+      "visuel": "🛰️",
+      "titre": "Alors survolons-le. De là-haut, il est monstrueux.",
+      "olli": "Touche chaque partie. Depuis l'orbite, on voit enfin ce qu'un explorateur au sol ne verrait jamais.",
+      "hotspots": [
+        {
+          "emoji": "🕳️",
+          "nom": "Le cratère du sommet",
+          "fait": "80 kilomètres sur 60 : on y ferait tenir Paris et toute sa banlieue. Ce n'est pas un trou creusé par une explosion — c'est le toit du volcan qui s'est effondré, six fois, quand les chambres de magma se sont vidées."
+        },
+        {
+          "emoji": "🧗",
+          "nom": "La falaise du bord",
+          "fait": "Tout autour, une falaise continue de 6 à 8 km de haut : presque l'Everest, en à-pic. Aucune falaise sur Terre n'approche ça. C'est le seul endroit où le volcan a enfin l'air d'un géant."
+        },
+        {
+          "emoji": "☁️",
+          "nom": "Le sommet",
+          "fait": "Il dépasse presque toute l'atmosphère de Mars. Debout là-haut, tu regarderais les nuages et les tempêtes de poussière passer très loin en dessous de tes pieds."
+        }
+      ]
+    },
+    {
+      "id": "pourquoi-si-grand",
+      "type": "question",
+      "visuel": "🌍",
+      "titre": "Pourquoi Mars a-t-elle ce géant, et pas la Terre ?",
+      "olli": "La Terre a des volcans partout. Mais aucun n'arrive à la cheville de celui-là. Qu'est-ce que Mars a de différent ?",
+      "choix": [
+        {
+          "emoji": "🔥",
+          "texte": "Il y a beaucoup plus de lave sur Mars"
+        },
+        {
+          "emoji": "🪨",
+          "texte": "La roche martienne est plus solide"
+        },
+        {
+          "emoji": "🧊",
+          "texte": "Le sol de Mars ne bouge pas",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Exactement. Sur Terre, l'écorce est découpée en plaques qui glissent : un volcan naît sur un point chaud, puis la plaque l'emporte ailleurs et un nouveau recommence plus loin. Ça donne un chapelet d'îles, comme Hawaï. Sur Mars, rien ne bouge : la lave s'empile au même endroit pendant des milliards d'années.",
+      "reponseAutre": "C'est que le sol de Mars ne bouge pas ! Sur Terre, l'écorce est découpée en plaques qui glissent : un volcan naît sur un point chaud, puis la plaque l'emporte ailleurs et un nouveau recommence plus loin — d'où les chapelets d'îles comme Hawaï. Sur Mars, la lave s'empile au même endroit pendant des milliards d'années."
+    },
+    {
+      "id": "mariner-9",
+      "type": "anecdote",
+      "visuel": "🌫️",
+      "etiquette": "Histoire vraie",
+      "titre": "La planète cachée sous la poussière",
+      "texte": "Depuis le XIXᵉ siècle, les astronomes voyaient une tache claire sur Mars dans leurs télescopes. Schiaparelli l'avait baptisée Nix Olympica : « les neiges de l'Olympe ». Personne ne savait ce que c'était. Le 14 novembre 1971, la sonde Mariner 9 arrive enfin en orbite… et découvre la planète noyée sous une tempête de poussière. Une boule orange, sans le moindre détail. Sauf quatre taches sombres qui percent le nuage. Des semaines plus tard, la poussière retombe : c'étaient les sommets de quatre volcans géants. Le plus grand était Nix Olympica. On l'a rebaptisé Olympus Mons.",
+      "olli": "Imagine l'équipe : des années de travail, la sonde arrive enfin… et il n'y a rien à voir. C'est cette déception même qui a révélé les géants.",
+      "sourceRef": "src-mariner9"
+    },
+    {
+      "id": "mission-ballon",
+      "type": "mission",
+      "visuel": "🍊",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fais disparaître une montagne",
+      "texte": "Prends un ballon, ou une orange. Pose une miette de pain dessus : c'est toi, sur Mars. Maintenant descends ton œil jusqu'au niveau de la surface, tout près de la miette, et regarde. Tu vois comme le monde fuit et disparaît, tout de suite ? Voilà pourquoi un explorateur au pied d'Olympus Mons ne verra jamais le sommet. Mars est petite, donc très courbée — et la montagne est bien trop large. Elle se cache toute seule.",
+      "olli": "Sur Terre déjà, ton horizon n'est qu'à quelques kilomètres. Sur Mars, plus petite encore, il est plus près. Un géant peut se cacher derrière presque rien."
+    },
+    {
+      "id": "teaser-robots",
+      "type": "teaser",
+      "visuel": "🤖",
+      "titre": "Personne n'a jamais posé le pied sur Mars.",
+      "texte": "Pas un seul humain, jamais. Alors comment connaît-on la hauteur de cette montagne, la largeur de son cratère, la douceur de ses pentes ? Tout a été mesuré par des machines : des sondes en orbite, et des robots qui roulent tout seuls à 300 millions de kilomètres de ceux qui les ont construits. L'un d'eux devait tenir trois mois… il a roulé quatorze ans.",
+      "olli": "Ces robots-là t'attendent dans le Livre des Machines… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "robots-mars"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-olympus-nasa",
+      "fait": "Olympus Mons : environ 22 à 26 km au-dessus des plaines environnantes (près de trois fois l'Everest), base d'environ 600 km de diamètre, ~300 000 km² (taille de l'Arizona).",
+      "reference": "https://science.nasa.gov/photojournal/pj-olympus-mons-lava-flows-2/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-pente-caldeira",
+      "fait": "Pentes moyennes de 2 à 5°. Complexe de caldeiras sommitales d'environ 80 × 60 km, issu de six effondrements successifs. Le sommet est invisible depuis la base (courbure + largeur).",
+      "reference": "https://en.wikipedia.org/wiki/Olympus_Mons",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-escarpement",
+      "fait": "Olympus Rupes : escarpement continu ceinturant le volcan, jusqu'à 8 km de dénivelé — presque la hauteur de l'Everest. Origine encore débattue.",
+      "reference": "https://themis.asu.edu/zoom-20250707a",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-tectonique",
+      "fait": "Absence de tectonique des plaques sur Mars : la croûte reste immobile au-dessus du point chaud de Tharsis, d'où l'empilement sur un même site. La gravité plus faible aide aussi.",
+      "reference": "https://en.wikipedia.org/wiki/Olympus_Mons",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-mariner9",
+      "fait": "Orbite le 14/11/1971 : surface masquée par une tempête de poussière globale. Seuls visibles : la calotte polaire sud et quatre taches sombres, dont Nix Olympica — des sommets de volcans.",
+      "reference": "https://pubs.usgs.gov/publication/70010114",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-nix-olympica",
+      "fait": "Nix Olympica (« les neiges de l'Olympe »), nommée par Giovanni Schiaparelli au XIXᵉ siècle d'après la tache claire vue au télescope, est rebaptisée Olympus Mons après Mariner 9.",
+      "reference": "https://www.hq.nasa.gov/office/pao/History/SP-4212/ch9-4.html",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-opportunity",
+      "fait": "Le rover Opportunity, conçu pour une mission de 90 jours, a fonctionné de janvier 2004 à juin 2018, soit plus de quatorze ans.",
+      "reference": "https://science.nasa.gov/mission/opportunity-rover/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    }
+  ]
+}

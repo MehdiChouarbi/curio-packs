@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "etoiles-bousier",
+  "minEngineVersion": 1,
+  "livre": "etoiles",
+  "titre": "Le scarabée qui lit le ciel",
+  "resume": "Il a un cerveau plus petit qu'un grain de riz, il pousse une boule de crotte dans la nuit noire — et il se guide grâce à la Galaxie.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "ciel-en-boite",
+      "texte": "Comment fabrique-t-on un ciel étoilé entier sous un toit ?",
+      "resolueParLivre": "les-machines"
+    }
+  ],
+  "questionsResolues": [
+    "bousier-voie-lactee"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "✨",
+      "titre": "Lectrice du Ciel"
+    },
+    "decouvertes": [
+      "Le bousier se guide grâce à la Voie lactée",
+      "Il danse sur sa boule pour photographier le ciel",
+      "Des chercheurs lui ont cousu des chapeaux en carton",
+      "Premier insecte connu qui lit les étoiles",
+      "Ig Nobel 2013 : faire rire, puis réfléchir"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "la-danse",
+      "type": "question",
+      "visuel": "🪲",
+      "titre": "Avant de partir, il grimpe sur sa boule et tourne sur lui-même. Pourquoi ?",
+      "olli": "Regarde-le bien. Il façonne sa boule de crotte, puis il grimpe au sommet et fait un petit tour sur lui-même, comme une danse. À ton avis, à quoi ça sert ?",
+      "choix": [
+        {
+          "emoji": "🥁",
+          "texte": "À tasser sa boule"
+        },
+        {
+          "emoji": "🧭",
+          "texte": "À regarder le ciel et choisir sa direction",
+          "bonne": true
+        },
+        {
+          "emoji": "😴",
+          "texte": "À se reposer un instant"
+        },
+        {
+          "emoji": "👀",
+          "texte": "À vérifier que personne ne le suit"
+        }
+      ],
+      "reponseBonne": "C'est une danse-boussole ! Du haut de sa boule, il photographie le ciel dans sa tête et choisit un cap. Ensuite il fonce, tout droit, sans jamais dévier. (Chez ses cousins de jour, cette danse sert aussi à rafraîchir ses pattes : le sable brûle !)",
+      "reponseAutre": "C'est une danse-boussole ! Du haut de sa boule, il photographie le ciel dans sa tête et choisit un cap. Ensuite il fonce, tout droit, sans jamais dévier. Une seconde de danse, et il sait où il va."
+    },
+    {
+      "id": "dans-le-noir",
+      "type": "observation",
+      "visuel": "🌌",
+      "visuelAnimation": "flotte",
+      "titre": "Approchons-nous. Il fait nuit noire, en Afrique du Sud.",
+      "olli": "Touche chaque partie pour comprendre pourquoi ce petit être a besoin de toute une galaxie.",
+      "hotspots": [
+        {
+          "emoji": "⚫",
+          "nom": "Sa boule",
+          "fait": "C'est sa nourriture, et c'est un trésor. Autour du tas, des dizaines de voleurs attendent. Rouler tout droit, c'est sa seule chance : le moindre virage le ramènerait au milieu de la bagarre."
+        },
+        {
+          "emoji": "👀",
+          "nom": "Ses yeux",
+          "fait": "Il ne voit que les étoiles les plus brillantes. Pour lui, la Voie lactée n'est pas une poussière d'étoiles : c'est une longue traînée de lumière floue en travers du ciel. Une route."
+        },
+        {
+          "emoji": "🧠",
+          "nom": "Son cerveau",
+          "fait": "Plus petit qu'un grain de riz. Et pourtant il se sert de notre Galaxie comme d'une boussole. Il ne sait pas où il va — il sait seulement qu'il va tout droit. Et ça lui suffit."
+        }
+      ]
+    },
+    {
+      "id": "la-preuve",
+      "type": "question",
+      "visuel": "🎩",
+      "titre": "Comment prouver qu'un scarabée regarde le ciel ?",
+      "olli": "Les chercheurs le soupçonnaient. Mais soupçonner ne suffit pas : en science, il faut prouver. Comment tu ferais, toi ?",
+      "choix": [
+        {
+          "emoji": "🎩",
+          "texte": "Lui fabriquer un minuscule chapeau",
+          "bonne": true
+        },
+        {
+          "emoji": "⏱️",
+          "texte": "Le chronométrer très longtemps"
+        },
+        {
+          "emoji": "🔦",
+          "texte": "L'éclairer avec une lampe"
+        }
+      ],
+      "reponseBonne": "Des chapeaux en carton, cousus main, un pour chaque scarabée ! Sous le chapeau, plus de ciel : ils se sont mis à tourner en rond. Et pour être bien sûrs que c'était le ciel caché — et pas le chapeau qui gêne — ils en ont fabriqué d'autres, transparents.",
+      "reponseAutre": "Ils leur ont fabriqué de minuscules chapeaux en carton ! Sous le chapeau, plus de ciel : les scarabées se sont mis à tourner en rond. Et pour être sûrs que c'était le ciel caché — et pas le chapeau qui gêne — ils en ont fait d'autres, transparents."
+    },
+    {
+      "id": "ig-nobel",
+      "type": "anecdote",
+      "visuel": "🏆",
+      "etiquette": "Histoire vraie",
+      "titre": "Le prix le plus drôle du monde",
+      "texte": "Marie Dacke, Marcus Byrne et leurs collègues ont passé des nuits entières dans une réserve d'Afrique du Sud, penchés sur une arène de trois mètres, à observer des scarabées coiffés de chapeaux minuscules. En 2013, leur découverte leur a valu l'Ig Nobel — le prix qui récompense les recherches qui font d'abord rire, puis réfléchir. Ils l'ont accepté avec fierté : « se moquer de la science, c'est bien », a répondu l'équipe. Personne, avant eux, n'avait prouvé qu'un insecte pouvait se guider aux étoiles. 🏅",
+      "olli": "Le prix est remis à Harvard, et quand un discours devient trop long, une petite fille de huit ans monte sur scène pour l'interrompre. Sans blague !",
+      "sourceRef": "src-ignobel"
+    },
+    {
+      "id": "mission-voie-lactee",
+      "type": "mission",
+      "visuel": "🌠",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Cherche la route du scarabée",
+      "texte": "Ce soir, sors dehors avec quelqu'un, loin des lampes. Laisse tes yeux s'habituer au noir : compte jusqu'à 300, sans regarder un seul écran. Puis cherche une longue traînée de lumière floue en travers du ciel. C'est la Voie lactée — la route du bousier. Si tu ne la vois pas, ce n'est pas ta faute : les lumières de la ville l'effacent. Alors essaie ceci : ferme les yeux et marche dix pas bien droit. Demande à quelqu'un de regarder où tu arrives…",
+      "olli": "Sans repère, un humain tourne en rond, lui aussi. Avec son cerveau grand comme un grain de riz, le scarabée fait mieux que toi. 😄"
+    },
+    {
+      "id": "teaser-planetarium",
+      "type": "teaser",
+      "visuel": "🔭",
+      "titre": "Ils ont emmené les scarabées dans un ciel artificiel.",
+      "texte": "Pour être vraiment sûrs, les chercheurs ont transporté leur arène et leurs scarabées à l'intérieur d'un planétarium, à Johannesburg. Là, ils ont allumé un faux ciel : la Voie lactée seule, puis les étoiles seules, puis plus rien du tout. Sous la fausse Voie lactée, les scarabées ont roulé tout droit. Mais au fait… comment fabrique-t-on un ciel entier sous un toit ?",
+      "olli": "La machine qui fait ça t'attend dans le Livre des Machines… En attendant, un nouveau tampon pour ton passeport ! 🎉",
+      "questionOuverteRef": "ciel-en-boite"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-dacke",
+      "fait": "Dacke, Baird, Byrne, Scholtz & Warrant (2013), Current Biology : les bousiers Scarabaeus satyrus s'orientent grâce à la Voie lactée. Premier cas prouvé chez un insecte.",
+      "reference": "https://pubmed.ncbi.nlm.nih.gov/23352694/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-chapeaux",
+      "fait": "Arène circulaire de 3 m dans une réserve sud-africaine ; casquettes en carton bloquant la vue du ciel, et casquettes transparentes comme groupe témoin.",
+      "reference": "https://www.nbcnews.com/science/cosmic-log/dung-beetles-guided-milky-way-flna6c10402098",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-danse",
+      "fait": "Le bousier grimpe sur sa boule et effectue une danse d'orientation (relevé céleste). Chez les espèces diurnes, cette montée sert aussi à la thermorégulation des pattes.",
+      "reference": "https://groundup.org.za/article/caps-and-boots-dung-beetles-earns-wits-scientists-ig-nobel-prize/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-ignobel",
+      "fait": "Ig Nobel 2013 biologie/astronomie à Dacke, Baird, Byrne, Scholtz et Warrant. Citation de l'équipe : « Poking fun at science is good ». Discours interrompus par Miss Sweetie Poo, huit ans.",
+      "reference": "https://www.brandsouthafrica.com/investments-immigration/science-technology/ig-nobel-130913",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-planetarium",
+      "fait": "Expérience répétée au planétarium de Johannesburg (Wits) : Voie lactée seule, étoiles brillantes seules, ciel complet, ou rien. Orientation conservée sous la seule Voie lactée.",
+      "reference": "https://groundup.org.za/article/caps-and-boots-dung-beetles-earns-wits-scientists-ig-nobel-prize/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    }
+  ]
+}

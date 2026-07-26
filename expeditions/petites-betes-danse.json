@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "petites-betes-danse",
+  "minEngineVersion": 1,
+  "livre": "petites-betes",
+  "titre": "La danse qui donne l'adresse des fleurs",
+  "resume": "Dans le noir de la ruche, une abeille explique à ses sœurs où trouver les meilleures fleurs. Sans parler, sans carte. Juste en dansant.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "ville-abeilles",
+      "texte": "Comment 50 000 abeilles décident-elles ensemble, sans aucun chef ?",
+      "resolueParLivre": "les-machines"
+    }
+  ],
+  "questionsResolues": [
+    "danse-abeille"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "💃",
+      "titre": "Traductrice des Abeilles"
+    },
+    "decouvertes": [
+      "L'abeille indique la direction ET la distance",
+      "Elle danse un 8 sur le mur vertical de la ruche",
+      "« Vers le haut » veut dire « vers le soleil »",
+      "Plus la danse dure, plus les fleurs sont loin",
+      "Seuls les humains et les abeilles donnent une adresse"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "comment-dire",
+      "type": "question",
+      "visuel": "🐝",
+      "titre": "Une abeille a trouvé un trésor de fleurs. Comment le dire aux autres ?",
+      "olli": "Elle rentre à la ruche, dans le noir complet, au milieu de milliers de sœurs. Les fleurs sont loin, dans une direction précise. Pas de mots, pas de carte, pas de lumière. Comment fait-elle passer le message ?",
+      "choix": [
+        {
+          "emoji": "👃",
+          "texte": "Elle laisse une odeur sur le chemin"
+        },
+        {
+          "emoji": "💃",
+          "texte": "Elle danse",
+          "bonne": true
+        },
+        {
+          "emoji": "🎵",
+          "texte": "Elle fait un bruit particulier"
+        }
+      ],
+      "reponseBonne": "Elle danse ! Sur le mur vertical de la ruche, elle trace un 8, encore et encore, en frétillant du ventre au milieu. Et ce n'est pas n'importe quel gigotement : cette danse contient l'adresse exacte des fleurs. La direction ET la distance. Il fallait la décoder.",
+      "reponseAutre": "Elle danse ! Sur le mur vertical de la ruche, elle trace un 8, encore et encore, en frétillant du ventre au milieu. Et ce n'est pas n'importe quel gigotement : cette danse contient l'adresse exacte des fleurs. La direction ET la distance. Il fallait la décoder."
+    },
+    {
+      "id": "lire-la-danse",
+      "type": "observation",
+      "visuel": "💃",
+      "visuelAnimation": "flotte",
+      "titre": "Apprenons à lire la danse, comme l'abeille.",
+      "olli": "Touche chaque partie. Une fois que tu connais le code, tu peux lire dans la danse d'une abeille exactement où sont ses fleurs. Vraiment.",
+      "hotspots": [
+        {
+          "emoji": "⬆️",
+          "nom": "Le haut, c'est le soleil",
+          "fait": "Dans la ruche sombre, l'abeille ne voit pas le soleil. Alors elle décide que « tout droit vers le haut » veut dire « vers le soleil ». Si elle frétille droit vers le haut, les fleurs sont dans la direction du soleil. Malin, non ?"
+        },
+        {
+          "emoji": "📐",
+          "nom": "L'angle donne la direction",
+          "fait": "Si les fleurs sont à droite du soleil, elle penche sa danse vers la droite, du même angle exactement. À 60° à gauche du soleil ? Elle frétille à 60° à gauche du haut. Un vrai rapporteur vivant."
+        },
+        {
+          "emoji": "⏱️",
+          "nom": "La durée donne la distance",
+          "fait": "Plus les fleurs sont loin, plus elle frétille longtemps. Environ une seconde de frétillement, et les fleurs sont à un kilomètre. Deux secondes ? Deux fois plus loin. Le temps devient une carte."
+        }
+      ]
+    },
+    {
+      "id": "qui-danse",
+      "type": "question",
+      "visuel": "🌍",
+      "titre": "Qui d'autre, sur Terre, sait donner une adresse à distance ?",
+      "olli": "Réfléchis bien. Beaucoup d'animaux communiquent : ils crient un danger, appellent un petit, marquent un territoire. Mais donner une vraie adresse — « va là-bas, à cette distance, dans cette direction » — sans y conduire ?",
+      "choix": [
+        {
+          "emoji": "🐜",
+          "texte": "Presque tous les insectes"
+        },
+        {
+          "emoji": "🐕",
+          "texte": "Beaucoup d'animaux savent"
+        },
+        {
+          "emoji": "🧑",
+          "texte": "Seulement les humains… et les abeilles",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Juste nous deux. Les autres animaux peuvent guider en emmenant, ou en laissant une piste. Mais dire un lieu de façon abstraite — une direction, une distance — pour que l'autre y aille tout seul : à notre connaissance, seuls les humains et les abeilles le font. Une puce grosse comme un grain de riz partage ce pouvoir avec toi.",
+      "reponseAutre": "Juste nous deux. Les autres animaux peuvent guider en emmenant, ou en laissant une piste. Mais dire un lieu de façon abstraite — une direction, une distance — pour que l'autre y aille tout seul : à notre connaissance, seuls les humains et les abeilles le font. Une bête grosse comme un grain de riz partage ce pouvoir avec toi."
+    },
+    {
+      "id": "von-frisch-guerre",
+      "type": "anecdote",
+      "visuel": "🔍",
+      "etiquette": "Histoire vraie",
+      "titre": "L'homme au pinceau qui écoutait les abeilles",
+      "texte": "Pour comprendre le code, Karl von Frisch a fait une chose toute simple et infiniment patiente : il a peint des points de couleur sur le dos de centaines d'abeilles, une par une, pour les reconnaître. Puis il a passé des heures, le nez collé à une ruche vitrée, à noter qui dansait, comment, et où filaient les autres ensuite. Il a mis des années. Et il a fait cette découverte à une époque très sombre, pendant la Seconde Guerre mondiale, alors qu'on cherchait à briser sa carrière à cause de ses origines. Les abeilles, elles, dansaient toujours. 🐝",
+      "olli": "Bien plus tard, on lui a remis le prix Nobel pour avoir traduit la langue des abeilles. Toute une vie penchée sur une ruche, un pinceau à la main.",
+      "sourceRef": "src-vonfrisch"
+    },
+    {
+      "id": "mission-danse",
+      "type": "mission",
+      "visuel": "🕺",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Danse comme une abeille",
+      "texte": "Choisis un objet dans la pièce — la porte, la fenêtre. Décide que « devant toi » c'est le soleil. Maintenant, sans parler et sans le montrer du doigt, fais deviner l'objet à quelqu'un : marche en frétillant dans sa direction (l'angle donne le lieu), et frétille longtemps si c'est loin, brièvement si c'est près. Recommence jusqu'à ce qu'il trouve. Difficile, hein ? Une abeille le fait du premier coup, dans le noir.",
+      "olli": "Tu viens de mesurer à quel point leur danse est géniale. Et elles, personne ne leur a appris : elles naissent en le sachant. 😄"
+    },
+    {
+      "id": "teaser-ruche",
+      "type": "teaser",
+      "visuel": "🏙️",
+      "titre": "Une abeille danse. Mais qui commande, dans la ruche ?",
+      "texte": "Cinquante mille abeilles vivent ensemble. Elles construisent, nettoient, nourrissent les bébés, choisissent où déménager… et tout marche parfaitement. Pourtant, il n'y a pas de chef. La reine ne donne aucun ordre : elle ne fait que pondre. Alors comment une ville de cinquante mille habitants prend-elle des décisions justes, sans personne aux commandes ?",
+      "olli": "Cette énigme-là t'attend dans le Livre des Machines, là où l'on parle des choses qui s'organisent toutes seules… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "ville-abeilles"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-danse",
+      "fait": "La danse frétillante (waggle dance) en 8 se déroule sur le rayon vertical : la phase de frétillement code direction et distance. Décodée par von Frisch dans les années 1940.",
+      "reference": "https://www.bee-craft.com/how-karl-von-frisch-deciphered-the-waggle-dance/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-angle",
+      "fait": "Direction : l'angle de la course de frétillement par rapport à la verticale égale l'angle entre la source et l'azimut du soleil. « Droit vers le haut » = « en direction du soleil ».",
+      "reference": "http://www.fromthelabbench.com/from-the-lab-bench-science-blog/super-hero-experiment-2-the-waggle-dance",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-distance",
+      "fait": "Distance : codée par la durée du frétillement. Un frétillement d'environ 1 seconde correspond à ~1 km. Von Frisch l'a montré avec deux mangeoires (10 m et 250 m).",
+      "reference": "https://theapiarist.org/the-waggle-dance/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-abstrait",
+      "fait": "Humains et abeilles mellifères sont, à notre connaissance, les seuls à guider vers un lieu par une information abstraite (direction + distance) plutôt qu'en y conduisant ou en marquant une piste.",
+      "reference": "https://www.bee-craft.com/how-karl-von-frisch-deciphered-the-waggle-dance/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-vonfrisch",
+      "fait": "Von Frisch marquait les abeilles à la peinture et observait une ruche vitrée. Travaux menés malgré les persécutions nazies visant ses origines juives. Prix Nobel 1973.",
+      "reference": "https://www.ttbook.org/interview/waggle-dancing-karl-von-frisch",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-inne",
+      "fait": "Le code de la danse est inné : les jeunes abeilles n'ont pas besoin de l'apprendre pour l'exécuter (des dialectes de distance existent toutefois entre espèces).",
+      "reference": "https://apiaryproject.com/blog/waggle-dance-how-bees-communicate",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    }
+  ]
+}

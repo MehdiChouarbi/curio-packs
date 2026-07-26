@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "machines-rouille",
+  "minEngineVersion": 1,
+  "livre": "les-machines",
+  "titre": "Le vélo qui pèse plus lourd en pourrissant",
+  "resume": "Un vélo oublié sous la pluie rouille et semble s'effriter. Pourtant, si tu le pesais, surprise : il est devenu plus lourd. Rien ne disparaît jamais.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "or-inoxydable",
+      "texte": "Pourquoi les trésors des pharaons brillent-ils encore, sans une trace de rouille ?",
+      "resolueParLivre": "etoiles"
+    }
+  ],
+  "questionsResolues": [
+    "fer-rouille"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🔩",
+      "titre": "Détective de la Matière"
+    },
+    "decouvertes": [
+      "La rouille, c'est du fer marié à l'oxygène",
+      "Un objet rouillé pèse plus lourd qu'avant",
+      "Rien ne disparaît vraiment : tout se transforme",
+      "C'est la même réaction qui a rouillé les océans",
+      "L'or, lui, refuse de se marier : il ne rouille pas"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "plus-lourd",
+      "type": "question",
+      "visuel": "🚲",
+      "titre": "Un vélo rouille pendant des mois. Devient-il plus léger ou plus lourd ?",
+      "olli": "La rouille s'effrite, tombe en poussière orange, le métal a l'air rongé, mangé. On dirait qu'il en reste moins. Alors, si tu pesais le vélo avant et après : plus léger, ou plus lourd ?",
+      "choix": [
+        {
+          "emoji": "🪶",
+          "texte": "Plus léger, forcément"
+        },
+        {
+          "emoji": "⚖️",
+          "texte": "Pareil, le poids ne change pas"
+        },
+        {
+          "emoji": "🏋️",
+          "texte": "Plus lourd",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Plus lourd ! Ça semble impossible, et pourtant. La rouille, c'est du fer qui s'est marié avec l'oxygène de l'air. L'oxygène est venu se coller au métal — et l'oxygène, ça pèse. Le vélo n'a rien perdu : il a gagné quelque chose. Il s'est alourdi en pourrissant.",
+      "reponseAutre": "Plus lourd ! Ça semble impossible, et pourtant. La rouille, c'est du fer qui s'est marié avec l'oxygène de l'air. L'oxygène est venu se coller au métal — et l'oxygène, ça pèse. Le vélo n'a rien perdu : il a gagné quelque chose. Il s'est alourdi en pourrissant."
+    },
+    {
+      "id": "le-mariage",
+      "type": "observation",
+      "visuel": "🔬",
+      "visuelAnimation": "flotte",
+      "titre": "Regardons ce mariage de tout près.",
+      "olli": "Touche chaque partie. Ce qui se passe sur ton vieux portail est une histoire de rencontre entre trois personnages.",
+      "hotspots": [
+        {
+          "emoji": "🔩",
+          "nom": "Le fer, tout seul",
+          "fait": "Le fer déteste rester seul. Il se marie si facilement avec l'oxygène que, dans la nature, on ne le trouve presque jamais pur : il est presque toujours déjà mélangé à autre chose, dans les roches."
+        },
+        {
+          "emoji": "💧",
+          "nom": "L'eau, l'entremetteuse",
+          "fait": "Sans eau, presque rien ne se passe. C'est la goutte de pluie, l'humidité de l'air, qui permet au fer et à l'oxygène de se rencontrer. Voilà pourquoi un vélo rouille dehors, mais pas dans un garage bien sec."
+        },
+        {
+          "emoji": "🧡",
+          "nom": "La rouille, l'enfant",
+          "fait": "Fer + oxygène + eau donnent la rouille orange. Elle est plus grosse et plus fragile que le fer de départ : elle gonfle, elle craque, elle s'écaille. C'est pour ça que le métal a l'air de disparaître, alors qu'en vrai, il grossit."
+        }
+      ]
+    },
+    {
+      "id": "meme-reaction",
+      "type": "question",
+      "visuel": "🌊",
+      "titre": "Où as-tu déjà rencontré cette réaction, en énorme ?",
+      "olli": "Du fer qui se marie avec l'oxygène et devient une poudre orange… ça devrait te rappeler quelque chose. Une histoire bien plus ancienne que ton vélo.",
+      "choix": [
+        {
+          "emoji": "🌋",
+          "texte": "Dans les océans de la Terre primitive",
+          "bonne": true
+        },
+        {
+          "emoji": "🌙",
+          "texte": "Sur la Lune"
+        },
+        {
+          "emoji": "❄️",
+          "texte": "Au pôle Nord"
+        }
+      ],
+      "reponseBonne": "Les océans du début du monde ! Souviens-toi : les premières cyanobactéries fabriquaient de l'oxygène, et cet oxygène rouillait le fer dissous dans la mer. Exactement la même réaction que sur ton vélo, mais à l'échelle d'une planète entière, pendant des centaines de millions d'années. Ton portail rouille comme rouillaient les mers.",
+      "reponseAutre": "Les océans du début du monde ! Les premières cyanobactéries fabriquaient de l'oxygène, et cet oxygène rouillait le fer dissous dans la mer. Exactement la même réaction que sur ton vélo, mais à l'échelle d'une planète entière, pendant des centaines de millions d'années. Ton portail rouille comme rouillaient les mers."
+    },
+    {
+      "id": "rien-ne-disparait",
+      "type": "anecdote",
+      "visuel": "⚖️",
+      "etiquette": "Histoire vraie",
+      "titre": "La grande règle : rien ne se perd",
+      "texte": "Il y a plus de 200 ans, un savant français, Antoine Lavoisier, pesait tout, sans arrêt, avec une balance de précision incroyable pour l'époque. En brûlant des métaux, en observant la rouille, il a compris une règle qui gouverne l'univers entier : rien ne se perd, rien ne se crée, tout se transforme. Le bois qui brûle ne disparaît pas : il part en gaz et en cendres. Le vélo qui rouille ne maigrit pas : il capture l'air. La matière change de forme, mais la quantité, elle, ne bouge jamais d'un poil.",
+      "olli": "C'est l'une des règles les plus profondes de toute la science, et tu viens de la vérifier avec un vieux vélo. Rien ne disparaît pour de bon. Jamais.",
+      "sourceRef": "src-lavoisier"
+    },
+    {
+      "id": "mission-rouille",
+      "type": "mission",
+      "visuel": "🔧",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fabrique de la rouille",
+      "texte": "Prends de la paille de fer (l'éponge à récurer grise) ou quelques clous en fer. Mouille-les et pose-les dans une soucoupe, près d'une fenêtre. Chaque jour, regarde. En deux ou trois jours, l'orange apparaît. Tu assistes en direct au mariage du fer et de l'oxygène. Pour aller plus loin : prépare deux clous, mais garde-en un bien au sec dans un bocal fermé. Compare. Lequel rouille ? Tu viens de prouver que l'eau est l'entremetteuse.",
+      "olli": "Tu fais de la vraie chimie, dans une soucoupe, sur le bord d'une fenêtre. Pas besoin de laboratoire pour interroger le monde. 😄"
+    },
+    {
+      "id": "teaser-or",
+      "type": "teaser",
+      "visuel": "👑",
+      "titre": "Le fer rouille. Mais le trésor de Toutânkhamon brille toujours.",
+      "texte": "Dans la tombe du pharaon, fermée depuis plus de 3 000 ans, l'or était intact : pas une tache, pas une écaille, brillant comme au premier jour. Le fer se marie avec tout ; l'or, lui, refuse presque tout mariage. Il reste seul, pur, éclatant, pour l'éternité. Mais d'où vient cet or si précieux et si têtu ? La réponse va te faire lever les yeux très, très haut…",
+      "olli": "Le secret de l'or se cache dans le Livre des Étoiles, là où naissent les métaux… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "or-inoxydable"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-rouille",
+      "fait": "La rouille est un oxyde de fer hydraté (Fe2O3·xH2O), formé par réaction du fer avec l'oxygène en présence d'eau. Réaction d'oxydation (le fer perd des électrons, l'oxygène en gagne).",
+      "reference": "https://www.britannica.com/science/How-Does-Metal-Rust",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-plus-lourd",
+      "fait": "Un objet en fer gagne de la masse en rouillant : l'oxygène de l'air s'incorpore au métal (loi de conservation de la masse). Contre-intuitif car la rouille s'effrite.",
+      "reference": "https://www.vaia.com/en-us/textbooks/chemistry/introductory-chemistry-a-foundation-7-edition/chapter-9/problem-9-what-happens-to-the-weight-of-an-iron-bar-when-it-/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-eau",
+      "fait": "L'eau (pluie, humidité) est indispensable à la rouille : sans elle, la réaction est très lente voire nulle. Sel et acides l'accélèrent.",
+      "reference": "https://completeera.com/chemical-reaction-rusting-of-iron-explained/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-fer-pur",
+      "fait": "Le fer réagit si facilement avec l'oxygène qu'on ne le trouve quasiment jamais pur dans la nature ; il faut raffiner un minerai pour obtenir du fer métallique.",
+      "reference": "https://www.earthdate.org/episodes/rust-results",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-oceans",
+      "fait": "La même oxydation du fer a produit les fers rubanés des océans primitifs lors de la montée de l'oxygène (lien avec l'expédition volcans-oxygene).",
+      "reference": "https://asm.org/articles/2022/february/the-great-oxidation-event-how-cyanobacteria-change",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-lavoisier",
+      "fait": "Loi de conservation de la masse (Lavoisier, fin XVIIIᵉ) : « rien ne se perd, rien ne se crée, tout se transforme ». Établie par des pesées précises lors de combustions/oxydations.",
+      "reference": "https://www.britannica.com/biography/Antoine-Lavoisier",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-or",
+      "fait": "L'or est un métal noble : très peu réactif, il ne s'oxyde pas dans les conditions normales, d'où sa conservation (ex. mobilier funéraire de Toutânkhamon). Teaser vers l'origine stellaire de l'or.",
+      "reference": "https://www.earthdate.org/episodes/rust-results",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    }
+  ]
+}

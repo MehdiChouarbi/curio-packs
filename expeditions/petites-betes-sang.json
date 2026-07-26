@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "petites-betes-sang",
+  "minEngineVersion": 1,
+  "livre": "petites-betes",
+  "titre": "Le sang qui ne respire pas",
+  "resume": "Tu as vu le sang bleu de la pieuvre. Celui des insectes n'est ni rouge ni bleu — et la vraie surprise n'est pas sa couleur, c'est ce qu'il ne fait pas.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "bousier-voie-lactee",
+      "texte": "Comment un insecte peut-il se repérer grâce à la Voie lactée ?",
+      "resolueParLivre": "etoiles"
+    }
+  ],
+  "questionsResolues": [
+    "sang-insectes"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🦗",
+      "titre": "Exploratrice des Petites Bêtes"
+    },
+    "decouvertes": [
+      "Le sang des insectes s'appelle l'hémolymphe",
+      "Il ne transporte pas l'oxygène du tout",
+      "Un insecte respire par des trous sur ses flancs",
+      "Meganeura : une libellule large comme un aigle",
+      "Un coup de pioche lui a fait perdre la tête, en 1880"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "couleur-du-sang",
+      "type": "question",
+      "visuel": "🩸",
+      "titre": "De quelle couleur est le sang d'un insecte ?",
+      "olli": "Tu te souviens ? La pieuvre a le sang bleu, à cause du cuivre. Alors une fourmi, une sauterelle, une coccinelle… à ton avis ?",
+      "choix": [
+        {
+          "emoji": "❤️",
+          "texte": "Rouge, comme le tien"
+        },
+        {
+          "emoji": "💙",
+          "texte": "Bleu, comme la pieuvre"
+        },
+        {
+          "emoji": "💛",
+          "texte": "Jaune-vert, presque transparent",
+          "bonne": true
+        },
+        {
+          "emoji": "🖤",
+          "texte": "Noir"
+        }
+      ],
+      "reponseBonne": "Bravo ! Ni rouge, ni bleu : jaune-vert très pâle, parfois presque transparent. Ça s'appelle l'hémolymphe. Et cette couleur vient surtout de ce que l'insecte mange ! Mais la vraie surprise n'est pas sa couleur… c'est ce qu'il ne fait pas.",
+      "reponseAutre": "Ni rouge, ni bleu : jaune-vert très pâle, parfois presque transparent. Ça s'appelle l'hémolymphe, et cette couleur vient surtout de ce que l'insecte mange ! Mais la vraie surprise n'est pas sa couleur… c'est ce qu'il ne fait pas."
+    },
+    {
+      "id": "sauterelle",
+      "type": "observation",
+      "visuel": "🦗",
+      "visuelAnimation": "flotte",
+      "titre": "Approchons-nous d'une sauterelle. Tout doucement.",
+      "olli": "Touche chaque partie pour l'observer de près. Tu vas comprendre pourquoi son sang n'a pas besoin d'être rouge.",
+      "hotspots": [
+        {
+          "emoji": "🕳️",
+          "nom": "Les trous sur ses flancs",
+          "fait": "Regarde bien la rangée de petits trous le long de son corps : ce sont les stigmates. Une sauterelle respire par les côtés ! Elle peut les ouvrir et les fermer, comme de minuscules portes."
+        },
+        {
+          "emoji": "🌬️",
+          "nom": "Les trachées",
+          "fait": "De chaque trou part un tuyau qui se divise, se redivise, encore et encore, jusqu'à toucher presque chaque cellule. L'air va directement là où il faut. Pas besoin de messager pour le transporter."
+        },
+        {
+          "emoji": "💛",
+          "nom": "L'hémolymphe",
+          "fait": "Son sang baigne tous ses organes en vrac, sans veines ni artères. Il apporte la nourriture, emporte les déchets, la défend contre les microbes… mais il ne transporte JAMAIS l'oxygène. Voilà pourquoi il n'a aucune raison d'être rouge."
+        }
+      ]
+    },
+    {
+      "id": "libellule-geante",
+      "type": "question",
+      "visuel": "🪰",
+      "titre": "Il y a 300 millions d'années, la plus grande libellule était large comme…",
+      "olli": "Bien avant les dinosaures, le ciel appartenait aux insectes. Et l'un d'eux battait tous les records. Écarte les bras et devine !",
+      "choix": [
+        {
+          "emoji": "🤏",
+          "texte": "…une pièce de monnaie"
+        },
+        {
+          "emoji": "✋",
+          "texte": "…ta main ouverte"
+        },
+        {
+          "emoji": "🦅",
+          "texte": "…un aigle : 70 cm d'aile à aile",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "70 centimètres ! Elle s'appelait Meganeura. Pourquoi si grande ? On pense que l'air contenait alors beaucoup plus d'oxygène qu'aujourd'hui. Mais les scientifiques en discutent encore : le mystère n'est pas résolu.",
+      "reponseAutre": "Bien plus grand : 70 centimètres d'aile à aile, comme un aigle ! Elle s'appelait Meganeura. On pense que l'air contenait alors beaucoup plus d'oxygène qu'aujourd'hui — mais les scientifiques en discutent encore."
+    },
+    {
+      "id": "coup-de-pioche",
+      "type": "anecdote",
+      "visuel": "⛏️",
+      "etiquette": "Histoire vraie",
+      "titre": "Le mineur qui a décapité la plus célèbre des libellules",
+      "texte": "En 1880, dans les mines de charbon de Commentry, en Auvergne, un mineur arrondissait ses fins de mois en cherchant des fossiles. Ce jour-là, il ouvre une dalle de pierre à coups de pioche. Sous sa lame dort une libellule géante, intacte depuis 300 millions d'années. Quatre coups entaillent la dalle — et l'un d'eux emporte la tête. Le directeur de la mine, Stéphane Mony, envoie quand même le fossile à Paris. En 1885, le savant Charles Brongniart la nomme Meganeura : « aux grandes nervures ». Elle dort toujours au Muséum, sans sa tête. 🪶",
+      "olli": "On l'appelle la plus célèbre libellule géante du monde… et on n'a jamais vu son visage. Un coup de pioche de trop, et c'était pour toujours.",
+      "sourceRef": "src-commentry"
+    },
+    {
+      "id": "mission-tuyau",
+      "type": "mission",
+      "visuel": "📄",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Pourquoi il n'existe pas d'insecte gros comme un chien",
+      "texte": "Roule une feuille de papier en tube bien serré. Respire à travers, quelques secondes : facile, non ? Maintenant imagine ce tube long de trois mètres. L'air frais n'arriverait jamais jusqu'au bout. Les insectes respirent par des tuyaux : plus la bête est grosse, plus les tuyaux sont longs — et à un moment, l'air ne va plus assez loin. Toi, tes poumons et ton sang règlent le problème autrement.",
+      "olli": "Va poser la question à quelqu'un de ta famille : « pourquoi il n'existe pas de fourmi grosse comme un chat ? » Tu connais la réponse, pas lui. 😄"
+    },
+    {
+      "id": "teaser-bousier",
+      "type": "teaser",
+      "visuel": "✨",
+      "titre": "Un insecte se repère grâce à la Voie lactée.",
+      "texte": "Il pousse sa boule dans la nuit noire, tout droit, sans jamais se perdre. Des chercheurs lui ont posé un minuscule chapeau en carton sur la tête pour lui cacher le ciel : il s'est mis à tourner en rond. C'est le premier animal au monde chez qui on a prouvé ça…",
+      "olli": "Son nom, et ce qu'il regarde là-haut, t'attendent dans le Livre des Étoiles… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "bousier-voie-lactee"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-hemolymphe",
+      "fait": "L'hémolymphe des insectes ne contient pas d'hémoglobine et ne transporte pas l'oxygène ; sa teinte jaune-vert pâle provient surtout de pigments alimentaires (caroténoïdes) et de déchets métaboliques.",
+      "reference": "https://biologyinsights.com/what-color-is-insect-blood-why-isnt-it-red/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "src-trachees",
+      "fait": "Respiration par trachées ouvertes sur l'extérieur par des stigmates à valves, ramifiées en trachéoles jusqu'aux cellules. Circulation ouverte : l'hémolymphe baigne les organes.",
+      "reference": "https://www.britannica.com/animal/insect/Circulatory-system",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "src-meganeura",
+      "fait": "Meganeura monyi : envergure de 65 à plus de 70 cm, Carbonifère supérieur (~300 Ma). L'explication par le taux d'oxygène de l'époque reste débattue.",
+      "reference": "https://en.wikipedia.org/wiki/Meganeura",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "src-commentry",
+      "fait": "1880, mines de charbon de Commentry (Allier) : un mineur entaille la dalle de quatre coups de pioche, dont un emporte la tête. Brongniart décrit l'espèce en 1885.",
+      "reference": "https://fr.wikipedia.org/wiki/Meganeura",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "src-mony",
+      "fait": "Stéphane Mony, directeur des mines de Commentry, transmet le fossile à Charles Brongniart (MNHN). Holotype conservé au Muséum national d'histoire naturelle, Paris.",
+      "reference": "https://fr.wikipedia.org/wiki/Meganeura",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "src-bousier",
+      "fait": "Dacke, Baird, Byrne, Scholtz & Warrant (2013) : les bousiers s'orientent grâce à la Voie lactée ; coiffés d'un cache leur masquant le ciel, ils tournent en rond. Premier cas prouvé chez un insecte.",
+      "reference": "https://pubmed.ncbi.nlm.nih.gov/23352694/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    }
+  ]
+}

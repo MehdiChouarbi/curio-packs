@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "corps-yeux",
+  "minEngineVersion": 1,
+  "livre": "le-corps",
+  "titre": "Ce que ton œil fabrique dans le noir",
+  "resume": "Tu entres dans une cave : tu ne vois rien. Vingt minutes plus tard, tu vois. Pourtant la lumière n'a pas changé. C'est toi qui as changé.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "couleurs-invisibles",
+      "texte": "Quel animal voit une couleur que tu ne verras jamais ?",
+      "resolueParLivre": "petites-betes"
+    }
+  ],
+  "questionsResolues": [
+    "yeux-nuit"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "👁️",
+      "titre": "Exploratrice de la Nuit"
+    },
+    "decouvertes": [
+      "Ton œil fabrique de la rhodopsine dans le noir",
+      "Il lui faut 20 à 30 minutes pour voir la nuit",
+      "Une seconde de lumière blanche détruit tout",
+      "Tes bâtonnets ne voient qu'en gris",
+      "Les carottes et la vue : un mensonge de 1940"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "dans-la-cave",
+      "type": "question",
+      "visuel": "🕯️",
+      "titre": "Tu entres dans une cave toute noire. Que fait ton œil ?",
+      "olli": "Au début, tu ne vois rien. Rien du tout. Vingt minutes plus tard, tu distingues tes mains, le mur, une marche. Pourtant il n'y a pas une goutte de lumière en plus qu'au début. Alors ?",
+      "choix": [
+        {
+          "emoji": "⚫",
+          "texte": "Ta pupille s'ouvre en grand, c'est tout"
+        },
+        {
+          "emoji": "🧪",
+          "texte": "Il fabrique un produit chimique",
+          "bonne": true
+        },
+        {
+          "emoji": "🔦",
+          "texte": "Il émet un tout petit peu de lumière"
+        }
+      ],
+      "reponseBonne": "Ta pupille s'ouvre, oui — mais elle ne récolte que seize fois plus de lumière. Or tu finis par voir cent mille fois mieux ! Le vrai travail est chimique : au fond de ton œil, tu refabriques une substance qu'on appelle la rhodopsine. Le « pourpre rétinien ».",
+      "reponseAutre": "Ta pupille s'ouvre, c'est vrai — mais elle ne récolte que seize fois plus de lumière. Or tu finis par voir cent mille fois mieux ! Le vrai travail est chimique : au fond de ton œil, tu refabriques une substance qu'on appelle la rhodopsine. Le « pourpre rétinien »."
+    },
+    {
+      "id": "au-fond-de-loeil",
+      "type": "observation",
+      "visuel": "👁️",
+      "visuelAnimation": "flotte",
+      "titre": "Descendons tout au fond de ton œil.",
+      "olli": "Touche chaque partie. Tout ça se passe en ce moment même, à l'arrière de tes yeux, pendant que tu lis.",
+      "hotspots": [
+        {
+          "emoji": "🔵",
+          "nom": "Les bâtonnets",
+          "fait": "Plus de cent millions de cellules en forme de bâtons, installées tout autour du centre. Elles ne voient aucune couleur — que du gris. Mais elles sont si sensibles qu'elles peuvent repérer un seul grain de lumière."
+        },
+        {
+          "emoji": "🟣",
+          "nom": "La rhodopsine",
+          "fait": "Le produit magique, violet. La lumière le détruit à l'instant — on dit qu'elle le « blanchit ». Dans le noir, ton œil le refabrique, lentement, patiemment : vingt à trente minutes pour refaire tout le stock."
+        },
+        {
+          "emoji": "🔴",
+          "nom": "Le truc du rouge",
+          "fait": "La rhodopsine ne réagit presque pas à la lumière rouge. C'est pour ça que les astronomes et les pilotes de nuit utilisent des lampes rouges : ils peuvent lire leurs cartes sans détruire leur vision nocturne."
+        }
+      ]
+    },
+    {
+      "id": "une-seconde",
+      "type": "question",
+      "visuel": "💡",
+      "titre": "Quelqu'un allume la lumière une seconde. Tu perds quoi ?",
+      "olli": "Tu as attendu trente minutes dans le noir. Ton stock est plein, tu vois enfin. Et là, quelqu'un appuie sur l'interrupteur. Une seconde. Puis il éteint.",
+      "choix": [
+        {
+          "emoji": "🤷",
+          "texte": "Rien du tout, une seconde c'est trop court"
+        },
+        {
+          "emoji": "🙂",
+          "texte": "Un peu, mais ça revient tout de suite"
+        },
+        {
+          "emoji": "😱",
+          "texte": "Presque tout : trente minutes à refaire",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Presque tout. Une seule seconde de lumière blanche blanchit ta rhodopsine, et il faut tout recommencer depuis le début. Voilà pourquoi, au planétarium ou à l'observatoire, un téléphone allumé fait râler la salle entière.",
+      "reponseAutre": "Presque tout ! Une seule seconde de lumière blanche blanchit ta rhodopsine, et il faut tout recommencer depuis le début. Voilà pourquoi, au planétarium ou à l'observatoire, un téléphone allumé fait râler la salle entière."
+    },
+    {
+      "id": "les-carottes",
+      "type": "anecdote",
+      "visuel": "🥕",
+      "etiquette": "Histoire vraie",
+      "titre": "Le plus gros mensonge jamais raconté sur les carottes",
+      "texte": "1940. Les avions allemands survolent l'Angleterre la nuit — et les pilotes anglais les repèrent quand même, dans le noir complet. Comment ? Grâce à un secret : un radar embarqué tout neuf. Pour le cacher, le gouvernement raconte aux journaux une autre histoire : leur as, John Cunningham, surnommé « Yeux-de-Chat », verrait la nuit parce qu'il mange énormément de carottes. Affiches, recettes de gâteaux, un personnage nommé Docteur Carotte… tout le pays y croit. Et tes parents le répètent peut-être encore. 🥕",
+      "olli": "La vraie vitamine des carottes sert bien à fabriquer ta rhodopsine — mais en manger plus ne donne aucun super-pouvoir. Et les historiens se disputent encore : trompait-on les Allemands, ou écoulait-on des carottes ?",
+      "sourceRef": "src-carottes"
+    },
+    {
+      "id": "mission-noir",
+      "type": "mission",
+      "visuel": "🌑",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fabrique ta vision nocturne",
+      "texte": "Ce soir, dans ta chambre : éteins tout. Vraiment tout — pas d'écran, pas de veilleuse. Assieds-toi et attends. Compte lentement jusqu'à 600, dix minutes. Puis regarde tes mains. Regarde le mur d'en face. Tu vois des choses qui n'existaient pas au début : ta rhodopsine s'est refabriquée. Et pour finir, si tu es joueuse : allume une seconde, éteins, et constate les dégâts.",
+      "olli": "Astuce d'astronome : regarde à côté de ce que tu veux voir, pas droit dessus. Tes bâtonnets sont sur les bords de ton œil, jamais au centre."
+    },
+    {
+      "id": "teaser-abeille",
+      "type": "teaser",
+      "visuel": "🐝",
+      "titre": "Tes bâtonnets ne voient aucune couleur. Et une abeille ?",
+      "texte": "Elle en voit une que tu ne verras jamais. Jamais de ta vie, même en plein jour, même avec les meilleurs yeux du monde. Et grâce à elle, une fleur toute jaune et toute lisse se transforme en cible fléchée qui lui indique exactement où plonger. Elle a trois capteurs de couleur, comme toi… mais pas les mêmes.",
+      "olli": "Ce que voit l'abeille t'attend dans le Livre des Petites Bêtes… En attendant, un nouveau tampon pour ton passeport ! 🎉",
+      "questionOuverteRef": "couleurs-invisibles"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-adaptation",
+      "fait": "L'adaptation à l'obscurité atteint son maximum en 20 à 30 minutes environ. Elle repose sur la régénération de la rhodopsine, blanchie instantanément par la lumière.",
+      "reference": "https://www.scientificamerican.com/article/experts-eyes-adjust-to-darkness/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-pupille",
+      "fait": "La pupille ne gagne qu'un facteur ~16 en surface : l'essentiel de l'adaptation vient des photorécepteurs. Cônes ~5 min, bâtonnets ~10 min puis optimum vers 20 min.",
+      "reference": "https://theconversation.com/how-do-my-eyes-adjust-to-the-dark-and-how-long-does-it-take-124044",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-batonnets",
+      "fait": "Œil pleinement adapté ≈ 100 000 fois plus sensible qu'en plein jour ; un bâtonnet peut détecter un photon unique. Bâtonnets absents de la fovéa (d'où la vision décalée).",
+      "reference": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/dark-adaptation",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-rouge",
+      "fait": "La rhodopsine est peu sensible aux grandes longueurs d'onde (rouge, >650 nm) : d'où l'usage de lampes rouges par pilotes, astronomes et sous-mariniers.",
+      "reference": "https://www.lens.com/questions-answered/how-long-does-it-take-for-eyes-to-adapt-to-darkness/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-carottes",
+      "fait": "1940 : campagne britannique attribuant les succès nocturnes de John « Cat's Eyes » Cunningham aux carottes, pour masquer le radar embarqué (AI). Surplus de 100 000 tonnes en 1942.",
+      "reference": "https://www.smithsonianmag.com/history/carrots-cant-help-you-see-in-the-dark-heres-how-world-war-ii-propaganda-campaign-popularized-the-myth-28812484/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-carottes-nuance",
+      "fait": "Nuance : la portée réelle de la ruse envers les Allemands est débattue ; le Ministère de l'Alimentation menait aussi sa propre campagne. La carence en vitamine A cause bien la cécité nocturne.",
+      "reference": "http://www.carrotmuseum.co.uk/ww2seeinthedark.html",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-abeille",
+      "fait": "Les abeilles voient de ~300 à 650 nm : pas le rouge, mais l'ultraviolet. Les fleurs portent des guides à nectar visibles seulement en UV.",
+      "reference": "https://news.ncsu.edu/2024/07/wms-what-bees-see/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    }
+  ]
+}

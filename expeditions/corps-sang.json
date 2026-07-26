@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "corps-sang",
+  "minEngineVersion": 1,
+  "livre": "le-corps",
+  "titre": "Le grand voyage des globules rouges",
+  "resume": "Chaque seconde, des milliards de globules rouges parcourent ton corps pour apporter l'oxygène dont chacune de tes cellules a besoin.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 6,
+  "questionsOuvertes": [
+    {
+      "id": "respirer-pourquoi",
+      "texte": "Pourquoi avons-nous besoin de respirer sans arrêt ?",
+      "resolueParLivre": "corps"
+    }
+  ],
+  "questionsResolues": [
+    "globules-rouges-voyage"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🩸",
+      "titre": "Messager du Sang"
+    },
+    "decouvertes": [
+      "Les globules rouges transportent l'oxygène.",
+      "Ton sang parcourt des milliers de kilomètres de vaisseaux.",
+      "Un globule rouge fait le tour du corps en environ une minute.",
+      "Des millions de nouveaux globules rouges naissent chaque seconde."
+    ]
+  },
+  "scenes": [
+    {
+      "id": "question-globule",
+      "type": "question",
+      "visuel": "🩸",
+      "titre": "À quoi sert un globule rouge ?",
+      "olli": "Imagine que ton corps est une immense ville. Quel est le travail des globules rouges ?",
+      "choix": [
+        {
+          "emoji": "📦",
+          "texte": "Transporter l'oxygène",
+          "bonne": true
+        },
+        {
+          "emoji": "🍎",
+          "texte": "Fabriquer la nourriture"
+        },
+        {
+          "emoji": "💤",
+          "texte": "Faire dormir le cerveau"
+        }
+      ],
+      "reponseBonne": "Exact ! Les globules rouges transportent l'oxygène depuis les poumons jusqu'à toutes les cellules.",
+      "reponseAutre": "Les globules rouges sont des livreurs : ils transportent l'oxygène partout dans ton corps."
+    },
+    {
+      "id": "observation-circulation",
+      "type": "observation",
+      "visuel": "🫀",
+      "titre": "Un immense réseau",
+      "olli": "Le sang circule dans un réseau plus long que tu ne l'imagines.",
+      "hotspots": [
+        {
+          "emoji": "🛣️",
+          "nom": "Les artères",
+          "fait": "Les artères transportent le sang riche en oxygène envoyé par le cœur."
+        },
+        {
+          "emoji": "🧵",
+          "nom": "Les capillaires",
+          "fait": "Les plus petits vaisseaux sont si fins que les globules rouges passent presque un par un."
+        },
+        {
+          "emoji": "🔁",
+          "nom": "Les veines",
+          "fait": "Les veines ramènent le sang vers le cœur pour recommencer un nouveau voyage."
+        }
+      ]
+    },
+    {
+      "id": "question-distance",
+      "type": "question",
+      "visuel": "🌍",
+      "titre": "Mis bout à bout, combien mesurent tous tes vaisseaux sanguins ?",
+      "olli": "Prépare-toi à une réponse gigantesque !",
+      "choix": [
+        {
+          "emoji": "🚲",
+          "texte": "10 kilomètres"
+        },
+        {
+          "emoji": "🚗",
+          "texte": "100 kilomètres"
+        },
+        {
+          "emoji": "🌍",
+          "texte": "Environ 100 000 kilomètres",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Oui ! Chez un adulte, les vaisseaux sanguins totalisent environ 100 000 kilomètres. C'est plus de deux fois le tour de la Terre !",
+      "reponseAutre": "Incroyable mais vrai : ton réseau sanguin atteint environ 100 000 kilomètres chez un adulte."
+    },
+    {
+      "id": "anecdote-moelle",
+      "type": "anecdote",
+      "visuel": "🦴",
+      "titre": "Une usine cachée dans tes os",
+      "olli": "Tes os ne servent pas seulement à te tenir debout.",
+      "etiquette": "Histoire vraie",
+      "texte": "À l'intérieur de certains os se trouve la moelle osseuse. C'est une véritable usine qui fabrique sans arrêt les cellules du sang. Chaque seconde, ton corps produit des millions de nouveaux globules rouges pour remplacer les anciens.",
+      "sourceRef": "src-moelle"
+    },
+    {
+      "id": "mission-pouls-course",
+      "type": "mission",
+      "visuel": "🏃",
+      "titre": "Fais accélérer ton sang",
+      "olli": "Une petite expérience scientifique !",
+      "etiquette": "Mission dans le monde réel",
+      "texte": "Compte ton pouls pendant 15 secondes. Puis saute sur place ou cours pendant une minute. Recompte ton pouls. Pourquoi ton cœur bat-il plus vite ? Discute-en avec quelqu'un avant de découvrir la prochaine expédition."
+    },
+    {
+      "id": "teaser-respiration",
+      "type": "teaser",
+      "visuel": "🫁",
+      "titre": "Mais d'où vient tout cet oxygène ?",
+      "olli": "Les globules rouges le transportent... mais qui le leur donne ?",
+      "texte": "Chaque inspiration remplit tes poumons d'un gaz indispensable à la vie. Découvre comment tes poumons réussissent cet exploit des milliers de fois chaque jour.",
+      "questionOuverteRef": "respirer-pourquoi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-circulation",
+      "fait": "Le système circulatoire humain mesure environ 100 000 km chez l'adulte.",
+      "reference": "https://my.clevelandclinic.org/health/body/21835-circulatory-system",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-moelle",
+      "fait": "La moelle osseuse produit les cellules sanguines tout au long de la vie.",
+      "reference": "https://www.britannica.com/science/bone-marrow",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "ocean-meduse",
+  "minEngineVersion": 1,
+  "livre": "ocean",
+  "titre": "La méduse qui cultive son jardin",
+  "resume": "Elle vit à l'envers, elle n'a pas de cerveau, et pourtant elle dort. Son secret : elle a transformé son propre corps en potager.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "plantes-lumiere",
+      "texte": "Comment une plante fabrique-t-elle sa nourriture avec juste de la lumière ?",
+      "resolueParLivre": "volcans"
+    }
+  ],
+  "questionsResolues": [
+    "dormir-sans-cerveau"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🪼",
+      "titre": "Jardinière des Mers"
+    },
+    "decouvertes": [
+      "La méduse Cassiopea vit à l'envers, arms en l'air",
+      "Des algues vivent dans son corps et la nourrissent",
+      "Elle se met au soleil comme sur une plage",
+      "Sans cerveau, elle dort quand même",
+      "Elle prouve que le sommeil est très, très ancien"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "a-lenvers",
+      "type": "question",
+      "visuel": "🪼",
+      "titre": "Cette méduse vit posée à l'envers sur le sable. Pourquoi ?",
+      "olli": "Toutes les méduses nagent, tête en haut, tentacules qui pendent. Celle-ci fait le contraire : elle se pose sur le fond, la cloche en bas, ses bras dressés vers la surface. Toute la journée. À ton avis, pourquoi ?",
+      "choix": [
+        {
+          "emoji": "😴",
+          "texte": "Elle se repose, tout simplement"
+        },
+        {
+          "emoji": "☀️",
+          "texte": "Elle prend le soleil, comme sur une plage",
+          "bonne": true
+        },
+        {
+          "emoji": "🙈",
+          "texte": "Elle se cache des prédateurs"
+        }
+      ],
+      "reponseBonne": "Elle bronze ! Dans ses bras vivent des milliers d'algues minuscules, et ces algues ont besoin de lumière pour fabriquer à manger. Alors la méduse s'installe dans l'eau peu profonde, bras tendus vers le soleil, comme toi sur une serviette de plage. On l'appelle « la méduse tête-en-bas ».",
+      "reponseAutre": "Elle bronze ! Dans ses bras vivent des milliers d'algues minuscules, et ces algues ont besoin de lumière pour fabriquer à manger. Alors la méduse s'installe dans l'eau peu profonde, bras tendus vers le soleil, comme toi sur une serviette de plage. On l'appelle « la méduse tête-en-bas »."
+    },
+    {
+      "id": "son-jardin",
+      "type": "observation",
+      "visuel": "🌿",
+      "visuelAnimation": "flotte",
+      "titre": "Regardons de près son étrange marché.",
+      "olli": "Touche chaque partie. Cette méduse a passé un accord avec des êtres vivants encore plus petits qu'elle. Un vrai contrat.",
+      "hotspots": [
+        {
+          "emoji": "🟤",
+          "nom": "Les algues invitées",
+          "fait": "Des milliers d'algues brunes vivent à l'intérieur de sa chair. Ce sont elles qui lui donnent sa couleur. Chez ses cousines des mers chaudes, ces mêmes algues peuvent fournir jusqu'à 9 repas sur 10 !"
+        },
+        {
+          "emoji": "🤝",
+          "nom": "L'accord secret",
+          "fait": "Les algues offrent le sucre qu'elles fabriquent au soleil. En échange, la méduse leur offre un logement sûr et une place au premier rang, face à la lumière. Chacun donne, chacun reçoit. On appelle ça la symbiose."
+        },
+        {
+          "emoji": "🪸",
+          "nom": "Le même truc que le corail",
+          "fait": "Les coraux font exactement pareil : ils abritent les mêmes petites algues. Presque toute la vie colorée des mers chaudes repose sur ce marché entre un animal et une algue. Sans lui, pas de récifs."
+        }
+      ]
+    },
+    {
+      "id": "elle-dort",
+      "type": "question",
+      "visuel": "🌙",
+      "titre": "Elle n'a aucun cerveau. Alors, la nuit, que fait-elle ?",
+      "olli": "Souviens-toi de ce qu'on s'est demandé : un animal sans cerveau peut-il dormir ? Cette méduse pulse sa cloche pour respirer, sans arrêt, tout le jour. Et la nuit venue ?",
+      "choix": [
+        {
+          "emoji": "🔄",
+          "texte": "Elle continue pareil, jour et nuit"
+        },
+        {
+          "emoji": "😴",
+          "texte": "Elle ralentit et devient lente à réagir",
+          "bonne": true
+        },
+        {
+          "emoji": "🏊",
+          "texte": "Elle se met enfin à nager"
+        }
+      ],
+      "reponseBonne": "Elle dort ! La nuit, elle pulse deux fois moins vite et met bien plus de temps à réagir si on la dérange. Trois étudiants l'ont prouvé en 2017 : c'est le premier animal sans cerveau chez qui on a montré le sommeil. Donc dormir est plus vieux que le cerveau lui-même.",
+      "reponseAutre": "Elle dort ! La nuit, elle pulse deux fois moins vite et met bien plus de temps à réagir si on la dérange. Trois étudiants l'ont prouvé en 2017 : c'est le premier animal sans cerveau chez qui on a montré le sommeil. Donc dormir est plus vieux que le cerveau lui-même."
+    },
+    {
+      "id": "les-etudiants",
+      "type": "anecdote",
+      "visuel": "🔬",
+      "etiquette": "Histoire vraie",
+      "titre": "Trois étudiants et une question interdite",
+      "texte": "À l'université Caltech, trois amis — Ravi, Michael et Claire — travaillent sur le sommeil. Ravi étudie de tout petits vers, et à chaque conférence, des scientifiques ricanent : « un ver, ça ne dort pas ! » La question le hante : jusqu'où peut-on descendre ? Un animal avec un cerveau minuscule dort-il ? Et sans cerveau du tout ? Ils choisissent la méduse tête-en-bas. Pour ne pas se faire gronder par leurs professeurs, ils mènent l'expérience presque en cachette, filmant 23 méduses jour et nuit pendant près d'une semaine. Résultat : elles dorment. 🪼",
+      "olli": "Leur découverte a paru dans une grande revue en 2017. Comme quoi, une question qui fait ricaner les autres est parfois la meilleure de toutes.",
+      "sourceRef": "src-sommeil"
+    },
+    {
+      "id": "mission-bras",
+      "type": "mission",
+      "visuel": "🖐️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fais comme la méduse",
+      "texte": "Tends tes deux bras vers une fenêtre bien éclairée, paumes vers la lumière. Voilà : tu fais exactement ce que fait la méduse toute la journée, offrir le plus de surface possible au soleil. Sauf que toi, tu ne fabriques rien avec cette lumière — tu as besoin de manger. Elle, non : ses algues le font pour elle. Maintenant regarde une plante verte près de la fenêtre. Elle aussi vit du soleil, sans bouger. Qui a copié qui ?",
+      "olli": "Demande à quelqu'un de ta famille : « connais-tu un animal qui se nourrit de soleil, comme une plante ? » Tu tiens la réponse dans ta main. 😄"
+    },
+    {
+      "id": "teaser-photosynthese",
+      "type": "teaser",
+      "visuel": "🌱",
+      "titre": "Les algues de la méduse font un tour de magie.",
+      "texte": "Elles prennent de la lumière, un peu d'eau, un gaz invisible de l'air… et elles en font du sucre. À partir de presque rien. Toutes les plantes de la Terre savent faire ce tour — l'herbe sous tes pieds, l'arbre de ta rue, la salade de ton assiette. C'est le tour de magie qui nourrit le monde entier. Mais comment marche-t-il, au juste ?",
+      "olli": "Le secret se cache dans le Livre des Volcans, près des premières plantes du monde… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "plantes-lumiere"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-envers",
+      "fait": "Cassiopea (« méduse tête-en-bas ») se pose cloche en bas, bras oraux tournés vers la lumière, dans les eaux chaudes peu profondes (mangroves, lagons), pour exposer ses algues au soleil.",
+      "reference": "https://australian.museum/learn/animals/jellyfish/upside-down-jellyfish/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-symbiose",
+      "fait": "Symbiose avec des zooxanthelles (Symbiodiniaceae) logées dans ses tissus : les algues photosynthétisent et fournissent des nutriments ; la méduse offre abri et exposition à la lumière.",
+      "reference": "https://www.americanoceans.org/species/invertebrates/upside-down-jellyfish/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-90pourcent",
+      "fait": "Chez la méduse tête-en-bas, les zooxanthelles peuvent couvrir jusqu'à ~90 % des besoins nutritionnels ; le même mécanisme (mêmes familles d'algues) fait vivre les coraux.",
+      "reference": "https://australian.museum/learn/animals/jellyfish/upside-down-jellyfish/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-sommeil",
+      "fait": "Nath, Abrams & Bedbrook (Caltech), Current Biology, 21/09/2017 : Cassiopea, sans cerveau, présente un état de type sommeil (pulsation ~58→29/min la nuit, réactivité réduite). 23 individus filmés.",
+      "reference": "https://www.caltech.edu/about/news/surprising-ancient-behavior-jellyfish-79701",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-anciennete",
+      "fait": "Cassiopea est l'animal évolutivement le plus ancien chez qui le sommeil ait été démontré : le sommeil précède l'apparition d'un cerveau centralisé.",
+      "reference": "https://www.science.org/content/article/you-don-t-need-brain-sleep-just-ask-jellyfish",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-secret",
+      "fait": "Les trois étudiants ont d'abord mené l'étude discrètement, craignant le scepticisme de leurs directeurs de thèse. Nath étudiait le sommeil chez le ver C. elegans.",
+      "reference": "https://www.unilad.com/news/world-news/caltech-scientists-cassiopea-jellyfish-sleep-071362-20230925",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    }
+  ]
+}

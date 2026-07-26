@@ -163,6 +163,46 @@
       "octets": 9867
     },
     {
+      "id": "corps-sang",
+      "livre": "le-corps",
+      "titre": "Le grand voyage des globules rouges",
+      "resume": "Chaque seconde, des milliards de globules rouges parcourent ton corps pour apporter l'oxygène dont chacune de tes cellules a besoin.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/corps-sang.json",
+      "sha256": "2897ab2dd0c87317b57e6831023a0421b4d7fa5a09b11c1041b40be393275e97",
+      "octets": 5496
+    },
+    {
+      "id": "corps-sommeil",
+      "livre": "le-corps",
+      "titre": "La nuit, ton cerveau fait le ménage",
+      "resume": "Tu passes un tiers de ta vie endormie, sans rien voir, sans rien faire, sans pouvoir te défendre. La nature n'aurait jamais accepté ça pour rien.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/corps-sommeil.json",
+      "sha256": "e155ec61b7ace1c45990e7679b12d674d1236515ee2e29a7a0aed0c4557741da",
+      "octets": 10119
+    },
+    {
+      "id": "corps-yeux",
+      "livre": "le-corps",
+      "titre": "Ce que ton œil fabrique dans le noir",
+      "resume": "Tu entres dans une cave : tu ne vois rien. Vingt minutes plus tard, tu vois. Pourtant la lumière n'a pas changé. C'est toi qui as changé.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/corps-yeux.json",
+      "sha256": "f28d49fc569e509ccab46cb01d2e3c9b04ebd66d961f17a991e63a5680bf50e9",
+      "octets": 10146
+    },
+    {
+      "id": "etoiles-bousier",
+      "livre": "etoiles",
+      "titre": "Le scarabée qui lit le ciel",
+      "resume": "Il a un cerveau plus petit qu'un grain de riz, il pousse une boule de crotte dans la nuit noire — et il se guide grâce à la Galaxie.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/etoiles-bousier.json",
+      "sha256": "7e0059a53d316b10ac53618eb6d52ce2a3ae42306c427694f6905fee2564f9c3",
+      "octets": 9266
+    },
+    {
       "id": "etoiles-mars",
       "livre": "etoiles",
       "titre": "Les secrets de la planète rouge",
@@ -171,6 +211,16 @@
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/etoiles-mars.json",
       "sha256": "74da3cb3611ccef44307844c02df189216939d7f445193b6706971e3b77bbecc",
       "octets": 6355
+    },
+    {
+      "id": "etoiles-olympus",
+      "livre": "etoiles",
+      "titre": "La montagne qui se cache",
+      "resume": "Le plus grand volcan connu n'est pas sur Terre. Et si tu marchais dessus, tu ne t'en apercevrais même pas.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/etoiles-olympus.json",
+      "sha256": "248063e2e1746253dd13a70af693c029f1443f9c079af3a021e210da78ce13af",
+      "octets": 9921
     },
     {
       "id": "etoiles-or",
@@ -223,6 +273,16 @@
       "octets": 9945
     },
     {
+      "id": "machines-essaim",
+      "livre": "les-machines",
+      "titre": "La ville sans chef",
+      "resume": "Cinquante mille abeilles doivent choisir leur nouvelle maison. Aucune n'a de plan. Aucune ne commande. Et pourtant, ensemble, elles font le bon choix.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/machines-essaim.json",
+      "sha256": "d58f90ff24bd9571c25bac6e6dffe1e2316ab828440583564c88bc7c63ddc17a",
+      "octets": 9629
+    },
+    {
       "id": "machines-lessive",
       "livre": "les-machines",
       "titre": "L'invention qui a offert des livres aux enfants",
@@ -241,6 +301,36 @@
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/machines-lumiere.json",
       "sha256": "b97f0c360a1438566ffdca02e5759674ab42f2a57fa51678a9f0589afd99b87d",
       "octets": 9585
+    },
+    {
+      "id": "machines-opportunity",
+      "livre": "les-machines",
+      "titre": "Le robot qui devait vivre trois mois",
+      "resume": "On l'avait construit pour tenir 90 jours sur Mars. Il a roulé quatorze ans. Et ce qui l'a sauvé si longtemps est exactement ce qui a fini par le tuer.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/machines-opportunity.json",
+      "sha256": "df29a2294e3e4693e96022c420f3ac2cb92258b8a7a22bfbfcc5e43e775fb6b9",
+      "octets": 9344
+    },
+    {
+      "id": "machines-planetarium",
+      "livre": "les-machines",
+      "titre": "Le ciel en boîte",
+      "resume": "Pour faire tenir 4 500 étoiles sous un toit, il a fallu inventer une machine. Et, sans le vouloir, une façon de construire qui a changé le monde.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/machines-planetarium.json",
+      "sha256": "b9532da1066288c075a7d8013595fe197c83510840db2890117dc468785f6c5e",
+      "octets": 9668
+    },
+    {
+      "id": "machines-rouille",
+      "livre": "les-machines",
+      "titre": "Le vélo qui pèse plus lourd en pourrissant",
+      "resume": "Un vélo oublié sous la pluie rouille et semble s'effriter. Pourtant, si tu le pesais, surprise : il est devenu plus lourd. Rien ne disparaît jamais.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/machines-rouille.json",
+      "sha256": "8ce0db3cf5a42739e3aa68835e943ff2e0985058c921caad398fb506e962c46b",
+      "octets": 10303
     },
     {
       "id": "mots-nicaragua",
@@ -274,13 +364,23 @@
     },
     {
       "id": "nombres-zero",
-      "livre": "les-nombres",
+      "livre": "Les Nombres",
       "titre": "Le nombre qui a mis mille ans à naître",
       "resume": "Compter jusqu'à un million, les humains savaient. Mais compter « rien » ? Écrire le vide ? Il a fallu des siècles pour oser inventer le zéro.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-zero.json",
-      "sha256": "23ee57bde75c94e108db3196e3af1c5e1b36c1c64d7800ea5bda540bdfd2751a",
+      "sha256": "76082b6e3c011d735d44029bbaa12bb76e083daf401819cea16f89804798f02d",
       "octets": 9316
+    },
+    {
+      "id": "ocean-meduse",
+      "livre": "ocean",
+      "titre": "La méduse qui cultive son jardin",
+      "resume": "Elle vit à l'envers, elle n'a pas de cerveau, et pourtant elle dort. Son secret : elle a transformé son propre corps en potager.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/ocean-meduse.json",
+      "sha256": "08b2dee06fe7995ea6eb24b5cdfd42a87966aebdc44e21c434ceb532069769ea",
+      "octets": 9987
     },
     {
       "id": "ocean-pieuvre",
@@ -291,6 +391,26 @@
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/ocean-pieuvre.json",
       "sha256": "9ead66760fcab2fba2e2eac7123542918e3f5384776a0505d2900ea92d0f2da4",
       "octets": 6366
+    },
+    {
+      "id": "petites-betes-abeille",
+      "livre": "petites-betes",
+      "titre": "La couleur que tu ne verras jamais",
+      "resume": "Pour l'abeille, une fleur toute jaune est couverte de flèches lumineuses qui mènent au nectar. Ces flèches existent pour de vrai. Tu ne les verras jamais.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/petites-betes-abeille.json",
+      "sha256": "ffb03427125f6ffde2f8fe0b837e8bfd1d1f4d84fe9122c0b2c3d0fe116f9f2a",
+      "octets": 9860
+    },
+    {
+      "id": "petites-betes-danse",
+      "livre": "petites-betes",
+      "titre": "La danse qui donne l'adresse des fleurs",
+      "resume": "Dans le noir de la ruche, une abeille explique à ses sœurs où trouver les meilleures fleurs. Sans parler, sans carte. Juste en dansant.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/petites-betes-danse.json",
+      "sha256": "446467d6f4fbb6226d2e7af010069dcce73fb273c5d3cfa9c7c7a40277aab077",
+      "octets": 10120
     },
     {
       "id": "petites-betes-fourmis",
@@ -313,6 +433,16 @@
       "octets": 9869
     },
     {
+      "id": "petites-betes-sang",
+      "livre": "petites-betes",
+      "titre": "Le sang qui ne respire pas",
+      "resume": "Tu as vu le sang bleu de la pieuvre. Celui des insectes n'est ni rouge ni bleu — et la vraie surprise n'est pas sa couleur, c'est ce qu'il ne fait pas.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/petites-betes-sang.json",
+      "sha256": "77629fff00a99bc56d6369d11d6cc72a39c5b13a8b6f50073a8a12d66e130a64",
+      "octets": 9428
+    },
+    {
       "id": "temps-anning",
       "livre": "le-temps-profond",
       "titre": "La fille qui déterrait des dragons",
@@ -331,6 +461,16 @@
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/temps-coelacanthe.json",
       "sha256": "22b9187ac2eafe03b6e02af389fa452772f9569aa390b35480a272799bc9bd8b",
       "octets": 10215
+    },
+    {
+      "id": "volcans-naissance",
+      "livre": "volcans",
+      "titre": "Le volcan né dans un champ de maïs",
+      "resume": "On croit que la Terre est lente. Mais un jour de 1943, un fermier a vu un volcan sortir de son champ — et il n'a plus jamais revu son champ.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/volcans-naissance.json",
+      "sha256": "5c0518a0bdca9e519f312eadfb05cf6cb6cc577c9731665920853924c3497916",
+      "octets": 9160
     }
   ]
 }

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "machines-opportunity",
+  "minEngineVersion": 1,
+  "livre": "les-machines",
+  "titre": "Le robot qui devait vivre trois mois",
+  "resume": "On l'avait construit pour tenir 90 jours sur Mars. Il a roulé quatorze ans. Et ce qui l'a sauvé si longtemps est exactement ce qui a fini par le tuer.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "pourquoi-dormir",
+      "texte": "Pourquoi passes-tu un tiers de ta vie à dormir ?",
+      "resolueParLivre": "le-corps"
+    }
+  ],
+  "questionsResolues": [
+    "robots-mars"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🤖",
+      "titre": "Amie des Robots"
+    },
+    "decouvertes": [
+      "Opportunity : 90 jours prévus, 14 ans vécus",
+      "Le vent martien nettoyait ses panneaux solaires",
+      "45 km parcourus à 5 centimètres par seconde",
+      "En 2018, une tempête a caché Mars tout entière",
+      "Ses « derniers mots » ont été inventés par un journaliste"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "combien-de-temps",
+      "type": "question",
+      "visuel": "🤖",
+      "titre": "On lui donnait 90 jours à vivre. Combien a-t-il tenu ?",
+      "olli": "Janvier 2004. Un robot de la taille d'une voiturette se pose sur Mars. Les ingénieurs lui donnent trois mois : après, la poussière aura recouvert ses panneaux solaires et il s'éteindra. À ton avis ?",
+      "choix": [
+        {
+          "emoji": "📅",
+          "texte": "Six mois"
+        },
+        {
+          "emoji": "🗓️",
+          "texte": "Trois ans"
+        },
+        {
+          "emoji": "🎂",
+          "texte": "Quatorze ans",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Quatorze ans ! Cinquante-cinq fois la durée prévue. Quand il s'est posé, le smartphone n'existait pas encore. Il a parcouru 45 kilomètres — plus long qu'un marathon — à cinq centimètres par seconde.",
+      "reponseAutre": "Quatorze ans ! Cinquante-cinq fois la durée prévue. Quand il s'est posé, le smartphone n'existait pas encore. Il a parcouru 45 kilomètres — plus long qu'un marathon — à cinq centimètres par seconde."
+    },
+    {
+      "id": "regardons-le",
+      "type": "observation",
+      "visuel": "🛞",
+      "titre": "Regardons-le de près. Il est plus fragile qu'il n'en a l'air.",
+      "olli": "Touche chaque partie. Tout, chez lui, tient à un fil — et ce fil, c'est la lumière du Soleil.",
+      "hotspots": [
+        {
+          "emoji": "☀️",
+          "nom": "Ses panneaux solaires",
+          "fait": "Toute sa vie tient là. Le Soleil charge ses batteries, et les batteries le gardent au chaud pendant les nuits à −90 °C. Un panneau sale, c'est un robot qui a froid. Et sur Mars, il tombe de la poussière rouge tous les jours."
+        },
+        {
+          "emoji": "🛞",
+          "nom": "Ses roues",
+          "fait": "Vitesse maximale : cinq centimètres par seconde. Trente fois plus lent que toi quand tu marches tranquillement. Il lui a fallu onze ans pour couvrir la distance d'un marathon."
+        },
+        {
+          "emoji": "📐",
+          "nom": "L'astuce des ingénieurs",
+          "fait": "L'hiver, ils le garaient sur une pente, incliné vers le Soleil, pour attraper quelques rayons de plus. Rien de tout ça n'était dans le mode d'emploi : ils l'ont inventé en route, à 300 millions de kilomètres de lui."
+        }
+      ]
+    },
+    {
+      "id": "qui-la-sauve",
+      "type": "question",
+      "visuel": "🌬️",
+      "titre": "Qu'est-ce qui l'a gardé en vie pendant quatorze ans ?",
+      "olli": "Souviens-toi : les ingénieurs étaient certains que la poussière le tuerait en trois mois. Quelque chose les a démentis, année après année.",
+      "choix": [
+        {
+          "emoji": "🔋",
+          "texte": "Une batterie de secours cachée"
+        },
+        {
+          "emoji": "🧽",
+          "texte": "Des essuie-glaces sur ses panneaux"
+        },
+        {
+          "emoji": "🌬️",
+          "texte": "Le vent",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Le vent ! Des rafales martiennes venaient balayer la poussière de ses panneaux. Les ingénieurs appellent ça un « événement de nettoyage ». Personne ne l'avait prévu, personne n'avait osé l'espérer. En 2014, ses panneaux avaient l'air neufs.",
+      "reponseAutre": "Le vent ! Des rafales martiennes venaient balayer la poussière de ses panneaux. Les ingénieurs appellent ça un « événement de nettoyage ». Personne ne l'avait prévu, personne n'avait osé l'espérer. En 2014, ses panneaux avaient l'air neufs."
+    },
+    {
+      "id": "la-tempete",
+      "type": "anecdote",
+      "visuel": "🌫️",
+      "etiquette": "Histoire vraie",
+      "titre": "La tempête qui a tout éteint",
+      "texte": "Le 30 mai 2018, une sonde en orbite repère une tempête de poussière. En quelques jours, elle devient plus grande que l'Amérique du Nord. Puis elle enveloppe Mars tout entière : le jour devient nuit sur une planète entière. Le 10 juin, Opportunity envoie un dernier signal — batteries presque vides, ciel noir. Puis plus rien. La tempête est passée, le Soleil est revenu, et depuis la Terre on a envoyé plus de mille messages, en visant les saisons de vent qui l'avaient déjà sauvé. Le 12 février 2019, l'équipe a arrêté d'appeler. 🔴",
+      "olli": "On raconte que ses derniers mots furent : « ma batterie est faible et il commence à faire noir ». C'est faux — et c'est plus beau. Il n'a envoyé que des chiffres. C'est un journaliste qui les a traduits en une phrase.",
+      "sourceRef": "src-fin"
+    },
+    {
+      "id": "mission-regle",
+      "type": "mission",
+      "visuel": "📏",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Cinq centimètres par seconde",
+      "texte": "Prends une règle. Pose ton doigt sur le zéro et fais-le glisser jusqu'à 5 centimètres, en comptant « un ». Voilà : tu viens de rouler à la vitesse maximale d'Opportunity. Maintenant traverse une pièce en comptant les secondes. Dix mètres ? Lui, il aurait mis plus de trois minutes. Et il a fait 45 kilomètres comme ça, un doigt de règle après l'autre, pendant quatorze ans.",
+      "olli": "Ce n'est pas de la vitesse. C'est de l'entêtement. 😄"
+    },
+    {
+      "id": "teaser-dormir",
+      "type": "teaser",
+      "visuel": "😴",
+      "titre": "Pour survivre à l'hiver, le robot dormait.",
+      "texte": "Quand le Soleil se faisait rare, Opportunity s'éteignait presque entièrement. Plus de mesures, plus de messages : juste assez d'électricité pour ne pas geler. Puis, au printemps, il se réveillait. Les ingénieurs appelaient ça l'hibernation. Toi aussi, tu passes un tiers de ta vie éteinte — mais toi, tu as du Soleil toute l'année. Alors pourquoi ?",
+      "olli": "La réponse t'attend dans le Livre du Corps… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "pourquoi-dormir"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-mission",
+      "fait": "Opportunity se pose à Meridiani Planum le 25 janvier 2004 pour une mission de 90 sols. Dernière communication au sol 5111, le 10 juin 2018, après plus de quatorze ans.",
+      "reference": "https://ntrs.nasa.gov/citations/20200000214",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-fin",
+      "fait": "Tempête repérée le 30 mai 2018 par MRO ; plus de 1 000 commandes envoyées après son passage, en visant les saisons venteuses. Fin des recherches le 12 février 2019.",
+      "reference": "https://ntrs.nasa.gov/citations/20200000214",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-nettoyage",
+      "fait": "Des vents saisonniers nettoyaient périodiquement la poussière des panneaux solaires (« cleaning events ») ; autoportrait de mars 2014 montrant des panneaux quasi neufs.",
+      "reference": "https://www.nationalgeographic.com/science/article/nasa-mars-rover-opportunity-dead-what-it-gave-humankind",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-vitesse",
+      "fait": "Vitesse de pointe d'environ 0,1 mile/h (~5 cm/s) ; 28 miles (~45 km) parcourus au total, distance d'un marathon dépassée en mars 2015.",
+      "reference": "https://www.buzzfeednews.com/article/danvergano/mars-rover-opportunity-nasa-1",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-hivernage",
+      "fait": "Survie hivernale en se garant en pente vers le Soleil ; mise en hibernation lors des tempêtes pour économiser l'énergie. Spirit s'enlise en 2009 et se tait en 2010.",
+      "reference": "https://www.buzzfeednews.com/article/danvergano/mars-rover-opportunity-nasa-1",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-derniers-mots",
+      "fait": "À VÉRIFIER EN PRIORITÉ. « My battery is low and it's getting dark » est une paraphrase de journaliste, pas une transmission : le rover n'envoyait que de la télémétrie.",
+      "reference": "https://www.nytimes.com/2019/02/16/science/mars-opportunity-rover-oppy.html",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    }
+  ]
+}

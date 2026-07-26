@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "volcans-naissance",
+  "minEngineVersion": 1,
+  "livre": "volcans",
+  "titre": "Le volcan né dans un champ de maïs",
+  "resume": "On croit que la Terre est lente. Mais un jour de 1943, un fermier a vu un volcan sortir de son champ — et il n'a plus jamais revu son champ.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "olympus-mons",
+      "texte": "Comment un volcan peut-il devenir trois fois plus haut que l'Everest ?",
+      "resolueParLivre": "etoiles"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🌋",
+      "titre": "Exploratrice des Volcans"
+    },
+    "decouvertes": [
+      "Un volcan peut naître en quelques jours seulement",
+      "Magma sous terre, lave à l'air libre : la même roche",
+      "La lave la plus rapide dévale à 60 km/h",
+      "Paricutín est né dans le champ de Dionisio Pulido",
+      "La pierre ponce est de la lave qui flotte"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "combien-de-temps",
+      "type": "question",
+      "visuel": "🌽",
+      "titre": "Combien de temps faut-il à un volcan pour naître ?",
+      "olli": "Regarde ce champ de maïs. Tout est calme, on entend les oiseaux… À ton avis, si un volcan devait sortir de terre ici, il lui faudrait combien de temps ?",
+      "choix": [
+        {
+          "emoji": "⛰️",
+          "texte": "Des millions d'années"
+        },
+        {
+          "emoji": "🕰️",
+          "texte": "Des milliers d'années"
+        },
+        {
+          "emoji": "📅",
+          "texte": "Quelques jours seulement",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Exactement ! 🌋 On croit toujours que la Terre est lente, lente, lente… mais certains volcans naissent sous les yeux des gens, en quelques jours à peine. Et c'est arrivé pour de vrai. Garde bien ce champ en tête…",
+      "reponseAutre": "Surprise : quelques jours seulement ! On croit toujours que la Terre est lente, lente, lente… mais certains volcans naissent sous les yeux des gens, en quelques jours à peine. Et c'est arrivé pour de vrai. Garde bien ce champ en tête…"
+    },
+    {
+      "id": "dedans",
+      "type": "observation",
+      "visuel": "🌋",
+      "visuelAnimation": "tremble",
+      "titre": "Ouvrons ce volcan en deux, comme un gâteau.",
+      "olli": "Touche chaque partie pour regarder à l'intérieur. Personne n'a jamais vu ça en vrai : c'est bien trop chaud là-dedans !",
+      "hotspots": [
+        {
+          "emoji": "🔥",
+          "nom": "La chambre magmatique",
+          "fait": "Tout en bas dort une immense poche de roche fondue, entre 800 et 1 200 °C. Le four de ta cuisine, lui, monte à 250 °C au maximum : c'est quatre fois plus chaud."
+        },
+        {
+          "emoji": "🪨",
+          "nom": "Magma ou lave ?",
+          "fait": "C'est exactement la même roche fondue ! Tant qu'elle reste sous terre, on l'appelle magma. Dès qu'elle sort à l'air libre, elle change de nom et devient de la lave. Même chose, deux noms."
+        },
+        {
+          "emoji": "☁️",
+          "nom": "Le grand panache blanc",
+          "fait": "Cet énorme nuage n'est pas de la fumée. C'est surtout de la vapeur d'eau : le gaz le plus abondant qui sorte d'un volcan. Au fond, un volcan, ça transpire énormément."
+        }
+      ]
+    },
+    {
+      "id": "vitesse-lave",
+      "type": "question",
+      "visuel": "💨",
+      "titre": "La lave la plus rapide du monde va aussi vite que…",
+      "olli": "La plupart des laves avancent lentement : on peut marcher à côté sans se presser. Mais il en existe une, une seule, qui bat tous les records.",
+      "choix": [
+        {
+          "emoji": "🐌",
+          "texte": "…un escargot pressé"
+        },
+        {
+          "emoji": "🚶",
+          "texte": "…quelqu'un qui marche vite"
+        },
+        {
+          "emoji": "🚗",
+          "texte": "…une voiture en ville",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Oui ! Au Nyiragongo, au Congo, la lave a dévalé la pente à 60 km/h. Elle contient si peu de silice qu'elle coule presque comme de l'eau. Impossible de courir plus vite qu'elle : les habitants ont dû partir sans attendre.",
+      "reponseAutre": "Encore plus fort : comme une voiture en ville ! Au Nyiragongo, au Congo, la lave a dévalé la pente à 60 km/h. Elle contient si peu de silice qu'elle coule presque comme de l'eau. Impossible de courir plus vite qu'elle."
+    },
+    {
+      "id": "paricutin",
+      "type": "anecdote",
+      "visuel": "🌽🌋",
+      "etiquette": "Histoire vraie",
+      "titre": "Le jour où un volcan a poussé dans un champ",
+      "texte": "Le 20 février 1943, au Mexique, un fermier nommé Dionisio Pulido brûlait des branches dans son champ de maïs. Soudain, le sol s'est fendu devant lui, s'est gonflé, et une fumée grise s'est mise à siffler en sentant le soufre. Dionisio s'est enfui à cheval. Le lendemain, à la place de son champ : une colline de 50 mètres. En une semaine, 100 mètres. Neuf ans plus tard, le volcan Paricutín mesurait 424 mètres, et le clocher d'une église dépassait tout seul de la mer de lave. 🌋",
+      "olli": "Des scientifiques du monde entier sont accourus. C'était la première fois qu'on pouvait regarder un volcan naître, grandir, puis s'endormir — du début à la fin.",
+      "sourceRef": "src-paricutin"
+    },
+    {
+      "id": "pierre-ponce",
+      "type": "mission",
+      "visuel": "🛁",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Il y a peut-être un volcan dans ta salle de bain",
+      "texte": "Va chercher la pierre ponce : celle qui gratte les pieds, grise et pleine de trous. C'est de la vraie lave ! Elle a durci si vite que les bulles de gaz sont restées prisonnières dedans. Remplis un verre d'eau et pose-la à la surface : c'est la seule pierre au monde qui flotte. Regarde ses trous de tout près — chacun est une bulle qui vient d'un volcan.",
+      "olli": "Si tu n'en trouves pas, va demander à quelqu'un de ta famille : « tu savais qu'il existe une pierre qui flotte ? » Personne ne me croit jamais du premier coup. 😄"
+    },
+    {
+      "id": "teaser-mars",
+      "type": "teaser",
+      "visuel": "🔴",
+      "titre": "Le plus grand volcan connu n'est pas sur Terre.",
+      "texte": "Il se dresse sur une planète rouge. Il est presque trois fois plus haut que l'Everest, et sa base est si large qu'elle irait presque de Paris à Marseille. Du haut de son sommet, tu ne verrais même pas où il s'arrête…",
+      "olli": "Son nom se cache dans le Livre des Étoiles, qui s'ouvrira bientôt sur l'étagère… En attendant, ton passeport vient de recevoir son tampon Volcans ! 🎉",
+      "questionOuverteRef": "olympus-mons"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-paricutin",
+      "fait": "20 février 1943 : le Paricutín surgit dans le champ de maïs de Dionisio Pulido (Michoacán, Mexique). Cône de 50 m en 24 h, 100 m en une semaine.",
+      "reference": "https://volcanoes.sdsu.edu/Paricutin.html",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "src-paricutin-final",
+      "fait": "En 1952, à la fin de l'éruption, le cône atteint 424 m. Deux villages ensevelis ; le clocher de San Juan Parangaricutiro émerge encore de la lave.",
+      "reference": "https://en.wikipedia.org/wiki/Par%C3%ADcutin",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "src-nyiragongo",
+      "fait": "La lave du Nyiragongo (RD Congo) est la plus rapide jamais enregistrée : jusqu'à 60 km/h, en raison de sa très faible teneur en silice.",
+      "reference": "https://volcano.oregonstate.edu/faq/how-fast-does-lava-flow",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "src-temperature",
+      "fait": "Le magma des volcans se situe généralement entre 800 et 1 200 °C selon sa composition.",
+      "reference": "https://www.usgs.gov/media/audio/how-hot-are-volcanoes",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "src-vapeur",
+      "fait": "La vapeur d'eau est le gaz volcanique le plus abondant, devant le dioxyde de carbone et le dioxyde de soufre.",
+      "reference": "https://pubs.usgs.gov/of/1995/0085",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "src-ponce",
+      "fait": "La pierre ponce est un magma moussé par les gaz puis solidifié ; sa densité est assez faible pour qu'elle flotte sur l'eau.",
+      "reference": "https://volcanoes.usgs.gov/vsc/glossary/pumice.html",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "src-olympus",
+      "fait": "Olympus Mons (Mars) s'élève à environ 26 km au-dessus des plaines environnantes — trois fois l'Everest — pour une base de ~600 km de diamètre.",
+      "reference": "https://science.nasa.gov/photojournal/pj-olympus-mons-lava-flows-2/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-17"
+    }
+  ]
+}

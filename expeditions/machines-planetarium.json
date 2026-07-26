@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "machines-planetarium",
+  "minEngineVersion": 1,
+  "livre": "les-machines",
+  "titre": "Le ciel en boîte",
+  "resume": "Pour faire tenir 4 500 étoiles sous un toit, il a fallu inventer une machine. Et, sans le vouloir, une façon de construire qui a changé le monde.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "yeux-nuit",
+      "texte": "Que fabrique ton œil pendant que tu attends dans le noir ?",
+      "resolueParLivre": "le-corps"
+    }
+  ],
+  "questionsResolues": [
+    "ciel-en-boite"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🔭",
+      "titre": "Bâtisseuse de Ciels"
+    },
+    "decouvertes": [
+      "Le premier planétarium projetait 4 500 étoiles",
+      "Chaque étoile est un trou percé à la main",
+      "Son dôme fut le premier dôme géodésique du monde",
+      "Inventé 26 ans avant Buckminster Fuller",
+      "« La merveille de Jena », été 1923"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "par-ou-commencer",
+      "type": "question",
+      "visuel": "🌃",
+      "titre": "On veut faire tenir tout le ciel dans une salle. Par où commencer ?",
+      "olli": "Munich, 1913. Le directeur d'un musée veut offrir le ciel étoilé à des gens qui, dans les villes, ne le voient déjà plus. Il demande l'impossible à des ingénieurs. Toi, tu ferais comment ?",
+      "choix": [
+        {
+          "emoji": "🎨",
+          "texte": "Peindre les étoiles au plafond"
+        },
+        {
+          "emoji": "🕳️",
+          "texte": "Percer des milliers de trous dans le toit"
+        },
+        {
+          "emoji": "💡",
+          "texte": "Une machine au centre, qui projette la lumière",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Une machine posée au milieu de la salle, qui envoie 4 500 points de lumière sur un dôme blanc. Walther Bauersfeld, ingénieur chez Zeiss, a mis quatre ans à la construire. On l'a surnommée « la merveille de Jena ».",
+      "reponseAutre": "En vrai : une machine posée au milieu de la salle, qui envoie 4 500 points de lumière sur un dôme blanc. Walther Bauersfeld, ingénieur chez Zeiss, a mis quatre ans à la construire. On l'a surnommée « la merveille de Jena »."
+    },
+    {
+      "id": "ouvrons-la-machine",
+      "type": "observation",
+      "visuel": "🔭",
+      "visuelAnimation": "flotte",
+      "titre": "Ouvrons-la. C'est une horlogerie, pas un ordinateur.",
+      "olli": "Touche chaque partie. Souviens-toi : en 1923, il n'existe ni écran, ni ordinateur. Tout est en cuivre, en verre et en engrenages.",
+      "hotspots": [
+        {
+          "emoji": "🌑",
+          "nom": "Les sphères percées",
+          "fait": "Chaque étoile est un minuscule trou percé dans une plaque, avec sa propre petite lentille. 4 500 trous, faits à la main, chacun à sa place exacte dans le ciel. Un trou large pour les étoiles brillantes, minuscule pour les faibles."
+        },
+        {
+          "emoji": "⚙️",
+          "nom": "Les engrenages",
+          "fait": "Sous les sphères, une horlogerie fait tourner le ciel entier autour de l'axe du monde. Et des mécanismes séparés promènent le Soleil, la Lune et les planètes — chacun à sa propre vitesse, comme dans le vrai ciel."
+        },
+        {
+          "emoji": "🕰️",
+          "nom": "Le bouton du temps",
+          "fait": "Tu peux avancer, reculer, accélérer. En quelques minutes : le ciel d'il y a mille ans, ou celui que verra ton arrière-petite-fille. C'est une machine à remonter le temps. Une vraie."
+        }
+      ]
+    },
+    {
+      "id": "le-dome",
+      "type": "question",
+      "visuel": "🥚",
+      "titre": "Il manque l'écran. Comment construire un dôme assez léger ?",
+      "olli": "Un dôme de seize mètres, parfaitement rond, parfaitement lisse — et assez léger pour tenir sur le toit d'une usine. En 1922, personne au monde ne sait faire ça.",
+      "choix": [
+        {
+          "emoji": "🪵",
+          "texte": "En planches de bois"
+        },
+        {
+          "emoji": "🧱",
+          "texte": "En briques, bien épais"
+        },
+        {
+          "emoji": "🥚",
+          "texte": "En copiant la coquille d'un œuf",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Une coque de béton fine comme une coquille d'œuf, tendue sur un squelette de triangles d'acier. Ça n'existait pas : ils l'ont inventé juste pour avoir un écran. Et c'était le premier dôme géodésique de l'histoire.",
+      "reponseAutre": "Ils ont copié la coquille d'œuf : une coque de béton très fine, tendue sur un squelette de triangles d'acier. Ça n'existait pas — ils l'ont inventé juste pour avoir un écran. Et c'était le premier dôme géodésique de l'histoire."
+    },
+    {
+      "id": "merveille-de-jena",
+      "type": "anecdote",
+      "visuel": "🏭",
+      "etiquette": "Histoire vraie",
+      "titre": "Le dôme qu'ils n'avaient pas prévu d'inventer",
+      "texte": "Été 1923, sur le toit de l'usine Zeiss, à Jena. Bauersfeld allume sa machine sous le dôme tout neuf. Le ciel apparaît — et les ingénieurs qui l'ont construite en restent bouche bée. Les journaux parlent de « la merveille de Jena ». Mais le vrai prodige est ailleurs : ce dôme bricolé pour servir d'écran était le premier dôme géodésique et la première coque de béton mince au monde. Vingt-six ans plus tard, un Américain nommé Buckminster Fuller réinventera le même principe et deviendra célèbre pour ça. Bauersfeld, lui, voulait juste un écran. 🥚",
+      "olli": "Ils cherchaient à montrer les étoiles. Ils ont trouvé une façon de construire qu'on utilise encore. Les plus belles découvertes arrivent souvent par la bande.",
+      "sourceRef": "src-dome"
+    },
+    {
+      "id": "mission-gobelet",
+      "type": "mission",
+      "visuel": "🥤",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fabrique ton planétarium en deux minutes",
+      "texte": "Prends un gobelet en carton. Choisis une constellation — la Grande Ourse fera l'affaire — et perce ses étoiles dans le fond, avec la pointe d'un crayon. Fais varier : un trou large pour les étoiles brillantes, minuscule pour les faibles. Exactement comme Bauersfeld. Puis éteins la lumière, colle une lampe de poche contre le fond du gobelet, et vise le plafond.",
+      "olli": "Recule la lampe : ton ciel grandit. Approche-la : il rétrécit. Tu tiens un vrai projecteur d'étoiles dans la main. 🏮"
+    },
+    {
+      "id": "teaser-yeux",
+      "type": "teaser",
+      "visuel": "👁️",
+      "titre": "Pourquoi éteint-on la lumière avant le spectacle ?",
+      "texte": "Dans un planétarium, on ne montre pas les étoiles tout de suite. On éteint, et on attend. Parce que tes yeux, eux, ne sont pas prêts : il leur faut vingt à trente minutes pour devenir nocturnes. Pendant ce temps, quelque chose se fabrique tout au fond de ton œil… et une seule seconde de lumière blanche détruit tout le travail.",
+      "olli": "Ce qui se passe là-dedans t'attend dans le Livre du Corps… En attendant, un nouveau tampon pour ton passeport ! 🎉",
+      "questionOuverteRef": "yeux-nuit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-zeiss",
+      "fait": "Premier projecteur de planétarium développé par Zeiss entre mars 1919 et juillet 1923, sous la direction de Walther Bauersfeld. Il illumine 4 500 étoiles sur le dôme de Munich.",
+      "reference": "https://www.deutsches-museum.de/en/museum-island/programme/programme-a-z/planetarium/history-of-the-planetarium",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-merveille",
+      "fait": "Démonstration sur dôme de 16 m au toit de l'usine Zeiss de Jena, août 1923 (« merveille de Jena »). Présentation publique au Deutsches Museum le 21/10/1923 ; ouverture le 7 mai 1925.",
+      "reference": "http://spacewatchtower.blogspot.com/2023/10/centennial-projection-planetarium.html",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-dome",
+      "fait": "Le dôme de Jena (1922) est le premier dôme géodésique dérivé de l'icosaèdre et la première coque de béton mince — 26 ans avant que Buckminster Fuller ne réinvente le principe.",
+      "reference": "https://en.wikipedia.org/wiki/Walther_Bauersfeld",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-coque",
+      "fait": "Méthode de coques de béton sans nervures dite « système Zeiss-Dywidag », précurseur du béton projeté ; brevet DE431629. Projecteur breveté DE391036 (~4 500 étoiles).",
+      "reference": "https://dpma.de/english/our_office/publications/background/space-beyond/planetarium/index.html",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-origine",
+      "fait": "L'idée naît d'une demande d'Oskar von Miller, fondateur du Deutsches Museum, qui souhaitait une « sphère étoilée tournante » ; réunion fondatrice à Jena le 24 février 1914.",
+      "reference": "https://dpma.de/english/our_office/publications/background/space-beyond/planetarium/index.html",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-adaptation",
+      "fait": "L'adaptation à l'obscurité atteint son maximum en 20 à 30 minutes environ, selon l'intensité lumineuse précédente.",
+      "reference": "https://www.scientificamerican.com/article/experts-eyes-adjust-to-darkness/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    }
+  ]
+}

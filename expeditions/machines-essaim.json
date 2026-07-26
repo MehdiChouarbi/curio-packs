@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "machines-essaim",
+  "minEngineVersion": 1,
+  "livre": "les-machines",
+  "titre": "La ville sans chef",
+  "resume": "Cinquante mille abeilles doivent choisir leur nouvelle maison. Aucune n'a de plan. Aucune ne commande. Et pourtant, ensemble, elles font le bon choix.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "fourmis-chemin",
+      "texte": "Comment des fourmis trouvent-elles toujours le plus court chemin, sans carte ?",
+      "resolueParLivre": "petites-betes"
+    }
+  ],
+  "questionsResolues": [
+    "ville-abeilles"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🏙️",
+      "titre": "Exploratrice des Foules"
+    },
+    "decouvertes": [
+      "50 000 abeilles vivent sans aucun chef",
+      "La reine ne commande rien : elle pond",
+      "Les éclaireuses dansent pour proposer une maison",
+      "La meilleure idée récolte le plus de danseuses",
+      "Beaucoup de petites décisions font une grande sage"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "qui-commande",
+      "type": "question",
+      "visuel": "🐝",
+      "titre": "Dans une ruche de 50 000 abeilles, qui commande ?",
+      "olli": "Elles construisent, nettoient, nourrissent les petits, se défendent, partent chercher le nectar… et tout fonctionne à merveille. Une ville entière. Alors, qui donne les ordres ?",
+      "choix": [
+        {
+          "emoji": "👑",
+          "texte": "La reine, bien sûr"
+        },
+        {
+          "emoji": "🎖️",
+          "texte": "Les plus vieilles abeilles"
+        },
+        {
+          "emoji": "🤷",
+          "texte": "Personne",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Personne ! La reine ne commande rien du tout : son seul travail, c'est de pondre des œufs. Aucune abeille ne dit aux autres quoi faire. Et pourtant la ruche prend des décisions justes, parfois vitales. Comment une foule sans chef peut-elle être sage ? Regardons-les déménager.",
+      "reponseAutre": "Personne ! La reine ne commande rien du tout : son seul travail, c'est de pondre des œufs. Aucune abeille ne dit aux autres quoi faire. Et pourtant la ruche prend des décisions justes, parfois vitales. Comment une foule sans chef peut-elle être sage ? Regardons-les déménager."
+    },
+    {
+      "id": "le-demenagement",
+      "type": "observation",
+      "visuel": "🏡",
+      "visuelAnimation": "flotte",
+      "titre": "La ruche est trop pleine. Il faut trouver une nouvelle maison.",
+      "olli": "Touche chaque étape. C'est l'une des plus belles décisions collectives de toute la nature — et il n'y a pas de meneuse.",
+      "hotspots": [
+        {
+          "emoji": "🔍",
+          "nom": "Les éclaireuses",
+          "fait": "Quelques centaines d'abeilles partent chercher, chacune de son côté, un trou d'arbre où s'installer. Chacune trouve un endroit différent : celui-ci trop petit, celui-là trop humide, cet autre parfait."
+        },
+        {
+          "emoji": "💃",
+          "nom": "Le concours de danse",
+          "fait": "De retour, chaque éclaireuse danse pour SA trouvaille — tu connais déjà cette danse ! Et voici l'astuce : meilleure est la maison, plus longtemps elle danse, plus fort, plus longtemps. Une bonne idée, ça se défend avec énergie."
+        },
+        {
+          "emoji": "🤝",
+          "nom": "Le ralliement",
+          "fait": "Les abeilles qui regardent vont visiter les endroits les plus dansés, et si elles aiment, elles dansent à leur tour. La meilleure maison récolte de plus en plus de danseuses… jusqu'à ce que presque toutes soient d'accord."
+        }
+      ]
+    },
+    {
+      "id": "la-regle",
+      "type": "question",
+      "visuel": "🧩",
+      "titre": "Quel est le secret d'une foule sans chef qui décide bien ?",
+      "olli": "Pas de reine qui tranche, pas de vote à main levée, pas de réunion. Juste des milliers d'abeilles qui dansent chacune dans leur coin. Qu'est-ce qui fait que, au bout du compte, elles choisissent presque toujours la meilleure maison ?",
+      "choix": [
+        {
+          "emoji": "🍀",
+          "texte": "Elles ont beaucoup de chance"
+        },
+        {
+          "emoji": "🔁",
+          "texte": "Chacune suit une règle simple, et le total est sage",
+          "bonne": true
+        },
+        {
+          "emoji": "🧠",
+          "texte": "Une super-abeille réfléchit pour toutes"
+        }
+      ],
+      "reponseBonne": "Des règles simples qui s'additionnent ! Aucune abeille ne comprend le plan d'ensemble. Chacune suit juste : « si j'aime, je danse ; si une autre danse mieux, je vais voir ». Multiplie par des milliers, et une intelligence apparaît — une intelligence que possède la foule, mais aucune abeille toute seule. On appelle ça l'intelligence collective.",
+      "reponseAutre": "Des règles simples qui s'additionnent ! Aucune abeille ne comprend le plan d'ensemble. Chacune suit juste : « si j'aime, je danse ; si une autre danse mieux, je vais voir ». Multiplie par des milliers, et une intelligence apparaît — que possède la foule, mais aucune abeille toute seule. On appelle ça l'intelligence collective."
+    },
+    {
+      "id": "partout",
+      "type": "anecdote",
+      "visuel": "🌐",
+      "etiquette": "Pour de vrai",
+      "titre": "Cette astuce est partout, même dans tes machines",
+      "texte": "Ce truc des abeilles — beaucoup de petites choses simples qui, ensemble, deviennent intelligentes — la nature l'adore. Les fourmis trouvent le plus court chemin comme ça. Les oiseaux volent en nuages parfaits sans chef d'orchestre. Ton cerveau lui-même fonctionne ainsi : aucun de tes neurones ne « pense », mais tous ensemble, oui. Et les humains s'en sont inspirés : pour guider des robots, pour organiser la circulation, pour trouver la route la plus rapide sur une carte, on copie les abeilles et les fourmis.",
+      "olli": "Une seule abeille est presque bête. Cinquante mille abeilles sont géniales. Parfois, le groupe sait des choses que personne, tout seul, ne sait.",
+      "sourceRef": "src-swarm"
+    },
+    {
+      "id": "mission-fourmis",
+      "type": "mission",
+      "visuel": "🐜",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Espionne une foule sans chef",
+      "texte": "Trouve une file de fourmis dehors — sur un mur, un trottoir, au pied d'un arbre. Suis-la des yeux, patiemment. Remarque comme elles avancent presque toutes sur la même ligne, alors qu'aucune ne tient la carte. Pose délicatement une petite feuille en travers de leur route et regarde : en quelques minutes, la file se reforme, contourne l'obstacle, retrouve son chemin. Personne n'a donné d'ordre. La foule s'est réparée toute seule.",
+      "olli": "Tu observes une intelligence sans cerveau unique, en pleine rue. Demande-toi : et une classe, une ville, une équipe… est-ce que ça marche parfois pareil ? 🤔"
+    },
+    {
+      "id": "teaser-fourmis",
+      "type": "teaser",
+      "visuel": "🐜",
+      "titre": "Les fourmis trouvent toujours le plus court chemin. Comment ?",
+      "texte": "Entre leur nid et un morceau de sucre, mille chemins sont possibles. Au début, les fourmis partent un peu au hasard, dans tous les sens. Mais très vite, une colonne se forme sur le trajet le plus court, comme si elles connaissaient la réponse. Elles n'ont pourtant ni carte, ni chef, ni règle apprise. Leur secret ? Une trace invisible qu'elles laissent derrière elles…",
+      "olli": "Ce secret-là t'attend dans le Livre des Petites Bêtes… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "fourmis-chemin"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-reine",
+      "fait": "Dans une colonie d'abeilles mellifères, aucune abeille ne dirige les autres. La reine ne fait que pondre ; l'organisation émerge sans contrôle central (auto-organisation).",
+      "reference": "https://www.pnas.org/doi/10.1073/pnas.0602099103",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-essaimage",
+      "fait": "Lors de l'essaimage, des éclaireuses explorent des sites de nidification et les « défendent » par des danses frétillantes ; la vigueur/durée de la danse reflète la qualité du site.",
+      "reference": "https://www.pnas.org/doi/10.1073/pnas.0602099103",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-quorum",
+      "fait": "Le ralliement se fait par renforcement : les abeilles visitent les sites les plus dansés et redansent s'ils leur plaisent. Un consensus (quorum) émerge sur le meilleur site. Travaux de Thomas Seeley.",
+      "reference": "https://www.pnas.org/doi/10.1073/pnas.0602099103",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-swarm",
+      "fait": "L'intelligence en essaim : des comportements collectifs naissent de règles individuelles simples (abeilles, fourmis, oiseaux) et inspirent des algorithmes d'optimisation en informatique.",
+      "reference": "https://en.wikipedia.org/wiki/Swarm_intelligence",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-fourmis",
+      "fait": "Les fourmis convergent vers le plus court chemin via des traces de phéromones renforcées (stigmergie) : base des algorithmes de colonies de fourmis. Sujet du teaser.",
+      "reference": "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    }
+  ]
+}

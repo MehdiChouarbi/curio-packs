@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "corps-sommeil",
+  "minEngineVersion": 1,
+  "livre": "le-corps",
+  "titre": "La nuit, ton cerveau fait le ménage",
+  "resume": "Tu passes un tiers de ta vie endormie, sans rien voir, sans rien faire, sans pouvoir te défendre. La nature n'aurait jamais accepté ça pour rien.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "dormir-sans-cerveau",
+      "texte": "Un animal sans aucun cerveau peut-il dormir ?",
+      "resolueParLivre": "ocean"
+    }
+  ],
+  "questionsResolues": [
+    "pourquoi-dormir"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "😴",
+      "titre": "Exploratrice des Rêves"
+    },
+    "decouvertes": [
+      "La nuit, ton cerveau se lave",
+      "L'espace entre ses cellules s'ouvre de 60 %",
+      "Penser ou faire le ménage : il doit choisir",
+      "Randy Gardner : 11 jours sans dormir, en 1963",
+      "Ce record n'est plus reconnu : trop dangereux"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "que-fait-il",
+      "type": "question",
+      "visuel": "🛏️",
+      "titre": "Pendant que tu dors, ton cerveau fait quoi ?",
+      "olli": "Un tiers de ta vie. Tu vas passer un tiers de ta vie entière à dormir. Ça fait beaucoup d'heures perdues… ou alors, il se passe quelque chose là-haut. À ton avis ?",
+      "choix": [
+        {
+          "emoji": "🔌",
+          "texte": "Il s'éteint et se repose"
+        },
+        {
+          "emoji": "🧽",
+          "texte": "Il fait le ménage",
+          "bonne": true
+        },
+        {
+          "emoji": "⚡",
+          "texte": "Il travaille exactement pareil"
+        }
+      ],
+      "reponseBonne": "Il se lave ! Chez la souris, on a vu que pendant le sommeil, l'espace entre les cellules du cerveau s'ouvre de 60 % — et un liquide vient y circuler pour emporter les déchets de la journée. La chercheuse qui l'a découvert le dit joliment : on peut recevoir des invités, ou faire le ménage. Pas les deux.",
+      "reponseAutre": "Il fait le ménage ! Chez la souris, on a vu que pendant le sommeil, l'espace entre les cellules du cerveau s'ouvre de 60 % — et un liquide vient y circuler pour emporter les déchets de la journée. La chercheuse qui l'a découvert le dit joliment : on peut recevoir des invités, ou faire le ménage. Pas les deux."
+    },
+    {
+      "id": "pendant-la-nuit",
+      "type": "observation",
+      "visuel": "🌙",
+      "visuelAnimation": "flotte",
+      "titre": "Regardons ce qui se passe pendant que tu dors.",
+      "olli": "Touche chaque partie. Tout ça se produira cette nuit, dans ta tête, pendant que tu ne t'en rendras pas compte.",
+      "hotspots": [
+        {
+          "emoji": "💧",
+          "nom": "Le grand nettoyage",
+          "fait": "Un liquide clair traverse tout ton cerveau et emporte les déchets fabriqués pendant que tu pensais. Éveillé, ce nettoyage est presque à l'arrêt : ton cerveau n'a pas assez d'énergie pour faire les deux à la fois."
+        },
+        {
+          "emoji": "🧠",
+          "nom": "Tes souvenirs",
+          "fait": "Pendant que tu dors, ton cerveau rejoue la journée et range ce qui mérite d'être gardé. C'est pour ça qu'apprendre puis dormir marche bien mieux que de rester debout toute la nuit à réviser."
+        },
+        {
+          "emoji": "❓",
+          "nom": "Le prix à payer",
+          "fait": "Dormir, c'est dangereux : tu ne vois rien, tu n'entends presque rien, tu ne peux pas fuir. Tous les animaux le font quand même. Aucun scientifique ne sait vraiment expliquer pourquoi la nature a accepté un marché pareil."
+        }
+      ]
+    },
+    {
+      "id": "combien-de-jours",
+      "type": "question",
+      "visuel": "⏰",
+      "titre": "Un adolescent a tenu combien de jours sans dormir ?",
+      "olli": "En 1963, un lycéen a décidé de battre le record du monde d'éveil. Pour son expo-sciences. À ton avis, il a tenu combien de temps ?",
+      "choix": [
+        {
+          "emoji": "3️⃣",
+          "texte": "Trois jours"
+        },
+        {
+          "emoji": "6️⃣",
+          "texte": "Six jours"
+        },
+        {
+          "emoji": "🔟",
+          "texte": "Onze jours",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "Onze jours. 264 heures. Et ça s'est très mal passé : hallucinations, mémoire en miettes, humeur de chien. Aujourd'hui, le Guinness refuse d'enregistrer ce genre de record — c'est bien trop dangereux. Ceci n'est pas un défi. 🚫",
+      "reponseAutre": "Onze jours ! 264 heures. Et ça s'est très mal passé : hallucinations, mémoire en miettes, humeur de chien. Aujourd'hui, le Guinness refuse d'enregistrer ce genre de record — c'est bien trop dangereux. Ceci n'est pas un défi. 🚫"
+    },
+    {
+      "id": "randy-gardner",
+      "type": "anecdote",
+      "visuel": "🔬",
+      "etiquette": "Histoire vraie",
+      "titre": "L'expo-sciences la plus dangereuse du monde",
+      "texte": "Décembre 1963, San Diego. Randy Gardner, 17 ans, cherche un sujet d'expo-sciences avec ses copains Bruce et Joe. Leur idée : battre le record du monde d'éveil. Onze jours durant, sans le moindre médicament — du Coca, des douches froides et de la musique à fond —, les deux autres tiennent Randy réveillé. Au bout de quelques jours, il hallucine, il perd ses mots, il se croit persécuté. Un chercheur célèbre, William Dement, débarque pour le surveiller et l'emmène jouer au flipper la nuit. Le 8 janvier 1964, à 2 heures du matin : 264 heures. Ils gagnent le premier prix.",
+      "olli": "Il a ensuite dormi quatorze heures et s'est réveillé normal. Mais devenu adulte, Randy a raconté qu'il n'arrivait plus du tout à dormir. On ignore si c'est lié — et ça ne donne aucune envie d'essayer.",
+      "sourceRef": "src-gardner"
+    },
+    {
+      "id": "mission-reves",
+      "type": "mission",
+      "visuel": "📓",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Attrape un rêve avant qu'il s'échappe",
+      "texte": "Ce soir, pose une feuille et un crayon par terre, à côté de ton lit. Demain matin, avant de te lever, avant de parler à qui que ce soit, avant de regarder quoi que ce soit : écris le premier morceau de rêve qui te reste. Un seul mot suffit. « Chien ». « Escalier ». Attends cinq minutes de plus et il aura disparu pour toujours. Recommence trois matins de suite — beaucoup de gens disent qu'à force, ils se souviennent de plus en plus.",
+      "olli": "Tu rêves toutes les nuits, même les nuits dont tu ne gardes rien. Tout un cinéma joue dans ta tête, et tu rates presque toutes les séances. 😄"
+    },
+    {
+      "id": "teaser-meduse",
+      "type": "teaser",
+      "visuel": "🪼",
+      "titre": "Tout le monde dort. Même sans cerveau.",
+      "texte": "Les mouches dorment. Les vers dorment. Et en 2017, trois étudiants ont prouvé qu'un animal sans aucun cerveau dort aussi. Il vit à l'envers, posé sur le fond, dans les eaux chaudes et peu profondes. Ni tête, ni yeux, ni cœur, ni cerveau… et pourtant, quand la nuit tombe, il ralentit. Comme toi.",
+      "olli": "Cet animal-là t'attend dans le Livre de l'Océan… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "dormir-sans-cerveau"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-glymphatique",
+      "fait": "Xie et al., Science 2013 : chez la souris, le sommeil s'accompagne d'une hausse de 60 % de l'espace interstitiel et d'un fort accroissement de l'échange LCR / liquide interstitiel.",
+      "reference": "https://www.science.org/doi/10.1126/science.1241224",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-menage",
+      "fait": "Nedergaard : « on peut recevoir des invités ou nettoyer la maison, pas les deux à la fois ». Système glymphatique ~10 fois plus actif pendant le sommeil.",
+      "reference": "https://www.urmc.rochester.edu/news/story/to-sleep-perchance-to-clean",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-souris",
+      "fait": "NUANCE À GARDER : l'essentiel des données glymphatiques vient de la souris. Formuler « chez la souris, on a vu que… », jamais « chez toi, il se passe ».",
+      "reference": "https://www.scientificamerican.com/article/how-sleep-cleans-the-brain-and-keeps-you-healthy/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-gardner",
+      "fait": "Randy Gardner, 17 ans, San Diego : 264 h d'éveil, décembre 1963 – 8 janvier 1964, pour l'expo-sciences (1er prix). Sans stimulants (Coca, douches froides, musique). Suivi par le Dr William Dement.",
+      "reference": "https://www.guinnessworldrecords.com/news/2023/1/whats-the-limit-to-how-long-a-human-can-stay-awake-733188",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-guinness",
+      "fait": "Guinness n'accepte plus les tentatives de privation volontaire de sommeil, pour raisons de sécurité. Gardner a rapporté des insomnies à l'âge adulte (lien non établi).",
+      "reference": "https://en.wikipedia.org/wiki/Randy_Gardner_sleep_deprivation_experiment",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-vulnerable",
+      "fait": "Le paradoxe du sommeil : tout animal complexe dort, alors que dormir le rend vulnérable et l'empêche de manger. Personne n'explique pleinement pourquoi.",
+      "reference": "https://www.scientificamerican.com/article/jellyfish-caught-snoozing-give-clues-to-origin-of-sleep/",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "src-meduse",
+      "fait": "Nath, Abrams & Bedbrook, Current Biology, 21/09/2017 : la méduse à l'envers Cassiopea, dépourvue de cerveau, présente un état de type sommeil. Premier cas chez un animal sans cerveau.",
+      "reference": "https://www.caltech.edu/about/news/surprising-ancient-behavior-jellyfish-79701",
+      "verifiePar": "mehdi",
+      "date": "2026-07-18"
+    }
+  ]
+}
