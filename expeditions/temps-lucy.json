@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "temps-lucy",
+  "minEngineVersion": 1,
+  "livre": "le-temps-profond",
+  "titre": "Lucy, l'aïeule qui marchait déjà debout",
+  "resume": "En 1974, en Éthiopie, on a trouvé le squelette d'une femme morte il y a 3,2 millions d'années. Elle marchait debout comme toi. Et on lui a donné le nom d'une chanson.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "premiers-recits",
+      "texte": "Elle marchait, mais parlait-elle ? Depuis quand les humains se racontent-ils ?",
+      "resolueParLivre": "les-mots"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🦴",
+      "titre": "Cousine de Lucy"
+    },
+    "decouvertes": [
+      "Lucy a vécu il y a 3,2 millions d'années",
+      "Elle marchait debout, avec un tout petit cerveau",
+      "On a retrouvé 40 % de son squelette, un record",
+      "Elle porte le nom d'une chanson des Beatles",
+      "Son vrai nom éthiopien est Dinkinesh : « tu es merveilleuse »"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "quoi-en-premier",
+      "type": "question",
+      "visuel": "🦴",
+      "titre": "Chez nos très anciens ancêtres, qu'est-ce qui est venu en premier ?",
+      "olli": "Le cœlacanthe nous a montré des fossiles surprenants. En voici un qui nous touche de près : une lointaine parente à nous. Voici l'énigme que les scientifiques se posaient : nos ancêtres ont-ils d'abord eu un gros cerveau, ou d'abord marché debout ?",
+      "choix": [
+        {
+          "emoji": "🧠",
+          "texte": "D'abord un gros cerveau, puis la marche"
+        },
+        {
+          "emoji": "🚶",
+          "texte": "D'abord la marche debout, le cerveau après",
+          "bonne": true
+        },
+        {
+          "emoji": "🤝",
+          "texte": "Les deux exactement en même temps"
+        }
+      ],
+      "reponseBonne": "La marche d'abord ! On croyait que l'intelligence était venue en premier. Lucy a prouvé le contraire : elle marchait déjà parfaitement debout il y a plus de 3 millions d'années, avec un cerveau à peine plus gros que celui d'un chimpanzé. Se tenir debout est venu bien avant de devenir malin.",
+      "reponseAutre": "D'abord la marche debout ! On croyait l'intelligence venue en premier. Lucy a prouvé le contraire : elle marchait déjà parfaitement debout il y a plus de 3 millions d'années, avec un cerveau à peine plus gros que celui d'un chimpanzé. Debout d'abord, malin ensuite."
+    },
+    {
+      "id": "qui-est-lucy",
+      "type": "observation",
+      "visuel": "💀",
+      "visuelAnimation": "flotte",
+      "titre": "Faisons connaissance avec elle.",
+      "olli": "Touche chaque partie. Elle est petite, très ancienne, et pourtant tu vas te reconnaître un peu en elle.",
+      "hotspots": [
+        {
+          "emoji": "📏",
+          "nom": "Petite, mais debout",
+          "fait": "Lucy mesurait à peine plus d'un mètre, la taille d'un enfant. Mais son bassin et ses jambes racontent une chose claire : elle se tenait droite et marchait sur deux pieds, exactement comme toi."
+        },
+        {
+          "emoji": "🧩",
+          "nom": "Quatre squelettes sur dix",
+          "fait": "On a retrouvé environ 40 % de tout son squelette. Ça peut sembler peu, mais pour un fossile de plus de 3 millions d'années, c'est énorme : le plus complet jamais trouvé à l'époque. Un vrai trésor."
+        },
+        {
+          "emoji": "🌳",
+          "nom": "Un pied dans les arbres",
+          "fait": "Ses bras encore longs et puissants intriguent : elle grimpait sans doute aux arbres pour dormir, à l'abri. Un être entre deux mondes — debout sur le sol le jour, réfugié dans les branches la nuit."
+        }
+      ]
+    },
+    {
+      "id": "combien-de-temps",
+      "type": "question",
+      "visuel": "⏳",
+      "titre": "3,2 millions d'années… c'est combien, vraiment ?",
+      "olli": "Ce nombre est trop grand pour le sentir. Essayons. Si chaque année était une seconde, 3,2 millions d'années dureraient combien de temps à peu près ?",
+      "choix": [
+        {
+          "emoji": "⏱️",
+          "texte": "Une petite heure"
+        },
+        {
+          "emoji": "📅",
+          "texte": "Environ 37 jours, plus d'un mois",
+          "bonne": true
+        },
+        {
+          "emoji": "🕰️",
+          "texte": "Une journée entière"
+        }
+      ],
+      "reponseBonne": "Plus d'un mois sans s'arrêter ! Si tu comptais une seconde par année écoulée depuis Lucy, tu compterais jour et nuit pendant 37 jours d'affilée. Voilà l'abîme de temps qui te sépare d'elle. Et pourtant, au fond de ce gouffre, il y a quelqu'un qui marchait debout, comme toi ce matin.",
+      "reponseAutre": "Plus d'un mois sans s'arrêter ! Une seconde par année depuis Lucy, ça ferait 37 jours de comptage jour et nuit. Voilà l'abîme qui te sépare d'elle. Et pourtant, tout au fond, il y a quelqu'un qui marchait debout, comme toi ce matin."
+    },
+    {
+      "id": "la-chanson",
+      "type": "anecdote",
+      "visuel": "🎸",
+      "etiquette": "Histoire vraie",
+      "titre": "La nuit où une chanson a donné son nom",
+      "texte": "24 novembre 1974, vallée de l'Afar, en Éthiopie. Un jeune chercheur, Donald Johanson, rentre vers sa voiture après une matinée de fouilles. Un éclat d'os dépasse du sol : un coude. Puis un crâne, un fémur, des côtes… Le soir, au campement, l'équipe fête cette découverte extraordinaire. Une chanson des Beatles passe en boucle : « Lucy in the Sky with Diamonds ». Quelqu'un lance : « et si on l'appelait Lucy ? » Au matin, le nom était resté. Mais en Éthiopie, on lui a donné un autre nom, plus beau encore : Dinkinesh, qui veut dire « tu es merveilleuse ». 🎶",
+      "olli": "Une chanson d'un soir, un mot éthiopien magnifique. Elle a attendu trois millions d'années sous la terre pour recevoir, en une nuit, deux noms à la fois.",
+      "sourceRef": "src-nom"
+    },
+    {
+      "id": "mission-marche",
+      "type": "mission",
+      "visuel": "🚶",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Marche comme Lucy",
+      "texte": "Lève-toi et traverse la pièce, tranquillement, en faisant attention à ce que fait ton corps : tes deux pieds au sol, ton dos droit, tes mains libres qui ne servent pas à marcher. Ce geste si simple, tu le partages avec Lucy, il y a 3,2 millions d'années. Maintenant essaie de marcher plié en avant, en t'appuyant sur les mains comme un singe : c'est fatigant, et tes mains ne peuvent plus rien porter. Voilà tout ce que la marche debout a changé.",
+      "olli": "Nos mains libres ont pu, plus tard, fabriquer des outils, écrire, dessiner. Tout ça a commencé par une chose : se tenir droit. Raconte ça à quelqu'un. 😄"
+    },
+    {
+      "id": "teaser-recits",
+      "type": "teaser",
+      "visuel": "🗣️",
+      "titre": "Lucy marchait debout. Mais depuis quand raconte-t-on des histoires ?",
+      "texte": "Une question me hante en la regardant. Lucy marchait, grimpait, mangeait, dormait. Mais parlait-elle ? Se racontait-elle des choses le soir, dans les arbres ? On ne le saura sans doute jamais pour elle. Mais quelque part entre elle et toi, sur ce très long chemin, les humains se sont mis à parler, puis à raconter, puis à garder leurs histoires. Comment cette merveille est-elle née ?",
+      "olli": "La réponse t'attend dans le Livre des Mots… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "premiers-recits"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-decouverte",
+      "fait": "Lucy (Australopithecus afarensis) a été découverte le 24 novembre 1974 à Hadar, vallée de l'Awash, en Éthiopie, par Donald Johanson et Tom Gray. Datée d'environ 3,2 millions d'années.",
+      "reference": "https://www.britannica.com/topic/Lucy-fossil",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-bipedie",
+      "fait": "Lucy présente un bassin et des membres inférieurs adaptés à la bipédie, avec un petit cerveau : elle montre que la marche debout a précédé l'augmentation de la taille du cerveau.",
+      "reference": "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-40pourcent",
+      "fait": "Environ 40 % du squelette a été retrouvé, ce qui en faisait le fossile d'ancêtre humain le plus complet et le plus ancien connu à l'époque. Conservé au Musée national d'Éthiopie.",
+      "reference": "https://www.britannica.com/topic/Lucy-fossil",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-nom",
+      "fait": "Le nom « Lucy » vient de la chanson des Beatles « Lucy in the Sky with Diamonds », écoutée au campement le soir de la découverte. Son nom amharique, Dinkinesh, signifie « tu es merveilleuse ».",
+      "reference": "https://www.cmnh.org/learn/science-blog/2024/11/24/a-groundbreaking-discovery-turns-50-celebrating-the-story-of-lucy",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-arbres",
+      "fait": "NUANCE : une étude de 2016 suggère que Lucy grimpait aux arbres (bras robustes), sujet encore débattu. Une autre propose qu'elle serait morte d'une chute d'arbre, contestée par Johanson.",
+      "reference": "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-taille",
+      "fait": "Lucy mesurait environ 1,05-1,10 m et serait morte jeune adulte (estimée entre 11 et 13 ans, âge adulte pour cette espèce).",
+      "reference": "https://malaymail.com/news/life/2025/08/26/human-ancestor-lucy-gets-first-european-showing-in-prague/188858",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    }
+  ]
+}

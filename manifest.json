@@ -493,6 +493,16 @@
       "octets": 10215
     },
     {
+      "id": "temps-lucy",
+      "livre": "le-temps-profond",
+      "titre": "Lucy, l'aïeule qui marchait déjà debout",
+      "resume": "En 1974, en Éthiopie, on a trouvé le squelette d'une femme morte il y a 3,2 millions d'années. Elle marchait debout comme toi. Et on lui a donné le nom d'une chanson.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/temps-lucy.json",
+      "sha256": "b9384851c21853b7414b67d4edc00852bacc862dd429eedab2f1d1ee68324d84",
+      "octets": 9968
+    },
+    {
       "id": "volcans-naissance",
       "livre": "volcans",
       "titre": "Le volcan né dans un champ de maïs",
