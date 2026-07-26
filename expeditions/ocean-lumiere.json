@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "ocean-lumiere",
+  "minEngineVersion": 1,
+  "livre": "ocean",
+  "titre": "La planète où la lumière est vivante",
+  "resume": "Tu crois que la lumière vient du Soleil. Mais dans le plus grand espace de vie de la Terre, la plupart des animaux fabriquent la leur. C'est nous, l'exception.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "yeux-nuit",
+      "texte": "Ces animaux font leur lumière. Mais comment font-ils pour la voir ?",
+      "resolueParLivre": "le-corps"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🔦",
+      "titre": "Exploratrice des Abysses"
+    },
+    "decouvertes": [
+      "La plupart des animaux du grand large fabriquent leur lumière",
+      "Sous 200 mètres, faire de la lumière est la norme",
+      "Cette lumière est presque toujours bleu-vert",
+      "Certains poissons ont une lampe qui pêche pour eux",
+      "C'est peut-être le langage le plus utilisé de la planète"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "qui-fait-lumiere",
+      "type": "question",
+      "visuel": "🔦",
+      "titre": "Dans l'océan profond, combien d'animaux fabriquent leur propre lumière ?",
+      "olli": "On descend sous 200 mètres, là où le soleil ne perce presque plus. Il fait noir, très noir. Pourtant ce n'est pas le vide obscur qu'on imagine. À ton avis, combien d'animaux, là en bas, produisent eux-mêmes de la lumière ?",
+      "choix": [
+        {
+          "emoji": "💡",
+          "texte": "Quelques-uns, des animaux rares"
+        },
+        {
+          "emoji": "🌗",
+          "texte": "À peu près la moitié"
+        },
+        {
+          "emoji": "✨",
+          "texte": "La grande majorité d'entre eux",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "La grande majorité ! Entre 200 et 1000 mètres de profondeur, environ huit animaux sur dix fabriquent leur propre lumière. Faire de la lumière soi-même, là-bas, ce n'est pas un exploit rare : c'est tout à fait normal. C'est même la façon la plus courante de vivre dans l'océan.",
+      "reponseAutre": "La grande majorité d'entre eux ! Entre 200 et 1000 mètres de profondeur, environ huit animaux sur dix fabriquent leur propre lumière. Là-bas, faire sa lumière soi-même n'est pas un exploit rare : c'est parfaitement normal, la façon la plus courante de vivre."
+    },
+    {
+      "id": "a-quoi-ca-sert",
+      "type": "observation",
+      "visuel": "🐟",
+      "visuelAnimation": "nage",
+      "titre": "Descendons voir à quoi sert cette lumière vivante.",
+      "olli": "Touche chaque animal. Chacun a inventé sa façon d'utiliser la lumière — pour manger, pour fuir, ou pour disparaître.",
+      "hotspots": [
+        {
+          "emoji": "🎣",
+          "nom": "La canne à pêche lumineuse",
+          "fait": "La baudroie porte au-dessus de sa gueule une petite lanterne brillante, comme une canne à pêche. Les petits animaux, curieux, s'approchent de la lumière… et se retrouvent juste devant sa bouche grande ouverte."
+        },
+        {
+          "emoji": "💨",
+          "nom": "La fumée qui brille",
+          "fait": "Certains, quand un prédateur attaque, ne crachent pas de l'encre noire mais un nuage de lumière éclatante. Le chasseur reste ébloui, aveuglé une seconde — le temps pour la proie de filer dans le noir."
+        },
+        {
+          "emoji": "🫥",
+          "nom": "S'effacer avec de la lumière",
+          "fait": "Vu d'en bas, un animal fait une ombre sur le peu de clarté qui vient d'en haut. Alors certains s'éclairent le ventre juste ce qu'il faut pour effacer leur ombre. Ils se cachent… en brillant."
+        }
+      ]
+    },
+    {
+      "id": "quelle-couleur",
+      "type": "question",
+      "visuel": "🎨",
+      "titre": "Cette lumière des profondeurs, de quelle couleur est-elle, presque toujours ?",
+      "olli": "Regarde toutes ces lueurs : elles ont presque toutes la même couleur. Ce n'est pas un hasard, c'est une histoire d'eau. Devine laquelle, et pourquoi.",
+      "choix": [
+        {
+          "emoji": "🔴",
+          "texte": "Rouge, la couleur qui porte loin"
+        },
+        {
+          "emoji": "🔵",
+          "texte": "Bleu-vert",
+          "bonne": true
+        },
+        {
+          "emoji": "🟡",
+          "texte": "Jaune, comme le Soleil"
+        }
+      ],
+      "reponseBonne": "Bleu-vert ! Dans l'eau, c'est cette couleur qui voyage le plus loin ; le rouge, lui, est avalé en quelques mètres. Les animaux qui veulent être vus au loin ont donc « choisi » le bleu-vert au fil du temps. Un poisson rusé fait même du rouge : comme les autres ne voient pas le rouge, il éclaire ses proies en secret.",
+      "reponseAutre": "Bleu-vert ! Dans l'eau, c'est cette couleur qui voyage le plus loin ; le rouge est avalé en quelques mètres. Les animaux qui veulent être vus au loin ont donc « choisi » le bleu-vert. Un poisson rusé fait même du rouge : les autres ne le voient pas, il éclaire ses proies en secret."
+    },
+    {
+      "id": "le-renversement",
+      "type": "anecdote",
+      "visuel": "🌍",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Et si c'était nous, l'exception ?",
+      "texte": "Voici une idée qui retourne le cerveau. On croit que la lumière normale, c'est celle du Soleil — le jour, dehors, sur la terre ferme. Mais réfléchissons à la place que ça occupe. Presque tout l'espace où la vie existe sur Terre se trouve dans l'océan profond, dans le noir. Et là, l'immense majorité des animaux se parlent, se cachent et chassent avec de la lumière qu'ils fabriquent eux-mêmes. Résultat : sur l'ensemble de la planète, la lumière vivante est probablement la façon de communiquer la plus répandue de toutes. Nous qui vivons au soleil, ce sont nous, les habitants du cas particulier. 🌊",
+      "olli": "Ça m'a fait quelque chose, la première fois. On se croit au centre, et on découvre qu'on vit dans le petit coin éclairé d'un monde surtout sombre et brillant.",
+      "sourceRef": "src-renversement"
+    },
+    {
+      "id": "mission-noir",
+      "type": "mission",
+      "visuel": "🔦",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fabrique ton océan profond",
+      "texte": "Ce soir, va dans la pièce la plus sombre de la maison, ferme la porte, éteins tout. Reste dans le noir une minute, le temps que tes yeux s'habituent — c'est déjà une leçon : on voit mieux dans le noir qu'on ne croit. Puis allume une seule petite lumière : l'écran d'une montre, une veilleuse, une lampe de poche à travers les doigts. Regarde comme ce point unique attire tout de suite ton regard. Voilà pourquoi une lanterne de baudroie fonctionne si bien.",
+      "olli": "Demande à quelqu'un de deviner combien d'animaux des profondeurs font leur propre lumière. Il dira « quelques-uns ». Tu connais la vraie réponse. 😄"
+    },
+    {
+      "id": "teaser-voir-noir",
+      "type": "teaser",
+      "visuel": "👁️",
+      "titre": "Ils fabriquent de la lumière. Mais avec quels yeux la voient-ils ?",
+      "texte": "Une chose me chiffonne. Tous ces animaux s'envoient des signaux lumineux dans le noir presque total — une lanterne par-ci, un éclair par-là. Mais pour qu'un signal serve, il faut bien que quelqu'un le reçoive. Il leur faut donc des yeux extraordinaires, capables d'attraper la moindre lueur dans l'obscurité. Comment un œil fait-il pour voir presque dans le noir ? Le tien y arrive un peu, la nuit…",
+      "olli": "La réponse t'attend dans le Livre du Corps… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "yeux-nuit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-80pourcent",
+      "fait": "Selon la NOAA, environ 80 % des animaux vivant entre 200 et 1000 mètres de profondeur (zone pélagique) sont bioluminescents : ils produisent leur propre lumière.",
+      "reference": "https://oceanexplorer.noaa.gov/facts/bioluminescence.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-renversement",
+      "fait": "L'essentiel de l'espace habitable de la Terre étant l'océan profond, la bioluminescence est très probablement le mode de communication le plus répandu de la planète (MBARI).",
+      "reference": "https://www.mbari.org/project/bioluminescence-and-fluorescence/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-fonctions",
+      "fait": "Fonctions de la bioluminescence : effrayer un prédateur, leurrer par un nuage lumineux, attirer des proies (leurre de la baudroie), et contre-illumination pour effacer sa silhouette vue d'en bas.",
+      "reference": "https://www.nationalgeographic.com/animals/article/bioluminescence-animals-ocean-glowing",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-couleur",
+      "fait": "La lumière bleu-vert se transmet le mieux dans l'eau de mer ; c'est la couleur dominante. Exception : le poisson « stoplight loosejaw » émet du rouge, invisible pour ses proies.",
+      "reference": "https://latzlab.ucsd.edu/bioluminescence/bioluminescence-questions-and-answers/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-baudroie",
+      "fait": "La femelle de la baudroie abyssale (anglerfish) porte un leurre lumineux au-dessus de sa gueule, éclairé par des bactéries, pour attirer ses proies à portée.",
+      "reference": "https://www.nationalgeographic.com/animals/article/bioluminescence-animals-ocean-glowing",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-chiffres",
+      "fait": "NUANCE : les proportions varient selon la profondeur et la méthode. La MBARI relève 76 % dans la colonne d'eau et 45 % sur le fond, jusqu'à 4000 m ; d'autres études donnent >90 % en zone profonde.",
+      "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6787029/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    }
+  ]
+}

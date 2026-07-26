@@ -373,6 +373,16 @@
       "octets": 9316
     },
     {
+      "id": "ocean-lumiere",
+      "livre": "ocean",
+      "titre": "La planète où la lumière est vivante",
+      "resume": "Tu crois que la lumière vient du Soleil. Mais dans le plus grand espace de vie de la Terre, la plupart des animaux fabriquent la leur. C'est nous, l'exception.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/ocean-lumiere.json",
+      "sha256": "61aa5150872f5c242096f9c20f06e0fdd0845d050b885ff745aa769ea5ac88fb",
+      "octets": 10165
+    },
+    {
       "id": "ocean-meduse",
       "livre": "ocean",
       "titre": "La méduse qui cultive son jardin",
