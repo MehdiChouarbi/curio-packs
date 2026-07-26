@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "volcans-tambora",
+  "minEngineVersion": 1,
+  "livre": "volcans",
+  "titre": "Le volcan qui a écrit un roman",
+  "resume": "En 1815, un volcan explose en Indonésie. L'année suivante, à l'autre bout du monde, l'été ne vient pas. Et une jeune fille de 18 ans écrit un monstre célèbre.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "origine-ecriture",
+      "texte": "Une histoire née d'un été pluvieux… mais depuis quand se raconte-t-on des histoires ?",
+      "resolueParLivre": "civilisations"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🌋",
+      "titre": "Témoin de l'Année Sans Été"
+    },
+    "decouvertes": [
+      "Le Tambora est la plus grosse éruption de l'histoire écrite",
+      "Sa poussière a fait baisser la température du monde entier",
+      "En 1816, il a neigé en juin en Europe et en Amérique",
+      "Coincée par la pluie, Mary Shelley a écrit Frankenstein",
+      "Un volcan peut changer le climat de toute la planète"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "jusqu-ou",
+      "type": "question",
+      "visuel": "🌋",
+      "titre": "Un volcan explose sur une île. Jusqu'où peut aller son effet ?",
+      "olli": "En avril 1815, le volcan Tambora explose sur une petite île d'Indonésie. C'est la plus grosse éruption de toute l'histoire écrite. Une question simple : jusqu'où, à ton avis, cette explosion a-t-elle pu se faire sentir ?",
+      "choix": [
+        {
+          "emoji": "🏝️",
+          "texte": "Sur l'île, et c'est déjà énorme"
+        },
+        {
+          "emoji": "🌏",
+          "texte": "Sur toute la région autour"
+        },
+        {
+          "emoji": "🌍",
+          "texte": "Sur la planète entière, un an plus tard",
+          "bonne": true
+        }
+      ],
+      "reponseBonne": "La planète entière ! Le volcan a projeté une poussière si fine et si haute qu'elle a fait le tour du monde dans le ciel. Cette voile invisible a renvoyé une partie de la lumière du Soleil vers l'espace. Résultat : l'année suivante, la Terre entière a eu un peu plus froid. Un volcan capable de refroidir le monde.",
+      "reponseAutre": "Sur la planète entière ! Le volcan a projeté une poussière si fine et si haute qu'elle a fait le tour du monde. Cette voile invisible a renvoyé une partie de la lumière du Soleil vers l'espace. L'année suivante, la Terre entière a eu un peu plus froid — un volcan qui refroidit le monde."
+    },
+    {
+      "id": "annee-sans-ete",
+      "type": "observation",
+      "visuel": "❄️",
+      "visuelAnimation": "flotte",
+      "titre": "Voici 1816 : l'année où l'été n'est jamais venu.",
+      "olli": "Touche chaque partie pour voir ce qu'a vécu le monde, un an après l'explosion — sans que personne comprenne pourquoi.",
+      "hotspots": [
+        {
+          "emoji": "🌨️",
+          "nom": "De la neige en plein juin",
+          "fait": "En juin 1816, il a neigé sur la Nouvelle-Angleterre, en Amérique. En juillet, des lacs ont gelé. En plein été, les gens sortaient couverts comme en hiver. On a appelé 1816 « l'année sans été »."
+        },
+        {
+          "emoji": "🌾",
+          "nom": "Les récoltes perdues",
+          "fait": "Sans chaleur ni soleil, les plantes n'ont pas poussé. Les récoltes ont manqué en Europe, en Amérique, en Asie. Beaucoup ont eu faim cette année-là, sans savoir qu'un volcan lointain en était la cause."
+        },
+        {
+          "emoji": "🌅",
+          "nom": "Des couchers de soleil étranges",
+          "fait": "La poussière dans le ciel colorait les soirs de rouge et d'orange irréels. Des peintres de l'époque ont représenté ces ciels flamboyants — sans savoir qu'ils peignaient les cendres d'un volcan à l'autre bout du monde."
+        }
+      ]
+    },
+    {
+      "id": "coinces-dedans",
+      "type": "question",
+      "visuel": "🏚️",
+      "titre": "Au bord d'un lac, la pluie enferme des amis. Qu'inventent-ils ?",
+      "olli": "Été 1816, au bord d'un lac en Suisse. Une jeune fille de 18 ans, Mary, est en vacances avec des amis. Mais il pleut sans arrêt — l'année sans été. Impossible de sortir. Alors, pour passer ces longues soirées, que décident-ils de faire ?",
+      "choix": [
+        {
+          "emoji": "🎲",
+          "texte": "Des jeux de société toute la journée"
+        },
+        {
+          "emoji": "👻",
+          "texte": "Un concours d'histoires qui font peur",
+          "bonne": true
+        },
+        {
+          "emoji": "😴",
+          "texte": "Dormir en attendant le beau temps"
+        }
+      ],
+      "reponseBonne": "Un concours d'histoires ! Coincés par la pluie, à la lueur des bougies, ils se lancent un défi : que chacun invente l'histoire la plus effrayante possible. Mary cherche, cherche… puis imagine un savant qui fabrique une créature vivante à partir de morceaux sans vie. Ce sera Frankenstein, un des livres les plus célèbres du monde.",
+      "reponseAutre": "Un concours d'histoires qui font peur ! Coincés par la pluie, à la lueur des bougies, ils se défient d'inventer l'histoire la plus effrayante. Mary imagine un savant qui fabrique une créature vivante à partir de morceaux sans vie : ce sera Frankenstein, un des livres les plus célèbres du monde."
+    },
+    {
+      "id": "le-lien",
+      "type": "anecdote",
+      "visuel": "📖",
+      "etiquette": "Histoire vraie",
+      "titre": "Un volcan, un été gris, un monstre",
+      "texte": "Repense à toute la chaîne. Un volcan explose en Indonésie en 1815. Sa poussière fait le tour de la Terre et vole la chaleur de l'été 1816. À des milliers de kilomètres, en Suisse, la pluie enferme Mary Shelley et ses amis pendant des semaines. Pour tromper l'ennui, ils écrivent des histoires de peur — et naît Frankenstein. Une éruption a mené, de fil en fil, à un des romans les plus lus de tous les temps. Les scientifiques restent prudents : on ne peut pas dire que le livre n'aurait jamais existé sans le volcan. Mais l'été gris qui l'a vu naître, lui, était bien l'œuvre du Tambora. 🌋",
+      "olli": "J'adore cette histoire parce qu'elle montre une chose : tout est relié. Un volcan et un roman, ça semble n'avoir aucun rapport… jusqu'à ce qu'on suive le fil.",
+      "sourceRef": "src-lien"
+    },
+    {
+      "id": "mission-froid",
+      "type": "mission",
+      "visuel": "🕯️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Une soirée comme en 1816",
+      "texte": "Un soir, propose à ta famille une « soirée année sans été » : on éteint les écrans, on allume une bougie ou une petite lampe, et chacun invente une histoire à raconter aux autres, comme Mary et ses amis. Pas besoin qu'elle fasse peur — juste une histoire à toi. Pendant que tu la racontes, souviens-toi que le plus célèbre de ces récits est né exactement comme ça, un soir de pluie, à cause d'un volcan.",
+      "olli": "Demande ensuite à quelqu'un : « tu savais qu'un volcan avait fait naître Frankenstein ? » Tu vas voir la tête qu'il fait. 😄"
+    },
+    {
+      "id": "teaser-histoires",
+      "type": "teaser",
+      "visuel": "📜",
+      "titre": "Ils ont passé la nuit à se raconter des histoires. Depuis quand fait-on ça ?",
+      "texte": "Ce qui me frappe, c'est leur premier réflexe. Coincés, sans rien à faire, qu'inventent-ils ? Des histoires. Comme les humains le font depuis toujours, autour d'un feu, dans le noir. Raconter est peut-être aussi vieux que parler. Mais un jour, on a voulu que ces histoires ne s'envolent plus. Qui a eu, le premier, l'idée de poser une histoire pour qu'elle dure ?",
+      "olli": "La réponse t'attend dans le Livre des Civilisations… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "origine-ecriture"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-tambora",
+      "fait": "L'éruption du Tambora (île de Sumbawa, Indonésie) débute le 5 avril 1815 ; c'est la plus grande éruption documentée de l'histoire humaine, d'indice d'explosivité volcanique 7.",
+      "reference": "https://www.britannica.com/event/Haunted-Summer-of-1816",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-aerosol",
+      "fait": "Le dioxyde de soufre a formé une couche d'aérosols dans la stratosphère qui a réfléchi la lumière solaire pendant environ deux ans, abaissant la température moyenne de l'hémisphère nord.",
+      "reference": "https://www.farmersalmanac.com/the-year-without-a-summer",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-1816",
+      "fait": "1816, « année sans été » : neige en Nouvelle-Angleterre en juin, lacs gelés en juillet, récoltes détruites et famines dans l'hémisphère nord (Europe, Amérique, Chine, Inde).",
+      "reference": "https://www.farmersalmanac.com/the-year-without-a-summer",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-diodati",
+      "fait": "En juin 1816, à la Villa Diodati (lac Léman), Mary Godwin (18 ans), Percy Shelley, Lord Byron et John Polidori, confinés par la pluie, lancent un concours d'histoires de fantômes.",
+      "reference": "https://www.britannica.com/event/Haunted-Summer-of-1816",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-frankenstein",
+      "fait": "Mary Shelley y conçoit Frankenstein (publié en 1818) ; Polidori y écrit The Vampyre. Le premier jet naît à Genève, l'essentiel du roman est achevé ensuite en Angleterre.",
+      "reference": "https://volcanodb.com/year-without-summer",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-lien",
+      "fait": "NUANCE : affirmer que Frankenstein n'aurait pas existé sans le Tambora est indémontrable. Ce qui est établi, ce sont les conditions météo de son écriture, produites par l'éruption.",
+      "reference": "https://spacedaily.com/k-the-1815-eruption-of-mount-tambora-in-indonesia-the-largest-documented-volcanic-eruption-in-human-history-killed-approximately-90000-people-directly-and-produced-the-year-without-a-summer-in-1816/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    }
+  ]
+}

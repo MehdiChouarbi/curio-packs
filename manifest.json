@@ -481,6 +481,16 @@
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/volcans-naissance.json",
       "sha256": "5c0518a0bdca9e519f312eadfb05cf6cb6cc577c9731665920853924c3497916",
       "octets": 9160
+    },
+    {
+      "id": "volcans-tambora",
+      "livre": "volcans",
+      "titre": "Le volcan qui a écrit un roman",
+      "resume": "En 1815, un volcan explose en Indonésie. L'année suivante, à l'autre bout du monde, l'été ne vient pas. Et une jeune fille de 18 ans écrit un monstre célèbre.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/volcans-tambora.json",
+      "sha256": "7d24e766f45ac91b79421719229d17702ec0a5999ec8b9c5a68b313d9c949c4c",
+      "octets": 10436
     }
   ]
 }
