@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "terre-continents",
+  "minEngineVersion": 1,
+  "livre": "la-terre",
+  "titre": "Les continents sont des voyageurs",
+  "resume": "Regarde une carte : l'Afrique et l'Amérique du Sud s'emboîtent comme deux pièces de puzzle. Un homme a dit pourquoi. On s'est moqué de lui pendant cinquante ans.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "terre-tremble",
+      "texte": "Si les continents bougent vraiment, est-ce que ça secoue le sol par moments ?",
+      "resolueParLivre": "volcans"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🧩",
+      "titre": "Assembleuse de Continents"
+    },
+    "decouvertes": [
+      "L'Afrique et l'Amérique du Sud s'emboîtent presque",
+      "Autrefois, les continents formaient un seul bloc",
+      "Ils dérivent encore, quelques centimètres par an",
+      "Un même fossile se trouve des deux côtés de l'océan",
+      "On a ri de Wegener avant de lui donner raison"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "le-puzzle",
+      "type": "question",
+      "visuel": "🗺️",
+      "titre": "Pourquoi l'Afrique et l'Amérique du Sud s'emboîtent-elles si bien ?",
+      "olli": "Prends une carte du monde et regarde bien. La côte ouest de l'Afrique et la côte est de l'Amérique du Sud ont presque exactement la même forme — comme deux pièces de puzzle. Coïncidence, ou pas ? À ton avis, pourquoi ?",
+      "choix": [
+        {
+          "emoji": "🎲",
+          "texte": "C'est un pur hasard"
+        },
+        {
+          "emoji": "🧩",
+          "texte": "Parce qu'elles étaient collées, autrefois",
+          "bonne": true
+        },
+        {
+          "emoji": "🌊",
+          "texte": "Parce que la mer les a taillées pareil"
+        }
+      ],
+      "reponseBonne": "Elles étaient collées ! Il y a très longtemps, tous les continents ne formaient qu'un seul bloc géant. Puis il s'est fendu, et les morceaux se sont éloignés, très lentement, sur des millions d'années. L'Afrique et l'Amérique du Sud s'emboîtent parce qu'elles étaient un jour côte à côte, comme les deux moitiés d'une déchirure.",
+      "reponseAutre": "Parce qu'elles étaient collées autrefois ! Il y a très longtemps, tous les continents ne formaient qu'un seul bloc géant. Il s'est fendu, et les morceaux se sont éloignés très lentement, sur des millions d'années. Elles s'emboîtent parce qu'elles étaient un jour côte à côte."
+    },
+    {
+      "id": "les-preuves",
+      "type": "observation",
+      "visuel": "🧭",
+      "visuelAnimation": "flotte",
+      "titre": "Regardons les indices que la Terre a laissés.",
+      "olli": "Touche chaque partie. La forme des côtes ne suffit pas à prouver : il fallait d'autres indices. Les voici.",
+      "hotspots": [
+        {
+          "emoji": "🦎",
+          "nom": "Le même animal des deux côtés",
+          "fait": "On a trouvé le fossile d'un petit reptile, le Mésosaurus, en Afrique ET en Amérique du Sud. Or il vivait dans l'eau douce et ne pouvait pas traverser un océan salé. Une seule explication : les deux terres se touchaient."
+        },
+        {
+          "emoji": "🪨",
+          "nom": "Des roches qui se répondent",
+          "fait": "Certaines montagnes d'Afrique et d'Amérique du Sud sont faites des mêmes roches, du même âge, comme une phrase coupée en deux. Rapproche les continents, et la phrase se lit d'un bout à l'autre."
+        },
+        {
+          "emoji": "❄️",
+          "nom": "De la glace au mauvais endroit",
+          "fait": "On a trouvé des traces d'anciens glaciers dans des pays aujourd'hui très chauds, comme l'Inde. Impossible sur place ! Mais si ces terres étaient jadis groupées près du pôle Sud, tout s'explique."
+        }
+      ]
+    },
+    {
+      "id": "combien-vite",
+      "type": "question",
+      "visuel": "💅",
+      "titre": "Les continents bougent-ils encore aujourd'hui ? Et à quelle vitesse ?",
+      "olli": "Voici ce qui surprend le plus : ce voyage n'est pas fini. Les continents dérivent encore, en ce moment même, sous tes pieds. Mais à quelle vitesse, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "🚗",
+          "texte": "Vite, comme une voiture"
+        },
+        {
+          "emoji": "🐌",
+          "texte": "Comme poussent tes ongles",
+          "bonne": true
+        },
+        {
+          "emoji": "🗿",
+          "texte": "Ils ne bougent plus du tout"
+        }
+      ],
+      "reponseBonne": "Comme poussent tes ongles ! Quelques centimètres par an, à peine. C'est pour ça qu'on ne sent rien : à cette lenteur, il faut des millions d'années pour déplacer un continent. Mais c'est bien réel. En ce moment, l'Amérique s'éloigne de l'Europe, un peu plus chaque année. L'océan entre eux s'élargit.",
+      "reponseAutre": "Comme poussent tes ongles ! Quelques centimètres par an, à peine. C'est pour ça qu'on ne sent rien : à cette lenteur, il faut des millions d'années pour déplacer un continent. Mais c'est réel : l'Amérique s'éloigne de l'Europe un peu plus chaque année."
+    },
+    {
+      "id": "wegener",
+      "type": "anecdote",
+      "visuel": "🧑‍🔬",
+      "etiquette": "Histoire vraie",
+      "titre": "L'homme dont on a ri pendant cinquante ans",
+      "texte": "En 1912, un savant allemand, Alfred Wegener, ose dire tout haut ce que la carte murmure : les continents bougent, ils étaient jadis réunis. Il rassemble les fossiles, les roches, les glaciers — tout concorde. Mais il ne sait pas expliquer QUI pousse les continents. Alors les autres savants se moquent : « des terres qui se promènent, quelle idée ! » Wegener meurt en 1930 au Groenland, sans avoir été cru. Ce n'est que dans les années 1960, trente ans après sa mort, qu'on découvre le moteur caché et qu'on lui donne raison. Il avait vu juste, avec un demi-siècle d'avance. 🧭",
+      "olli": "Avoir raison trop tôt, c'est parfois avoir tort aux yeux des autres. Wegener n'a pas gagné de son vivant. Mais aujourd'hui, chaque livre de sciences lui donne raison.",
+      "sourceRef": "src-wegener"
+    },
+    {
+      "id": "mission-puzzle",
+      "type": "mission",
+      "visuel": "✂️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Reconstitue le puzzle des continents",
+      "texte": "Trouve une carte du monde — dans un livre, un atlas, ou dessinée à la main. Avec du papier calque ou en la recopiant, découpe l'Afrique et l'Amérique du Sud. Pose-les côte à côte et fais-les glisser l'une vers l'autre : regarde comme elles s'emboîtent. Tu viens de refaire, avec des ciseaux, ce que Wegener a compris en regardant une carte il y a plus de cent ans. Cherche ensuite les autres continents : lesquels crois-tu qu'ils touchaient ?",
+      "olli": "Montre ton puzzle à quelqu'un et demande-lui s'il savait que l'Afrique et l'Amérique étaient collées, autrefois. La plupart des gens l'ignorent. 😄"
+    },
+    {
+      "id": "teaser-seismes",
+      "type": "teaser",
+      "visuel": "🌋",
+      "titre": "Si d'énormes plaques glissent sans arrêt… que se passe-t-il quand elles se cognent ?",
+      "texte": "Une chose me travaille. Les continents reposent sur d'immenses plaques de roche qui glissent lentement. Mais elles ne glissent pas dans le vide : elles se poussent, se frottent, s'accrochent les unes aux autres. Et quand deux plaques géantes se coincent puis se libèrent d'un coup… le sol lui-même doit trembler, non ? Là où la Terre bouge le plus, il se passe forcément des choses spectaculaires.",
+      "olli": "La réponse t'attend dans le Livre des Volcans… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "terre-tremble"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fit",
+      "fait": "Alfred Wegener remarque en 1912 que les côtes de l'Amérique du Sud et de l'Afrique s'emboîtent ; il propose qu'elles formaient un supercontinent, la Pangée (« toutes les terres »).",
+      "reference": "https://www.britannica.com/biography/Alfred-Wegener",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-mesosaurus",
+      "fait": "Le fossile du Mésosaurus, reptile d'eau douce d'environ 1 m, se trouve en Afrique australe et en Amérique du Sud ; il n'aurait pas pu traverser l'océan Atlantique salé.",
+      "reference": "https://education.nationalgeographic.org/resource/continental-drift/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-preuves",
+      "fait": "Wegener s'appuie aussi sur des strates rocheuses continues d'un continent à l'autre et sur des traces glaciaires du Permien retrouvées en Amérique du Sud, Afrique, Inde, Antarctique et Australie.",
+      "reference": "https://rwu.pressbooks.pub/webboceanography/chapter/4-1-alfred-wegener-and-the-theory-of-plate-tectonics/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-wegener",
+      "fait": "Faute de mécanisme convaincant, la dérive des continents est rejetée puis moquée. Wegener meurt au Groenland en 1930. L'idée est acceptée dans les années 1960 via la tectonique des plaques.",
+      "reference": "https://www.smithsonianmag.com/science-nature/when-continental-drift-was-considered-pseudoscience-90353214/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-vitesse",
+      "fait": "Les plaques se déplacent de quelques centimètres par an, un ordre de grandeur comparable à la croissance des ongles ; l'Atlantique s'élargit ainsi progressivement.",
+      "reference": "https://education.nationalgeographic.org/resource/continental-drift-versus-plate-tectonics/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "src-mecanisme",
+      "fait": "NUANCE : Wegener avait raison sur le mouvement mais tort sur son moteur. Le mécanisme réel (expansion des fonds océaniques, tectonique des plaques) n'a été établi que dans les années 1960.",
+      "reference": "https://geo.libretexts.org/Bookshelves/Geology/Book:_An_Introduction_to_Geology_(Johnson_Affolter_Inkenbrandt_and_Mosher)/02:_Plate_Tectonics/2.01:_Alfred_Wegeners_Continental_Drift_Hypothesis",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-26"
+    }
+  ]
+}

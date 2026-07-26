@@ -513,6 +513,16 @@
       "octets": 9968
     },
     {
+      "id": "terre-continents",
+      "livre": "la-terre",
+      "titre": "Les continents sont des voyageurs",
+      "resume": "Regarde une carte : l'Afrique et l'Amérique du Sud s'emboîtent comme deux pièces de puzzle. Un homme a dit pourquoi. On s'est moqué de lui pendant cinquante ans.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/terre-continents.json",
+      "sha256": "373a3d678ad08aba419db3ac7930fe3ba480b22e896a7df6cddabfa06e434220",
+      "octets": 10427
+    },
+    {
       "id": "volcans-naissance",
       "livre": "volcans",
       "titre": "Le volcan né dans un champ de maïs",
