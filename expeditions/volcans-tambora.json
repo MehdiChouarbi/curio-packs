@@ -17,7 +17,9 @@
       "resolueParLivre": "civilisations"
     }
   ],
-  "questionsResolues": [],
+  "questionsResolues": [
+    "terres-de-feu"
+  ],
   "passeport": {
     "tampon": {
       "emoji": "🌋",
