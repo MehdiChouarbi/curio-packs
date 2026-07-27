@@ -143,6 +143,16 @@
       "octets": 5591
     },
     {
+      "id": "corps-cerveau",
+      "livre": "corps",
+      "titre": "La cabine de pilotage",
+      "resume": "Monte dans le poste de commande qui imagine, décide, ressent et coordonne tes gestes.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/corps-cerveau.json",
+      "sha256": "9f773177765834e53edf39525a5a2192d923f0278f56825b77ddbcd805bd2af7",
+      "octets": 5098
+    },
+    {
       "id": "corps-langues",
       "livre": "le-corps",
       "titre": "Le super-pouvoir que tu as perdu à un an",

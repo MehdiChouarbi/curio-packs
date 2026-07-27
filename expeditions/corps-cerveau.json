@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "corps-cerveau",
+  "minEngineVersion": 1,
+  "livre": "corps",
+  "titre": "La cabine de pilotage",
+  "resume": "Monte dans le poste de commande qui imagine, décide, ressent et coordonne tes gestes.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "q-corps-illusions",
+      "texte": "Pourquoi ton cerveau peut-il se faire piéger par tes yeux ?",
+      "resolueParLivre": "corps"
+    }
+  ],
+  "questionsResolues": [
+    "q-corps-cerveau"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🧠",
+      "titre": "Pilote du cerveau"
+    },
+    "decouvertes": [
+      "Le cerveau reste actif jour et nuit",
+      "Les nerfs transportent des messages",
+      "Le cerveau utilise des raccourcis",
+      "Phineas Gage a aidé à comprendre le rôle du cerveau frontal"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "devinette",
+      "type": "question",
+      "visuel": "🧠",
+      "titre": "Ton cerveau travaille surtout...",
+      "olli": "Une question pour ouvrir la porte. Fais confiance à ton intuition d'explorateur !",
+      "choix": [
+        {
+          "emoji": "🔎",
+          "texte": "Tout le temps",
+          "bonne": true
+        },
+        {
+          "emoji": "✨",
+          "texte": "Seulement en classe"
+        },
+        {
+          "emoji": "🧭",
+          "texte": "Uniquement la nuit"
+        }
+      ],
+      "reponseBonne": "Oui ! Il travaille même quand tu dors, pour surveiller, rêver et garder ton corps en route.",
+      "reponseAutre": "Il travaille tout le temps. Même au repos, il garde une incroyable activité."
+    },
+    {
+      "id": "observation",
+      "type": "observation",
+      "visuel": "🧠",
+      "visuelAnimation": "flotte",
+      "titre": "Un centre aux mille messages",
+      "olli": "Touche les zones pour découvrir leurs missions.",
+      "hotspots": [
+        {
+          "emoji": "⚡",
+          "nom": "Nerfs",
+          "fait": "Ils transportent des messages électriques entre le cerveau, la moelle épinière et le corps."
+        },
+        {
+          "emoji": "🎛️",
+          "nom": "Commandes",
+          "fait": "Certaines zones aident à bouger, parler, écouter, voir ou sentir."
+        },
+        {
+          "emoji": "💭",
+          "nom": "Mémoire",
+          "fait": "Ton cerveau range des souvenirs, mais il les reconstruit parfois quand tu les rappelles."
+        }
+      ]
+    },
+    {
+      "id": "histoire-cerveau",
+      "type": "anecdote",
+      "visuel": "📜",
+      "etiquette": "Histoire vraie",
+      "titre": "L'accident de Phineas",
+      "texte": "En 1848, Phineas Gage survécut à un grave accident : une barre de métal traversa l'avant de son crâne. Les médecins observèrent ensuite des changements dans son comportement. Son histoire a aidé les scientifiques à comprendre que certaines zones du cerveau participent à la personnalité et aux décisions.",
+      "olli": "J'adore ces moments où une vraie enquête change notre façon de regarder le corps.",
+      "sourceRef": "src-gage"
+    },
+    {
+      "id": "question-surprise",
+      "type": "question",
+      "visuel": "❓",
+      "titre": "Pour décider vite, le cerveau utilise...",
+      "olli": "Deuxième halte ! Cette fois, cherche l'indice caché dans ce que tu viens d'observer.",
+      "choix": [
+        {
+          "emoji": "🔎",
+          "texte": "Des indices",
+          "bonne": true
+        },
+        {
+          "emoji": "✨",
+          "texte": "Des recettes de cuisine"
+        },
+        {
+          "emoji": "🧭",
+          "texte": "Des antennes"
+        }
+      ],
+      "reponseBonne": "Exact. Il rassemble des indices et fait parfois des raccourcis très rapides.",
+      "reponseAutre": "Il utilise des indices. Ces raccourcis sont utiles, mais ils peuvent aussi tromper."
+    },
+    {
+      "id": "mission-main",
+      "type": "mission",
+      "visuel": "🧭",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "À toi de jouer, sans écran !",
+      "texte": "Ferme les yeux et touche ton nez avec un doigt, lentement. Puis essaie avec l'autre main. Ton cerveau reçoit des messages de position et corrige le mouvement sans que tu voies la scène.",
+      "olli": "Prends ton temps, observe vraiment, puis reviens avec ton indice de terrain."
+    },
+    {
+      "id": "teaser-illusions",
+      "type": "teaser",
+      "visuel": "🚪",
+      "titre": "Le piège des yeux",
+      "texte": "Si ton cerveau reconstruit le monde à partir d'indices, que se passe-t-il quand les indices sont malicieux ?",
+      "olli": "Ton passeport gagne un nouveau tampon. La prochaine porte commence déjà à briller...",
+      "questionOuverteRef": "q-corps-illusions"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-gage",
+      "fait": "Le cas de Phineas Gage a marqué l'histoire des liens entre lésions cérébrales frontales et comportement.",
+      "reference": "https://www.britannica.com/biography/Phineas-Gage",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-27"
+    }
+  ]
+}
