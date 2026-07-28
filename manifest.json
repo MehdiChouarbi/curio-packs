@@ -384,12 +384,12 @@
     },
     {
       "id": "nombres-dix",
-      "livre": "Les Nombres",
+      "livre": "les-nombres",
       "titre": "Pourquoi comptons-nous jusqu'à dix ?",
       "resume": "Tu comptes par dix sans y penser. Mais ce n'est pas la seule façon : d'autres peuples ont compté par vingt, ou par soixante. Et ça se cache encore dans ta montre.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-dix.json",
-      "sha256": "1fc752147ffc034a5c57f737183b2ebab704432813c938c86df96103031e3c4c",
+      "sha256": "2a9660a19c3f23e46dc11a2081ba8af22b503f39acaf77736a2855af16939519",
       "octets": 9908
     },
     {
