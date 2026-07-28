@@ -40,13 +40,8 @@
     {
       "id": "les-nombres",
       "titre": "Le Livre des Nombres",
-      "emoji": "📘"
-    },
-    {
-      "id": "Les Nombres",
-      "titre": "Le Livre des Nombres",
-      "emoji": "🔢",
-      "cover": "les_nombres"
+      "emoji": "📘",
+      "cover": null
     },
     {
       "id": "ocean",
