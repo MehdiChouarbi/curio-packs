@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-route-soie",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "La grande route des idées",
   "resume": "Suis les chemins de la Route de la Soie et découvre comment marchandises, inventions et histoires ont voyagé entre les civilisations.",
   "age": {
@@ -14,7 +14,7 @@
     {
       "id": "melanges-cultures",
       "texte": "Comment les rencontres entre peuples transforment-elles les cultures ?",
-      "resolueParLivre": "mille-cultures"
+      "resolueParLivre": "civilisations"
     }
   ],
   "questionsResolues": [

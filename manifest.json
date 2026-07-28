@@ -9,138 +9,138 @@
       "resume": "Découvre les peuples amazighs et la cité de Carthage, au cœur des échanges entre l'Afrique, l'Europe et la Méditerranée.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-berberes-carthage.json",
-      "sha256": "0f454d2993ce380bf30d66b6a8a67f88e24178b398682c977e9ee3a137d255ea",
-      "octets": 5862
+      "sha256": "0ef09eda22d66085b295121ed7e238e279862b5e899f9d211d8ab24e2826eb57",
+      "octets": 5859
     },
     {
       "id": "civilisations-chine",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "La Chine des grandes inventions",
       "resume": "Explore la Chine ancienne et découvre comment ses inventeurs ont transformé le monde avec le papier, la boussole et bien d'autres découvertes.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-chine.json",
-      "sha256": "07e4f4556cdc3a9a9a0679a7bfcdd394ded9b049d2812a71cf8e294868a78492",
-      "octets": 5826
+      "sha256": "35a14d8e265df1af9714ec2929c92e30cccdd64cff1e60aad4d2a108be16d157",
+      "octets": 5829
     },
     {
       "id": "civilisations-egypte",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "Les secrets de l'Égypte ancienne",
       "resume": "Pars au bord du Nil et découvre comment les pharaons, les bâtisseurs et les scribes ont créé l'une des civilisations les plus fascinantes de l'histoire.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-egypte.json",
-      "sha256": "a1997266fffe378825ca6eef95140d1187ad215796901295876296bbe9e82b9a",
-      "octets": 6236
+      "sha256": "54ab05b23ddc6273685c923a8a1b131b63be5fd13aa70b4dbc2cc360c435ac75",
+      "octets": 6241
     },
     {
       "id": "civilisations-feu",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "Le feu, première révolution",
       "resume": "Découvre comment une simple flamme a changé la vie des humains et leur a permis de transformer leur monde.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-feu.json",
-      "sha256": "24b6e880c8ef451c061ad275515530dc28e59a09579185e9c3220ed2fa371f6d",
-      "octets": 6427
+      "sha256": "62e3b7625171ab78ce620101341b5976d99062287c06273bc4031ae4f3aafe10",
+      "octets": 6431
     },
     {
       "id": "civilisations-grands-explorateurs",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "Les voyageurs du bout du monde",
       "resume": "Découvre les grands voyageurs qui ont parcouru la planète et comment leurs voyages ont rapproché les peuples.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-grands-explorateurs.json",
-      "sha256": "6f6794fb0bbe33b577f407c7f88e5181e41dfba579ca369e1be6f8a191dddf04",
+      "sha256": "7272cf7df75781930cfbbbf7be9e5d0c775d6a97afad637a219944f86edd5f14",
       "octets": 5990
     },
     {
       "id": "civilisations-grece",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "La Grèce, le laboratoire des idées",
       "resume": "Explore la Grèce antique et découvre comment des philosophes, des scientifiques et des citoyens ont changé notre façon de penser le monde.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-grece.json",
-      "sha256": "b8456aa555ae9a03d45cd69b0d76f9d3aed1ddf982587a2519b6a97b06e1c265",
-      "octets": 6128
+      "sha256": "449e817042d2c3b8642d85a6830e90cb4311a9db213baa1991544375960d2ae8",
+      "octets": 6134
     },
     {
       "id": "civilisations-incas-azteques",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "Les empires des Amériques",
       "resume": "Pars à la découverte des Incas et des Aztèques, deux grandes civilisations américaines qui ont construit des villes, des routes et des systèmes incroyables.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-incas-azteques.json",
-      "sha256": "df3f03df7c4e71006d24dee8de3eedcaf022c3e5806d7192ca9af077a876014c",
+      "sha256": "2e7c03b933c66d4a182b603ac6bec3fbc3976d77483d333fe47a0b02240fb548",
       "octets": 6221
     },
     {
       "id": "civilisations-inde",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "L'Inde et le secret des nombres",
       "resume": "Découvre comment les savants de l'Inde ancienne ont transformé les mathématiques avec le zéro et un nouveau système de nombres.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-inde.json",
-      "sha256": "0b7b60787df1f64966d5efe95fb3cea6b3f305708cc1d531dacd88eb3a81ab32",
-      "octets": 5893
+      "sha256": "ae1824e883df0148536705d70bf5fdd019f52d3ed5c3dc45089b2998764ee901",
+      "octets": 5899
     },
     {
       "id": "civilisations-mayas",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "Les Mayas, observateurs du ciel",
       "resume": "Découvre la civilisation maya et ses incroyables connaissances en astronomie, en mathématiques et en architecture.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-mayas.json",
-      "sha256": "0dfe0403bb9b8e0a2189333e98039c61d5a1d7b3f5067ca346f93817fc81d739",
-      "octets": 5527
+      "sha256": "993ee8446761e0a2af0a56ead622ab365fe5a06f3bb297de57889e91b3793a29",
+      "octets": 5533
     },
     {
       "id": "civilisations-mesopotamie",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "La naissance des premières villes",
       "resume": "Remonte le temps jusqu'à la Mésopotamie et découvre comment les humains ont créé les premières villes, les premières écritures et de nouvelles façons de vivre ensemble.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-mesopotamie.json",
-      "sha256": "6d77ad6d2657aaf1f67344531be0875c3dfe268a7d2cdbc0674c2eb2437510ef",
+      "sha256": "cde7089499f8078f0b1e89e1b6ec326688e01a64846c4264d294b4b3a48effa7",
       "octets": 6434
     },
     {
       "id": "civilisations-mille-cultures",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "Mille façons de vivre, une seule famille",
       "resume": "Partout sur Terre, les humains ont eu les mêmes problèmes et inventé des solutions totalement différentes. Pourtant, nous sommes presque identiques.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-mille-cultures.json",
-      "sha256": "1e87ab13d18de2e96a6d27a86fda336561da0dd99bb13a9033712bad53dbcbb7",
+      "sha256": "836144ef96009ca61b1a3a691cce324eb401764a32f24d72dc87990ed7f0aa08",
       "octets": 9145
     },
     {
       "id": "civilisations-premiers-humains",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "Les premiers pas de l'humanité",
       "resume": "Pars sur les traces des premiers humains et découvre comment nos ancêtres ont appris à survivre, inventer et explorer le monde.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-premiers-humains.json",
-      "sha256": "1763c491acd44972c073ee83bc865fdd03aefa6b48b4547fea871dfca5ed7500",
-      "octets": 6693
+      "sha256": "48c9058b8592c510af0c8f29f5082e707c050ef7497e73036431c94d50e01f4a",
+      "octets": 6698
     },
     {
       "id": "civilisations-rome",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "Rome, l'empire des routes",
       "resume": "Découvre comment une petite ville est devenue un immense empire grâce à ses routes, ses inventions et son organisation.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-rome.json",
-      "sha256": "59794740c50aa328fec82a06a1d96398894a1453132f90b8426e7be2665f6744",
-      "octets": 6044
+      "sha256": "0bc32ea6776eac9bce5493fe9ad7c925712df275beca61a50aa9b63927051fc3",
+      "octets": 6041
     },
     {
       "id": "civilisations-route-soie",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "La grande route des idées",
       "resume": "Suis les chemins de la Route de la Soie et découvre comment marchandises, inventions et histoires ont voyagé entre les civilisations.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-route-soie.json",
-      "sha256": "6e8bdacce252ab8e1d51c04055885d5828d6ede634f4dddccf2babe9742eee14",
-      "octets": 5591
+      "sha256": "4a19b21c4cf1ea1e92b499007eaef0356d934285a16d40a9b47759b8df21507d",
+      "octets": 5590
     },
     {
       "id": "corps-cerveau",
@@ -149,8 +149,8 @@
       "resume": "Monte dans le poste de commande qui imagine, décide, ressent et coordonne tes gestes.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/corps-cerveau.json",
-      "sha256": "98efb4de3c79d7cd8981f1891b434249dc7308b50240f68e66a1e9b4fe0bb8b6",
-      "octets": 5101
+      "sha256": "d7417aa278dccf348b3c0384e1e6d787666c863f668a598d85de7dda78bf1d37",
+      "octets": 5106
     },
     {
       "id": "corps-langues",
@@ -179,8 +179,8 @@
       "resume": "Chaque seconde, des milliards de globules rouges parcourent ton corps pour apporter l'oxygène dont chacune de tes cellules a besoin.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/corps-sang.json",
-      "sha256": "2897ab2dd0c87317b57e6831023a0421b4d7fa5a09b11c1041b40be393275e97",
-      "octets": 5496
+      "sha256": "cc79e65d54666a51400d3cce4b2902eead9306cab104c2bb54a42ba32fa6da7e",
+      "octets": 5494
     },
     {
       "id": "corps-sommeil",
@@ -249,8 +249,8 @@
       "resume": "Une immense boule de feu éclaire la Terre depuis plus de 4 milliards d'années. Mais comment sa chaleur voyage-t-elle jusqu'à nous ?",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/etoiles-soleil.json",
-      "sha256": "f4d00622f49ae8f6e6a095ba944ae928c0700b605e1375f82fdb79f4c7d45211",
-      "octets": 5615
+      "sha256": "573f44967a309b1fb75ca1638c7fada55e0708615fa03026a8b452a601224b2c",
+      "octets": 5616
     },
     {
       "id": "etoiles-terre",
@@ -389,7 +389,7 @@
       "resume": "Tu comptes par dix sans y penser. Mais ce n'est pas la seule façon : d'autres peuples ont compté par vingt, ou par soixante. Et ça se cache encore dans ta montre.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-dix.json",
-      "sha256": "18426a73860b61892eded2bcb07528b9d570862ee94148590a1a0361eba91f3b",
+      "sha256": "1fc752147ffc034a5c57f737183b2ebab704432813c938c86df96103031e3c4c",
       "octets": 9908
     },
     {
@@ -409,7 +409,7 @@
       "resume": "Compter jusqu'à un million, les humains savaient. Mais compter « rien » ? Écrire le vide ? Il a fallu des siècles pour oser inventer le zéro.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-zero.json",
-      "sha256": "76082b6e3c011d735d44029bbaa12bb76e083daf401819cea16f89804798f02d",
+      "sha256": "62ffc10fb4467a1d8dbd22640e763d9097002a8089d0fad6aebeb02eaf0054b2",
       "octets": 9316
     },
     {

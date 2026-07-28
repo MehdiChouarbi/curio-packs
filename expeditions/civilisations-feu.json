@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-feu",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "Le feu, première révolution",
   "resume": "Découvre comment une simple flamme a changé la vie des humains et leur a permis de transformer leur monde.",
   "age": {
@@ -14,7 +14,7 @@
     {
       "id": "premieres-inventions",
       "texte": "Quelle invention a le plus transformé la vie quotidienne des humains ?",
-      "resolueParLivre": "machines"
+      "resolueParLivre": "les-machines"
     }
   ],
   "questionsResolues": [

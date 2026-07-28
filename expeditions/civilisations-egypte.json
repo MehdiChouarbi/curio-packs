@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-egypte",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "Les secrets de l'Égypte ancienne",
   "resume": "Pars au bord du Nil et découvre comment les pharaons, les bâtisseurs et les scribes ont créé l'une des civilisations les plus fascinantes de l'histoire.",
   "age": {
@@ -14,7 +14,7 @@
     {
       "id": "construction-pyramides",
       "texte": "Comment construire un monument géant sans machines modernes ?",
-      "resolueParLivre": "machines"
+      "resolueParLivre": "civilisations"
     }
   ],
   "questionsResolues": [

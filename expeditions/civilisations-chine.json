@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-chine",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "La Chine des grandes inventions",
   "resume": "Explore la Chine ancienne et découvre comment ses inventeurs ont transformé le monde avec le papier, la boussole et bien d'autres découvertes.",
   "age": {
@@ -14,7 +14,7 @@
     {
       "id": "inventions-voyagent",
       "texte": "Comment les inventions d'un peuple arrivent-elles jusqu'à d'autres civilisations ?",
-      "resolueParLivre": "route-soie"
+      "resolueParLivre": "civilisations"
     }
   ],
   "questionsResolues": [

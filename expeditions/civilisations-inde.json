@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-inde",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "L'Inde et le secret des nombres",
   "resume": "Découvre comment les savants de l'Inde ancienne ont transformé les mathématiques avec le zéro et un nouveau système de nombres.",
   "age": {
@@ -14,7 +14,7 @@
     {
       "id": "origine-zero",
       "texte": "Comment un symbole vide peut-il devenir une invention extraordinaire ?",
-      "resolueParLivre": "nombres"
+      "resolueParLivre": "civilisations"
     }
   ],
   "questionsResolues": [

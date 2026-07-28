@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-rome",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "Rome, l'empire des routes",
   "resume": "Découvre comment une petite ville est devenue un immense empire grâce à ses routes, ses inventions et son organisation.",
   "age": {
@@ -14,7 +14,7 @@
     {
       "id": "inventions-voyagent",
       "texte": "Comment les idées et les inventions voyagent-elles entre les peuples ?",
-      "resolueParLivre": "mondes-connectes"
+      "resolueParLivre": "civilisations"
     }
   ],
   "questionsResolues": [

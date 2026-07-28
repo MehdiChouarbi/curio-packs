@@ -14,11 +14,11 @@
     {
       "id": "q-corps-illusions",
       "texte": "Pourquoi ton cerveau peut-il se faire piéger par tes yeux ?",
-      "resolueParLivre": "corps"
+      "resolueParLivre": "le-corps"
     }
   ],
   "questionsResolues": [
-    "q-corps-cerveau"
+    "q-corps-illusions"
   ],
   "passeport": {
     "tampon": {

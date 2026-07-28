@@ -14,11 +14,11 @@
     {
       "id": "respirer-pourquoi",
       "texte": "Pourquoi avons-nous besoin de respirer sans arrêt ?",
-      "resolueParLivre": "corps"
+      "resolueParLivre": "le-corps"
     }
   ],
   "questionsResolues": [
-    "globules-rouges-voyage"
+    "respirer-pourquoi"
   ],
   "passeport": {
     "tampon": {

@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-grece",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "La Grèce, le laboratoire des idées",
   "resume": "Explore la Grèce antique et découvre comment des philosophes, des scientifiques et des citoyens ont changé notre façon de penser le monde.",
   "age": {
@@ -14,7 +14,7 @@
     {
       "id": "mesurer-monde",
       "texte": "Comment les humains ont-ils appris à mesurer et comprendre le monde ?",
-      "resolueParLivre": "nombres"
+      "resolueParLivre": "civilisations"
     }
   ],
   "questionsResolues": [

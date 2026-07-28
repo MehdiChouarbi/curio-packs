@@ -140,42 +140,42 @@
       "fait": "Le système décimal (base 10) est le plus répandu car les humains ont dix doigts ; le mot « digit » signifie à la fois chiffre et doigt en anglais et en latin.",
       "reference": "https://www.mathnasium.com/math-centers/buffalogrove/news/base-10-number-system",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-28"
     },
     {
       "id": "src-maya",
       "fait": "Les Mayas utilisaient un système vigésimal (base 20), doigts et orteils réunis ; leur calendrier comptait en cycles de 20 jours. Ils avaient aussi un zéro, inventé indépendamment.",
       "reference": "https://www.mathnasium.com/math-centers/buffalogrove/news/base-10-number-system",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-28"
     },
     {
       "id": "src-quatrevingts",
       "fait": "Le français « quatre-vingts » (4 × 20) pour 80 est un vestige d'un ancien comptage en base 20.",
       "reference": "https://www.mathnasium.com/math-centers/buffalogrove/news/base-10-number-system",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-28"
     },
     {
       "id": "src-soixante",
       "fait": "Les Babyloniens (hérité des Sumériens) comptaient en base 60 (sexagésimal) ; d'où 60 secondes, 60 minutes, 360 degrés. 60 se divise par 2, 3, 4, 5, 6, 10, 12, 15, 20, 30.",
       "reference": "https://www.earthdate.org/episodes/how-10-fingers-became-12-hours",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-28"
     },
     {
       "id": "src-phalanges",
       "fait": "Compter sur les 12 phalanges des 4 doigts avec le pouce donne 12 par main ; cinq séries de 12 (autre main) donnent 60. Théorie plausible de l'origine du 12 et du 60.",
       "reference": "https://earthlymission.com/babylonian-mathematics-phalange-counting-base-60/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-28"
     },
     {
       "id": "src-nuance",
       "fait": "NUANCE : le lien entre comptage sur les phalanges et base 60 est une hypothèse plausible, pas une certitude ; aucune preuve directe ne l'établit. Les historiens la présentent comme une théorie.",
       "reference": "https://earthlymission.com/babylonian-mathematics-phalange-counting-base-60/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-28"
     }
   ]
 }

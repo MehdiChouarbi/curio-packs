@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-premiers-humains",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "Les premiers pas de l'humanité",
   "resume": "Pars sur les traces des premiers humains et découvre comment nos ancêtres ont appris à survivre, inventer et explorer le monde.",
   "age": {
@@ -14,7 +14,7 @@
     {
       "id": "origine-ecriture",
       "texte": "Comment les humains ont-ils commencé à garder une trace de leurs idées ?",
-      "resolueParLivre": "langages"
+      "resolueParLivre": "civilisations"
     }
   ],
   "questionsResolues": [],

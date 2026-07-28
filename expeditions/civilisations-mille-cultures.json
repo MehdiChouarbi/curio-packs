@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-mille-cultures",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "Mille façons de vivre, une seule famille",
   "resume": "Partout sur Terre, les humains ont eu les mêmes problèmes et inventé des solutions totalement différentes. Pourtant, nous sommes presque identiques.",
   "age": {

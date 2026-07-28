@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-grands-explorateurs",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "Les voyageurs du bout du monde",
   "resume": "Découvre les grands voyageurs qui ont parcouru la planète et comment leurs voyages ont rapproché les peuples.",
   "age": {

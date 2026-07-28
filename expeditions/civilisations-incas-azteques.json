@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-incas-azteques",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "Les empires des Amériques",
   "resume": "Pars à la découverte des Incas et des Aztèques, deux grandes civilisations américaines qui ont construit des villes, des routes et des systèmes incroyables.",
   "age": {

@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-mayas",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "Les Mayas, observateurs du ciel",
   "resume": "Découvre la civilisation maya et ses incroyables connaissances en astronomie, en mathématiques et en architecture.",
   "age": {
@@ -14,7 +14,7 @@
     {
       "id": "observer-etoiles",
       "texte": "Comment les humains utilisent-ils le ciel pour comprendre le monde ?",
-      "resolueParLivre": "etoiles"
+      "resolueParLivre": "civilisations"
     }
   ],
   "questionsResolues": [
