@@ -10,7 +10,7 @@
     {
       "id": "le-corps",
       "titre": "Le Livre du Corps",
-      "emoji": "📘",
+      "emoji": "🧬",
       "cover": "le_corps"
     },
     {
@@ -34,13 +34,13 @@
     {
       "id": "les-mots",
       "titre": "Le Livre des Mots",
-      "emoji": "📘",
+      "emoji": "📖",
       "cover": "les_mots"
     },
     {
       "id": "Les Nombres",
       "titre": "Le Livre des Nombres",
-      "emoji": "📘",
+      "emoji": "🔢",
       "cover": "les_nombres"
     },
     {
@@ -52,7 +52,7 @@
     {
       "id": "petites-betes",
       "titre": "Le Livre des Petites Betes",
-      "emoji": "📘",
+      "emoji": "🦗",
       "cover": "petites_betes"
     },
     {
@@ -64,7 +64,7 @@
     {
       "id": "volcans",
       "titre": "Le Livre des Volcans",
-      "emoji": "📘",
+      "emoji": "🔥",
       "cover": "volcans"
     }
   ]
