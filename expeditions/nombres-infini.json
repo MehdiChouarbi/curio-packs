@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "nombres-infini",
   "minEngineVersion": 1,
-  "livre": "Les Nombres",
+  "livre": "les-nombres",
   "titre": "Le nombre inventé par un enfant de neuf ans",
   "resume": "Cherche le plus grand nombre du monde : tu ne le trouveras jamais. Mais en chemin, tu croiseras un nombre si énorme qu'il n'y a rien pour le compter.",
   "age": {

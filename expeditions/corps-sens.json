@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "corps-sens",
+  "minEngineVersion": 1,
+  "livre": "le-corps",
+  "titre": "Les sens que tu n'as pas",
+  "resume": "Tu as cinq sens, et tu crois voir le monde tel qu'il est. Mais un requin sent l'électricité, une abeille voit des couleurs invisibles, et un oiseau sent le Nord. Que rates-tu ?",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "poussiere-etoiles",
+      "texte": "Ton corps est fait de poussière d'étoiles. Mais d'où vient cette poussière ?",
+      "resolueParLivre": "etoiles"
+    }
+  ],
+  "questionsResolues": [
+    "sentir-vibrations",
+    "autres-sens"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🧭",
+      "titre": "Exploratrice des Sens Cachés"
+    },
+    "decouvertes": [
+      "Le serpent « entend » le sol par sa mâchoire",
+      "L'abeille voit des couleurs que tu ne verras jamais",
+      "Le requin sent l'électricité des muscles",
+      "Certains oiseaux sentent le Nord, comme une boussole",
+      "Nos cinq sens ne montrent qu'un bout du monde"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "serpent-machoire",
+      "type": "question",
+      "visuel": "🐍",
+      "titre": "Le serpent sent le sol trembler avant nous. Avec quoi ?",
+      "olli": "Souviens-toi : le serpent sortait de terre avant le tremblement de terre, parce qu'il sentait une vibration que nous ratons. Mais il n'a pas d'oreilles comme les tiennes, sur le côté de la tête. Alors, avec quelle partie de son corps « écoute »-t-il le sol ?",
+      "choix": [
+        {
+          "emoji": "👅",
+          "texte": "Avec sa langue qui remue"
+        },
+        {
+          "emoji": "🦴",
+          "texte": "Avec sa mâchoire posée sur le sol",
+          "bonne": true
+        },
+        {
+          "emoji": "👀",
+          "texte": "Avec ses yeux très sensibles"
+        }
+      ],
+      "reponseBonne": "Avec sa mâchoire ! Le serpent pose sa tête sur le sol, et les os de sa mâchoire captent les moindres vibrations qui voyagent dans la terre. Ces vibrations remontent jusqu'à son oreille interne. Il n'entend pas les sons de l'air comme toi : il « écoute » le sol lui-même, avec son squelette.",
+      "reponseAutre": "Avec sa mâchoire posée sur le sol ! Les os de sa mâchoire captent les moindres vibrations qui voyagent dans la terre, et les transmettent à son oreille interne. Il n'entend pas les sons de l'air comme toi : il « écoute » le sol lui-même, avec son squelette."
+    },
+    {
+      "id": "trois-sens",
+      "type": "observation",
+      "visuel": "🌈",
+      "visuelAnimation": "flotte",
+      "titre": "Découvrons trois sens que tu n'auras jamais.",
+      "olli": "Touche chaque animal. Chacun perçoit une partie du monde qui t'est totalement fermée — pas parce que tu es moins bon, mais parce que ton corps n'a pas l'outil.",
+      "hotspots": [
+        {
+          "emoji": "🐝",
+          "nom": "L'abeille voit l'invisible",
+          "fait": "Tu vois trois couleurs de base. L'abeille en voit une de plus : l'ultraviolet. Beaucoup de fleurs portent des dessins ultraviolets, comme des pistes d'atterrissage vers le nectar. Toi tu vois une fleur unie ; l'abeille voit des flèches."
+        },
+        {
+          "emoji": "🦈",
+          "nom": "Le requin sent l'électricité",
+          "fait": "Chaque muscle qui bouge produit un minuscule courant électrique. Le requin possède, sur son museau, des capteurs qui détectent ces courants. Il peut ainsi sentir le cœur d'un poisson caché sous le sable, sans le voir ni le sentir."
+        },
+        {
+          "emoji": "🧭",
+          "nom": "L'oiseau sent le Nord",
+          "fait": "Beaucoup d'oiseaux migrateurs perçoivent le champ magnétique de la Terre, comme une boussole intérieure. Ils traversent des océans sans carte ni GPS, en « sentant » simplement où est le Nord. Ils naissent avec cette boussole."
+        }
+      ]
+    },
+    {
+      "id": "notre-fenetre",
+      "type": "question",
+      "visuel": "🪟",
+      "titre": "Alors, le monde que tu perçois, c'est quoi au juste ?",
+      "olli": "Rassemblons tout ça. Le serpent écoute par ses os, l'abeille voit l'ultraviolet, le requin sent l'électricité, l'oiseau sent le Nord. Face à tout ça, comment décrirais-tu ce que toi, tu perçois du monde ?",
+      "choix": [
+        {
+          "emoji": "🌍",
+          "texte": "Le monde entier, tel qu'il est vraiment"
+        },
+        {
+          "emoji": "🪟",
+          "texte": "Juste une petite fenêtre sur le monde",
+          "bonne": true
+        },
+        {
+          "emoji": "🥇",
+          "texte": "Le meilleur des sens, tous animaux confondus"
+        }
+      ],
+      "reponseBonne": "Une petite fenêtre ! Chaque animal perçoit une tranche différente du réel, avec les outils de son corps. Tes cinq sens sont merveilleux, mais ils ne montrent qu'une partie du monde — le reste existe, tout autour de toi, sans que tu puisses le sentir. Le monde est bien plus vaste que ce qu'un seul être peut en percevoir.",
+      "reponseAutre": "Juste une petite fenêtre sur le monde ! Chaque animal perçoit une tranche différente du réel, avec les outils de son corps. Tes cinq sens sont merveilleux, mais ils ne montrent qu'une partie du monde. Le reste existe, tout autour de toi, sans que tu puisses le sentir."
+    },
+    {
+      "id": "chien-odeurs",
+      "type": "anecdote",
+      "visuel": "🐕",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Ton chien vit dans un monde d'odeurs",
+      "texte": "Pas besoin d'aller loin pour croiser un autre monde : ton chien, s'il y en a un, en vit un chaque jour. Là où tu vois une rue, lui « voit » un immense paysage d'odeurs. Il sait, rien qu'en reniflant un coin de mur, quels chiens sont passés, quand, s'ils avaient peur ou faim. Son nez est des milliers de fois plus fin que le tien. Pour lui, une promenade n'est pas une balade : c'est la lecture d'un journal entier, écrit en odeurs, que toi tu ne peux même pas commencer à lire. Vous marchez côte à côte, dans deux mondes différents. 🐾",
+      "olli": "J'aime cette idée : ceux qu'on croit connaître vivent parfois dans un monde qu'on n'imagine pas. Il suffit d'avoir d'autres sens pour habiter une autre planète, sans bouger.",
+      "sourceRef": "src-chien"
+    },
+    {
+      "id": "mission-sens",
+      "type": "mission",
+      "visuel": "👃",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Deviens l'explorateur de tes propres sens",
+      "texte": "Choisis un moment tranquille et ferme les yeux une minute. D'un coup, tes autres sens se réveillent : tu entends des bruits que tu ne remarquais pas, tu sens des odeurs, l'air sur ta peau. Tu viens de fermer une fenêtre pour mieux ouvrir les autres. Ensuite, si tu as un animal à la maison, observe-le : renifle-t-il ce que tu ne sens pas ? entend-il des choses avant toi ? Essaie de deviner quel monde il perçoit, et que toi tu rates.",
+      "olli": "Demande à quelqu'un : « à ton avis, qu'est-ce que notre chat perçoit, qu'on ne perçoit pas ? » Vous allez avoir une belle discussion. 😄"
+    },
+    {
+      "id": "fin-corps",
+      "type": "teaser",
+      "visuel": "✨",
+      "titre": "Ton corps est plein de merveilles… et de mystères encore ouverts",
+      "texte": "Regarde tout ce que ce livre t'a montré sur toi : ton cerveau qui range tes souvenirs la nuit, tes yeux qui inventent des images dans le noir, tes sens comme une fenêtre sur le monde. Et une chose t'a peut-être frappée : ton corps est fait de poussière d'étoiles. Mais d'où vient cette poussière, au juste ? Qui l'a fabriquée, avant toi ?",
+      "olli": "La réponse t'attend dans le Livre des Étoiles… Et bravo : tu as fini le Livre du Corps ! 🎉",
+      "questionOuverteRef": "poussiere-etoiles"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-serpent",
+      "fait": "Les serpents n'ont pas d'oreille externe ; ils détectent les vibrations du sol via les os de la mâchoire, transmises à l'oreille interne (audition osseuse).",
+      "reference": "https://thenaturenetwork.co.uk/14-senses-animals-have-that-humans-dont-have/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "src-abeille",
+      "fait": "Les abeilles et de nombreux insectes voient l'ultraviolet, invisible à l'humain ; beaucoup de fleurs portent des motifs UV guidant les pollinisateurs vers le nectar.",
+      "reference": "https://www.animalsaroundtheglobe.com/12-mind-blowing-facts-about-animal-senses-humans-will-never-have-1-395183/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "src-requin",
+      "fait": "Les requins et raies détectent les champs électriques via les ampoules de Lorenzini (pores sur le museau) : ils perçoivent les contractions musculaires d'une proie cachée sous le sable.",
+      "reference": "https://www.scienceholic.org/post/animal-senses-that-humans-don-t-have",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "src-oiseau",
+      "fait": "De nombreux oiseaux migrateurs (et tortues de mer) possèdent la magnétoréception : ils détectent le champ magnétique terrestre pour naviguer, via des cryptochromes dans l'œil.",
+      "reference": "https://www.scienceholic.org/post/animal-senses-that-humans-don-t-have",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "src-chien",
+      "fait": "L'odorat du chien est estimé des milliers de fois plus sensible que celui de l'humain, ce qui lui permet de « lire » un environnement d'odeurs invisible pour nous.",
+      "reference": "https://www.sciencetimes.com/articles/60954/20251225/how-animal-senses-work-vision-smell-echolocation-other-hidden-abilities.htm",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : le mécanisme exact de la magnétoréception reste débattu (cryptochromes vs magnétite). Ces sens sont des organes physiques mesurables, non un « sixième sens » mystique.",
+      "reference": "https://www.animalsaroundtheglobe.com/the-incredible-sensory-abilities-of-animals-you-never-knew-existed-1-390085/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    }
+  ]
+}

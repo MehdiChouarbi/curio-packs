@@ -183,6 +183,16 @@
       "octets": 5494
     },
     {
+      "id": "corps-sens",
+      "livre": "le-corps",
+      "titre": "Les sens que tu n'as pas",
+      "resume": "Tu as cinq sens, et tu crois voir le monde tel qu'il est. Mais un requin sent l'électricité, une abeille voit des couleurs invisibles, et un oiseau sent le Nord. Que rates-tu ?",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/corps-sens.json",
+      "sha256": "6ad0fc966b2341ac262bb560988ee0fa25c54bb60f258f70f03741fe6daf2b56",
+      "octets": 10370
+    },
+    {
       "id": "corps-sommeil",
       "livre": "le-corps",
       "titre": "La nuit, ton cerveau fait le ménage",
@@ -394,22 +404,22 @@
     },
     {
       "id": "nombres-infini",
-      "livre": "Les Nombres",
+      "livre": "les-nombres",
       "titre": "Le nombre inventé par un enfant de neuf ans",
       "resume": "Cherche le plus grand nombre du monde : tu ne le trouveras jamais. Mais en chemin, tu croiseras un nombre si énorme qu'il n'y a rien pour le compter.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-infini.json",
-      "sha256": "52dbab86a31b424d0d5d204421db98f2b28e2791b16997ee7988e891852ce379",
+      "sha256": "7a7f3ff7038516bc45c9b423dc01ef66bd5d6a895b0139f6a4f810a3f951d605",
       "octets": 9650
     },
     {
       "id": "nombres-zero",
-      "livre": "Les Nombres",
+      "livre": "les-nombres",
       "titre": "Le nombre qui a mis mille ans à naître",
       "resume": "Compter jusqu'à un million, les humains savaient. Mais compter « rien » ? Écrire le vide ? Il a fallu des siècles pour oser inventer le zéro.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-zero.json",
-      "sha256": "62ffc10fb4467a1d8dbd22640e763d9097002a8089d0fad6aebeb02eaf0054b2",
+      "sha256": "bce4a282d6540c42e4016e7e7cf27382e419b3257b5f7d4527b8c8299686f7a0",
       "octets": 9316
     },
     {
