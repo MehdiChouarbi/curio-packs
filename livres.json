@@ -4,13 +4,8 @@
     {
       "id": "civilisations",
       "titre": "Le Livre des Civilisations",
-      "emoji": "📘"
-    },
-    {
-      "id": "Civilisations",
-      "titre": "Le Livre des Civilisations",
-      "emoji": "🏛️",
-      "cover": "les_civilisations"
+      "emoji": "📘",
+      "cover": null
     },
     {
       "id": "le-corps",
