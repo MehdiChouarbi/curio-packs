@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "corps-cerveau",
   "minEngineVersion": 1,
-  "livre": "corps",
+  "livre": "le-corps",
   "titre": "La cabine de pilotage",
   "resume": "Monte dans le poste de commande qui imagine, décide, ressent et coordonne tes gestes.",
   "age": {

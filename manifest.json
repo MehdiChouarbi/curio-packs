@@ -4,12 +4,12 @@
   "expeditions": [
     {
       "id": "civilisations-berberes-carthage",
-      "livre": "Civilisations",
+      "livre": "civilisations",
       "titre": "Les peuples du Nord de l'Afrique",
       "resume": "Découvre les peuples amazighs et la cité de Carthage, au cœur des échanges entre l'Afrique, l'Europe et la Méditerranée.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/civilisations-berberes-carthage.json",
-      "sha256": "f896623ae0c552077462dc3de8937e63c7916c95480c78613448d3ce123be7bd",
+      "sha256": "0f454d2993ce380bf30d66b6a8a67f88e24178b398682c977e9ee3a137d255ea",
       "octets": 5862
     },
     {
@@ -144,13 +144,13 @@
     },
     {
       "id": "corps-cerveau",
-      "livre": "corps",
+      "livre": "le-corps",
       "titre": "La cabine de pilotage",
       "resume": "Monte dans le poste de commande qui imagine, décide, ressent et coordonne tes gestes.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/corps-cerveau.json",
-      "sha256": "9f773177765834e53edf39525a5a2192d923f0278f56825b77ddbcd805bd2af7",
-      "octets": 5098
+      "sha256": "98efb4de3c79d7cd8981f1891b434249dc7308b50240f68e66a1e9b4fe0bb8b6",
+      "octets": 5101
     },
     {
       "id": "corps-langues",

@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "id": "civilisations-berberes-carthage",
   "minEngineVersion": 1,
-  "livre": "Civilisations",
+  "livre": "civilisations",
   "titre": "Les peuples du Nord de l'Afrique",
   "resume": "Découvre les peuples amazighs et la cité de Carthage, au cœur des échanges entre l'Afrique, l'Europe et la Méditerranée.",
   "age": {
@@ -138,14 +138,14 @@
       "fait": "Carthage était une importante cité fondée par des Phéniciens et devenue une puissance commerciale majeure de Méditerranée.",
       "reference": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-28"
     },
     {
       "id": "src-amazigh",
       "fait": "Les peuples amazighs sont des populations anciennes d'Afrique du Nord possédant des langues et traditions propres.",
       "reference": "https://www.britannica.com/topic/Berber",
       "verifiePar": "Mehdi",
-      "date": "2026-07-22"
+      "date": "2026-07-28"
     }
   ]
 }
