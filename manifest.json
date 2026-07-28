@@ -473,6 +473,16 @@
       "octets": 9860
     },
     {
+      "id": "petites-betes-chauvesouris",
+      "livre": "petites-betes",
+      "titre": "Voir avec ses oreilles",
+      "resume": "Une chauve-souris attrape un moustique en pleine nuit, dans le noir total. Elle ne le voit pas : elle l'entend. Mais certains papillons ont trouvé comment la tromper.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/petites-betes-chauvesouris.json",
+      "sha256": "0cdbe72d59b83b36284ac4a5d385732e033463270382b3542f66a8d025c41edd",
+      "octets": 10771
+    },
+    {
       "id": "petites-betes-danse",
       "livre": "petites-betes",
       "titre": "La danse qui donne l'adresse des fleurs",

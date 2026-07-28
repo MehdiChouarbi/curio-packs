@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "petites-betes-chauvesouris",
+  "minEngineVersion": 1,
+  "livre": "petites-betes",
+  "titre": "Voir avec ses oreilles",
+  "resume": "Une chauve-souris attrape un moustique en pleine nuit, dans le noir total. Elle ne le voit pas : elle l'entend. Mais certains papillons ont trouvé comment la tromper.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "autres-sens",
+      "texte": "La chauve-souris voit avec le son. Quels sens les animaux ont-ils que nous n'avons pas ?",
+      "resolueParLivre": "le-corps"
+    }
+  ],
+  "questionsResolues": [
+    "chauvesouris-noir"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🦇",
+      "titre": "Oreille de la Nuit"
+    },
+    "decouvertes": [
+      "La chauve-souris « voit » le monde avec des sons",
+      "Elle crie très aigu et écoute l'écho revenir",
+      "Ses cris sont trop aigus pour nos oreilles",
+      "Certains papillons brouillent son sonar",
+      "D'autres ont un manteau qui avale les sons"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "comment-voit-elle",
+      "type": "question",
+      "visuel": "🦇",
+      "titre": "Nuit noire, aucune lumière. Comment la chauve-souris attrape-t-elle un moustique ?",
+      "olli": "Tu as vu comment nos machines mesurent une distance en envoyant un signal et en comptant son écho. Un animal fait ça depuis des millions d'années, en pleine nuit noire, pour ne pas se cogner et pour chasser. À ton avis, comment voit-elle sans lumière ?",
+      "choix": [
+        {
+          "emoji": "👀",
+          "texte": "Elle a des yeux magiques qui voient la nuit"
+        },
+        {
+          "emoji": "👂",
+          "texte": "Elle crie et écoute l'écho revenir",
+          "bonne": true
+        },
+        {
+          "emoji": "👃",
+          "texte": "Elle sent l'odeur du moustique"
+        }
+      ],
+      "reponseBonne": "Elle écoute ! La chauve-souris pousse des petits cris très aigus, des dizaines par seconde. Ces cris rebondissent sur tout ce qui l'entoure — un mur, une branche, un moustique — et l'écho lui revient. Avec ces échos, elle se fabrique une image du monde dans le noir. Elle voit vraiment… avec ses oreilles.",
+      "reponseAutre": "Elle crie et écoute l'écho revenir ! La chauve-souris pousse des cris très aigus, des dizaines par seconde. Ils rebondissent sur tout ce qui l'entoure — un mur, une branche, un moustique — et l'écho lui revient. Avec ces échos, elle se fait une image du monde dans le noir. Elle voit avec ses oreilles."
+    },
+    {
+      "id": "son-sonar",
+      "type": "observation",
+      "visuel": "🔊",
+      "visuelAnimation": "tremble",
+      "titre": "Regardons son sonar de plus près.",
+      "olli": "Touche chaque partie. C'est exactement le principe de l'écho des machines, mais vivant, embarqué dans un animal grand comme ta main.",
+      "hotspots": [
+        {
+          "emoji": "🔇",
+          "nom": "Des cris qu'on n'entend pas",
+          "fait": "Ses cris sont si aigus que ton oreille ne les perçoit pas du tout. On dit qu'ils sont « ultrasons ». La chauve-souris hurle sans arrêt en chassant, mais pour toi, la nuit reste parfaitement silencieuse."
+        },
+        {
+          "emoji": "⏱️",
+          "nom": "Plus l'écho tarde, plus c'est loin",
+          "fait": "Comme le laser qui mesurait la vague, elle mesure le temps que met l'écho à revenir. Un écho rapide, l'objet est proche ; un écho lent, il est loin. Son cerveau fait ce calcul des centaines de fois par seconde."
+        },
+        {
+          "emoji": "🎯",
+          "nom": "Le tir final",
+          "fait": "Quand elle approche d'un insecte, elle crie de plus en plus vite pour affiner sa visée — un vrai crépitement. Les scientifiques appellent ce moment le « buzz final » : la seconde d'avant la capture."
+        }
+      ]
+    },
+    {
+      "id": "riposte-papillon",
+      "type": "question",
+      "visuel": "🦋",
+      "titre": "Face à un tel chasseur, comment un papillon de nuit peut-il survivre ?",
+      "olli": "Un instant. Si la chauve-souris entend tout dans le noir, ses proies devraient être sans défense. Pourtant certains papillons de nuit s'en sortent très bien. Comment font-ils, à ton avis, contre un ennemi qui « voit » avec le son ?",
+      "choix": [
+        {
+          "emoji": "🏃",
+          "texte": "Ils volent simplement plus vite"
+        },
+        {
+          "emoji": "📢",
+          "texte": "Ils brouillent son sonar avec des sons",
+          "bonne": true
+        },
+        {
+          "emoji": "🎨",
+          "texte": "Ils se cachent grâce à leur couleur"
+        }
+      ],
+      "reponseBonne": "Ils brouillent son sonar ! La couleur ne sert à rien contre une oreille. Alors certains papillons ont développé une arme sonore : en entendant approcher la chauve-souris, ils émettent une rafale de petits clics ultrasonores qui embrouillent son écho. Elle rate son coup. Une bataille invisible, faite de sons qu'aucun humain n'entend.",
+      "reponseAutre": "Ils brouillent son sonar avec des sons ! La couleur ne sert à rien contre une oreille. Certains papillons émettent, en entendant la chauve-souris approcher, une rafale de clics ultrasonores qui embrouillent son écho. Elle rate son coup. Une bataille invisible, faite de sons qu'aucun humain n'entend."
+    },
+    {
+      "id": "course-armements",
+      "type": "anecdote",
+      "visuel": "🛡️",
+      "etiquette": "Histoire vraie",
+      "titre": "Une bataille vieille de 60 millions d'années",
+      "texte": "Ce duel dure depuis très, très longtemps — plus de soixante millions d'années. Chaque camp invente des ruses en réponse à l'autre. Les chauves-souris perfectionnent leur sonar ; alors des papillons développent des oreilles pour les entendre venir. Certains émettent des clics qui brouillent le sonar — des chercheurs l'ont prouvé en 2009 en filmant des chauves-souris rater leur cible. D'autres, sans un bruit, portent sur leurs ailes des écailles minuscules qui avalent les ultrasons, comme un manteau qui les rend presque invisibles au sonar. La ruse contre la ruse, sans fin. 🦇",
+      "olli": "J'adore cette idée : une guerre entière se joue au-dessus de nos têtes, chaque nuit d'été, dans des sons qu'on n'entendra jamais. Le monde est plein de batailles invisibles.",
+      "sourceRef": "src-course"
+    },
+    {
+      "id": "mission-echo",
+      "type": "mission",
+      "visuel": "🙈",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Chasse comme une chauve-souris",
+      "texte": "Demande à quelqu'un de jouer avec toi. Bande-toi les yeux, ou ferme-les très fort, dans une pièce que tu connais. L'autre personne frappe doucement dans ses mains, quelque part autour de toi, et tu pointes du doigt d'où vient le son. Puis elle se déplace et recommence. Tu vas voir : rien qu'avec tes oreilles, tu peux dire où elle est, à gauche, à droite, près, loin. C'est un tout petit bout de ce que fait la chauve-souris, en mille fois plus fort.",
+      "olli": "Plus tu t'entraînes, plus tu deviens précis. Imagine faire ça en volant, dans le noir, à toute vitesse. Chapeau, la chauve-souris. 😄"
+    },
+    {
+      "id": "teaser-sens",
+      "type": "teaser",
+      "visuel": "👁️",
+      "titre": "Elle « voit » avec le son. Quels autres sens cachés existe-t-il ?",
+      "texte": "Ça me fait réfléchir. La chauve-souris se fabrique une image du monde avec ses oreilles, un sens que nous n'avons pas. Le serpent, lui, sent le sol trembler avant nous. Chaque animal perçoit donc un monde différent, avec ses propres sens. Et le nôtre n'est qu'une fenêtre parmi mille. Que perçoivent les animaux, que nous ne pouvons même pas imaginer ?",
+      "olli": "La réponse t'attend dans le Livre du Corps… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "autres-sens"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-echolocation",
+      "fait": "Les chauves-souris insectivores localisent leurs proies par écholocation : elles émettent des ultrasons et interprètent les échos pour situer un insecte dans le noir total.",
+      "reference": "https://www.animalsaroundtheglobe.com/how-moths-avoid-bats-using-echo-jamming-clicks-5-342160/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "src-frequence",
+      "fait": "Les cris d'écholocation des chauves-souris vont d'environ 11 kHz à plus de 200 kHz ; l'audition humaine plafonne autour de 20 kHz, donc ces cris nous sont inaudibles.",
+      "reference": "https://www.animalsaroundtheglobe.com/how-moths-avoid-bats-using-echo-jamming-clicks-5-342160/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "src-buzz",
+      "fait": "En phase d'attaque finale, la chauve-souris accélère fortement ses cris (« feeding buzz ») pour affiner la localisation de la proie juste avant la capture.",
+      "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9637272/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "src-course",
+      "fait": "La course aux armements acoustique chauve-souris/papillon dure environ 60 à 65 millions d'années. Les papillons ont développé oreilles ultrasoniques, vol d'évitement, clics et écailles absorbantes.",
+      "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6275474/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "src-jamming",
+      "fait": "En 2009 (Corcoran et al., Science), on démontre qu'un papillon tigre (Bertholdia trigona) brouille le sonar des chauves-souris par ses clics ; elles ne l'atteignent qu'environ 20% du temps.",
+      "reference": "https://www.scientificamerican.com/article/sonar-jamming-tiger-moths-bats-echolocation-defense/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "src-ecailles",
+      "fait": "Les écailles des ailes de papillons de nuit absorbent les ultrasons (surtout 40-60 kHz) et réduisent la distance de détection par le sonar. Les papillons à queue ont ~47% de survie en plus.",
+      "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7061704/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : le brouillage sonar est prouvé pour certaines espèces (tigres), pas toutes. Beaucoup de papillons non toxiques et sans oreilles s'appuient seulement sur le camouflage passif des écailles.",
+      "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6275474/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-28"
+    }
+  ]
+}
