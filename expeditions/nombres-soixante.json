@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "nombres-soixante",
+  "minEngineVersion": 1,
+  "livre": "les-nombres",
+  "titre": "Pourquoi une heure fait 60 minutes ?",
+  "resume": "Une heure fait 60 minutes, une minute 60 secondes. Pourquoi 60, et pas 100 ? La réponse a 4000 ans, et elle se cache au bout de tes doigts.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "origine-zero",
+      "texte": "Les Babyloniens comptaient sans un nombre essentiel : le zéro. Qui l'a inventé ?",
+      "resolueParLivre": "civilisations"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🕐",
+      "titre": "Maîtresse du Temps"
+    },
+    "decouvertes": [
+      "Une heure fait 60 minutes depuis 4000 ans",
+      "C'est un héritage des anciens Babyloniens",
+      "Ils comptaient par groupes de 60, pas de 10",
+      "On peut compter jusqu'à 60 sur une seule main",
+      "60 se partage en un très grand nombre de parts"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "pourquoi-60",
+      "type": "question",
+      "visuel": "🕐",
+      "titre": "Pourquoi une heure fait-elle 60 minutes, et pas 100 ?",
+      "olli": "On compte presque tout par dix : dix doigts, dix dizaines, cent centimes dans un euro. Mais le temps, lui, résiste ! Une heure fait 60 minutes, une minute 60 secondes. Pourquoi ce drôle de nombre, 60, au lieu d'un joli 100 bien rond ?",
+      "choix": [
+        {
+          "emoji": "🎲",
+          "texte": "C'est un choix au hasard, sans raison"
+        },
+        {
+          "emoji": "🏛️",
+          "texte": "Un peuple ancien comptait par 60",
+          "bonne": true
+        },
+        {
+          "emoji": "🌙",
+          "texte": "Parce que la Lune l'a décidé"
+        }
+      ],
+      "reponseBonne": "Un peuple ancien ! Il y a environ 4000 ans, les Babyloniens, en Mésopotamie, ne comptaient pas par groupes de dix comme nous, mais par groupes de 60. Ils étaient de grands astronomes, et ils ont découpé le temps avec leur façon de compter. Quatre mille ans plus tard, on suit encore leur habitude, sans même le savoir.",
+      "reponseAutre": "Un peuple ancien comptait par 60 ! Il y a environ 4000 ans, les Babyloniens, en Mésopotamie, comptaient par groupes de 60 et non de dix. Grands astronomes, ils ont découpé le temps avec leur façon de compter. Quatre mille ans plus tard, on suit encore leur habitude sans le savoir."
+    },
+    {
+      "id": "compter-main",
+      "type": "observation",
+      "visuel": "✋",
+      "visuelAnimation": "flotte",
+      "titre": "Essaie : compte jusqu'à 60 sur une seule main !",
+      "olli": "Touche chaque partie. Tu vas voir pourquoi 60 tombait sous le sens, pour qui savait s'en servir. Regarde bien ta main.",
+      "hotspots": [
+        {
+          "emoji": "👆",
+          "nom": "Compte tes phalanges",
+          "fait": "Regarde tes quatre doigts (sans le pouce) : chacun a trois petits morceaux, les phalanges. Quatre doigts fois trois, ça fait douze. Avec le pouce, tu peux pointer chacune de ces douze phalanges, une par une. Une main compte jusqu'à 12 !"
+        },
+        {
+          "emoji": "🖐️",
+          "nom": "L'autre main compte les paquets",
+          "fait": "Chaque fois que tu as compté 12 sur une main, tu lèves un doigt de l'autre main pour te rappeler « un paquet de 12 ». Avec les 5 doigts de la seconde main, tu peux garder 5 paquets. Et 5 fois 12… ça fait 60 !"
+        },
+        {
+          "emoji": "🔢",
+          "nom": "60, le nombre magique",
+          "fait": "Pourquoi 60 leur plaisait tant ? Parce qu'il se partage très facilement : en 2, 3, 4, 5, 6 parts égales, et bien d'autres. Bien plus pratique que 10 pour partager. Essaie de couper 10 en trois… c'est raté. 60, lui, se coupe en trois tout net : 20."
+        }
+      ]
+    },
+    {
+      "id": "le-cercle",
+      "type": "question",
+      "visuel": "🧭",
+      "titre": "Quoi d'autre, autour de toi, vient encore de ce nombre 60 ?",
+      "olli": "Les Babyloniens ont laissé leur nombre 60 dans le temps, mais pas seulement. Regarde un rapporteur, une boussole, un tour complet sur toi-même. En combien de « degrés » divise-t-on un cercle entier, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "💯",
+          "texte": "100 degrés"
+        },
+        {
+          "emoji": "🎯",
+          "texte": "360 degrés",
+          "bonne": true
+        },
+        {
+          "emoji": "🔟",
+          "texte": "10 degrés"
+        }
+      ],
+      "reponseBonne": "360 degrés ! Et 360, c'est six fois 60. Là encore, c'est l'héritage des Babyloniens, qui divisaient le cercle du ciel avec leur nombre préféré. Chaque fois que tu vois un rapporteur, que tu fais un demi-tour à 180 degrés, ou que tu lis une carte, tu utilises une idée vieille de 4000 ans. Les nombres voyagent à travers le temps.",
+      "reponseAutre": "360 degrés ! Et 360, c'est six fois 60 : encore l'héritage des Babyloniens, qui divisaient le cercle du ciel avec leur nombre préféré. Chaque fois que tu vois un rapporteur ou que tu fais un demi-tour à 180 degrés, tu utilises une idée vieille de 4000 ans."
+    },
+    {
+      "id": "voyage-nombre",
+      "type": "anecdote",
+      "visuel": "⏳",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Un empire disparu qui vit encore dans ta montre",
+      "texte": "Pense à ça la prochaine fois que tu regardes une horloge. L'empire de Babylone a disparu il y a très longtemps : ses villes sont en ruines, sa langue ne se parle plus, ses rois sont oubliés. Et pourtant, une petite partie d'eux est toujours là, dans un geste que tu fais chaque jour sans y penser : lire l'heure. Chaque « 60 minutes » est un écho de leur façon de compter, qui a traversé quarante siècles jusqu'à ton poignet. Les peuples s'éteignent, mais leurs meilleures idées peuvent devenir immortelles. ⏳",
+      "olli": "J'adore cette idée : on croit que le passé est mort, mais il est partout autour de nous, caché dans nos gestes les plus ordinaires. Il suffit d'ouvrir les yeux.",
+      "sourceRef": "src-temps"
+    },
+    {
+      "id": "mission-main",
+      "type": "mission",
+      "visuel": "✋",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Compte comme un Babylonien",
+      "texte": "Lève une main devant toi. Avec le bout de ton pouce, touche chacune des trois phalanges de ton index, en comptant « 1, 2, 3 ». Passe au majeur : « 4, 5, 6 ». Continue sur l'annulaire et l'auriculaire : tu arrives à 12 sur une seule main ! Maintenant, montre quelqu'un et apprends-lui à compter jusqu'à 12 sur une main, puis jusqu'à 60 avec les deux. C'est exactement ce que faisaient les marchands il y a 4000 ans pour compter leurs sacs de grain.",
+      "olli": "Bravo, tu comptes maintenant comme dans l'Antiquité ! Épate un adulte : peu de gens savent compter jusqu'à 60 sur leurs doigts. 😄"
+    },
+    {
+      "id": "teaser-zero",
+      "type": "teaser",
+      "visuel": "0️⃣",
+      "titre": "Les Babyloniens comptaient très bien… mais il leur manquait un nombre !",
+      "texte": "Une chose m'étonne. Les Babyloniens étaient de brillants mathématiciens : ils calculaient les étoiles, partageaient le temps. Et pourtant, il leur manquait un nombre que tu utilises tous les jours, si évident qu'on oublie que quelqu'un a dû l'inventer. Un nombre qui veut dire « rien »… mais qui change tout dès qu'on l'écrit. Qui a inventé un nombre pour compter le rien ?",
+      "olli": "La réponse t'attend ailleurs dans le Livre des Nombres… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "origine-zero"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-base60",
+      "fait": "Les Babyloniens, héritant des Sumériens (vers 2000 av. J.-C.), utilisaient un système de numération sexagésimal (base 60) pour leurs calculs, notamment astronomiques.",
+      "reference": "https://www.scientificamerican.com/article/experts-time-division-days-hours-minutes/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-temps",
+      "fait": "L'héritage babylonien subsiste dans notre mesure du temps : 60 minutes par heure, 60 secondes par minute, et dans le cercle divisé en 360 degrés.",
+      "reference": "https://asdubai.libguides.com/ms/G6Mesopotamia/Maths",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-divisible",
+      "fait": "60 est un nombre hautement composé : divisible par 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30 et 60, ce qui facilite l'expression des fractions bien mieux que 10.",
+      "reference": "https://timeinhours.com/why-does-an-hour-have-60-minutes/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-phalanges",
+      "fait": "On peut compter jusqu'à 12 sur une main en pointant du pouce les 3 phalanges de chaque doigt ; les 5 doigts de l'autre main comptent les groupes de 12, soit 60 au total.",
+      "reference": "https://timeinhours.com/why-does-an-hour-have-60-minutes/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-cercle",
+      "fait": "Le cercle est divisé en 360 degrés (6 × 60), héritage babylonien ; chaque degré se subdivise en 60 minutes d'arc, et chaque minute en 60 secondes d'arc.",
+      "reference": "https://knowledgebasedsociety.com/sumerian-sexagesimal-system-and-time-invention/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : la raison exacte du choix de 60 reste incertaine (divisibilité pratique, comptage sur les phalanges, ou cycles des astres). Les historiens débattent encore de l'origine.",
+      "reference": "https://arxiv.org/pdf/1206.4349",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    }
+  ]
+}

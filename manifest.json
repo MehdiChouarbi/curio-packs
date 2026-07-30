@@ -413,6 +413,16 @@
       "octets": 9650
     },
     {
+      "id": "nombres-soixante",
+      "livre": "les-nombres",
+      "titre": "Pourquoi une heure fait 60 minutes ?",
+      "resume": "Une heure fait 60 minutes, une minute 60 secondes. Pourquoi 60, et pas 100 ? La réponse a 4000 ans, et elle se cache au bout de tes doigts.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-soixante.json",
+      "sha256": "c9a2cd39459d859d7718428ebd577a7722f4fcbfa63adbf00a54736fbbb56199",
+      "octets": 9933
+    },
+    {
       "id": "nombres-zero",
       "livre": "les-nombres",
       "titre": "Le nombre qui a mis mille ans à naître",
