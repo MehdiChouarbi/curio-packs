@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "mots-langues-endormies",
+  "minEngineVersion": 1,
+  "livre": "les-mots",
+  "titre": "Les langues qui s'endorment",
+  "resume": "Dans le monde, une langue s'éteint environ toutes les deux semaines. Quand la dernière personne qui la parle s'en va, une façon unique de voir le monde disparaît. Mais parfois, une langue se réveille.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "origine-ecriture",
+      "texte": "Les langues se parlent. Mais comment les humains ont-ils commencé à les écrire ?",
+      "resolueParLivre": "civilisations"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🗣️",
+      "titre": "Gardienne des Langues"
+    },
+    "decouvertes": [
+      "On parle près de 7000 langues sur Terre",
+      "Une langue s'éteint environ toutes les 2 semaines",
+      "Chaque langue est une façon unique de voir le monde",
+      "Une langue vit si les enfants la parlent",
+      "L'hébreu s'est réveillé après presque 2000 ans"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "combien-langues",
+      "type": "question",
+      "visuel": "🗣️",
+      "titre": "Combien de langues différentes parle-t-on sur Terre, à ton avis ?",
+      "olli": "Tu parles peut-être français, et tu connais des mots d'autres langues. Mais sur toute la planète, imagine le nombre de façons différentes de dire « bonjour », « maman », « étoile »… Combien de langues crois-tu qu'on parle en tout ?",
+      "choix": [
+        {
+          "emoji": "🔟",
+          "texte": "Une centaine environ"
+        },
+        {
+          "emoji": "🌍",
+          "texte": "Près de 7000",
+          "bonne": true
+        },
+        {
+          "emoji": "🔢",
+          "texte": "Un million"
+        }
+      ],
+      "reponseBonne": "Près de 7000 ! Sept mille façons différentes de nommer le monde, de compter, de raconter des histoires, de chanter à un bébé. Chacune est un trésor construit par un peuple pendant des siècles. Mais il y a une ombre à ce tableau : beaucoup de ces langues sont fragiles, et certaines sont en train de disparaître, tout doucement.",
+      "reponseAutre": "Près de 7000 ! Sept mille façons différentes de nommer le monde, de compter, de chanter à un bébé. Chacune est un trésor construit par un peuple pendant des siècles. Mais beaucoup de ces langues sont fragiles, et certaines sont en train de disparaître, tout doucement."
+    },
+    {
+      "id": "quand-langue-meurt",
+      "type": "observation",
+      "visuel": "🕯️",
+      "visuelAnimation": "flotte",
+      "titre": "Comprenons ce qui se passe quand une langue s'éteint.",
+      "olli": "Touche chaque partie. Une langue ne disparaît pas d'un coup : elle s'endort peu à peu, quand de moins en moins de gens la parlent.",
+      "hotspots": [
+        {
+          "emoji": "👵",
+          "nom": "La dernière voix",
+          "fait": "Une langue s'éteint le jour où meurt la dernière personne qui la parlait. Ça arrive à peu près toutes les deux semaines dans le monde. Ce jour-là, plus personne ne peut dire un seul mot de cette langue : elle devient silencieuse pour toujours."
+        },
+        {
+          "emoji": "🌍",
+          "nom": "Une façon de voir le monde",
+          "fait": "Chaque langue nomme le monde à sa manière. Certaines ont dix mots pour la neige, d'autres pas de mot pour « gauche » et « droite » mais pour « nord » et « sud ». Perdre une langue, c'est perdre une manière unique de penser."
+        },
+        {
+          "emoji": "👶",
+          "nom": "Le secret : les enfants",
+          "fait": "Une langue reste vivante tant que les enfants l'apprennent et la parlent. Si les petits ne parlent plus que la langue voisine, plus grande, l'ancienne s'endort. Les enfants sont les vrais gardiens d'une langue."
+        }
+      ]
+    },
+    {
+      "id": "peut-on-reveiller",
+      "type": "question",
+      "visuel": "🌅",
+      "titre": "Une langue endormie depuis presque 2000 ans peut-elle se réveiller ?",
+      "olli": "Voici la question qui donne de l'espoir. L'hébreu, parlé aujourd'hui en Israël, avait presque cessé d'être parlé au quotidien pendant près de deux mille ans. On l'écrivait, on le lisait, mais plus à la maison. Alors… pouvait-il revenir à la vie ?",
+      "choix": [
+        {
+          "emoji": "🚫",
+          "texte": "Non, une langue endormie est perdue à jamais"
+        },
+        {
+          "emoji": "🌱",
+          "texte": "Oui, on peut la réveiller si on la reparle",
+          "bonne": true
+        },
+        {
+          "emoji": "🤷",
+          "texte": "Seulement si un roi l'ordonne"
+        }
+      ],
+      "reponseBonne": "Oui, on peut la réveiller ! C'est arrivé à l'hébreu. Il y a un peu plus de cent ans, des gens ont décidé de le reparler à la maison, avec leurs enfants, en inventant les mots qui manquaient. Aujourd'hui, des millions le parlent chaque jour. Une langue endormie n'est pas morte : elle attend qu'on la reprenne.",
+      "reponseAutre": "Oui, on peut la réveiller ! C'est ce qui est arrivé à l'hébreu. Il y a un peu plus de cent ans, des gens ont décidé de le reparler à la maison, avec leurs enfants, en inventant les mots qui manquaient. Aujourd'hui, des millions de personnes le parlent. Une langue endormie n'est pas morte : elle attend qu'on la reprenne."
+    },
+    {
+      "id": "chaque-voix-compte",
+      "type": "anecdote",
+      "visuel": "💛",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Ta voix peut garder une langue vivante",
+      "texte": "Voici le plus beau, et ça te concerne peut-être directement. Une langue ne se garde pas dans un musée : elle se garde dans les bouches, dans les maisons, dans les chansons du soir. Chaque fois qu'un grand-parent raconte une histoire à un enfant dans sa langue, chaque fois qu'on chante une comptine dans la langue de ses ancêtres, on la garde vivante. Pas besoin d'être savant : il suffit de parler, d'écouter, de transmettre. Si dans ta famille on parle une langue rare, alors tu es, toi aussi, un gardien. 💛",
+      "olli": "Cette idée me touche beaucoup. Les plus grands trésors du monde ne sont pas dans des coffres : ils sont dans les mots qu'on se transmet, d'une génération à l'autre, avec amour.",
+      "sourceRef": "src-reveil"
+    },
+    {
+      "id": "mission-langue",
+      "type": "mission",
+      "visuel": "👨‍👩‍👧",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Deviens gardien d'une langue",
+      "texte": "Demande à un adulte de ta famille : « Est-ce qu'il y a une langue que parlaient tes parents ou tes grands-parents ? » Écoute son histoire. Puis apprends au moins trois mots dans cette langue : « bonjour », « merci », et un mot que tu trouves joli. Répète-les, note-les si tu veux, et essaie de les dire à quelqu'un. Si tu connais déjà une langue de ta famille, apprends aujourd'hui un mot nouveau que tu ne connaissais pas. Chaque mot que tu gardes est un mot qui ne s'endort pas.",
+      "olli": "Les mots d'une langue qu'on aime sont comme des petites lanternes : tant qu'on les allume, la langue reste éveillée. À toi de jouer, gardien. 😊"
+    },
+    {
+      "id": "teaser-fin-mots",
+      "type": "teaser",
+      "visuel": "📖",
+      "titre": "Les langues se parlent… mais comment ont-elles commencé à s'écrire ?",
+      "texte": "Une dernière chose me fascine. Une langue vit dans les voix. Mais un jour, quelque part, des humains ont eu une idée folle : garder les mots pour toujours en les dessinant. Fixer une parole sur une pierre, pour qu'elle traverse le temps bien après la voix qui l'a dite. Comment cette idée extraordinaire — l'écriture — est-elle née ?",
+      "olli": "La réponse t'attend dans le Livre des Civilisations… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "origine-ecriture"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-nombre",
+      "fait": "On dénombre environ 7000 langues dans le monde ; plus de 40% sont considérées comme menacées, et environ un tiers ont moins de 1000 locuteurs.",
+      "reference": "https://www.nationalgeographic.com/culture/article/saving-dying-disappearing-languages-wikitongues-culture",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-rythme",
+      "fait": "Selon des linguistes (Living Tongues Institute, National Geographic), une langue disparaît en moyenne toutes les deux semaines, soit 25 à 30 par an.",
+      "reference": "https://tucson.com/news/science/a-language-dies-every-two-weeks/article_523098de-d1a1-59b5-b0d6-f69d64965a29.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-transmission",
+      "fait": "Une langue devient menacée quand la transmission entre générations se rompt : la clé de la survie est que de nouveaux enfants l'apprennent et la parlent.",
+      "reference": "https://www.pangea.global/blog/10-endangered-languages/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-vision",
+      "fait": "Quand une langue meurt, on perd un savoir et une manière unique de percevoir le monde ; certaines langues encodent l'espace, la parenté ou la nature de façon irremplaçable.",
+      "reference": "https://geographyworlds.com/blog/endangered-languages-world/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-reveil",
+      "fait": "L'hébreu, langue quotidienne éteinte pendant près de 2000 ans (conservée comme langue liturgique), a été revitalisé dès la fin du XIXe siècle et est parlé aujourd'hui par des millions de personnes.",
+      "reference": "https://www.pangea.global/blog/a-brief-history-of-revived-languages-from-hebrew-to-wampanoag/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : le rythme « une toutes les deux semaines » est une estimation, dure à mesurer (des langues disparaissent sans trace). D'autres sont revitalisées : maori, hawaïen, gallois.",
+      "reference": "https://languagelearnershub.com/blog/extinct-languages/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    }
+  ]
+}

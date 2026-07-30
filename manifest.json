@@ -373,6 +373,16 @@
       "octets": 10207
     },
     {
+      "id": "mots-langues-endormies",
+      "livre": "les-mots",
+      "titre": "Les langues qui s'endorment",
+      "resume": "Dans le monde, une langue s'éteint environ toutes les deux semaines. Quand la dernière personne qui la parle s'en va, une façon unique de voir le monde disparaît. Mais parfois, une langue se réveille.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/mots-langues-endormies.json",
+      "sha256": "5fe8ffb49e11f66dff832092018f9ac17607c234e302e1128316d6ef77ca0e27",
+      "octets": 10384
+    },
+    {
       "id": "mots-nicaragua",
       "livre": "les-mots",
       "titre": "Les enfants qui ont inventé une langue",
