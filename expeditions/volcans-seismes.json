@@ -18,7 +18,8 @@
     }
   ],
   "questionsResolues": [
-    "terre-tremble"
+    "terre-tremble",
+    "voir-sans-creuser"
   ],
   "passeport": {
     "tampon": {
@@ -142,42 +143,42 @@
       "fait": "Un séisme émet des ondes P (primaires, rapides, peu destructrices) puis des ondes S (secondaires, plus lentes, responsables des secousses ressenties). L'écart peut atteindre plusieurs secondes.",
       "reference": "https://www.republicworld.com/lifestyle/animals-pets/can-animals-predict-earthquakes-heres-what-science-says",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-30"
     },
     {
       "id": "src-animaux",
       "fait": "Selon l'USGS, de nombreux animaux perçoivent l'onde P avant l'onde S que ressentent les humains, ce qui explique une réaction quelques secondes avant nous. Le mécanisme exact reste débattu.",
       "reference": "https://www.republicworld.com/lifestyle/animals-pets/can-animals-predict-earthquakes-heres-what-science-says",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-30"
     },
     {
       "id": "src-haicheng",
       "fait": "Le 4 février 1975, la ville de Haicheng (Chine) est évacuée après des comportements animaux anormaux et des secousses préliminaires ; un séisme de magnitude 7,3 détruit la ville le soir même.",
       "reference": "https://en.wikipedia.org/wiki/1975_Haicheng_earthquake",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-30"
     },
     {
       "id": "src-serpents",
       "fait": "Des serpents seraient sortis d'hibernation malgré le gel dans les semaines précédant le séisme de Haicheng ; les serpents détectent finement les vibrations du sol via le corps et l'oreille interne.",
       "reference": "https://www.animalsaroundtheglobe.com/the-species-that-predicted-earthquakes-before-technology-did-6-333660/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-30"
     },
     {
       "id": "src-tangshan",
       "fait": "Le 28 juillet 1976, le séisme de Tangshan (magnitude ~7,5) frappe sans précurseurs et fait plus de 240 000 morts. Haicheng apparaît depuis comme une exception due à ses séismes précurseurs.",
       "reference": "https://en.wikipedia.org/wiki/1975_Haicheng_earthquake",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-30"
     },
     {
       "id": "src-imprevisible",
       "fait": "NUANCE : aucun séisme majeur n'a jamais été prédit de façon fiable. Le comportement animal n'est pas un prédicteur validé ; l'USGS souligne l'absence de mécanisme reproductible.",
       "reference": "https://www.animalsaroundtheglobe.com/can-animals-really-sense-earthquakes-before-they-happen-3-382463/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-30"
     }
   ]
 }
