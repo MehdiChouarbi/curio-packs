@@ -593,6 +593,16 @@
       "octets": 10504
     },
     {
+      "id": "terre-trou",
+      "livre": "la-terre",
+      "titre": "Le trou le plus profond du monde",
+      "resume": "Pendant vingt ans, des scientifiques ont creusé le trou le plus profond jamais fait. Ils voulaient atteindre le cœur de la Terre. Ils ont dû s'arrêter — et pas pour la raison qu'on croit.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/terre-trou.json",
+      "sha256": "85622f4db7c086eb210f5324815d32dcca981c45078e08bf237b1dfce274cc71",
+      "octets": 10181
+    },
+    {
       "id": "volcans-naissance",
       "livre": "volcans",
       "titre": "Le volcan né dans un champ de maïs",

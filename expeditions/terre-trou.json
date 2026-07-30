@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "terre-trou",
+  "minEngineVersion": 1,
+  "livre": "la-terre",
+  "titre": "Le trou le plus profond du monde",
+  "resume": "Pendant vingt ans, des scientifiques ont creusé le trou le plus profond jamais fait. Ils voulaient atteindre le cœur de la Terre. Ils ont dû s'arrêter — et pas pour la raison qu'on croit.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "voir-sans-creuser",
+      "texte": "On ne peut pas creuser jusqu'au cœur. Alors comment sait-on ce qu'il y a à l'intérieur ?",
+      "resolueParLivre": "volcans"
+    }
+  ],
+  "questionsResolues": [
+    "creuser-profond"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🕳️",
+      "titre": "Foreuse des Profondeurs"
+    },
+    "decouvertes": [
+      "Le plus profond trou fait par l'homme : 12 km",
+      "Il a fallu plus de vingt ans pour le creuser",
+      "Tout en bas, il faisait 180 degrés",
+      "La roche devenait molle et refermait le trou",
+      "On n'a percé qu'un tiers de la croûte terrestre"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "jusquou-creuser",
+      "type": "question",
+      "visuel": "🕳️",
+      "titre": "Le plus profond trou jamais creusé fait combien ?",
+      "olli": "Dans le Nord de la Russie, des scientifiques ont voulu battre un record fou : creuser le trou le plus profond possible, pour se rapprocher du cœur de la Terre. Ils ont foré pendant plus de vingt ans. À ton avis, jusqu'où sont-ils descendus ?",
+      "choix": [
+        {
+          "emoji": "🏢",
+          "texte": "Environ 100 mètres, comme un gratte-ciel"
+        },
+        {
+          "emoji": "⛰️",
+          "texte": "Environ 12 kilomètres",
+          "bonne": true
+        },
+        {
+          "emoji": "🌍",
+          "texte": "Jusqu'au centre de la Terre"
+        }
+      ],
+      "reponseBonne": "Environ 12 kilomètres ! Plus précisément 12 262 mètres, plus profond que la plus profonde fosse des océans. C'est le point le plus bas que l'homme ait jamais atteint sous ses pieds. Un record qui tient encore aujourd'hui. Et pourtant, aussi vertigineux soit-il… c'est à peine une éraflure sur la Terre.",
+      "reponseAutre": "Environ 12 kilomètres ! Plus précisément 12 262 mètres, plus profond que la plus profonde fosse des océans. C'est le point le plus bas que l'homme ait jamais atteint sous ses pieds, un record qui tient encore. Et pourtant, aussi vertigineux soit-il, c'est à peine une éraflure sur la Terre."
+    },
+    {
+      "id": "pourquoi-arret",
+      "type": "question",
+      "visuel": "🔥",
+      "titre": "Pourquoi ont-ils été forcés de s'arrêter ?",
+      "olli": "Ils rêvaient d'aller bien plus loin, jusqu'à 15 kilomètres. Mais vers 12 km, ils ont dû abandonner. Pas à cause d'un monstre ni d'un mur infranchissable. Quelque chose de plus surprenant les a stoppés net. Quoi, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "💎",
+          "texte": "Ils ont heurté une couche de diamant"
+        },
+        {
+          "emoji": "🔥",
+          "texte": "Il faisait si chaud que la roche fondait",
+          "bonne": true
+        },
+        {
+          "emoji": "💧",
+          "texte": "Le trou s'est rempli d'eau"
+        }
+      ],
+      "reponseBonne": "La chaleur ! Tout en bas, il faisait 180 degrés — presque le double de ce qu'ils avaient prévu. À cette température, la roche cesse d'être dure : elle devient molle, comme de la pâte. Dès que la foreuse remontait, la roche « coulait » et refermait le trou ! Impossible d'aller plus loin. La Terre, en profondeur, n'est pas solide comme on l'imagine.",
+      "reponseAutre": "La chaleur ! Tout en bas, il faisait 180 degrés, presque le double du prévu. À cette température, la roche cesse d'être dure : elle devient molle comme de la pâte. Dès que la foreuse remontait, la roche « coulait » et refermait le trou ! Impossible d'aller plus loin. La Terre profonde n'est pas solide comme on l'imagine."
+    },
+    {
+      "id": "la-pomme",
+      "type": "observation",
+      "visuel": "🍎",
+      "visuelAnimation": "flotte",
+      "titre": "Mettons ces 12 km à l'échelle de la Terre.",
+      "olli": "Touche chaque partie. 12 kilomètres, ça paraît immense. Mais la Terre est si grande que ce record en devient minuscule. Regarde.",
+      "hotspots": [
+        {
+          "emoji": "🍎",
+          "nom": "La Terre est une pomme",
+          "fait": "Imagine que la Terre soit une pomme. La croûte sur laquelle nous vivons, c'est la peau de la pomme. Le trou le plus profond jamais creusé n'a même pas traversé cette peau : il s'est arrêté au tiers de son épaisseur seulement."
+        },
+        {
+          "emoji": "🌡️",
+          "nom": "De plus en plus chaud",
+          "fait": "Plus on descend, plus il fait chaud : environ 25 degrés de plus tous les kilomètres. Cette chaleur monte du cœur brûlant de la Terre, ce fameux fer liquide. C'est elle qui a eu raison des foreuses."
+        },
+        {
+          "emoji": "🌙",
+          "nom": "Un monde plus mystérieux que la Lune",
+          "fait": "Résultat étonnant : on a envoyé des hommes marcher sur la Lune, à 380 000 km, mais on n'a jamais pu descendre à plus de 12 km sous nos pieds. On connaît mieux le ciel lointain que l'intérieur de notre propre planète."
+        }
+      ]
+    },
+    {
+      "id": "surprises",
+      "type": "anecdote",
+      "visuel": "💧",
+      "etiquette": "Histoire vraie",
+      "titre": "Des surprises tout au fond",
+      "texte": "Même sans atteindre son but, ce trou a réservé de belles surprises. À des profondeurs où on pensait ne trouver que de la roche sèche, les scientifiques ont découvert de l'eau, pressée hors des minéraux par l'énorme pression. Ils ont aussi trouvé des fossiles microscopiques — de minuscules créatures marines — enfouis là depuis près de deux milliards d'années. Un simple trou, et c'était comme voyager très loin dans le temps, vers un monde caché juste sous nos pieds. 💧",
+      "olli": "Ça me plaît : ils cherchaient à aller loin vers le bas, et ils ont surtout voyagé loin dans le passé. Sous nos pieds dort une histoire vieille de milliards d'années.",
+      "sourceRef": "src-surprises"
+    },
+    {
+      "id": "mission-pomme",
+      "type": "mission",
+      "visuel": "🍎",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "La Terre-pomme et son minuscule trou",
+      "texte": "Prends une pomme et regarde-la bien : sa peau fine, c'est la croûte de la Terre, là où nous vivons. Maintenant, avec la pointe d'un cure-dent, gratte très légèrement la peau, sans même la percer complètement. Ce petit sillon, c'est déjà, à l'échelle, plus profond que le trou de Kola ! Ça te donne une idée : malgré tous nos efforts, nous n'avons fait qu'effleurer notre planète. Tout ce qui est en dessous reste, pour l'instant, un immense mystère.",
+      "olli": "Croque la pomme après, tu l'as bien méritée. Et souviens-toi : sous chacun de tes pas, il y a 6000 km de mystères. 😄"
+    },
+    {
+      "id": "teaser-fin-terre",
+      "type": "teaser",
+      "visuel": "🌍",
+      "titre": "On ne peut pas descendre au cœur de la Terre. Alors comment le connaît-on ?",
+      "texte": "Voilà qui me trotte dans la tête. Si le trou le plus profond n'atteint même pas le fond de la croûte, comment les scientifiques savent-ils qu'il y a du fer liquide tout au centre ? Personne n'y est jamais allé ! Ils ont dû trouver une autre façon de « voir » à l'intérieur, sans creuser… peut-être en écoutant la Terre elle-même, quand elle tremble. La curiosité trouve toujours un chemin.",
+      "olli": "Continue d'explorer les autres livres : les réponses s'y cachent, reliées les unes aux autres. Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "voir-sans-creuser"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-record",
+      "fait": "Le forage superprofond de Kola (URSS, débuté en 1970) a atteint 12 262 m, plus profond que la fosse des Mariannes ; il reste le point le plus profond jamais foré par l'homme.",
+      "reference": "https://science.howstuffworks.com/engineering/civil/kola-superdeep-borehole.htm",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-chaleur",
+      "fait": "Le forage s'est arrêté vers 1992 car la température atteignait 180°C (contre ~100°C prévus) ; la roche devenait ductile, « plastique », et refluait dans le puits dès l'arrêt du trépan.",
+      "reference": "https://scienceinsights.org/why-was-the-kola-superdeep-borehole-closed/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-tiers",
+      "fait": "Malgré ce record, Kola n'a traversé qu'environ un tiers de la croûte terrestre locale ; il n'a jamais approché le manteau.",
+      "reference": "https://www.earthdate.org/episodes/kola-superdeep",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-gradient",
+      "fait": "La température augmente d'environ 25-30°C par kilomètre de profondeur, à cause du flux de chaleur venu du manteau, bien plus chaud, sous la croûte.",
+      "reference": "https://interestingengineering.com/lists/facts-the-superdeep-kola-borehole",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-surprises",
+      "fait": "À Kola, on a découvert de l'eau libre en profondeur (extraite des minéraux par la pression) et des microfossiles marins vieux d'environ 2 milliards d'années.",
+      "reference": "https://www.earthdate.org/episodes/kola-superdeep",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : quelques sources donnent 12 261 m (écart de mesure d'un mètre). La légende des « bruits de l'enfer » entendus dans le trou est fausse.",
+      "reference": "https://geoscopy.com/kola-superdeep-borehole-the-deepest-hole-on-earth/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    }
+  ]
+}
