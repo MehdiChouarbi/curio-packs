@@ -14,7 +14,7 @@
     {
       "id": "infini-grand",
       "texte": "Existe-t-il un plus grand nombre que tous les autres ?",
-      "resolueParLivre": "Les Nombres"
+      "resolueParLivre": "les-nombres"
     }
   ],
   "questionsResolues": [],
@@ -140,35 +140,35 @@
       "fait": "En 628, le mathématicien indien Brahmagupta (Brahmasphutasiddhanta) est le premier à traiter le zéro comme un nombre à part entière et à énoncer des règles de calcul (n+0=n, n−n=0, n×0=0).",
       "reference": "https://www.kroneckerwallis.com/the-invention-of-zero-how-nothing-changed-mathematics/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-30"
     },
     {
       "id": "src-placeholder",
       "fait": "NUANCE : plusieurs peuples (Babyloniens, Mayas) ont utilisé un zéro comme simple marqueur de position, sans en faire un nombre. Le saut vers « zéro = nombre » est réalisé en Inde.",
       "reference": "https://sointeresting.net/2026/05/13/invention-of-zero/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-30"
     },
     {
       "id": "src-romains",
       "fait": "Les systèmes romain, grec et égyptien n'avaient pas de vrai zéro. La numération de position (avec zéro) rend le calcul écrit bien plus simple.",
       "reference": "https://globalindianschool.org/pune/guide/who-discovered-zero-first/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-30"
     },
     {
       "id": "src-sifr",
       "fait": "Transmis au monde arabe au VIIIᵉ s., le zéro est appelé « sifr » (vide) ; ce mot donne « chiffre » et « zéro ». Il arrive en Europe vers le XIIᵉ s.",
       "reference": "https://geoalliance.asu.edu/sites/default/files/LessonFiles/Jenkins/Zero/JenkinsZeroS.pdf",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-30"
     },
     {
       "id": "src-mefiance",
       "fait": "L'Europe résiste longtemps au zéro et aux chiffres arabes ; certaines cités marchandes les restreignent, par crainte notamment qu'un 0 soit falsifié en 6 ou 9.",
       "reference": "https://sointeresting.net/2026/05/13/invention-of-zero/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-30"
     }
   ]
 }
