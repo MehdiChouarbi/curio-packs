@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "terre-aimant",
+  "minEngineVersion": 1,
+  "livre": "la-terre",
+  "titre": "La Terre est un aimant géant",
+  "resume": "Une boussole pointe toujours le Nord. Pourquoi ? Parce que la Terre entière est un aimant, avec un cœur de fer liquide. Et cet aimant invisible nous garde en vie.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "aurores-lumiere",
+      "texte": "Le vent du Soleil crée les aurores. Mais d'où le Soleil tire-t-il toute cette énergie ?",
+      "resolueParLivre": "etoiles"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🧲",
+      "titre": "Gardienne du Bouclier"
+    },
+    "decouvertes": [
+      "La Terre est un gigantesque aimant",
+      "Son cœur de fer liquide crée le magnétisme",
+      "Une boussole s'aligne sur cet aimant géant",
+      "Ce champ nous protège d'un vent mortel du Soleil",
+      "Les aurores sont ce vent qui frappe le bouclier"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "pourquoi-boussole",
+      "type": "question",
+      "visuel": "🧭",
+      "titre": "Pourquoi l'aiguille d'une boussole pointe-t-elle toujours le Nord ?",
+      "olli": "Une boussole, où que tu sois sur Terre, pointe toujours dans la même direction : le Nord. Comme si une main invisible tournait l'aiguille. À ton avis, qu'est-ce qui l'attire ainsi, toujours du même côté ?",
+      "choix": [
+        {
+          "emoji": "⭐",
+          "texte": "L'étoile Polaire, dans le ciel"
+        },
+        {
+          "emoji": "🧲",
+          "texte": "La Terre elle-même, qui est un aimant",
+          "bonne": true
+        },
+        {
+          "emoji": "🌬️",
+          "texte": "Le vent, qui pousse l'aiguille"
+        }
+      ],
+      "reponseBonne": "La Terre est un aimant ! Un aimant géant, gros comme la planète entière. L'aiguille de la boussole, elle aussi aimantée, s'aligne sur lui, comme deux aimants qui se cherchent. Tu marches, tu dors, tu joues à la surface d'un aimant colossal, sans jamais le sentir. Et cet aimant a un cœur bien caché.",
+      "reponseAutre": "La Terre elle-même est un aimant ! Un aimant géant, gros comme la planète entière. L'aiguille de la boussole, aimantée elle aussi, s'aligne sur lui comme deux aimants qui se cherchent. Tu vis à la surface d'un aimant colossal sans le sentir. Et cet aimant a un cœur bien caché."
+    },
+    {
+      "id": "le-coeur",
+      "type": "observation",
+      "visuel": "🌋",
+      "visuelAnimation": "flotte",
+      "titre": "Descendons vers le cœur de la Terre.",
+      "olli": "Touche chaque partie. L'aimant ne vient pas de la surface où tu vis, mais de très, très profond — d'un endroit que personne n'a jamais vu.",
+      "hotspots": [
+        {
+          "emoji": "🔥",
+          "nom": "Un océan de fer liquide",
+          "fait": "À près de 3000 km sous tes pieds, il fait si chaud que le fer y est fondu, liquide comme de l'eau. Cet immense océan de métal en fusion tourne et tourbillonne sans cesse, à des milliers de degrés."
+        },
+        {
+          "emoji": "🔄",
+          "nom": "Le fer qui tourne fait l'aimant",
+          "fait": "Ce fer liquide, en tournant, produit des courants électriques géants. Et un courant électrique crée toujours du magnétisme. C'est ce mouvement, tout au fond, qui fabrique l'aimant de la Terre. On appelle ça la « dynamo »."
+        },
+        {
+          "emoji": "🛡️",
+          "nom": "Un bouclier jusqu'à l'espace",
+          "fait": "Cet aimant ne s'arrête pas à la surface : il s'étend loin dans l'espace, tout autour de la planète, formant une bulle invisible. Cette bulle, c'est un bouclier. Et il nous protège de quelque chose de dangereux."
+        }
+      ]
+    },
+    {
+      "id": "le-bouclier",
+      "type": "question",
+      "visuel": "🛡️",
+      "titre": "Contre quoi ce bouclier invisible nous protège-t-il ?",
+      "olli": "La bulle magnétique de la Terre nous protège en permanence. Sans elle, la vie serait sans doute impossible ici. Mais contre quel danger, à ton avis ? Quelque chose arrive du ciel, en continu…",
+      "choix": [
+        {
+          "emoji": "☄️",
+          "texte": "Contre les météorites qui tombent"
+        },
+        {
+          "emoji": "🌬️",
+          "texte": "Contre un vent de particules du Soleil",
+          "bonne": true
+        },
+        {
+          "emoji": "🌧️",
+          "texte": "Contre la pluie et les orages"
+        }
+      ],
+      "reponseBonne": "Contre le vent du Soleil ! Le Soleil envoie sans arrêt un flot de particules dangereuses dans l'espace, à toute vitesse. Sans bouclier, ce vent arracherait peu à peu l'air et l'eau de notre planète. C'est ce qui est arrivé à Mars, qui a perdu son bouclier… et presque toute son atmosphère. Notre aimant nous garde en vie.",
+      "reponseAutre": "Contre le vent du Soleil ! Il envoie sans arrêt un flot de particules dangereuses à toute vitesse. Sans bouclier, ce vent arracherait peu à peu l'air et l'eau de notre planète. C'est ce qui est arrivé à Mars, qui a perdu son bouclier et presque toute son atmosphère. Notre aimant nous garde en vie."
+    },
+    {
+      "id": "aurores",
+      "type": "anecdote",
+      "visuel": "🌌",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Les plus belles lumières du ciel viennent d'une bataille",
+      "texte": "Tu as peut-être déjà vu des photos d'aurores boréales, ces immenses voiles verts et roses qui dansent dans le ciel des pays du Nord. Eh bien, ces lumières magnifiques sont le spectacle d'une bataille invisible. Aux pôles, une partie du vent du Soleil parvient à se glisser le long du bouclier magnétique et frappe l'air tout en haut de l'atmosphère. Le choc fait briller l'air, comme une enseigne lumineuse géante. Autrement dit, quand tu admires une aurore, tu regardes en vrai le bouclier de la Terre en train d'arrêter le vent du Soleil, sous tes yeux. La plus belle des défenses. 🌌",
+      "olli": "J'adore ça : ce qui nous protège du danger crée aussi la plus belle chose du ciel. La Terre transforme une attaque en spectacle de lumière.",
+      "sourceRef": "src-aurores"
+    },
+    {
+      "id": "mission-boussole",
+      "type": "mission",
+      "visuel": "🧲",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fabrique ta propre boussole",
+      "texte": "Il te faut une aiguille, un aimant (même celui d'un frigo), et un bol d'eau. Frotte l'aiguille sur l'aimant, toujours dans le même sens, une trentaine de fois : elle devient aimantée. Pose-la délicatement sur un petit morceau de papier ou de bouchon qui flotte, au milieu du bol. Attends que ça se stabilise… et regarde : l'aiguille tourne toute seule et s'aligne Nord-Sud, sur l'aimant géant qu'est la Terre. Tu viens de sentir la planète tirer sur ton aiguille.",
+      "olli": "Compare avec une vraie boussole ou une carte si tu peux. Ton aiguille pointe le même Nord. Impressionnant, non ? 😄"
+    },
+    {
+      "id": "teaser-soleil",
+      "type": "teaser",
+      "visuel": "☀️",
+      "titre": "Ce vent vient du Soleil. Mais qu'est-ce que le Soleil, au juste ?",
+      "texte": "Une question me reste. Tout ça — le bouclier, les aurores — existe à cause du Soleil, qui souffle sans arrêt son vent de particules et déverse une énergie inimaginable dans l'espace, depuis des milliards d'années sans faiblir. Comment un objet peut-il brûler aussi fort, aussi longtemps, sans s'éteindre ? Qu'est-ce qu'une étoile, vraiment, quand on s'en approche ?",
+      "olli": "La réponse t'attend dans le Livre des Étoiles… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "aurores-lumiere"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-dynamo",
+      "fait": "Le champ magnétique terrestre est produit par la « géodynamo » : le fer liquide en mouvement dans le noyau externe (vers 2900 km de profondeur) génère des courants électriques et un champ magnétique.",
+      "reference": "https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-boussole",
+      "fait": "Le champ terrestre se comporte comme un dipôle (aimant droit), incliné d'environ 11° par rapport à l'axe de rotation ; c'est lui qui oriente les boussoles.",
+      "reference": "https://scied.ucar.edu/learning-zone/sun-space-weather/earth-magnetosphere",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-bouclier",
+      "fait": "La magnétosphère dévie le vent solaire (flot de particules chargées du Soleil) et empêche l'érosion de l'atmosphère ; Mars, ayant perdu son champ, a perdu l'essentiel de son atmosphère.",
+      "reference": "https://www.ebsco.com/research-starters/earth-and-atmospheric-sciences/earths-magnetic-field",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-aurores",
+      "fait": "Les aurores (boréales et australes) se produisent quand des particules du vent solaire, canalisées vers les pôles, entrent en collision avec la haute atmosphère et la font briller.",
+      "reference": "https://magnetometerx.com/en/learn/earths-magnetic-field/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-age",
+      "fait": "La géodynamo fonctionne depuis au moins 3,45 milliards d'années, d'après les minéraux magnétiques des roches anciennes — presque aussi vieille que la vie.",
+      "reference": "https://magnetometerx.com/en/learn/earths-magnetic-field/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-inversions",
+      "fait": "NUANCE : les pôles magnétiques s'inversent irrégulièrement (au moins 183 inversions relevées dans les basaltes océaniques), sur des milliers d'années. Le champ faiblit alors mais ne disparaît pas.",
+      "reference": "https://www.sciencetimes.com/articles/60941/20251226/earths-magnetosphere-explained-magnetic-field-reversal-solar-storms-protection-why-it-matters.htm",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    }
+  ]
+}

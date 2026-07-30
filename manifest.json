@@ -563,6 +563,16 @@
       "octets": 9968
     },
     {
+      "id": "terre-aimant",
+      "livre": "la-terre",
+      "titre": "La Terre est un aimant géant",
+      "resume": "Une boussole pointe toujours le Nord. Pourquoi ? Parce que la Terre entière est un aimant, avec un cœur de fer liquide. Et cet aimant invisible nous garde en vie.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/terre-aimant.json",
+      "sha256": "e8e028aa880073428fb51fbdaae6d66f8ec82cfae69f72493c7c6ac21072480d",
+      "octets": 10356
+    },
+    {
       "id": "terre-continents",
       "livre": "la-terre",
       "titre": "Les continents sont des voyageurs",
