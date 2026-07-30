@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "temps-arbres",
+  "minEngineVersion": 1,
+  "livre": "le-temps-profond",
+  "titre": "Les arbres qui racontent le temps",
+  "resume": "Dans le tronc d'un arbre coupé, il y a des cercles. Chacun est une année de sa vie. Certains arbres en ont près de cinq mille : ils vivaient déjà quand on bâtissait les pyramides.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "memoire-air",
+      "texte": "Les arbres gardent des milliers d'années. Qu'est-ce qui se souvient de l'air d'autrefois ?",
+      "resolueParLivre": "la-terre"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🌳",
+      "titre": "Lectrice des Arbres"
+    },
+    "decouvertes": [
+      "Chaque cercle d'un tronc est une année",
+      "On lit l'âge d'un arbre en comptant ses cercles",
+      "Les cercles gardent la trace du climat passé",
+      "Le plus vieil arbre a près de 5000 ans",
+      "On peut lire un arbre sans le couper"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "les-cercles",
+      "type": "question",
+      "visuel": "🪵",
+      "titre": "Dans un tronc d'arbre coupé, que représentent les cercles ?",
+      "olli": "Si tu as déjà vu une souche, ou une bûche coupée net, tu as remarqué ces cercles dessinés dans le bois, du centre vers l'écorce. Ce ne sont pas des décorations. Chacun raconte quelque chose de très précis sur la vie de l'arbre. À ton avis, quoi ?",
+      "choix": [
+        {
+          "emoji": "🌦️",
+          "texte": "Le nombre d'orages qu'il a subis"
+        },
+        {
+          "emoji": "📅",
+          "texte": "Une année de sa vie, chacun",
+          "bonne": true
+        },
+        {
+          "emoji": "🐦",
+          "texte": "Le nombre d'oiseaux qui l'ont visité"
+        }
+      ],
+      "reponseBonne": "Une année, chacun ! Un arbre grandit vite au printemps et en été, puis s'arrête l'hiver. Ce rythme dessine, chaque année, un nouveau cercle dans son tronc. Alors pour connaître l'âge d'un arbre, il suffit de compter ses cercles, comme des bougies sur un gâteau. Un arbre porte le compte de ses années caché dans son bois.",
+      "reponseAutre": "Une année de sa vie, chacun ! Un arbre grandit vite au printemps et en été, puis s'arrête l'hiver. Ce rythme dessine, chaque année, un nouveau cercle dans son tronc. Pour connaître son âge, il suffit de compter les cercles, comme des bougies sur un gâteau. L'arbre garde le compte de ses années dans son bois."
+    },
+    {
+      "id": "lire-arbre",
+      "type": "observation",
+      "visuel": "🌳",
+      "visuelAnimation": "flotte",
+      "titre": "Apprenons à lire un tronc comme un livre.",
+      "olli": "Touche chaque partie. Les cercles ne disent pas seulement l'âge : ils racontent toute la vie de l'arbre, année après année, comme un journal secret.",
+      "hotspots": [
+        {
+          "emoji": "📏",
+          "nom": "Cercle large, bonne année",
+          "fait": "Quand un cercle est large, c'est que l'année a été belle : de la pluie, du soleil, l'arbre a beaucoup grandi. Un cercle étroit, au contraire, raconte une année dure : sécheresse ou grand froid. Chaque cercle est le bulletin d'une année."
+        },
+        {
+          "emoji": "🔥",
+          "nom": "Les cicatrices du passé",
+          "fait": "Un arbre garde aussi ses blessures : une trace noire dans un cercle, et on sait qu'un incendie est passé cette année-là. Les arbres se souviennent des feux, des tempêtes, des grands froids, et nous les racontent."
+        },
+        {
+          "emoji": "🩺",
+          "nom": "Lire sans blesser l'arbre",
+          "fait": "Pas besoin de couper l'arbre pour lire son histoire ! Les scientifiques utilisent une fine tarière creuse qui prélève un tout petit crayon de bois, du centre à l'écorce. L'arbre continue de vivre, et on a lu sa vie entière."
+        }
+      ]
+    },
+    {
+      "id": "plus-vieux",
+      "type": "question",
+      "visuel": "🌲",
+      "titre": "Le plus vieil arbre vivant a quel âge, à ton avis ?",
+      "olli": "Certains arbres vivent extrêmement longtemps, bien plus que n'importe quel animal. Dans les montagnes de Californie pousse un petit pin tout tordu, appelé Mathusalem. En comptant ses cercles, on a trouvé son âge. Quel record crois-tu qu'il détient ?",
+      "choix": [
+        {
+          "emoji": "💯",
+          "texte": "Environ 100 ans"
+        },
+        {
+          "emoji": "🏛️",
+          "texte": "Près de 5000 ans",
+          "bonne": true
+        },
+        {
+          "emoji": "🦕",
+          "texte": "Un million d'années"
+        }
+      ],
+      "reponseBonne": "Près de 5000 ans ! Le pin Mathusalem a plus de 4800 cercles. Réfléchis à ce que ça veut dire : il était déjà adulte quand on bâtissait les pyramides d'Égypte. Il a traversé toute l'histoire écrite de l'humanité, immobile, en ajoutant un cercle chaque année. Un être vivant plus vieux que presque tout ce que tu connais.",
+      "reponseAutre": "Près de 5000 ans ! Le pin Mathusalem a plus de 4800 cercles. Réfléchis-y : il était déjà adulte quand on bâtissait les pyramides d'Égypte. Il a traversé toute l'histoire écrite de l'humanité, immobile, en ajoutant un cercle chaque année. Un être vivant plus vieux que presque tout ce que tu connais."
+    },
+    {
+      "id": "assembler-temps",
+      "type": "anecdote",
+      "visuel": "🧩",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Assembler les arbres pour remonter le temps",
+      "texte": "Un arbre très vieux nous fait remonter cinq mille ans. Mais on sait aller bien plus loin. Le truc : chaque région a des années particulières — une grande sécheresse, un été glacial — qui laissent la même suite de cercles larges et étroits dans tous les arbres du coin. Alors on fait chevaucher un vieil arbre vivant avec du bois plus ancien, trouvé dans de vieilles maisons ou enfoui dans la terre, en faisant coïncider ces motifs. De proche en proche, comme un puzzle, on remonte à plus de douze mille ans ! Mis bout à bout, les arbres deviennent une immense mémoire du temps. 🧩",
+      "olli": "Ça me plaît beaucoup : un seul arbre ne dit qu'un bout de l'histoire, mais tous ensemble, ils racontent des milliers d'années. Comme les couches de glace, la nature tient son journal.",
+      "sourceRef": "src-chevauchement"
+    },
+    {
+      "id": "mission-souche",
+      "type": "mission",
+      "visuel": "🪵",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Trouve et lis un tronc",
+      "texte": "Pars à la recherche d'un tronc coupé : une souche dans un parc, une bûche dans un tas de bois, une planche, ou même une grosse branche sciée. Trouve le centre et compte les cercles jusqu'à l'écorce : tu connais l'âge qu'avait cette partie de l'arbre ! Regarde bien : y a-t-il des cercles larges et d'autres étroits ? Chaque changement raconte une année facile ou difficile. Tu es en train de lire la vie d'un arbre, écrite dans son bois, comme un vrai scientifique.",
+      "olli": "Montre à quelqu'un comment compter les cercles. Vous pouvez essayer de deviner ensemble quelles années ont été belles, et lesquelles ont été dures. 😄"
+    },
+    {
+      "id": "teaser-glace",
+      "type": "teaser",
+      "visuel": "🧊",
+      "titre": "Les arbres gardent la mémoire… mais qu'est-ce qui se souvient encore plus loin ?",
+      "texte": "Une chose me revient. Les arbres tiennent le compte des années dans leurs cercles, sur des milliers d'années. Mais je me demande : y a-t-il, sur Terre, quelque chose qui garde une mémoire encore plus ancienne ? Quelque chose qui empilerait lui aussi les années couche après couche, mais depuis bien plus longtemps que le plus vieux des arbres… au point de se souvenir de l'air d'autrefois ?",
+      "olli": "La réponse t'attend dans le Livre de la Terre… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "memoire-air"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-cercles",
+      "fait": "Les arbres hors des tropiques forment un cercle de croissance par an (croissance rapide au printemps/été, arrêt en hiver) ; compter les cercles donne l'âge de l'arbre.",
+      "reference": "https://www.history.com/articles/oldest-tree",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-climat",
+      "fait": "La largeur des cercles reflète les conditions : cercle large = année favorable (eau, chaleur), cercle étroit = année difficile (sécheresse, froid). Les cercles archivent le climat passé.",
+      "reference": "https://www.workybooks.com/resources/climate-science/dendrochronology",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-tariere",
+      "fait": "On étudie les cercles sans abattre l'arbre grâce à une tarière de Pressler (increment borer), qui prélève un carottage de bois du centre à l'écorce.",
+      "reference": "https://www.ebsco.com/research-starters/anthropology/dendrochronology",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-mathusalem",
+      "fait": "Le pin de Bristlecone « Mathusalem » (Montagnes Blanches, Californie) a plus de 4800 cercles ; il germait donc avant la construction des pyramides d'Égypte.",
+      "reference": "https://treeplantation.com/tree-rings",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-chevauchement",
+      "fait": "En faisant se chevaucher les motifs de cercles d'arbres vivants et de bois ancien (archéologique, fossile), on a bâti des chronologies continues remontant à plus de 12 000 ans.",
+      "reference": "https://www.workybooks.com/resources/climate-science/dendrochronology",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : très rarement, un arbre peut former deux cercles ou aucun dans une année (stress, sécheresse). Les scientifiques recoupent plusieurs arbres pour corriger ces exceptions.",
+      "reference": "https://sciencenotes.org/tree-rings-dendrochronology-and-dendroclimatology/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    }
+  ]
+}

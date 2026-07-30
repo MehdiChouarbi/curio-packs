@@ -543,6 +543,16 @@
       "octets": 9669
     },
     {
+      "id": "temps-arbres",
+      "livre": "le-temps-profond",
+      "titre": "Les arbres qui racontent le temps",
+      "resume": "Dans le tronc d'un arbre coupé, il y a des cercles. Chacun est une année de sa vie. Certains arbres en ont près de cinq mille : ils vivaient déjà quand on bâtissait les pyramides.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/temps-arbres.json",
+      "sha256": "e12293c8a5ee069403884576dc3a6964acea480288a3654e5fd4e8d19e86e2bf",
+      "octets": 10361
+    },
+    {
       "id": "temps-coelacanthe",
       "livre": "le-temps-profond",
       "titre": "Le poisson qui a démenti les savants",
