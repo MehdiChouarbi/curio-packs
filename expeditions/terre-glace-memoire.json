@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "terre-glace-memoire",
+  "minEngineVersion": 1,
+  "livre": "la-terre",
+  "titre": "La glace qui se souvient",
+  "resume": "Au fond de l'Antarctique, la glace garde des bulles d'air vieilles de centaines de milliers d'années. Ce n'est pas une copie : c'est le vrai air d'un monde disparu, qu'on peut respirer.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "creuser-profond",
+      "texte": "On perce 3 km de glace. Mais jusqu'où peut-on vraiment creuser dans la Terre ?",
+      "resolueParLivre": "la-terre"
+    }
+  ],
+  "questionsResolues": [
+    "memoire-air"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🧊",
+      "titre": "Lectrice de la Glace"
+    },
+    "decouvertes": [
+      "La glace ancienne emprisonne des bulles d'air",
+      "Cet air est le vrai air du passé, pas une copie",
+      "On lit la glace couche par couche, comme un livre",
+      "Le plus ancien air connu a 800 000 ans",
+      "La Terre garde la mémoire de son propre climat"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "que-cache-la-glace",
+      "type": "question",
+      "visuel": "🧊",
+      "titre": "Dans la glace la plus ancienne de l'Antarctique, que trouve-t-on de précieux ?",
+      "olli": "Au cœur de l'Antarctique, des scientifiques creusent la glace sur des kilomètres de profondeur. Plus ils descendent, plus la glace est ancienne. Et dedans, ils cherchent un trésor minuscule mais extraordinaire. À ton avis, quoi ?",
+      "choix": [
+        {
+          "emoji": "🦣",
+          "texte": "Des os de mammouths gelés"
+        },
+        {
+          "emoji": "🫧",
+          "texte": "Des bulles d'air très ancien",
+          "bonne": true
+        },
+        {
+          "emoji": "💎",
+          "texte": "Des diamants formés par le froid"
+        }
+      ],
+      "reponseBonne": "Des bulles d'air ! En tombant, la neige emprisonne un peu d'air entre ses flocons. Couche après couche, année après année, cet air reste piégé dans la glace, enfermé dans de minuscules bulles. Et le plus fou : ce n'est pas une copie ni une reconstitution. C'est le vrai air d'autrefois, gardé intact pendant des centaines de milliers d'années.",
+      "reponseAutre": "Des bulles d'air très ancien ! En tombant, la neige emprisonne un peu d'air entre ses flocons. Couche après couche, cet air reste piégé dans la glace, dans de minuscules bulles. Et ce n'est pas une copie : c'est le vrai air d'autrefois, gardé intact pendant des centaines de milliers d'années."
+    },
+    {
+      "id": "carotte",
+      "type": "observation",
+      "visuel": "🧊",
+      "visuelAnimation": "flotte",
+      "titre": "Voici une « carotte » de glace, sortie des profondeurs.",
+      "olli": "Touche chaque partie. Les scientifiques remontent un long cylindre de glace, comme une paille géante plantée dans le passé. Chaque morceau raconte une époque.",
+      "hotspots": [
+        {
+          "emoji": "📏",
+          "nom": "Un livre à lire par couches",
+          "fait": "Chaque année dépose une fine couche de neige, puis de glace. En comptant les couches, du haut vers le bas, on remonte le temps année par année — exactement comme on lit les cernes d'un tronc d'arbre coupé."
+        },
+        {
+          "emoji": "🫧",
+          "nom": "L'air d'un monde disparu",
+          "fait": "Dans les bulles, il y a l'air que respiraient les mammouths, bien avant les premières villes. Les scientifiques peuvent l'analyser et savoir ce que contenait le ciel il y a très longtemps : c'est un échantillon direct du passé."
+        },
+        {
+          "emoji": "🌡️",
+          "nom": "La température d'autrefois",
+          "fait": "La glace elle-même garde la trace des températures passées. En l'étudiant, on sait quand il faisait froid, quand il faisait chaud, et comment le climat de la Terre a changé au fil des âges glaciaires."
+        }
+      ]
+    },
+    {
+      "id": "jusquou",
+      "type": "question",
+      "visuel": "⏳",
+      "titre": "Jusqu'à quand ce livre de glace nous fait-il remonter ?",
+      "olli": "Le record de la plus longue mémoire de glace continue est impressionnant. Jusqu'où crois-tu que les scientifiques ont pu remonter, grâce à l'air le plus ancien qu'ils aient pu lire d'affilée ?",
+      "choix": [
+        {
+          "emoji": "📅",
+          "texte": "Quelques milliers d'années"
+        },
+        {
+          "emoji": "🗿",
+          "texte": "Environ 800 000 ans",
+          "bonne": true
+        },
+        {
+          "emoji": "🦖",
+          "texte": "Jusqu'aux dinosaures, 66 millions d'années"
+        }
+      ],
+      "reponseBonne": "Environ 800 000 ans ! Grâce à une carotte tirée du cœur de l'Antarctique, on peut lire l'air et les températures sur huit cent mille ans d'affilée. C'est bien avant l'apparition de notre espèce. Et de nouvelles fouilles remontent encore plus loin — la glace garde des souvenirs plus vieux que l'humanité elle-même.",
+      "reponseAutre": "Environ 800 000 ans ! Grâce à une carotte tirée du cœur de l'Antarctique, on lit l'air et les températures sur huit cent mille ans d'affilée — bien avant notre espèce. Et de nouvelles fouilles remontent encore plus loin : la glace garde des souvenirs plus vieux que l'humanité."
+    },
+    {
+      "id": "respirer-passe",
+      "type": "anecdote",
+      "visuel": "🫧",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Respirer l'air des mammouths",
+      "texte": "Arrête-toi sur cette idée un instant. Quand un scientifique fait fondre un morceau de cette glace très ancienne, on entend l'air s'échapper des bulles dans un petit crépitement. Cet air-là n'a pas été respiré depuis des centaines de milliers d'années. Il a été emprisonné à une époque où des mammouths marchaient sur Terre, puis a attendu, gelé, dans le noir et le silence. Et il ressort aujourd'hui, exactement comme il était. La glace n'est pas que de l'eau gelée : c'est la mémoire vivante de la planète, un journal que la Terre a tenu toute seule. 🧊",
+      "olli": "J'aime cette idée à en avoir le vertige : la Terre garde ses propres souvenirs, sans que personne ne lui demande. Il suffit d'apprendre à les lire.",
+      "sourceRef": "src-air-reel"
+    },
+    {
+      "id": "mission-glacon",
+      "type": "mission",
+      "visuel": "🧊",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fabrique ta glace à couches",
+      "texte": "Prends un petit gobelet. Verse un peu d'eau et mets-le au congélateur. Quand c'est gelé, ajoute encore un peu d'eau par-dessus, et regèle. Recommence trois ou quatre fois, en attendant à chaque fois. Tu obtiens un glaçon fait de couches empilées, comme la glace de l'Antarctique. Regarde à travers : tu verras aussi de minuscules bulles d'air prisonnières, exactement comme celles qui gardent l'air du passé. Chaque couche, c'est une de tes « saisons » à toi.",
+      "olli": "Regarde bien les bulles dans un glaçon ordinaire, aussi. Cet air a été piégé quand tu as rempli le bac. C'est le tout début d'une carotte de glace. 😄"
+    },
+    {
+      "id": "teaser-profond",
+      "type": "teaser",
+      "visuel": "🕳️",
+      "titre": "On lit la glace sur des kilomètres. Mais jusqu'où peut-on creuser la Terre ?",
+      "texte": "Une chose m'intrigue. Pour attraper cette glace ancienne, on perce la calotte sur près de trois kilomètres. C'est énorme… et pourtant ce n'est rien à côté de l'épaisseur de la Terre. Alors je me demande : si on continuait à creuser, encore et encore, jusqu'où pourrait-on aller ? Quelqu'un a vraiment tenté de creuser le trou le plus profond possible…",
+      "olli": "La réponse t'attend un peu plus loin dans ce livre… En attendant, ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "creuser-profond"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-bulles",
+      "fait": "En s'accumulant, la neige piège de l'air ; en se compactant en glace, elle enferme cet air dans des bulles. Ces bulles sont la seule source de mesure directe de l'atmosphère du passé.",
+      "reference": "https://www.esc.cam.ac.uk/news/beyond-epica-ice-core",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-couches",
+      "fait": "Les carottes de glace s'analysent par couches annuelles successives, permettant de reconstituer températures et gaz atmosphériques au fil du temps, comme les cernes d'un arbre.",
+      "reference": "https://www.swoop-antarctica.com/blog/the-hunt-for-antarcticas-million-year-old-ice/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-800000",
+      "fait": "La carotte EPICA de Dome C (Antarctique, 2004) fournit un enregistrement continu du climat sur environ 800 000 ans, couvrant huit cycles glaciaires — référence pendant deux décennies.",
+      "reference": "https://www.esc.cam.ac.uk/news/beyond-epica-ice-core",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-air-reel",
+      "fait": "L'air des bulles n'est pas une reconstitution ni un modèle : ce sont des échantillons physiques de l'atmosphère ancienne, avec leur CO2 et méthane d'origine, mesurables directement.",
+      "reference": "https://spacedaily.com/t-in-2025-antarctic-drillers-reached-bedrock-and-recovered-ice-that-fell-as-snow-1-2-million-years-ago-with-the-air-of-that-vanished-world-still-sealed-inside-it/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-record",
+      "fait": "En janvier 2025, le projet Beyond EPICA (Little Dome C) a atteint le socle rocheux à 2800 m et récupéré une glace au record continu d'au moins 1,2 million d'années, étendant le record de 800 000 ans.",
+      "reference": "https://www.bas.ac.uk/news/a-historical-moment-over-1-2-million-years-of-earths-climate-history-captured-from-an-antarctic-ice-core/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : l'âge de l'air est un peu plus jeune que la glace qui l'entoure (l'air circule avant de se sceller). L'écart peut atteindre des milliers d'années là où il neige peu.",
+      "reference": "https://www.scientificamerican.com/article/ice-core-data-help-solve/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    }
+  ]
+}

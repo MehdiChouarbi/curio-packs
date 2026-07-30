@@ -573,6 +573,16 @@
       "octets": 10427
     },
     {
+      "id": "terre-glace-memoire",
+      "livre": "la-terre",
+      "titre": "La glace qui se souvient",
+      "resume": "Au fond de l'Antarctique, la glace garde des bulles d'air vieilles de centaines de milliers d'années. Ce n'est pas une copie : c'est le vrai air d'un monde disparu, qu'on peut respirer.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/terre-glace-memoire.json",
+      "sha256": "d4a00036e686a040eb3add385270f232a05a2cc8404d92e7dbda781de926d348",
+      "octets": 10504
+    },
+    {
       "id": "volcans-naissance",
       "livre": "volcans",
       "titre": "Le volcan né dans un champ de maïs",
