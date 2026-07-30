@@ -142,49 +142,49 @@
       "fait": "Les chauves-souris insectivores localisent leurs proies par écholocation : elles émettent des ultrasons et interprètent les échos pour situer un insecte dans le noir total.",
       "reference": "https://www.animalsaroundtheglobe.com/how-moths-avoid-bats-using-echo-jamming-clicks-5-342160/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-28"
+      "date": "2026-07-30"
     },
     {
       "id": "src-frequence",
       "fait": "Les cris d'écholocation des chauves-souris vont d'environ 11 kHz à plus de 200 kHz ; l'audition humaine plafonne autour de 20 kHz, donc ces cris nous sont inaudibles.",
       "reference": "https://www.animalsaroundtheglobe.com/how-moths-avoid-bats-using-echo-jamming-clicks-5-342160/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-28"
+      "date": "2026-07-30"
     },
     {
       "id": "src-buzz",
       "fait": "En phase d'attaque finale, la chauve-souris accélère fortement ses cris (« feeding buzz ») pour affiner la localisation de la proie juste avant la capture.",
       "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9637272/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-28"
+      "date": "2026-07-30"
     },
     {
       "id": "src-course",
       "fait": "La course aux armements acoustique chauve-souris/papillon dure environ 60 à 65 millions d'années. Les papillons ont développé oreilles ultrasoniques, vol d'évitement, clics et écailles absorbantes.",
       "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6275474/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-28"
+      "date": "2026-07-30"
     },
     {
       "id": "src-jamming",
       "fait": "En 2009 (Corcoran et al., Science), on démontre qu'un papillon tigre (Bertholdia trigona) brouille le sonar des chauves-souris par ses clics ; elles ne l'atteignent qu'environ 20% du temps.",
       "reference": "https://www.scientificamerican.com/article/sonar-jamming-tiger-moths-bats-echolocation-defense/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-28"
+      "date": "2026-07-30"
     },
     {
       "id": "src-ecailles",
       "fait": "Les écailles des ailes de papillons de nuit absorbent les ultrasons (surtout 40-60 kHz) et réduisent la distance de détection par le sonar. Les papillons à queue ont ~47% de survie en plus.",
       "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7061704/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-28"
+      "date": "2026-07-30"
     },
     {
       "id": "src-nuance",
       "fait": "NUANCE : le brouillage sonar est prouvé pour certaines espèces (tigres), pas toutes. Beaucoup de papillons non toxiques et sans oreilles s'appuient seulement sur le camouflage passif des écailles.",
       "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6275474/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-28"
+      "date": "2026-07-30"
     }
   ]
 }
