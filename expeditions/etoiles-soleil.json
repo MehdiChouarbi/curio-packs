@@ -3,8 +3,8 @@
   "id": "etoiles-soleil",
   "minEngineVersion": 1,
   "livre": "etoiles",
-  "titre": "Le géant qui nourrit la vie",
-  "resume": "Une immense boule de feu éclaire la Terre depuis plus de 4 milliards d'années. Mais comment sa chaleur voyage-t-elle jusqu'à nous ?",
+  "titre": "Le feu qui ne s'éteint jamais",
+  "resume": "Le Soleil brûle depuis presque cinq milliards d'années sans jamais s'arrêter. Aucun feu sur Terre ne tient si longtemps. Alors quel est son secret ? Et pourquoi sa lumière est-elle si vieille ?",
   "age": {
     "min": 8,
     "max": 12
@@ -12,143 +12,172 @@
   "dureeMinutes": 5,
   "questionsOuvertes": [
     {
-      "id": "terre-habitable",
-      "texte": "Pourquoi la Terre est-elle la seule planète que nous connaissons où la vie existe ?",
-      "resolueParLivre": "la-terre"
+      "id": "poussiere-etoiles",
+      "texte": "Le fer de ton sang, le calcium de tes os : d'où viennent ces atomes, avant toi ?",
+      "resolueParLivre": "le-corps"
     }
   ],
   "questionsResolues": [
-    "soleil-chaud-espace-froid"
+    "aurores-lumiere"
   ],
   "passeport": {
     "tampon": {
       "emoji": "☀️",
-      "titre": "Exploratrice du Soleil"
+      "titre": "Gardienne du Soleil"
     },
     "decouvertes": [
-      "Le Soleil est une étoile.",
-      "La lumière met environ 8 minutes à arriver jusqu'à la Terre.",
-      "Dans le vide de l'espace, la chaleur ne voyage pas comme dans l'air.",
-      "Sans le Soleil, la Terre serait une planète glacée."
+      "Le Soleil n'est pas un feu, mais une fusion",
+      "Il colle des cœurs d'atomes ensemble",
+      "Il transforme sa matière en lumière",
+      "Sa lumière met 8 minutes à venir jusqu'à toi",
+      "Mais elle a mis des millénaires à sortir de lui"
     ]
   },
   "scenes": [
     {
-      "id": "question",
+      "id": "quel-secret",
       "type": "question",
       "visuel": "☀️",
-      "titre": "Pourquoi Mars est-elle froide si le Soleil est brûlant ?",
-      "olli": "Tu viens de quitter Mars. Une question est restée sans réponse...",
+      "titre": "Comment le Soleil brûle-t-il depuis 5 milliards d'années sans s'éteindre ?",
+      "olli": "Tu as vu que le Soleil souffle un vent de particules jusqu'à la Terre, contre lequel notre aimant nous protège. Mais d'où vient toute cette énergie ? Un feu de bois s'éteint en une heure. Le Soleil, lui, brûle depuis presque cinq milliards d'années. Quel est son secret ?",
       "choix": [
         {
-          "emoji": "🥶",
-          "texte": "Le Soleil ne chauffe que la Terre"
+          "emoji": "🪵",
+          "texte": "C'est un énorme feu de bois"
         },
         {
-          "emoji": "🌌",
-          "texte": "Dans l'espace il n'y a presque rien pour transporter la chaleur",
+          "emoji": "⚛️",
+          "texte": "Il colle des cœurs d'atomes ensemble",
           "bonne": true
         },
         {
-          "emoji": "🧊",
-          "texte": "Mars fabrique son propre froid"
+          "emoji": "🔋",
+          "texte": "C'est une gigantesque pile électrique"
         }
       ],
-      "reponseBonne": "Exact ! Dans l'espace, il n'y a presque pas de matière. La chaleur du Soleil voyage surtout sous forme de lumière. Les planètes en reçoivent plus ou moins selon leur distance et leur atmosphère.",
-      "reponseAutre": "En réalité, l'espace est presque vide. La chaleur du Soleil voyage grâce à sa lumière."
+      "reponseBonne": "Il colle des atomes ! Le Soleil n'est pas un feu : c'est bien plus puissant. En son cœur, il fait si chaud et la pression est si forte que les tout petits cœurs des atomes se collent les uns aux autres. On appelle ça la « fusion ». Chaque collage libère une énergie colossale. Et le Soleil en fait des milliards de milliards, à chaque seconde.",
+      "reponseAutre": "Il colle des cœurs d'atomes ensemble ! Le Soleil n'est pas un feu : c'est bien plus puissant. En son cœur, la chaleur et la pression sont telles que les petits cœurs des atomes fusionnent, se collent. Chaque collage libère une énergie colossale. Et le Soleil en fait des milliards de milliards, à chaque seconde."
     },
     {
-      "id": "observation",
+      "id": "la-fournaise",
       "type": "observation",
-      "visuel": "☀️",
-      "visuelAnimation": "flotte",
-      "titre": "Approchons-nous du Soleil",
-      "olli": "Regarde ce géant de plus près.",
+      "visuel": "🔥",
+      "visuelAnimation": "tremble",
+      "titre": "Approchons-nous du cœur du Soleil.",
+      "olli": "Touche chaque partie. Attention, c'est l'endroit le plus extrême que tu exploreras : le centre d'une étoile.",
       "hotspots": [
         {
-          "emoji": "🔥",
-          "nom": "Sa surface",
-          "fait": "La surface du Soleil atteint environ 5 500 °C. C'est assez pour faire fondre presque tous les métaux."
+          "emoji": "🌡️",
+          "nom": "15 millions de degrés",
+          "fait": "Au cœur du Soleil, il fait 15 millions de degrés. Impossible à imaginer : des milliers de fois plus chaud que ton four le plus brûlant. À cette chaleur, la matière n'est ni solide, ni liquide, ni même un gaz normal."
         },
         {
-          "emoji": "💥",
-          "nom": "Son cœur",
-          "fait": "Au centre, la température dépasse 15 millions de degrés. C'est là que l'énergie du Soleil est fabriquée."
+          "emoji": "⚛️",
+          "nom": "De l'hydrogène en hélium",
+          "fait": "Le Soleil colle des cœurs d'hydrogène, l'atome le plus simple, pour en faire de l'hélium, le gaz des ballons qui flottent. En collant quatre petits, il obtient un plus gros… mais qui pèse un peu moins. Ce petit « manque » devient de l'énergie."
         },
         {
-          "emoji": "✨",
-          "nom": "Sa lumière",
-          "fait": "Chaque seconde, le Soleil envoie dans toutes les directions une quantité incroyable de lumière et d'énergie."
+          "emoji": "⚖️",
+          "nom": "Une montagne, chaque seconde",
+          "fait": "Chaque seconde, le Soleil transforme ainsi quatre millions de tonnes de sa propre matière en pure lumière. C'est le poids d'une petite montagne, changé en lumière à chaque battement de cœur. Et il a de quoi tenir encore cinq milliards d'années."
         }
       ]
     },
     {
-      "id": "question-lumiere",
+      "id": "vieille-lumiere",
       "type": "question",
-      "visuel": "💡",
-      "titre": "La lumière du Soleil est très rapide...",
-      "olli": "À ton avis, combien de temps met-elle pour arriver jusqu'à la Terre ?",
+      "visuel": "🌅",
+      "titre": "La lumière du Soleil qui touche ta peau, quel âge a-t-elle ?",
+      "olli": "Voici quelque chose d'incroyable. Quand un rayon de soleil réchauffe ta joue, il vient de traverser l'espace en huit minutes. Mais avant ça, il a dû sortir du Soleil. Combien de temps crois-tu que ça lui a pris, pour s'échapper de l'intérieur ?",
       "choix": [
         {
           "emoji": "⚡",
-          "texte": "8 secondes"
+          "texte": "Une seconde, c'est immédiat"
         },
         {
-          "emoji": "⏱️",
-          "texte": "8 minutes",
+          "emoji": "⏳",
+          "texte": "Des dizaines de milliers d'années",
           "bonne": true
         },
         {
-          "emoji": "🌍",
-          "texte": "8 heures"
+          "emoji": "🕐",
+          "texte": "Exactement huit minutes"
         }
       ],
-      "reponseBonne": "Bravo ! La lumière parcourt 150 millions de kilomètres en seulement environ 8 minutes.",
-      "reponseAutre": "Elle met environ 8 minutes. C'est incroyablement rapide !"
+      "reponseBonne": "Des dizaines de milliers d'années ! À l'intérieur du Soleil, c'est si dense que la lumière rebondit sans cesse, comme une bille de flipper, avant d'atteindre la surface. Puis, libre, elle file jusqu'à toi en huit minutes. La lumière qui te réchauffe est plus vieille que les pyramides.",
+      "reponseAutre": "Des dizaines de milliers d'années ! À l'intérieur du Soleil, c'est si dense que la lumière rebondit sans cesse, comme une bille de flipper, avant d'atteindre la surface. Puis, une fois libre, elle file jusqu'à toi en huit minutes. La lumière qui réchauffe ta joue est plus vieille que les pyramides."
     },
     {
-      "id": "anecdote",
+      "id": "huit-minutes",
       "type": "anecdote",
-      "visuel": "🌞",
-      "titre": "Le Soleil que tu vois...",
-      "etiquette": "Histoire vraie",
-      "olli": "Prépare-toi pour un drôle de voyage dans le temps.",
-      "texte": "Quand tu regardes le Soleil (jamais directement !), tu ne le vois pas tel qu'il est maintenant. Tu le vois tel qu'il était il y a environ 8 minutes, le temps que sa lumière arrive jusqu'à toi. En regardant le ciel, tu regardes toujours un peu dans le passé.",
-      "sourceRef": "src-lumiere"
-    },
-    {
-      "id": "mission",
-      "type": "mission",
-      "visuel": "🌞",
-      "titre": "Mission dans le monde réel",
-      "etiquette": "Mission dans le monde réel",
-      "olli": "Une petite expérience à faire aujourd'hui.",
-      "texte": "Pose une feuille blanche au soleil puis une autre à l'ombre. Après quelques minutes, touche-les délicatement. Tu découvriras que c'est la lumière du Soleil qui apporte son énergie."
-    },
-    {
-      "id": "teaser",
-      "type": "teaser",
       "visuel": "🌍",
-      "titre": "Pourquoi la Terre est-elle parfaite ?",
-      "olli": "Toutes les planètes reçoivent la lumière du Soleil...",
-      "texte": "Alors pourquoi seule la Terre possède de vastes océans d'eau liquide, une atmosphère respirable et une incroyable diversité de vie ? La réponse t'attend dans le Livre de la Terre.",
-      "questionOuverteRef": "terre-habitable"
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Le Soleil que tu vois n'est pas celui de maintenant",
+      "texte": "Voici une pensée vertigineuse. La lumière du Soleil met huit minutes à traverser l'espace jusqu'à nous. Cela veut dire que lorsque tu regardes le Soleil, tu ne le vois pas tel qu'il est maintenant, mais tel qu'il était il y a huit minutes ! S'il s'éteignait d'un coup, nous le verrions encore briller huit minutes sans nous douter de rien. Regarder loin dans l'espace, c'est toujours regarder dans le passé : le ciel étoilé est une immense machine à remonter le temps. ✨",
+      "olli": "Ça me donne le vertige à chaque fois : lever les yeux vers le ciel, c'est voir le passé. Les étoiles que tu admires brillaient peut-être il y a très, très longtemps.",
+      "sourceRef": "src-huit-minutes"
+    },
+    {
+      "id": "mission-soleil",
+      "type": "mission",
+      "visuel": "🌻",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Sens l'énergie d'une étoile",
+      "texte": "Par une journée ensoleillée, sors et tends ton visage vers le Soleil, les yeux bien fermés (ne le regarde jamais directement !). Cette chaleur douce que tu sens sur ta peau, c'est de l'énergie fabriquée au cœur d'une étoile, à 150 millions de kilomètres, qui a voyagé des milliers d'années puis huit minutes pour arriver juste là, sur ta joue. Prends une seconde pour y penser vraiment. Tu touches, en cet instant, un morceau de Soleil.",
+      "olli": "Raconte à quelqu'un que la chaleur du Soleil sur sa peau a des milliers d'années. C'est vrai, et presque personne ne le sait. 😄"
+    },
+    {
+      "id": "teaser-mort-etoile",
+      "type": "teaser",
+      "visuel": "💥",
+      "titre": "Tu es faite d'atomes. Mais d'où viennent-ils, avant toi ?",
+      "texte": "Une dernière question, un peu vertigineuse. Le Soleil colle des petits atomes pour en faire de plus gros. Or on dit que les atomes dont tu es faite — le fer de ton sang, le calcium de tes os — auraient été fabriqués par des étoiles, autrefois. Se pourrait-il que tu sois, toi aussi, faite de poussière d'étoiles ?",
+      "olli": "La réponse t'attend un peu plus loin dans le Livre des Étoiles… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "poussiere-etoiles"
     }
   ],
   "sources": [
     {
-      "id": "src-lumiere",
-      "fait": "La lumière du Soleil met environ 8 minutes et 20 secondes pour atteindre la Terre.",
-      "reference": "NASA Solar System Exploration",
+      "id": "src-fusion",
+      "fait": "Le Soleil produit son énergie par fusion nucléaire : dans son cœur à ~15 millions de °C, des noyaux d'hydrogène fusionnent en hélium (chaîne proton-proton), libérant de l'énergie.",
+      "reference": "https://energyeducation.ca/encyclopedia/Nuclear_fusion_in_the_Sun",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-30"
     },
     {
-      "id": "src-soleil",
-      "fait": "Le Soleil est une étoile dont la surface atteint environ 5 500 °C et le cœur environ 15 millions de degrés.",
-      "reference": "ESA / NASA - Sun Facts",
+      "id": "src-masse",
+      "fait": "Chaque seconde, le Soleil fusionne ~600 millions de tonnes d'hydrogène ; environ 4 millions de tonnes de masse sont converties en énergie (E=mc²) sous forme de lumière.",
+      "reference": "https://scienceinsights.org/what-occurs-in-the-core-of-the-sun-nuclear-fusion/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-21"
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-photon",
+      "fait": "L'énergie produite au cœur met des dizaines de milliers d'années (estimations de 10 000 à 170 000 ans) à atteindre la surface, en diffusant de façon aléatoire dans le plasma dense.",
+      "reference": "https://scienceinschool.org/article/2006/fusion-6/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-huit-minutes",
+      "fait": "Depuis la surface, la lumière met environ 8 minutes 20 secondes à parcourir les ~150 millions de km jusqu'à la Terre ; on voit donc le Soleil tel qu'il était 8 minutes plus tôt.",
+      "reference": "https://astronoo.com/en/articles/journey-of-the-photon.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-duree",
+      "fait": "Le Soleil fusionne de l'hydrogène depuis environ 4,6 milliards d'années et dispose d'assez de carburant pour environ 5 milliards d'années encore.",
+      "reference": "https://scienceinsights.org/what-powers-the-sun-nuclear-fusion-explained/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : « des dizaines de milliers d'années » décrit le trajet de l'énergie, pas d'un photon unique (constamment absorbé puis réémis). Les estimations varient selon la méthode de calcul.",
+      "reference": "https://spacedaily.com/d-light-takes-about-8-minutes-to-travel-from-the-sun-to-the-earth-but-the-energy-carried-in-that-sunlight-was-generated-in-the-suns-core-tens-to-hundreds-of-thousands-of-years-ago-bouncing-t/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-30"
     }
   ]
 }

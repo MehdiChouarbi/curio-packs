@@ -255,12 +255,12 @@
     {
       "id": "etoiles-soleil",
       "livre": "etoiles",
-      "titre": "Le géant qui nourrit la vie",
-      "resume": "Une immense boule de feu éclaire la Terre depuis plus de 4 milliards d'années. Mais comment sa chaleur voyage-t-elle jusqu'à nous ?",
+      "titre": "Le feu qui ne s'éteint jamais",
+      "resume": "Le Soleil brûle depuis presque cinq milliards d'années sans jamais s'arrêter. Aucun feu sur Terre ne tient si longtemps. Alors quel est son secret ? Et pourquoi sa lumière est-elle si vieille ?",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/etoiles-soleil.json",
-      "sha256": "573f44967a309b1fb75ca1638c7fada55e0708615fa03026a8b452a601224b2c",
-      "octets": 5616
+      "sha256": "e8018b2704fd9044631cafa5bf7b39d2cba9bb25f5472ba526509ce5d3f5c032",
+      "octets": 10405
     },
     {
       "id": "etoiles-terre",
