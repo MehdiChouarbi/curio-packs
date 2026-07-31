@@ -473,6 +473,16 @@
       "octets": 9650
     },
     {
+      "id": "nombres-premiers",
+      "livre": "les-nombres",
+      "titre": "Les briques secrètes des nombres",
+      "resume": "Certains nombres sont comme des briques LEGO : impossibles à casser en plus petits morceaux. Et avec ces briques, on fabrique tous les autres nombres. Même des insectes s'en servent pour survivre.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-premiers.json",
+      "sha256": "1f1ad2770718443a30fe6032a0bbdae9e178a24c546cce32768b4806efdb4d34",
+      "octets": 10577
+    },
+    {
       "id": "nombres-soixante",
       "livre": "les-nombres",
       "titre": "Pourquoi une heure fait 60 minutes ?",

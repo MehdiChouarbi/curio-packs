@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "nombres-premiers",
+  "minEngineVersion": 1,
+  "livre": "les-nombres",
+  "titre": "Les briques secrètes des nombres",
+  "resume": "Certains nombres sont comme des briques LEGO : impossibles à casser en plus petits morceaux. Et avec ces briques, on fabrique tous les autres nombres. Même des insectes s'en servent pour survivre.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "nombres-nature",
+      "texte": "Les nombres se cachent dans les nombres. Se cachent-ils aussi dans les fleurs et la nature ?",
+      "resolueParLivre": "les-nombres"
+    }
+  ],
+  "questionsResolues": [
+    "briques-nombres"
+  ],
+  "passeport": {
+    "tampon": {
+      "emoji": "🧱",
+      "titre": "Bâtisseuse de Nombres"
+    },
+    "decouvertes": [
+      "Certains nombres ne se cassent pas en morceaux",
+      "On les appelle les nombres premiers",
+      "Ils servent à fabriquer tous les autres nombres",
+      "Il en existe une infinité",
+      "Des insectes les utilisent pour survivre"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "casser-nombre",
+      "type": "question",
+      "visuel": "🧱",
+      "titre": "Peut-on couper le nombre 7 en parts égales plus petites ?",
+      "olli": "Prends 12 billes : tu peux les ranger en 3 rangées de 4, ou 2 rangées de 6. Le nombre 12 se « casse » facilement. Mais essaie avec 7 billes : peux-tu les ranger en plusieurs rangées égales, autrement qu'une seule ligne de 7 ?",
+      "choix": [
+        {
+          "emoji": "✂️",
+          "texte": "Oui, facilement, comme le 12"
+        },
+        {
+          "emoji": "🚫",
+          "texte": "Non, 7 ne se partage pas en rangées égales",
+          "bonne": true
+        },
+        {
+          "emoji": "🤷",
+          "texte": "Seulement en le coupant en deux moitiés"
+        }
+      ],
+      "reponseBonne": "Non ! Avec 7 billes, impossible de faire plusieurs rangées égales : soit une ligne de 7, soit 7 lignes de 1. Le 7 refuse d'être partagé. On dit que 7 est un « nombre premier » : il ne se divise que par 1 et par lui-même. Comme une brique qu'on ne peut pas casser en morceaux égaux. 2, 3, 5, 7, 11, 13… sont tous premiers.",
+      "reponseAutre": "Non, 7 ne se partage pas en rangées égales ! Soit une ligne de 7, soit 7 lignes de 1, rien d'autre. Le 7 refuse d'être partagé : c'est un « nombre premier », il ne se divise que par 1 et par lui-même. Comme une brique qu'on ne peut pas casser. 2, 3, 5, 7, 11, 13… sont tous premiers."
+    },
+    {
+      "id": "les-briques",
+      "type": "observation",
+      "visuel": "🧱",
+      "visuelAnimation": "flotte",
+      "titre": "Voyons pourquoi ces nombres sont si spéciaux.",
+      "olli": "Touche chaque partie. Les nombres premiers sont un peu les briques LEGO du monde des nombres : petits, solides, et on construit tout avec.",
+      "hotspots": [
+        {
+          "emoji": "🧱",
+          "nom": "Des briques incassables",
+          "fait": "Un nombre premier ne se divise que par 1 et par lui-même, sans reste. Impossible de le fabriquer en multipliant deux plus petits nombres. C'est un nombre « brique » : le point de départ, qu'on ne peut pas décomposer davantage."
+        },
+        {
+          "emoji": "🔨",
+          "nom": "On construit tout avec",
+          "fait": "Tous les autres nombres se fabriquent en multipliant des nombres premiers ! Par exemple, 12 = 2 × 2 × 3. Et il n'y a qu'une seule façon d'y arriver pour chaque nombre. Les premiers sont les briques de base de tous les nombres, comme les lettres pour les mots."
+        },
+        {
+          "emoji": "♾️",
+          "nom": "Une réserve sans fin",
+          "fait": "Y a-t-il un dernier nombre premier, le plus grand de tous ? Non ! Un savant grec, Euclide, a prouvé il y a plus de 2000 ans qu'il en existe une infinité. On peut toujours en trouver un plus grand. La réserve de briques ne s'épuise jamais."
+        }
+      ]
+    },
+    {
+      "id": "cigales",
+      "type": "question",
+      "visuel": "🦗",
+      "titre": "Pourquoi certaines cigales sortent-elles tous les 13 ou 17 ans, pile ?",
+      "olli": "Voici une histoire étonnante. Certaines cigales passent leur vie sous terre et n'en sortent que tous les 13 ans, ou tous les 17 ans, jamais 12 ni 15. Or 13 et 17 sont des nombres premiers ! Pourquoi ce choix, à ton avis ? Ce n'est pas un hasard…",
+      "choix": [
+        {
+          "emoji": "🎲",
+          "texte": "C'est complètement au hasard"
+        },
+        {
+          "emoji": "🛡️",
+          "texte": "Pour éviter leurs ennemis, malins calculateurs",
+          "bonne": true
+        },
+        {
+          "emoji": "☀️",
+          "texte": "À cause de la météo, tout simplement"
+        }
+      ],
+      "reponseBonne": "Pour éviter leurs ennemis ! Un nombre premier ne « tombe » presque jamais en même temps que les cycles des prédateurs (2, 3, 4, 5 ans…). En sortant tous les 13 ou 17 ans, les cigales croisent leurs ennemis très rarement. La nature a « choisi » les nombres premiers comme bouclier. Les maths, ça peut sauver la vie !",
+      "reponseAutre": "Pour éviter leurs ennemis, malins calculateurs ! Un nombre premier ne coïncide presque jamais avec les cycles des prédateurs (2, 3, 4 ans…). En sortant tous les 13 ou 17 ans, les cigales croisent leurs ennemis très rarement. La nature a « choisi » les nombres premiers comme bouclier. Les maths peuvent sauver la vie !"
+    },
+    {
+      "id": "mysteres",
+      "type": "anecdote",
+      "visuel": "🔐",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Les gardiens de tes secrets",
+      "texte": "Voici pourquoi les nombres premiers sont peut-être les plus importants du monde. Une chose est facile : multiplier deux grands premiers pour en faire un géant. Une chose est très difficile : partir de ce géant et retrouver les deux premiers de départ. Même les ordinateurs les plus puissants mettraient des milliers d'années ! On utilise cette difficulté pour protéger les secrets. Chaque fois qu'on envoie un message privé ou qu'on achète en ligne, des nombres premiers géants montent la garde contre les espions. Ces vieux nombres, étudiés par les Grecs, protègent aujourd'hui nos secrets. 🔐",
+      "olli": "Ça me plaît énormément : des nombres qu'on trouvait juste beaux et mystérieux sont devenus les gardiens de nos secrets. La curiosité d'hier fabrique les trésors de demain.",
+      "sourceRef": "src-crypto"
+    },
+    {
+      "id": "mission-crible",
+      "type": "mission",
+      "visuel": "🔢",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Pars à la chasse aux nombres premiers",
+      "texte": "Deviens un chasseur de briques ! Écris les nombres de 1 à 30. Teste chacun : peux-tu le fabriquer en multipliant deux nombres plus petits (autres que 1) ? 4 = 2×2, barre-le. 6 = 2×3, barre-le. Mais 5 ? Impossible à fabriquer : c'est un premier, entoure-le ! Continue jusqu'à 30. Tu devrais entourer : 2, 3, 5, 7, 11, 13, 17, 19, 23, 29. Arrives-tu à deviner où sera le prochain, après 30 ? C'est justement le grand mystère qui occupe encore les mathématiciens.",
+      "olli": "Les nombres premiers ne suivent aucune règle simple pour savoir où apparaît le suivant. Personne n'a encore percé ce mystère. Peut-être toi, un jour ? 😄"
+    },
+    {
+      "id": "teaser-formes",
+      "type": "teaser",
+      "visuel": "🌻",
+      "titre": "Les nombres se cachent dans les nombres. Mais se cachent-ils aussi dans la nature ?",
+      "texte": "Une pensée me vient. On a vu des nombres briques, cachés à l'intérieur des autres nombres. Mais je me demande : est-ce que les nombres se cachent aussi ailleurs, dans le monde autour de nous ? Dans la forme des fleurs, la spirale d'un coquillage, la disposition des pétales ? Se pourrait-il que la nature, elle aussi, compte et calcule à sa façon, en secret, dans tout ce qui pousse ?",
+      "olli": "La réponse t'attend ailleurs dans le Livre des Nombres… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "nombres-nature"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-definition",
+      "fait": "Un nombre premier est un entier supérieur à 1 qui n'a que deux diviseurs : 1 et lui-même. Les premiers nombres premiers sont 2, 3, 5, 7, 11, 13. 2 est le seul nombre premier pair.",
+      "reference": "https://kids.kiddle.co/Prime_number",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-briques",
+      "fait": "Théorème fondamental de l'arithmétique : tout entier supérieur à 1 est premier, ou s'écrit de façon unique comme un produit de premiers. Les premiers sont les « briques » de tous les nombres.",
+      "reference": "https://www.scienceabc.com/pure-sciences/importance-significance-of-prime-numbers-nature-real-life-examples.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-infini",
+      "fait": "Vers 300 av. J.-C., le mathématicien grec Euclide a prouvé qu'il existe une infinité de nombres premiers : la liste ne s'arrête jamais.",
+      "reference": "https://www.gleammath.com/post/why-are-primes-so-fascinating",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-cigales",
+      "fait": "Les cigales périodiques émergent tous les 13 ou 17 ans (nombres premiers), ce qui minimiserait les rencontres avec des prédateurs dont les cycles coïncident rarement avec ces intervalles.",
+      "reference": "https://prongo.com/prime-numbers/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-crypto",
+      "fait": "La cryptographie moderne repose sur les nombres premiers : multiplier deux grands premiers est facile, mais retrouver les facteurs d'un grand nombre est très long.",
+      "reference": "https://www.scienceabc.com/pure-sciences/importance-significance-of-prime-numbers-nature-real-life-examples.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : 1 n'est pas un nombre premier (par convention, pour garder l'unicité de la décomposition). Le lien cigales/prédateurs reste une hypothèse débattue, mais élégante et souvent citée.",
+      "reference": "https://www.firstcry.com/intelli/articles/lets-learn-prime-numbers-for-kids-to-improve-math-skills/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    }
+  ]
+}
