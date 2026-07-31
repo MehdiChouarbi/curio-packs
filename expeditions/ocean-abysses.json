@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "ocean-abysses",
+  "minEngineVersion": 1,
+  "livre": "ocean",
+  "titre": "L'endroit le plus profond du monde",
+  "resume": "Si tu pouvais poser le mont Everest au fond de l'océan, à l'endroit le plus creux, il serait entièrement recouvert d'eau. Bienvenue dans les abysses, le lieu le plus inexploré de la planète.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "lumiere-vivante",
+      "texte": "Dans le noir des abysses, des animaux brillent. Comment fabriquent-ils leur lumière ?",
+      "resolueParLivre": "ocean"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🌊",
+      "titre": "Exploratrice des Abysses"
+    },
+    "decouvertes": [
+      "L'endroit le plus profond fait près de 11 km",
+      "Il est plus creux que l'Everest est haut",
+      "Il y règne un noir total et un froid glacial",
+      "La pression y écraserait un sous-marin",
+      "Et pourtant, la vie y existe quand même"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "plus-profond",
+      "type": "question",
+      "visuel": "🌊",
+      "titre": "Que se passerait-il si on posait l'Everest au fond de l'océan ?",
+      "olli": "L'Everest est la plus haute montagne du monde : près de 9 kilomètres de haut. Imagine qu'on puisse la soulever et la déposer tout au fond de l'océan, à l'endroit le plus creux. Que se passerait-il, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "🗻",
+          "texte": "Son sommet dépasserait de l'eau"
+        },
+        {
+          "emoji": "🌊",
+          "texte": "Elle serait entièrement recouverte d'eau",
+          "bonne": true
+        },
+        {
+          "emoji": "🏝️",
+          "texte": "Elle ferait une nouvelle île"
+        }
+      ],
+      "reponseBonne": "Entièrement recouverte ! L'endroit le plus profond de l'océan, la fosse des Mariannes, plonge à près de 11 kilomètres. C'est plus creux que l'Everest est haut : si on y déposait la montagne, il resterait encore 2 kilomètres d'eau au-dessus de son sommet ! Sous la surface calme de la mer se cache un monde vertical, immense et presque inconnu.",
+      "reponseAutre": "Elle serait entièrement recouverte d'eau ! L'endroit le plus profond de l'océan, la fosse des Mariannes, plonge à près de 11 kilomètres. C'est plus creux que l'Everest est haut : on y déposerait la montagne qu'il resterait 2 km d'eau au-dessus de son sommet ! Sous la mer calme se cache un monde immense et presque inconnu."
+    },
+    {
+      "id": "le-voyage",
+      "type": "observation",
+      "visuel": "🤿",
+      "visuelAnimation": "nage",
+      "titre": "Descendons, mètre par mètre, vers le fond.",
+      "olli": "Touche chaque partie. Plus on descend, plus le monde change. Prépare-toi : là où on va, aucun humain ou presque n'est jamais allé.",
+      "hotspots": [
+        {
+          "emoji": "🌑",
+          "nom": "Le noir absolu",
+          "fait": "La lumière du soleil ne descend pas très loin dans l'eau. Passé quelques centaines de mètres, c'est le noir total, pour toujours. Tout en bas, il n'y a jamais eu le moindre rayon de soleil : une nuit qui dure depuis des millions d'années."
+        },
+        {
+          "emoji": "🥶",
+          "nom": "Un froid glacial",
+          "fait": "Loin du soleil, l'eau du fond est glaciale, juste au-dessus de zéro. Il y fait un froid mordant, constant, sans jamais le moindre réchauffement. Un désert gelé et sombre, tout au fond de la mer."
+        },
+        {
+          "emoji": "🗜️",
+          "nom": "Une pression qui écrase",
+          "fait": "Tout ce poids d'eau au-dessus appuie énormément. Au fond, la pression est mille fois plus forte qu'à la surface : elle écraserait un sous-marin ordinaire en un instant, comme on écrase une canette. Il faut des engins ultra-résistants pour descendre."
+        }
+      ]
+    },
+    {
+      "id": "connait-on",
+      "type": "question",
+      "visuel": "🌙",
+      "titre": "Qui est allé le plus loin : sur la Lune, ou au fond de l'océan ?",
+      "olli": "Voici une question qui étonne tout le monde. On pense connaître notre planète par cœur. Mais entre marcher sur la Lune, à 380 000 km, et descendre tout au fond de l'océan, juste sous nos bateaux… où le plus d'humains sont-ils allés, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "🌊",
+          "texte": "Au fond de l'océan, c'est tout près"
+        },
+        {
+          "emoji": "🌙",
+          "texte": "Sur la Lune : plus de gens y sont allés",
+          "bonne": true
+        },
+        {
+          "emoji": "🟰",
+          "texte": "Autant aux deux endroits"
+        }
+      ],
+      "reponseBonne": "Sur la Lune ! Aussi fou que ça paraisse, plus d'humains ont marché sur la Lune que descendus tout au fond de l'océan. On a de meilleures cartes de la Lune et de Mars que du fond de nos propres mers ! Une grande partie des profondeurs n'a jamais été explorée. Le plus grand mystère n'est pas dans le ciel : il est juste là, sous les vagues.",
+      "reponseAutre": "Sur la Lune ! Aussi fou que ça paraisse, plus d'humains ont marché sur la Lune que descendus tout au fond de l'océan. On a de meilleures cartes de la Lune que du fond de nos mers ! Une grande partie des profondeurs n'a jamais été explorée. Le plus grand mystère n'est pas dans le ciel : il est sous les vagues."
+    },
+    {
+      "id": "la-vie",
+      "type": "anecdote",
+      "visuel": "🦑",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "La vie s'accroche même là",
+      "texte": "On aurait pu croire que dans un endroit aussi terrible — noir, glacial, écrasant — rien ne pourrait vivre. Longtemps, les scientifiques le pensaient. Et puis, en descendant tout au fond, ils ont eu une immense surprise : il y a de la vie, même là ! De petites crevettes translucides, d'étranges poissons mous, des créatures qui grouillent dans la boue. Certains n'ont jamais connu la lumière ; d'autres brillent de leur propre lueur. Ça nous apprend une chose extraordinaire : la vie est incroyablement têtue. Partout où il y a la moindre chance de s'accrocher, elle trouve un chemin. 🦑",
+      "olli": "J'adore cette idée : la vie ne renonce jamais. Là où on jurerait que rien ne peut exister, elle invente une façon de tenir. Le vivant est plus fort et plus malin qu'on ne croit.",
+      "sourceRef": "src-vie"
+    },
+    {
+      "id": "mission-pression",
+      "type": "mission",
+      "visuel": "🥤",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Sens la force de l'eau",
+      "texte": "Pour comprendre la pression des profondeurs, va dans une piscine ou une baignoire. Prends un gobelet en plastique vide, retourne-le (ouverture vers le bas) et enfonce-le sous l'eau bien droit : tu sens l'eau qui pousse et résiste ? Plus tu descends, plus ça pousse. Autre essai : plonge au fond et sens la pression sur tes oreilles. Ce n'est qu'à un mètre ! Imagine cette poussée des milliers de fois plus forte, tout au fond de l'océan.",
+      "olli": "Si tu sens tes oreilles se boucher au fond de la piscine, c'est déjà la pression de l'eau. Les abysses, c'est ça… mais un million de fois. 😄"
+    },
+    {
+      "id": "teaser-lumiere",
+      "type": "teaser",
+      "visuel": "💡",
+      "titre": "Dans le noir absolu, certains animaux brillent. Comment font-ils ?",
+      "texte": "Une chose m'intrigue énormément. Tout au fond, dans le noir éternel, certaines créatures fabriquent leur propre lumière. Ça paraît magique : comment un animal peut-il briller, comme une petite lampe vivante, sans pile ni électricité ? À quoi ça leur sert, dans cette nuit sans fin ? Et sont-ils vraiment les seuls à s'éclairer ainsi ?",
+      "olli": "La réponse t'attend ailleurs dans le Livre de l'Océan… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "lumiere-vivante"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-profondeur",
+      "fait": "Le point le plus profond de l'océan, le Challenger Deep (fosse des Mariannes, Pacifique), atteint environ 10 900-11 000 m, soit plus de 2 km de plus que la hauteur de l'Everest.",
+      "reference": "https://www.livescience.com/23387-mariana-trench.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-noir",
+      "fait": "La lumière solaire ne pénètre pas au-delà de ~1000 m ; sous cette limite règne une obscurité totale et permanente, avec des températures proches de 1 à 4 °C.",
+      "reference": "https://www.cnn.com/2023/06/23/world/mariana-trench-challenger-deep-facts-scn/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-pression",
+      "fait": "Au fond de la fosse, la pression atteint environ 1071 fois la pression au niveau de la mer (env. 1086 bar), soit près de 8 tonnes par cm² : elle écraserait un sous-marin ordinaire.",
+      "reference": "https://en.wikipedia.org/wiki/Mariana_Trench",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-inexplore",
+      "fait": "Plus d'humains ont marché sur la Lune que plongé au fond du Challenger Deep ; en 2022, seulement ~20% des fonds marins étaient cartographiés avec précision.",
+      "reference": "https://www.cnn.com/2023/06/23/world/mariana-trench-challenger-deep-facts-scn/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-vie",
+      "fait": "Malgré le noir, le froid et la pression, la vie existe dans la fosse : amphipodes (crevettes), holothuries, poissons-limaces, et ~200 espèces de micro-organismes trouvées dans la boue du fond.",
+      "reference": "https://geographical.co.uk/science-environment/geo-explainer-exploring-the-mariana-trench",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : la profondeur exacte varie selon les mesures (10 900 à 11 034 m) car sonars et calibrages diffèrent. La première descente humaine date de 1960 (Piccard et Walsh, Trieste).",
+      "reference": "https://www.nausicaa.fr/en/the-ocean-magazine/mariana-trench-adventure-11000-metres-under-sea",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    }
+  ]
+}

@@ -14,7 +14,7 @@
     {
       "id": "poussiere-etoiles",
       "texte": "Ton corps est fait de poussière d'étoiles. Mais d'où vient cette poussière ?",
-      "resolueParLivre": "etoiles"
+      "resolueParLivre": "le-corps"
     }
   ],
   "questionsResolues": [

@@ -189,8 +189,8 @@
       "resume": "Tu as cinq sens, et tu crois voir le monde tel qu'il est. Mais un requin sent l'électricité, une abeille voit des couleurs invisibles, et un oiseau sent le Nord. Que rates-tu ?",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/corps-sens.json",
-      "sha256": "b1832faea66219d36bf24d654db28628e78319684dea65180a8677f478808a3f",
-      "octets": 10370
+      "sha256": "d8dc5f84233dbc3df9f5a113a4acbde7c1297eb187653807d806a50c1f0eb919",
+      "octets": 10371
     },
     {
       "id": "corps-sommeil",
@@ -269,8 +269,8 @@
       "resume": "Parmi toutes les planètes que nous connaissons, une seule déborde de forêts, d'océans et d'animaux : la Terre. Découvre pourquoi elle est si spéciale.",
       "minEngineVersion": 1,
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/etoiles-terre.json",
-      "sha256": "adcb394947961955722006183587d446ad73aec667fe42bfc62d8d8d9d75e27b",
-      "octets": 5882
+      "sha256": "2be91ee097b65f9c7b40dd513ce75322c60e034fde4268b42452029194cb08aa",
+      "octets": 5884
     },
     {
       "id": "etoiles-vivantes",
@@ -441,6 +441,16 @@
       "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-zero.json",
       "sha256": "5dd7cd81491c0b999b875299c50adc4d45798f4b62182b844ee0e355d683ab5a",
       "octets": 9316
+    },
+    {
+      "id": "ocean-abysses",
+      "livre": "ocean",
+      "titre": "L'endroit le plus profond du monde",
+      "resume": "Si tu pouvais poser le mont Everest au fond de l'océan, à l'endroit le plus creux, il serait entièrement recouvert d'eau. Bienvenue dans les abysses, le lieu le plus inexploré de la planète.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/ocean-abysses.json",
+      "sha256": "fffb92503f9ae64fb42d108e4d90851279db70a8fed82cddb7ea926e96f03b50",
+      "octets": 10373
     },
     {
       "id": "ocean-lumiere",
