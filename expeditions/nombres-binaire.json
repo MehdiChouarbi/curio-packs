@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "nombres-binaire",
+  "minEngineVersion": 1,
+  "livre": "les-nombres",
+  "titre": "Le langage secret des ordinateurs",
+  "resume": "Tes jeux, tes photos, tes chansons préférées… tout ce que fait un ordinateur est écrit avec seulement deux chiffres : 0 et 1. Comment deux petits chiffres peuvent-ils tout faire ?",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "briques-nombres",
+      "texte": "Tout se construit avec 0 et 1. Mais quels nombres sont les « briques » de tous les autres ?",
+      "resolueParLivre": "les-nombres"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "💻",
+      "titre": "Décodeuse des Machines"
+    },
+    "decouvertes": [
+      "Les ordinateurs ne comptent qu'avec 0 et 1",
+      "0 veut dire éteint, 1 veut dire allumé",
+      "Tout est fait de minuscules interrupteurs",
+      "Textes, images, sons : tout devient des 0 et 1",
+      "On appelle ça le langage binaire"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "combien-chiffres",
+      "type": "question",
+      "visuel": "💻",
+      "titre": "Avec combien de chiffres différents un ordinateur fait-il absolument tout ?",
+      "olli": "Tu comptes avec dix chiffres : 0, 1, 2, jusqu'à 9. Un ordinateur, lui, fait des choses incroyables : jeux, vidéos, musique. Tu penses qu'il utilise plein de chiffres compliqués ? Prépare-toi : il n'en utilise que très peu. Combien, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "🔟",
+          "texte": "Dix, comme nous"
+        },
+        {
+          "emoji": "✌️",
+          "texte": "Deux seulement : 0 et 1",
+          "bonne": true
+        },
+        {
+          "emoji": "💯",
+          "texte": "Cent chiffres spéciaux"
+        }
+      ],
+      "reponseBonne": "Deux seulement ! Un ordinateur ne connaît que deux chiffres : 0 et 1. Absolument tout ce qu'il fait — tes jeux, tes photos, tes chansons — n'est, tout au fond, qu'une immense suite de 0 et de 1. Ça paraît impossible avec si peu, et pourtant. On appelle ce langage le « binaire ». Et il y a une raison très maligne à ce choix.",
+      "reponseAutre": "Deux seulement : 0 et 1 ! Un ordinateur ne connaît que ces deux chiffres. Absolument tout ce qu'il fait — jeux, photos, chansons, cette application — n'est, tout au fond, qu'une immense suite de 0 et de 1. Ça paraît impossible avec si peu ! On appelle ce langage le « binaire », et il y a une raison très maligne à ce choix."
+    },
+    {
+      "id": "pourquoi-deux",
+      "type": "observation",
+      "visuel": "💡",
+      "visuelAnimation": "flotte",
+      "titre": "Pourquoi seulement deux chiffres ? Regardons un interrupteur.",
+      "olli": "Touche chaque partie. Le secret du binaire tient dans l'objet le plus simple du monde : un interrupteur, comme celui de la lumière de ta chambre.",
+      "hotspots": [
+        {
+          "emoji": "💡",
+          "nom": "Allumé ou éteint",
+          "fait": "Un interrupteur n'a que deux positions : allumé, ou éteint. Il n'y a pas de « à moitié allumé ». Les ordinateurs sont remplis de minuscules interrupteurs électriques. Éteint, on dit 0. Allumé, on dit 1. C'est aussi simple que ça."
+        },
+        {
+          "emoji": "🔢",
+          "nom": "Deux positions, pas d'erreur",
+          "fait": "Pourquoi pas dix positions ? Parce que « allumé ou éteint », c'est net, impossible à confondre. Avec dix niveaux différents, la machine se tromperait tout le temps. Deux positions bien claires, c'est rapide et sans erreur : parfait pour aller très vite."
+        },
+        {
+          "emoji": "🔡",
+          "nom": "Des paquets d'interrupteurs",
+          "fait": "Un seul interrupteur ne dit pas grand-chose. Mais en groupant plein d'interrupteurs, chacun allumé ou éteint, on fabrique des motifs. Chaque motif de 0 et de 1 peut représenter une lettre, un chiffre, une couleur. Comme des lettres qui forment des mots."
+        }
+      ]
+    },
+    {
+      "id": "tout-en-01",
+      "type": "question",
+      "visuel": "🎮",
+      "titre": "Une photo, une chanson, un jeu : comment tout ça devient-il des 0 et 1 ?",
+      "olli": "Voilà le plus vertigineux. Une belle photo de vacances, ta chanson préférée, ton jeu favori… tout ça, dans la machine, n'est fait que de 0 et de 1. Comment est-ce possible, à ton avis, de transformer une image en chiffres ?",
+      "choix": [
+        {
+          "emoji": "🎨",
+          "texte": "On garde les vraies couleurs, pas des chiffres"
+        },
+        {
+          "emoji": "🔢",
+          "texte": "On transforme chaque petit bout en nombres",
+          "bonne": true
+        },
+        {
+          "emoji": "✨",
+          "texte": "C'est de la magie, personne ne sait"
+        }
+      ],
+      "reponseBonne": "On transforme tout en nombres ! Une photo est découpée en millions de points de couleur, et chaque couleur devient un nombre, donc une suite de 0 et 1. Un son est mesuré des milliers de fois par seconde, chaque mesure devient un nombre. Tout — images, sons, mots — se traduit en 0 et 1. L'ordinateur ne voit jamais ta photo : il voit des nombres.",
+      "reponseAutre": "On transforme chaque petit bout en nombres ! Une photo est découpée en millions de points de couleur, et chaque couleur devient un nombre, donc une suite de 0 et 1. Un son est mesuré des milliers de fois par seconde, chaque mesure devient un nombre. Tout — images, sons, mots — se traduit en 0 et 1. L'ordinateur ne voit que des nombres."
+    },
+    {
+      "id": "milliards-interrupteurs",
+      "type": "anecdote",
+      "visuel": "⚡",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Des milliards d'interrupteurs dans ta main",
+      "texte": "Accroche-toi. Dans le téléphone que tu utilises, il n'y a pas quelques interrupteurs : il y en a des milliards ! Si petits qu'on ne peut pas les voir, gravés sur de tout petits morceaux appelés puces. Et le plus fou : ils s'allument et s'éteignent des milliards de fois par seconde. Quand tu regardes une vidéo, tu vois le résultat de milliards d'interrupteurs qui basculent entre 0 et 1, sans se fatiguer. Toute la magie des ordinateurs repose sur ce geste ultra-simple, répété un nombre fou de fois : allumé, éteint. La plus grande complexité, née de la plus grande simplicité. ⚡",
+      "olli": "Ça m'émerveille à chaque fois : le monde numérique tout entier tient dans un choix minuscule, allumé ou éteint, répété des milliards de fois. Le simple, en très grand nombre, devient magique.",
+      "sourceRef": "src-transistors"
+    },
+    {
+      "id": "mission-binaire",
+      "type": "mission",
+      "visuel": "🖐️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Compte en binaire sur tes doigts",
+      "texte": "Tu peux compter en binaire avec juste une main ! Chaque doigt est un interrupteur : levé = 1, baissé = 0. Commence poing fermé (c'est 0). Lève le pouce : ça fait 1. Maintenant, chaque doigt vaut le double du précédent (1, 2, 4, 8, 16). En choisissant quels doigts lever, tu peux fabriquer tous les nombres… jusqu'à 31, sur une seule main ! Bien plus que 5. Essaie de faire le nombre 5 : lève le doigt qui vaut 4 et celui qui vaut 1 (4+1=5). Tu comptes maintenant comme un ordinateur.",
+      "olli": "Défie un adulte : « je sais compter jusqu'à 31 sur une main ». Personne ne te croira… jusqu'à ce que tu montres le binaire ! 😄"
+    },
+    {
+      "id": "teaser-premiers",
+      "type": "teaser",
+      "visuel": "🧱",
+      "titre": "Les ordinateurs adorent les nombres. Mais quels nombres sont les vraies « briques » ?",
+      "texte": "Une question me trotte dans la tête. On a vu que tout se construit à partir de 0 et 1. Ça me fait penser à autre chose : chez les nombres eux-mêmes, en existe-t-il qui seraient des sortes de « briques » de base, à partir desquelles on fabrique tous les autres ? Des nombres spéciaux, qu'on ne pourrait pas casser en plus petits morceaux ? Il paraît qu'ils existent…",
+      "olli": "La réponse t'attend ailleurs dans le Livre des Nombres… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "briques-nombres"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-binaire",
+      "fait": "Les ordinateurs utilisent le système binaire (base 2), avec seulement deux chiffres, 0 et 1, car leurs composants électroniques (transistors) n'ont que deux états : éteint (0) ou allumé (1).",
+      "reference": "https://www.intel.com/content/www/us/en/education/k12/the-journey-inside/explore-the-curriculum/digital-information.html",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-fiable",
+      "fait": "Deux états (on/off) sont faciles à distinguer et peu sensibles aux erreurs ; 10 niveaux de tension seraient bien plus complexes. Un chiffre binaire (0 ou 1) s'appelle un « bit ».",
+      "reference": "https://windows101tricks.com/how-computers-use-binary/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-tout",
+      "fait": "Tout, dans un ordinateur, est codé en binaire : nombres, lettres (via des codes comme l'ASCII), images, sons, vidéos et instructions. Le sens dépend de l'interprétation du logiciel.",
+      "reference": "https://www.mergesociety.com/latest/binary-explained",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-transistors",
+      "fait": "Un ordinateur moderne contient des milliards de transistors (interrupteurs microscopiques) qui basculent entre 0 et 1 des milliards de fois par seconde pour traiter l'information.",
+      "reference": "https://medium.com/@doshiarya14/why-computers-use-binary-understanding-0s-and-1s-for-beginners-d5aead2c0452",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-doigts",
+      "fait": "En binaire, chaque position vaut le double de la précédente (1, 2, 4, 8, 16). Avec 5 doigts (chacun levé=1 ou baissé=0), on peut représenter tous les nombres de 0 à 31.",
+      "reference": "https://www.slashgear.com/1417452/computer-binary-code-explained/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : les programmeurs n'écrivent pas directement en 0 et 1, mais dans des langages (comme Python) qu'un logiciel traduit en binaire. Le binaire reste le langage final de la machine.",
+      "reference": "https://www.codeconquest.com/blog/how-binary-code-works/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    }
+  ]
+}

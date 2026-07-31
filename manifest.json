@@ -433,6 +433,16 @@
       "octets": 9248
     },
     {
+      "id": "nombres-binaire",
+      "livre": "les-nombres",
+      "titre": "Le langage secret des ordinateurs",
+      "resume": "Tes jeux, tes photos, tes chansons préférées… tout ce que fait un ordinateur est écrit avec seulement deux chiffres : 0 et 1. Comment deux petits chiffres peuvent-ils tout faire ?",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-binaire.json",
+      "sha256": "c1d76d713f8978b167d6a3333e40ece545f2cab350b319c38f65f40192d16b06",
+      "octets": 10734
+    },
+    {
       "id": "nombres-dix",
       "livre": "les-nombres",
       "titre": "Pourquoi comptons-nous jusqu'à dix ?",
