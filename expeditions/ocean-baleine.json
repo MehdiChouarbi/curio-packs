@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "ocean-baleine",
+  "minEngineVersion": 1,
+  "livre": "ocean",
+  "titre": "Le plus grand géant de tous les temps",
+  "resume": "Quel est le plus grand animal qui ait jamais existé ? Pas un dinosaure. C'est un animal bien vivant aujourd'hui, qui nage dans nos océans : la baleine bleue. Et son secret est renversant.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "lumiere-vivante",
+      "texte": "La baleine mange du krill par millions. Et certains de ces êtres minuscules brillent. Comment ?",
+      "resolueParLivre": "ocean"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🐋",
+      "titre": "Amie des Géants"
+    },
+    "decouvertes": [
+      "La baleine bleue est le plus grand animal de tous les temps",
+      "Elle est plus grande que n'importe quel dinosaure",
+      "Son cœur est gros comme une petite voiture",
+      "Le plus grand des animaux mange le plus petit",
+      "L'eau lui permet de porter son poids énorme"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "plus-grand-animal",
+      "type": "question",
+      "visuel": "🐋",
+      "titre": "Quel est le plus grand animal qui ait jamais vécu sur Terre ?",
+      "olli": "Ferme les yeux et imagine le plus grand animal de toute l'histoire. Tu penses sûrement à un dinosaure géant, non ? Eh bien, prépare-toi à une surprise : le plus grand animal de tous les temps est vivant aujourd'hui. Lequel, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "🦕",
+          "texte": "Un énorme dinosaure disparu"
+        },
+        {
+          "emoji": "🐋",
+          "texte": "La baleine bleue, bien vivante",
+          "bonne": true
+        },
+        {
+          "emoji": "🐘",
+          "texte": "L'éléphant d'Afrique"
+        }
+      ],
+      "reponseBonne": "La baleine bleue ! Et pas seulement le plus grand animal d'aujourd'hui : le plus grand de toute l'histoire de la Terre. Plus grande que le plus gros des dinosaures ! Elle peut mesurer 30 mètres — trois bus scolaires bout à bout — et peser autant que 30 éléphants. Ce géant absolu nage en ce moment dans nos océans.",
+      "reponseAutre": "La baleine bleue, bien vivante ! Pas seulement le plus grand animal d'aujourd'hui, mais de toute l'histoire de la Terre — plus grande que le plus gros dinosaure ! Elle peut mesurer 30 mètres, soit trois bus scolaires mis bout à bout, et peser autant que 30 éléphants. Ce géant nage en ce moment dans nos océans."
+    },
+    {
+      "id": "tout-est-geant",
+      "type": "observation",
+      "visuel": "🐋",
+      "visuelAnimation": "nage",
+      "titre": "Chez elle, tout est démesuré.",
+      "olli": "Touche chaque partie. Quand un animal est aussi grand, chaque morceau de son corps devient un record à lui tout seul. Accroche-toi.",
+      "hotspots": [
+        {
+          "emoji": "❤️",
+          "nom": "Un cœur comme une voiture",
+          "fait": "Le cœur de la baleine bleue est le plus gros du monde : environ la taille d'une petite voiture ! Il est si énorme qu'un enfant pourrait presque ramper à l'intérieur de ses plus gros vaisseaux. On peut entendre ses battements à des kilomètres."
+        },
+        {
+          "emoji": "👅",
+          "nom": "Une langue-éléphant",
+          "fait": "Sa langue, à elle seule, pèse à peu près autant qu'un éléphant entier ! Elle est si large qu'une petite équipe de foot pourrait tenir debout dessus. Chez ce géant, un simple bout du corps dépasse déjà la taille d'animaux entiers."
+        },
+        {
+          "emoji": "🔊",
+          "nom": "Le plus bruyant des animaux",
+          "fait": "La baleine bleue chante pour appeler ses semblables très loin dans l'océan. Son chant est l'un des sons les plus puissants du règne animal : il voyage sur des centaines de kilomètres sous l'eau, d'une baleine à l'autre."
+        }
+      ]
+    },
+    {
+      "id": "quoi-manger",
+      "type": "question",
+      "visuel": "🦐",
+      "titre": "Un tel géant, ça doit manger d'énormes proies, non ?",
+      "olli": "On imagine un monstre pareil en train d'avaler de gros animaux, comme dans les films. Mais la vérité est étonnante. Que mange, à ton avis, le plus grand animal de tous les temps pour nourrir son corps immense ?",
+      "choix": [
+        {
+          "emoji": "🦈",
+          "texte": "De gros poissons et des requins"
+        },
+        {
+          "emoji": "🦐",
+          "texte": "De minuscules bestioles, grosses comme ton doigt",
+          "bonne": true
+        },
+        {
+          "emoji": "🐙",
+          "texte": "Des pieuvres géantes"
+        }
+      ],
+      "reponseBonne": "Des minuscules bestioles ! Le plus grand animal du monde se nourrit de l'un des plus petits : le krill, de petites crevettes grosses comme ton doigt. Mais elle en mange des millions par jour ! Elle engouffre une énorme gorgée d'eau pleine de krill, puis recrache l'eau en gardant les bestioles. Le plus grand géant se nourrit du plus petit.",
+      "reponseAutre": "De minuscules bestioles, grosses comme ton doigt ! Le plus grand animal du monde mange l'un des plus petits : le krill, de petites crevettes. Mais elle en avale des millions par jour ! Elle engouffre une gorgée d'eau pleine de krill, puis recrache l'eau en gardant les bestioles. Le plus grand géant se nourrit du plus petit."
+    },
+    {
+      "id": "pourquoi-mer",
+      "type": "anecdote",
+      "visuel": "🌊",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Pourquoi les géants vivent dans la mer",
+      "texte": "Voici une question maligne : pourquoi le plus grand animal de tous les temps vit-il dans l'eau, et pas sur la terre ? Sur terre, un animal doit porter tout son poids sur ses pattes. Passé une certaine taille, ses os se briseraient sous son propre poids. Mais dans l'eau, l'eau porte le corps, elle le soutient de partout, comme quand tu flottes et te sens léger. Grâce à cette poussée, la baleine devient gigantesque sans s'effondrer. L'océan est le seul endroit où un être vivant peut atteindre une telle taille : ce n'est pas juste sa maison, c'est ce qui rend son existence possible. 🌊",
+      "olli": "J'adore cette idée : c'est l'eau elle-même qui permet à la baleine d'être si grande. Le plus grand des animaux a besoin de l'océan pour simplement exister. Tout est lié.",
+      "sourceRef": "src-eau-porte"
+    },
+    {
+      "id": "mission-taille",
+      "type": "mission",
+      "visuel": "📏",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Mesure une baleine bleue",
+      "texte": "Une baleine bleue fait environ 30 mètres de long. Pour sentir ce que ça représente, sors avec quelqu'un et compte tes grands pas (un grand pas fait à peu près 1 mètre). Marche 30 pas en ligne droite, puis retourne-toi : toute cette distance, c'est la longueur d'une seule baleine ! Tu peux aussi flotter dans une baignoire et sentir l'eau qui te porte : c'est exactement ce qui permet à ce géant de vivre.",
+      "olli": "Marche les 30 pas avec quelqu'un et dites ensemble : « tout ça, c'est UNE baleine ». Ça rend le géant bien réel. 😄"
+    },
+    {
+      "id": "teaser-froid",
+      "type": "teaser",
+      "visuel": "❄️",
+      "titre": "La baleine mange du krill. Et certaines de ces bestioles brillent dans le noir !",
+      "texte": "Une chose me revient. La baleine engloutit des millions de petites bestioles, le krill. Or, dans les profondeurs sombres, une partie de ces créatures minuscules a un pouvoir étonnant : elles brillent, elles fabriquent leur propre lumière ! Ça paraît magique. Comment un être aussi petit peut-il s'illuminer tout seul, sans pile ni électricité ? Et à quoi ça lui sert, dans le noir de l'océan ?",
+      "olli": "La réponse t'attend ailleurs dans le Livre de l'Océan… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "lumiere-vivante"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-record",
+      "fait": "La baleine bleue (Balaenoptera musculus) est le plus grand animal ayant jamais existé, plus grand que tout dinosaure connu : jusqu'à ~30 m de long et ~200 tonnes (environ 33 éléphants).",
+      "reference": "https://www.worldwildlife.org/resources/facts/whats-the-biggest-animal-that-has-ever-lived-and-other-blue-whale-facts/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-coeur",
+      "fait": "Le cœur d'une baleine bleue pèse environ 180 kg et a la taille d'une petite voiture ; son aorte est assez large pour qu'un humain puisse y ramper. Il pompe ~220 litres de sang par battement.",
+      "reference": "https://www.fisheries.noaa.gov/feature-story/big-hearted-blue-whale",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-langue",
+      "fait": "La langue d'une baleine bleue pèse environ 2,7 tonnes, autant qu'un éléphant adulte ; on dit qu'une équipe entière pourrait tenir debout dessus.",
+      "reference": "https://poseidonexpeditions.com/about/articles/top-facts-about-blue-whales/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-krill",
+      "fait": "Malgré sa taille, la baleine bleue se nourrit de krill (petits crustacés) : elle peut en consommer jusqu'à 4 tonnes (des dizaines de millions) par jour en filtrant l'eau à travers ses fanons.",
+      "reference": "https://www.wildlifenomads.com/blog/blue-whale-facts/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-eau-porte",
+      "fait": "L'eau soutient le poids du corps par flottaison, permettant aux animaux marins d'atteindre des tailles impossibles sur terre, où le squelette ne pourrait supporter une telle masse.",
+      "reference": "https://thenaturenetwork.co.uk/all-about-blue-whales-the-largest-animal-ever-to-exist-on-earth/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : les tailles maximales (30 m, 200 t) sont exceptionnelles ; la moyenne est inférieure, et les femelles dépassent les mâles. Chassées presque à l'extinction, elles se rétablissent lentement.",
+      "reference": "https://www.popsci.com/environment/why-blue-whales-largest-animal/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    }
+  ]
+}

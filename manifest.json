@@ -453,6 +453,16 @@
       "octets": 10373
     },
     {
+      "id": "ocean-baleine",
+      "livre": "ocean",
+      "titre": "Le plus grand géant de tous les temps",
+      "resume": "Quel est le plus grand animal qui ait jamais existé ? Pas un dinosaure. C'est un animal bien vivant aujourd'hui, qui nage dans nos océans : la baleine bleue. Et son secret est renversant.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/ocean-baleine.json",
+      "sha256": "e334ee8355421b1c5195dbec7ea8a9019b8a044e3f9c18dde4fb6c366b1d7267",
+      "octets": 10460
+    },
+    {
       "id": "ocean-lumiere",
       "livre": "ocean",
       "titre": "La planète où la lumière est vivante",
