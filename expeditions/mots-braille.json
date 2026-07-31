@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "mots-braille",
+  "minEngineVersion": 1,
+  "livre": "les-mots",
+  "titre": "Lire avec le bout des doigts",
+  "resume": "Comment lire quand on ne voit pas ? Un garçon aveugle de 15 ans a trouvé la réponse : des petits points en relief, qu'on lit avec les doigts. Il a offert la lecture à des millions de personnes.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "langues-meurent",
+      "texte": "Le braille a sauvé la lecture. Mais des langues entières s'éteignent — peut-on les sauver ?",
+      "resolueParLivre": "les-mots"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "⠿",
+      "titre": "Lectrice du Bout des Doigts"
+    },
+    "decouvertes": [
+      "On peut lire sans voir, avec les doigts",
+      "Le braille est fait de petits points en relief",
+      "Six points suffisent pour toutes les lettres",
+      "Un garçon de 15 ans l'a inventé",
+      "Il était lui-même aveugle"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "lire-sans-voir",
+      "type": "question",
+      "visuel": "🙈",
+      "titre": "Comment lire un livre quand on ne voit pas les lettres ?",
+      "olli": "On lit d'habitude avec les yeux, en regardant les lettres. Mais imagine une personne aveugle, qui ne voit pas la page. Elle a pourtant très envie de lire des histoires, d'apprendre, comme tout le monde. Comment pourrait-elle faire, à ton avis, pour lire un livre ?",
+      "choix": [
+        {
+          "emoji": "👂",
+          "texte": "En écoutant seulement, jamais en lisant"
+        },
+        {
+          "emoji": "👆",
+          "texte": "En touchant des lettres en relief, avec les doigts",
+          "bonne": true
+        },
+        {
+          "emoji": "🚫",
+          "texte": "Elle ne peut pas lire, c'est impossible"
+        }
+      ],
+      "reponseBonne": "Avec les doigts ! Si les lettres sont en relief, en bosses qu'on peut sentir, on peut les lire en les touchant, sans les voir. C'est l'idée géniale du braille : une écriture faite de petits points qui dépassent de la page. Les doigts glissent dessus, et la personne « lit » en sentant les bosses. Les yeux ne sont plus obligatoires.",
+      "reponseAutre": "En touchant des lettres en relief, avec les doigts ! Si les lettres sont en bosses qu'on peut sentir, on peut les lire en les touchant, sans les voir. C'est l'idée du braille : une écriture faite de petits points qui dépassent de la page. Les doigts glissent dessus et « lisent » les bosses. Les yeux ne sont plus obligatoires."
+    },
+    {
+      "id": "comment-ca-marche",
+      "type": "observation",
+      "visuel": "⠿",
+      "visuelAnimation": "flotte",
+      "titre": "Découvrons ce code tout en points.",
+      "olli": "Touche chaque partie. Le braille est incroyablement malin : tout un alphabet tient dans une petite case, sous un seul bout de doigt.",
+      "hotspots": [
+        {
+          "emoji": "⠿",
+          "nom": "Six points, une case",
+          "fait": "Chaque lettre tient dans une toute petite case de six points : deux colonnes de trois. En faisant dépasser certains points et pas d'autres, on obtient plein de motifs différents. Une case assez petite pour être sentie d'un seul coup, par le bout d'un doigt."
+        },
+        {
+          "emoji": "🔤",
+          "nom": "Un motif pour chaque lettre",
+          "fait": "Chaque combinaison de points dépassant représente une lettre : un point pour le A, deux pour le B, et ainsi de suite. Avec seulement six points, on peut fabriquer assez de motifs pour tout l'alphabet, les chiffres et la ponctuation."
+        },
+        {
+          "emoji": "👆",
+          "nom": "Les doigts qui lisent",
+          "fait": "La personne passe ses doigts sur les lignes de points, de gauche à droite. À l'entraînement, on lit très vite, presque aussi vite qu'avec les yeux ! Et le braille sert aussi à écrire : on peut noter ses propres idées, tout seul."
+        }
+      ]
+    },
+    {
+      "id": "qui-invente",
+      "type": "question",
+      "visuel": "🧒",
+      "titre": "Qui a inventé ce système génial ?",
+      "olli": "Le braille a changé la vie de millions de personnes. On pourrait croire qu'il a fallu une équipe de grands savants, des années de laboratoire. Mais la vérité est bien plus étonnante. Qui a inventé le braille, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "👨‍🔬",
+          "texte": "Une équipe de savants adultes"
+        },
+        {
+          "emoji": "🧒",
+          "texte": "Un garçon aveugle de 15 ans",
+          "bonne": true
+        },
+        {
+          "emoji": "👑",
+          "texte": "Un roi qui voulait aider"
+        }
+      ],
+      "reponseBonne": "Un garçon de 15 ans ! Il s'appelait Louis Braille, aveugle lui-même depuis l'enfance après un accident. À l'école, il n'avait presque aucun livre qu'il pouvait lire. Alors, adolescent, il a inventé son système de points, qui a pris son nom : le braille. Un jeune garçon a offert la lecture au monde entier des aveugles.",
+      "reponseAutre": "Un garçon aveugle de 15 ans ! Il s'appelait Louis Braille, aveugle depuis l'enfance après un accident. À l'école, il n'avait presque aucun livre qu'il pouvait lire. Alors, adolescent, il a inventé son système de points. Il lui a donné son nom : le braille. Un jeune garçon a offert la lecture au monde entier des aveugles."
+    },
+    {
+      "id": "malheur-cadeau",
+      "type": "anecdote",
+      "visuel": "💛",
+      "etiquette": "Histoire vraie",
+      "titre": "Transformer un malheur en cadeau",
+      "texte": "L'histoire de Louis Braille est bouleversante. Tout petit, à 3 ans, il joue dans l'atelier de cuir de son père. Il attrape un outil pointu et se blesse à l'œil. La blessure s'infecte, gagne les deux yeux, et vers 5 ans, Louis devient aveugle. Mais voici l'extraordinaire : au lieu de se laisser abattre, il a transformé son malheur en cadeau. Comprenant mieux que quiconque combien il est dur de ne pas lire, il a passé des années, adolescent, à percer des points dans du papier, jusqu'au système parfait. Le drame qui l'avait plongé dans le noir devint une lumière pour des millions de gens. 💛",
+      "olli": "Cette histoire me remplit d'admiration. Louis aurait pu ne penser qu'à sa peine. Il a choisi d'aider tous ceux qui vivraient la même chose après lui. Quel cœur immense.",
+      "sourceRef": "src-louis"
+    },
+    {
+      "id": "mission-toucher",
+      "type": "mission",
+      "visuel": "👆",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Lis avec tes doigts, les yeux fermés",
+      "texte": "Découvre ce que c'est de « lire » en touchant ! D'abord, cherche du braille autour de toi : sur beaucoup de boîtes de médicaments, dans les ascenseurs, sur certains panneaux. Passe le doigt sur ces points. Ensuite, sur une feuille, dépose des gouttes de colle ou des points de pâte à modeler pour former une lettre en relief. Laisse sécher, ferme les yeux, et essaie de la reconnaître juste en la touchant. Pas facile, hein ? Imagine lire un livre entier comme ça.",
+      "olli": "La prochaine fois que tu vois des petits points en relief dans un ascenseur, tu sauras : c'est du braille, et derrière, il y a l'histoire d'un garçon de 15 ans. 😊"
+    },
+    {
+      "id": "teaser-langues",
+      "type": "teaser",
+      "visuel": "🌍",
+      "titre": "Le braille a sauvé la lecture des aveugles. Mais des langues, elles, disparaissent…",
+      "texte": "Une pensée me vient. Le braille a donné aux personnes aveugles une façon de garder les mots, de lire et d'écrire. Il a sauvé quelque chose de précieux. Mais je pense à autre chose de fragile : partout dans le monde, des langues entières sont en train de s'éteindre, parce que de moins en moins de gens les parlent. Peut-on les sauver, elles aussi ? Une langue endormie peut-elle se réveiller ?",
+      "olli": "La réponse t'attend ailleurs dans le Livre des Mots… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "langues-meurent"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-systeme",
+      "fait": "Le braille est un système tactile : chaque caractère est une « cellule » de six points en relief (2 colonnes de 3), lue du bout des doigts. Six points donnent 63 combinaisons.",
+      "reference": "https://www.britannica.com/topic/Braille-writing-system",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-lecture",
+      "fait": "On lit le braille en déplaçant les doigts (surtout les index) de gauche à droite ; la vitesse moyenne est d'environ 125 mots par minute, jusqu'à 200 pour les lecteurs experts.",
+      "reference": "https://brailleworks.com/braille-resources/history-of-braille/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-invention",
+      "fait": "Louis Braille a inventé son système à 15 ans, en 1824, en simplifiant un code militaire à 12 points (de Charles Barbier) en une cellule de 6 points lisible d'un seul doigt.",
+      "reference": "https://www.history.com/articles/louis-braille-reading-writing-system-blind",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-louis",
+      "fait": "Louis Braille (né en 1809) perdit la vue vers 5 ans après s'être blessé l'œil, enfant, avec une alène dans l'atelier de cuir de son père ; l'infection gagna les deux yeux.",
+      "reference": "https://www.icoe.org/news/story-louis-braille-inventor-braille-code",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-diffusion",
+      "fait": "Braille publia son système en 1829 et l'adapta aux mathématiques et à la musique ; adopté officiellement en France après sa mort, il est aujourd'hui utilisé dans le monde entier.",
+      "reference": "https://www.rnib.org.uk/living-with-sight-loss/education-and-learning/braille-tactile-codes/braille-through-the-years-past-present-and-future/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : Braille s'appuya sur le « night writing » de Barbier, sans partir de zéro. Son système fut d'abord rejeté par des instructeurs voyants avant d'être largement adopté des décennies plus tard.",
+      "reference": "https://online.kidsdiscover.com/quickread/who-invented-the-braille-system",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    }
+  ]
+}
