@@ -413,6 +413,16 @@
       "octets": 10039
     },
     {
+      "id": "mots-rosette",
+      "livre": "les-mots",
+      "titre": "La pierre qui a réveillé une civilisation",
+      "resume": "Pendant plus de mille ans, personne ne savait plus lire l'écriture des anciens Égyptiens. Leurs temples couverts de signes étaient devenus muets. Puis une pierre a tout changé.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/mots-rosette.json",
+      "sha256": "1cefbf7e7cca64a1617342913fcdf3c02e88698f3759fe4018b49c56033c9d72",
+      "octets": 10769
+    },
+    {
       "id": "mots-silbo",
       "livre": "les-mots",
       "titre": "L'île qui parle en sifflant",

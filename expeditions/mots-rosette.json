@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "mots-rosette",
+  "minEngineVersion": 1,
+  "livre": "les-mots",
+  "titre": "La pierre qui a réveillé une civilisation",
+  "resume": "Pendant plus de mille ans, personne ne savait plus lire l'écriture des anciens Égyptiens. Leurs temples couverts de signes étaient devenus muets. Puis une pierre a tout changé.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "origine-ecriture",
+      "texte": "On a percé les hiéroglyphes. Mais comment l'écriture a-t-elle commencé, tout au début ?",
+      "resolueParLivre": "les-mots"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🗝️",
+      "titre": "Briseuse de Codes"
+    },
+    "decouvertes": [
+      "L'écriture égyptienne fut oubliée pendant 1400 ans",
+      "Les hiéroglyphes étaient devenus un code mystérieux",
+      "Une pierre portait le même texte en trois écritures",
+      "On connaissait déjà une des trois : le grec",
+      "Grâce à elle, on a percé le code des pharaons"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "code-perdu",
+      "type": "question",
+      "visuel": "🏛️",
+      "titre": "Une écriture que plus personne ne sait lire, est-ce perdu pour toujours ?",
+      "olli": "Imagine : les anciens Égyptiens couvraient leurs temples de dessins-signes, les hiéroglyphes. Puis, avec le temps, plus personne n'a su les lire — pendant plus de mille ans ! Leurs murs étaient couverts de messages devenus muets. Pouvait-on encore espérer les relire un jour ?",
+      "choix": [
+        {
+          "emoji": "🚫",
+          "texte": "Non, c'est perdu à jamais"
+        },
+        {
+          "emoji": "🗝️",
+          "texte": "Oui, si on trouve une clé pour percer le code",
+          "bonne": true
+        },
+        {
+          "emoji": "🔮",
+          "texte": "Seulement avec de la magie"
+        }
+      ],
+      "reponseBonne": "Oui, avec une clé ! Une écriture perdue, c'est comme un code secret : si on trouve le bon indice, on peut le percer. Pendant des siècles, les savants regardaient ces oiseaux, ces yeux dessinés, sans comprendre. Il manquait juste une chose : un pont entre ce code inconnu et une langue qu'on savait déjà lire.",
+      "reponseAutre": "Oui, si on trouve une clé pour percer le code ! Une écriture perdue, c'est comme un code secret : avec le bon indice, on peut le craquer. Pendant des siècles, les hiéroglyphes ont gardé leur mystère : on voyait ces oiseaux, ces yeux dessinés, sans comprendre. Il manquait un pont entre ce code et une langue qu'on savait lire."
+    },
+    {
+      "id": "la-pierre",
+      "type": "observation",
+      "visuel": "🪨",
+      "visuelAnimation": "flotte",
+      "titre": "Voici la clé : une pierre couverte de trois écritures.",
+      "olli": "Touche chaque partie. En 1799, des soldats ont trouvé en Égypte une grande pierre gravée. Sur elle se cachait la clé de tout le mystère.",
+      "hotspots": [
+        {
+          "emoji": "📜",
+          "nom": "Le même texte, trois fois",
+          "fait": "Sur cette pierre, le même message était écrit trois fois, dans trois écritures différentes. C'est comme un livre qui écrirait la même phrase en français, en anglais et en chinois, l'une sous l'autre. Un vrai cadeau pour qui veut comparer."
+        },
+        {
+          "emoji": "🇬🇷",
+          "nom": "Une écriture déjà connue",
+          "fait": "Une des trois écritures était le grec ancien, que les savants savaient parfaitement lire ! Ils pouvaient donc comprendre ce que disait le message. Restait à deviner comment ces mêmes mots étaient écrits, à côté, en mystérieux hiéroglyphes."
+        },
+        {
+          "emoji": "🔍",
+          "nom": "Chercher les mêmes noms",
+          "fait": "L'astuce : repérer dans le grec un nom de roi, comme Ptolémée, puis chercher où ce nom se cachait dans les hiéroglyphes. En comparant, signe par signe, on pouvait deviner à quel son correspondait chaque dessin. Le code commençait à céder."
+        }
+      ]
+    },
+    {
+      "id": "champollion",
+      "type": "question",
+      "visuel": "🧑‍🔬",
+      "titre": "Combien de temps a-t-il fallu pour percer complètement le code ?",
+      "olli": "Au début, les savants pensaient que ce serait facile : deux petites semaines, et l'affaire serait réglée ! La pierre était là, avec sa traduction en grec. Mais le code des hiéroglyphes était bien plus rusé. Combien de temps a-t-il fallu, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "📅",
+          "texte": "Deux semaines, comme prévu"
+        },
+        {
+          "emoji": "⏳",
+          "texte": "Environ vingt ans",
+          "bonne": true
+        },
+        {
+          "emoji": "💯",
+          "texte": "Plus de mille ans"
+        }
+      ],
+      "reponseBonne": "Environ vingt ans ! Un savant français, Jean-François Champollion, y a consacré une grande partie de sa vie. Il a percé le secret : les hiéroglyphes ne sont pas que des dessins d'objets, ce sont aussi des sons, comme nos lettres ! En 1822, il a lu un premier nom de pharaon, et on raconte qu'il s'est évanoui d'émotion.",
+      "reponseAutre": "Environ vingt ans ! Le savant français Jean-François Champollion y a consacré une grande partie de sa vie. Il a fini par percer le secret : les hiéroglyphes ne sont pas que des dessins, ce sont aussi des sons, comme nos lettres ! En 1822, il a lu un premier nom de pharaon, et on raconte qu'il s'est évanoui d'émotion."
+    },
+    {
+      "id": "reparler",
+      "type": "anecdote",
+      "visuel": "🗣️",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Toute une civilisation qui se remet à parler",
+      "texte": "Réfléchis à ce que ça veut dire. Avant la pierre de Rosette, l'Égypte ancienne était comme un livre géant fermé à clé. On voyait ses pyramides, ses temples couverts de signes… sans rien comprendre. Une civilisation entière plongée dans le silence. Et puis, grâce à une seule pierre et des années de patience, la clé a tourné. D'un coup, tous ces murs se sont mis à parler ! On a pu lire les noms des pharaons, la vie de gens ordinaires morts il y a des milliers d'années. C'est ça, le pouvoir de l'écriture : tant qu'on sait la lire, les morts peuvent encore nous parler, à travers les siècles. 🗣️",
+      "olli": "Ça me bouleverse : une simple pierre a rendu la parole à tout un peuple oublié. Percer un code, parfois, c'est rendre la vie à toute une histoire endormie.",
+      "sourceRef": "src-reparler"
+    },
+    {
+      "id": "mission-code",
+      "type": "mission",
+      "visuel": "🔐",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Invente et perce un code secret",
+      "texte": "Deviens un briseur de codes, comme Champollion ! Avec un ami, invente un alphabet secret : remplace chaque lettre par un petit dessin (par exemple, un soleil pour le A, une étoile pour le B…). Écris un message secret avec, puis échangez. Pour aider l'autre à le percer, donne-lui un indice : traduis-lui un seul mot, par exemple ton prénom. À partir de ce petit pont, il pourra deviner les autres signes, exactement comme la pierre de Rosette a permis de percer les hiéroglyphes grâce au grec !",
+      "olli": "Un seul mot connu peut suffire à déverrouiller tout un message. Essaie : tu vas ressentir le même frisson que les perceurs de codes ! 😄"
+    },
+    {
+      "id": "teaser-origine",
+      "type": "teaser",
+      "visuel": "✍️",
+      "titre": "On a percé les hiéroglyphes. Mais au fait, comment l'écriture a-t-elle commencé ?",
+      "texte": "Une question me revient. Les hiéroglyphes, une fois déchiffrés, nous racontent l'Égypte ancienne. Mais avant même les pharaons, tout au début, quelqu'un a bien dû inventer l'idée d'écrire — de transformer des paroles qui s'envolent en signes qui restent. Comment cette idée géniale est-elle née, pour la toute première fois ? Qu'a-t-on écrit avant les temples et les pyramides ?",
+      "olli": "La réponse t'attend ailleurs dans le Livre des Mots… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "origine-ecriture"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-oubli",
+      "fait": "La capacité de lire les hiéroglyphes s'est perdue vers la fin du IVe siècle, sous domination romaine ; pendant plus de 1400 ans, personne ne sut plus les déchiffrer.",
+      "reference": "https://scienceinsights.org/who-deciphered-hieroglyphics-and-why-it-took-so-long/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-trois",
+      "fait": "La pierre de Rosette, découverte en 1799 par des soldats français, porte le même décret (196 av. J.-C.) en trois écritures : hiéroglyphes, démotique et grec ancien.",
+      "reference": "https://www.britishmuseum.org/blog/everything-you-ever-wanted-know-about-rosetta-stone",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-grec",
+      "fait": "Le grec ancien, lisible par les savants, servit de point de départ : en comparant les noms royaux (comme Ptolémée) d'une écriture à l'autre, on put attribuer des sons aux signes.",
+      "reference": "https://www.nationalgeographic.com/history/article/how-the-rosetta-stone-unlocked-the-secrets-of-ancient-civilizations",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-champollion",
+      "fait": "Jean-François Champollion déchiffra les hiéroglyphes en 1822, après près de 20 ans d'efforts, montrant qu'ils notent aussi des sons (phonétique) et pas seulement des idées ou objets.",
+      "reference": "https://www.smithsonianmag.com/history/rosetta-stone-hieroglyphs-champollion-decipherment-egypt-180980834/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-reparler",
+      "fait": "Le déchiffrement a fondé l'égyptologie et permis de lire des milliers d'inscriptions restées muettes ~1600 ans, ouvrant l'accès à la langue, l'histoire et la culture de l'Égypte ancienne.",
+      "reference": "https://www.jpost.com/archaeology/article-868813",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : le déchiffrement fut un processus collectif et progressif. L'Anglais Thomas Young avait avancé sur le démotique avant Champollion, qui fit la percée décisive sur les hiéroglyphes.",
+      "reference": "https://www.voicesofancientegypt.com/rosetta-stone-champollion-young/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    }
+  ]
+}
