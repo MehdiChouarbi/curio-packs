@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "ocean-tsunami",
+  "minEngineVersion": 1,
+  "livre": "ocean",
+  "titre": "La vague qui traverse un océan",
+  "resume": "Une vague ordinaire naît du vent. Mais une vague géante peut traverser un océan entier, aussi vite qu'un avion. Et un enfant a déjà sauvé des centaines de vies en la reconnaissant à temps.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "terre-tremble",
+      "texte": "Le tsunami naît d'un séisme au fond de la mer. Mais pourquoi la Terre tremble-t-elle ?",
+      "resolueParLivre": "volcans"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🌊",
+      "titre": "Vigie des Vagues"
+    },
+    "decouvertes": [
+      "Le tsunami n'est pas une vague comme les autres",
+      "Il naît d'un séisme au fond de la mer",
+      "Il file aussi vite qu'un avion de ligne",
+      "Il grandit d'un coup en arrivant près du bord",
+      "La mer qui se retire est un signe d'alerte"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "quelle-vague",
+      "type": "question",
+      "visuel": "🌊",
+      "titre": "Qu'est-ce qui déclenche une vague géante capable de traverser un océan ?",
+      "olli": "Les vagues normales, à la plage, sont fabriquées par le vent qui souffle sur l'eau, tout près. Mais il existe une vague bien plus puissante, qui peut voyager sur tout un océan. Elle ne vient pas du vent. D'où vient-elle, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "💨",
+          "texte": "D'un vent très très fort"
+        },
+        {
+          "emoji": "🌍",
+          "texte": "D'un tremblement de terre au fond de la mer",
+          "bonne": true
+        },
+        {
+          "emoji": "🌕",
+          "texte": "De la Lune qui tire l'eau"
+        }
+      ],
+      "reponseBonne": "D'un tremblement de terre ! Quand le sol bouge brusquement tout au fond de l'océan, il pousse d'un coup une énorme masse d'eau vers le haut. Cette eau bousculée part alors en vagues dans toutes les directions : c'est un tsunami. Il ne naît pas de la surface, comme les vagues du vent, mais du fond même de la mer. Et il emporte une énergie colossale.",
+      "reponseAutre": "D'un tremblement de terre au fond de la mer ! Quand le sol bouge brusquement tout au fond, il pousse d'un coup une énorme masse d'eau vers le haut. Cette eau bousculée part en vagues dans toutes les directions : c'est un tsunami. Il ne naît pas de la surface comme les vagues du vent, mais du fond de la mer."
+    },
+    {
+      "id": "le-voyage",
+      "type": "observation",
+      "visuel": "✈️",
+      "visuelAnimation": "nage",
+      "titre": "Suivons le tsunami dans son voyage.",
+      "olli": "Touche chaque partie. Le plus surprenant, c'est que le tsunami est presque invisible en pleine mer. Le danger, lui, se cache dans sa façon d'arriver au rivage.",
+      "hotspots": [
+        {
+          "emoji": "✈️",
+          "nom": "Rapide comme un avion",
+          "fait": "En pleine mer, un tsunami file à plus de 800 km/h, aussi vite qu'un avion de ligne ! Il peut traverser tout un océan en moins d'une journée. Sur un bateau, on ne le sentirait même pas passer : en eau profonde, il n'est qu'une longue ondulation basse."
+        },
+        {
+          "emoji": "📏",
+          "nom": "Invisible mais immense",
+          "fait": "Au large, le tsunami ne fait souvent qu'un mètre de haut : rien du tout, un simple bombement. Mais il est très, très long — des dizaines de kilomètres d'une vague à l'autre. Toute cette énergie est là, cachée, tapie sous une mer d'apparence calme."
+        },
+        {
+          "emoji": "🏔️",
+          "nom": "Il grandit d'un coup près du bord",
+          "fait": "En approchant de la côte, l'eau devient moins profonde. Le tsunami ralentit brutalement, et toute son énergie se comprime vers le haut. La vague, basse au large, se dresse alors en un mur d'eau qui peut monter très haut. C'est là qu'il devient dangereux."
+        }
+      ]
+    },
+    {
+      "id": "le-signe",
+      "type": "question",
+      "visuel": "🏖️",
+      "titre": "Juste avant un tsunami, quel signe étrange peut prévenir sur la plage ?",
+      "olli": "La nature envoie parfois un avertissement, quelques minutes avant qu'un tsunami n'arrive. Un signe bizarre, que peu de gens connaissent, mais qui peut sauver des vies. Sur la plage, qu'est-ce qui pourrait annoncer la vague, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "🌊",
+          "texte": "La mer se retire d'un coup, très loin",
+          "bonne": true
+        },
+        {
+          "emoji": "🌈",
+          "texte": "Un arc-en-ciel apparaît"
+        },
+        {
+          "emoji": "🐦",
+          "texte": "Les oiseaux se posent sur le sable"
+        }
+      ],
+      "reponseBonne": "La mer se retire ! Juste avant un tsunami, l'eau recule parfois d'un coup, très loin, découvrant le fond et les poissons, comme une marée basse ultra-rapide. Ça peut sembler amusant… mais c'est un signal de danger ! La mer aspire l'eau avant de la renvoyer en vague géante. Si la mer se retire soudain, il faut courir vers les hauteurs.",
+      "reponseAutre": "La mer se retire d'un coup, très loin ! Juste avant un tsunami, l'eau recule parfois soudainement, découvrant le fond, les rochers, les poissons, comme une marée basse ultra-rapide. Ça peut sembler curieux… mais c'est un signal de danger ! La mer aspire l'eau avant de la renvoyer en vague. Si ça arrive, il faut courir vers les hauteurs."
+    },
+    {
+      "id": "tilly",
+      "type": "anecdote",
+      "visuel": "🦸",
+      "etiquette": "Histoire vraie",
+      "titre": "La fillette qui a sauvé une plage",
+      "texte": "Voici une histoire vraie et extraordinaire. En 2004, une petite fille anglaise de 10 ans, Tilly, passait ses vacances sur une plage en Thaïlande. Soudain, elle a vu la mer se retirer bizarrement, l'eau mousseuse. Quelques semaines plus tôt, à l'école, elle avait appris ce qu'était un tsunami — et elle a reconnu les signes ! Elle a aussitôt prévenu ses parents, qui ont alerté toute la plage. Les gens ont évacué juste à temps. Grâce à elle, personne n'a été blessé là où elle se trouvait. Une enfant de 10 ans, armée de ce qu'elle avait appris en classe, a sauvé une centaine de personnes. 🦸",
+      "olli": "Cette histoire me donne des frissons à chaque fois. Ce que tu apprends aujourd'hui, même sans le savoir, pourrait un jour te rendre capable d'aider les autres. Le savoir est un vrai pouvoir.",
+      "sourceRef": "src-tilly"
+    },
+    {
+      "id": "mission-vague",
+      "type": "mission",
+      "visuel": "🪣",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Fabrique ta vague dans une bassine",
+      "texte": "Pour comprendre le tsunami, prends une bassine ou la baignoire, remplis-la d'eau et laisse-la devenir bien calme. Maintenant, au fond, pousse ta main d'un coup vers le haut : tu vois l'onde qui part vers les bords ? C'est ce que fait un séisme au fond de la mer. Regarde la vague grandir en arrivant près du bord, là où c'est moins profond. Souffle aussi sur l'eau pour faire des vaguelettes de « vent » : vois-tu la différence ?",
+      "olli": "Retiens surtout la règle qui sauve : si la mer se retire d'un coup de façon bizarre, on ne va PAS voir les poissons, on court vers les hauteurs. 🏃"
+    },
+    {
+      "id": "teaser-fond",
+      "type": "teaser",
+      "visuel": "🌍",
+      "titre": "Le tsunami naît d'un séisme au fond. Mais pourquoi la Terre tremble-t-elle ?",
+      "texte": "Une question me poursuit. Le tsunami naît d'un tremblement de terre tout au fond de l'océan. Mais au fond, pourquoi la Terre tremble-t-elle ? Qu'est-ce qui fait bouger le sol si fort, sous la mer comme sous nos pieds ? Il paraît que la surface de notre planète est faite de gigantesques morceaux qui bougent tout doucement, et qui, parfois, se libèrent d'un coup. Comment est-ce possible ?",
+      "olli": "La réponse t'attend dans le Livre des Volcans… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "terre-tremble"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-origine",
+      "fait": "La plupart des tsunamis sont causés par de grands séismes sous-marins sur des zones de subduction : le fond marin se soulève ou s'affaisse brusquement, déplaçant toute la colonne d'eau.",
+      "reference": "https://www.noaa.gov/education/resource-collections/ocean-coasts/tsunamis",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-vitesse",
+      "fait": "En eau profonde, un tsunami se déplace à plus de 800 km/h (500 mph), aussi vite qu'un avion de ligne, et peut traverser un océan en moins d'une journée.",
+      "reference": "https://www.noaa.gov/jetstream/tsunamis/tsunami-propagation",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-hauteur",
+      "fait": "Au large, un tsunami dépasse rarement 1 m de haut et passe inaperçu des navires ; près des côtes, il ralentit à 30-50 km/h, sa longueur d'onde diminue et sa hauteur augmente fortement.",
+      "reference": "https://www.noaa.gov/jetstream/tsunamis/tsunami-propagation",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-signes",
+      "fait": "Les signes naturels d'alerte incluent un séisme fort et long, un grondement venu de la mer, et un retrait soudain et anormal du niveau de la mer. La première vague n'est pas forcément la plus grande.",
+      "reference": "https://www.noaa.gov/education/resource-collections/ocean-coasts/tsunamis",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-tilly",
+      "fait": "Lors du tsunami de l'océan Indien (26 décembre 2004), Tilly Smith, 10 ans, a reconnu les signes appris à l'école et fait évacuer une plage en Thaïlande, sauvant environ 100 personnes.",
+      "reference": "https://www.deccanherald.com/dhie/science/2025/11/05/waves-without-mercy",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : les tsunamis peuvent aussi venir d'éruptions volcaniques, glissements de terrain ou météorites (rares). Environ 80% sont d'origine sismique, surtout dans la Ceinture de feu du Pacifique.",
+      "reference": "https://www.noaa.gov/education/resource-collections/ocean-coasts/tsunamis",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    }
+  ]
+}

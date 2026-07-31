@@ -493,6 +493,16 @@
       "octets": 6366
     },
     {
+      "id": "ocean-tsunami",
+      "livre": "ocean",
+      "titre": "La vague qui traverse un océan",
+      "resume": "Une vague ordinaire naît du vent. Mais une vague géante peut traverser un océan entier, aussi vite qu'un avion. Et un enfant a déjà sauvé des centaines de vies en la reconnaissant à temps.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/ocean-tsunami.json",
+      "sha256": "874c0feefce4ba9a30ba4effa240afa387df70cf79cafb70bdd7c8b303667e1e",
+      "octets": 10613
+    },
+    {
       "id": "ocean-vague",
       "livre": "ocean",
       "titre": "La vague que personne ne croyait",
