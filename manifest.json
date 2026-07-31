@@ -453,6 +453,16 @@
       "octets": 9908
     },
     {
+      "id": "nombres-grands",
+      "livre": "les-nombres",
+      "titre": "Un million ? Un milliard ? Le piège",
+      "resume": "Un million et un milliard, ça se ressemble : deux grands nombres. Mais l'un est mille fois plus grand que l'autre. Et cette différence est bien plus énorme que tu ne l'imagines.",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/nombres-grands.json",
+      "sha256": "7d2b91e1867699041ed2feb8ba89bf38fecc70e12a30e015154eed486c6ef917",
+      "octets": 10195
+    },
+    {
       "id": "nombres-infini",
       "livre": "les-nombres",
       "titre": "Le nombre inventé par un enfant de neuf ans",

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "nombres-grands",
+  "minEngineVersion": 1,
+  "livre": "les-nombres",
+  "titre": "Un million ? Un milliard ? Le piège",
+  "resume": "Un million et un milliard, ça se ressemble : deux grands nombres. Mais l'un est mille fois plus grand que l'autre. Et cette différence est bien plus énorme que tu ne l'imagines.",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "infini-grand",
+      "texte": "Les nombres montent sans cesse. Existe-t-il un dernier nombre, le plus grand de tous ?",
+      "resolueParLivre": "les-nombres"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "🔭",
+      "titre": "Arpenteuse des Grands Nombres"
+    },
+    "decouvertes": [
+      "Un milliard, c'est mille millions",
+      "Compter jusqu'à un million prend 11 jours",
+      "Compter jusqu'à un milliard prend 32 ans",
+      "Notre cerveau sous-estime les grands nombres",
+      "Chaque cran multiplie par mille"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "combien-temps",
+      "type": "question",
+      "visuel": "🔢",
+      "titre": "Compter jusqu'à un million sans s'arrêter, ça prendrait combien de temps ?",
+      "olli": "Imagine que tu comptes à voix haute, un nombre par seconde, sans jamais t'arrêter — ni manger, ni dormir. Combien de temps te faudrait-il pour atteindre un million, à ton avis ? Un million, ça paraît énorme…",
+      "choix": [
+        {
+          "emoji": "⏱️",
+          "texte": "Environ une heure"
+        },
+        {
+          "emoji": "📅",
+          "texte": "Environ 11 jours",
+          "bonne": true
+        },
+        {
+          "emoji": "🎂",
+          "texte": "Environ 10 ans"
+        }
+      ],
+      "reponseBonne": "Environ 11 jours ! À un nombre par seconde, sans jamais t'arrêter, il te faudrait à peu près onze jours et demi pour arriver à un million. C'est déjà énorme : presque deux semaines à compter sans dormir ! Un million, c'est vraiment beaucoup. Mais retiens bien ce nombre — onze jours — parce que ce qui vient ensuite va te surprendre.",
+      "reponseAutre": "Environ 11 jours ! À un nombre par seconde, sans jamais t'arrêter, il te faudrait onze jours et demi pour atteindre un million. Presque deux semaines à compter sans dormir ! Un million, c'est déjà beaucoup. Mais retiens ce nombre — onze jours — car ce qui vient ensuite va te surprendre."
+    },
+    {
+      "id": "le-piege",
+      "type": "question",
+      "visuel": "😲",
+      "titre": "Et pour compter jusqu'à un MILLIARD (mille millions) ?",
+      "olli": "Un milliard, c'est mille fois un million. Puisqu'il t'a fallu 11 jours pour un million, combien de temps pour un milliard, à ton avis ? Attention, c'est un piège : notre cerveau se trompe presque toujours sur cette question !",
+      "choix": [
+        {
+          "emoji": "📅",
+          "texte": "Environ 30 jours, un peu plus"
+        },
+        {
+          "emoji": "🎂",
+          "texte": "Environ 32 ans !",
+          "bonne": true
+        },
+        {
+          "emoji": "📆",
+          "texte": "Environ un an"
+        }
+      ],
+      "reponseBonne": "Environ 32 ans ! Oui, trente-deux ANS à compter sans jamais t'arrêter ! Là où un million prend 11 jours, un milliard prend toute une vie d'adulte. Pourtant, on dit « million » et « milliard » presque pareil, comme s'ils étaient voisins. En vrai, un abîme les sépare : notre cerveau n'est pas fait pour sentir de tels géants.",
+      "reponseAutre": "Environ 32 ans ! Oui, trente-deux ANS sans jamais t'arrêter ! Là où un million prend 11 jours, un milliard prend toute une vie d'adulte. Pourtant on dit « million » et « milliard » presque pareil, comme s'ils étaient voisins. En vrai, un abîme les sépare. Notre cerveau ne sent pas à quel point les grands nombres sont grands."
+    },
+    {
+      "id": "chaque-cran",
+      "type": "observation",
+      "visuel": "🪜",
+      "visuelAnimation": "flotte",
+      "titre": "Montons l'échelle des grands nombres.",
+      "olli": "Touche chaque partie. À chaque marche, on multiplie par mille. Et à chaque fois, le saut est bien plus grand qu'on ne le croit.",
+      "hotspots": [
+        {
+          "emoji": "🔢",
+          "nom": "Mille fois à chaque marche",
+          "fait": "Mille, c'est mille. Un million, c'est mille milliers. Un milliard, c'est mille millions. Un billion, mille milliards. À chaque nouveau nom, on multiplie par mille : on ajoute trois zéros. L'échelle grimpe à toute vitesse."
+        },
+        {
+          "emoji": "⏳",
+          "nom": "Un voyage dans le temps",
+          "fait": "Un million de secondes, c'est il y a 11 jours. Un milliard de secondes, c'est il y a plus de 30 ans, avant ta naissance ! Et mille milliards de secondes ? Plus de 30 000 ans, à l'époque des hommes des cavernes. Les grands nombres sont des machines à remonter le temps."
+        },
+        {
+          "emoji": "🧠",
+          "nom": "Le piège de notre cerveau",
+          "fait": "Notre cerveau range « million », « milliard », « billion » dans le même tiroir : « très grand ». Il ne sent pas les énormes écarts entre eux. C'est pour ça qu'il faut des astuces, comme le temps, pour vraiment se rendre compte."
+        }
+      ]
+    },
+    {
+      "id": "compter-tout",
+      "type": "anecdote",
+      "visuel": "⭐",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Quand les grands nombres deviennent réels",
+      "texte": "Ces nombres géants ne sont pas juste des jeux : ils décrivent le monde réel. Sur Terre, nous sommes environ 8 milliards d'humains. Ton corps, lui, est fait de dizaines de milliers de milliards de cellules — bien plus que d'humains sur la planète ! Et notre galaxie contient des centaines de milliards d'étoiles ; l'univers compterait plus de galaxies qu'il n'y a de grains de sable sur toutes les plages de la Terre. Ces nombres sont trop grands pour qu'on les ressente, et pourtant bien réels. C'est ça, le vertige des nombres : ils nomment des quantités qu'on ne verra jamais en entier. ⭐",
+      "olli": "J'adore cette idée : même quand une quantité dépasse tout ce qu'on peut imaginer, un nombre peut la saisir. Les nombres sont des filets à attraper les géants.",
+      "sourceRef": "src-reel"
+    },
+    {
+      "id": "mission-million",
+      "type": "mission",
+      "visuel": "⏱️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Ressens la taille d'un grand nombre",
+      "texte": "Fais un test pour sentir ces nombres dans ton corps. Compte à voix haute jusqu'à 100 le plus vite possible, et fais-toi chronométrer : ça prend une à deux minutes. Maintenant réfléchis : pour un million, il faudrait faire ça… dix mille fois de suite ! Et pour un milliard, dix millions de fois. Autre idée : demande à un adulte quel âge aurait quelqu'un né il y a un milliard de secondes. La réponse (environ 32 ans) te fera sentir l'écart vertigineux entre un million et un milliard.",
+      "olli": "Refais le calcul du million en secondes avec quelqu'un : « 11 jours pour un million, 32 ans pour un milliard ». Vous n'entendrez plus jamais ces mots pareil. 😄"
+    },
+    {
+      "id": "teaser-infini",
+      "type": "teaser",
+      "visuel": "♾️",
+      "titre": "Les nombres montent, montent… S'arrêtent-ils un jour ?",
+      "texte": "Tout ce voyage me laisse une question au bord des lèvres. On a grimpé l'échelle : mille, million, milliard, billion… et à chaque marche, un saut vertigineux. Mais est-ce que ça s'arrête un jour ? Existe-t-il un dernier nombre, le plus grand de tous, tout en haut de l'échelle ? Ou peut-on toujours en fabriquer un plus grand, encore et encore, sans jamais atteindre le sommet ?",
+      "olli": "La réponse t'attend ailleurs dans le Livre des Nombres… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "infini-grand"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-million",
+      "fait": "Compter jusqu'à un million à raison d'un nombre par seconde, sans interruption, prendrait environ 11,5 jours.",
+      "reference": "https://www.mathnasium.com/math-centers/columbiamd/news/how-many-millions-in-billion",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-milliard",
+      "fait": "Compter jusqu'à un milliard au même rythme prendrait environ 31,7 ans (près de 32 ans) : un milliard de secondes équivaut à plus de 31 ans.",
+      "reference": "https://homelab-alpha.nl/back-to-basics/one-million-vs-one-billion/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-echelle",
+      "fait": "Chaque grand palier (mille, million, milliard, billion) est 1000 fois plus grand que le précédent : on ajoute trois zéros à chaque fois.",
+      "reference": "https://danielmiessler.com/blog/million-billion-trillion",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-trillion",
+      "fait": "Un billion (mille milliards) de secondes équivaut à environ 31 700 ans : un tel intervalle nous ramènerait à l'époque des chasseurs-cueilleurs de la préhistoire.",
+      "reference": "https://danielmiessler.com/blog/million-billion-trillion",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-reel",
+      "fait": "Les grands nombres décrivent le réel : ~8 milliards d'humains, des dizaines de milliers de milliards de cellules dans un corps, des centaines de milliards d'étoiles par galaxie.",
+      "reference": "https://www.mathnasium.com/math-centers/columbiamd/news/how-many-millions-in-billion",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : en français, « billion » = mille milliards (10^12), différent de l'anglais « billion » qui vaut un milliard. Les chiffres en secondes sont des arrondis.",
+      "reference": "https://homelab-alpha.nl/back-to-basics/one-million-vs-one-billion/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    }
+  ]
+}
