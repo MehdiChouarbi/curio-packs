@@ -373,6 +373,16 @@
       "octets": 10613
     },
     {
+      "id": "mots-emoji",
+      "livre": "les-mots",
+      "titre": "Les hiéroglyphes sont de retour",
+      "resume": "Il y a 5000 ans, on écrivait avec des petits dessins. Aujourd'hui, dans tes messages, tu écris avec des petits dessins : les emojis. L'écriture a-t-elle bouclé la boucle ?",
+      "minEngineVersion": 1,
+      "url": "https://mehdichouarbi.github.io/curio-packs/expeditions/mots-emoji.json",
+      "sha256": "23df75ab4be037e37a1e9e4c257dd8a27586a05023d7def28a480b8b8bbbcc2c",
+      "octets": 10436
+    },
+    {
       "id": "mots-grotte",
       "livre": "les-mots",
       "titre": "La plus vieille histoire du monde",

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "mots-emoji",
+  "minEngineVersion": 1,
+  "livre": "les-mots",
+  "titre": "Les hiéroglyphes sont de retour",
+  "resume": "Il y a 5000 ans, on écrivait avec des petits dessins. Aujourd'hui, dans tes messages, tu écris avec des petits dessins : les emojis. L'écriture a-t-elle bouclé la boucle ?",
+  "age": {
+    "min": 8,
+    "max": 12
+  },
+  "dureeMinutes": 5,
+  "questionsOuvertes": [
+    {
+      "id": "compter-dix",
+      "texte": "Les premiers signes servaient à compter. Mais pourquoi compte-t-on par paquets de dix ?",
+      "resolueParLivre": "les-nombres"
+    }
+  ],
+  "questionsResolues": [],
+  "passeport": {
+    "tampon": {
+      "emoji": "😀",
+      "titre": "Exploratrice des Emojis"
+    },
+    "decouvertes": [
+      "Les emojis sont une écriture par images",
+      "Comme les hiéroglyphes, il y a 5000 ans",
+      "Le premier date de 1999, au Japon",
+      "Ils ajoutent le ton et l'émotion aux mots",
+      "Les tout premiers sont exposés dans un musée"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "dessins-messages",
+      "type": "question",
+      "visuel": "😀",
+      "titre": "Quand tu mets un emoji dans un message, tu fais quelque chose de très ancien. Quoi ?",
+      "olli": "Dans tes messages, ou ceux des adultes autour de toi, on glisse souvent des petits dessins : un cœur, un pouce levé, un visage qui rit. Ce sont les emojis. Sans le savoir, en les utilisant, tu refais un geste vieux de 5000 ans. Lequel, à ton avis ?",
+      "choix": [
+        {
+          "emoji": "🆕",
+          "texte": "Rien d'ancien, les emojis sont tout neufs"
+        },
+        {
+          "emoji": "🖼️",
+          "texte": "Écrire avec des dessins, comme les hiéroglyphes",
+          "bonne": true
+        },
+        {
+          "emoji": "🔢",
+          "texte": "Compter, comme les premiers comptables"
+        }
+      ],
+      "reponseBonne": "Écrire avec des dessins ! Les tout premiers écrits humains, comme les hiéroglyphes égyptiens, étaient déjà des petits dessins : un soleil pour le soleil, un oiseau pour l'oiseau. Puis on a inventé les lettres. Et aujourd'hui, avec les emojis, on remet des dessins dans nos messages ! L'écriture a bouclé une boucle, du dessin au dessin.",
+      "reponseAutre": "Écrire avec des dessins, comme les hiéroglyphes ! Les premiers écrits humains, comme les hiéroglyphes égyptiens, étaient déjà des petits dessins : un soleil pour le soleil, un oiseau pour l'oiseau. Puis on a inventé les lettres. Et aujourd'hui, avec les emojis, on remet des dessins dans nos messages ! L'écriture a bouclé une boucle."
+    },
+    {
+      "id": "a-quoi-servent",
+      "type": "observation",
+      "visuel": "😀",
+      "visuelAnimation": "flotte",
+      "titre": "Comprenons pourquoi les emojis sont si utiles.",
+      "olli": "Touche chaque partie. Les emojis ne sont pas là juste pour faire joli : ils réparent un vrai manque de l'écriture.",
+      "hotspots": [
+        {
+          "emoji": "🎭",
+          "nom": "Le ton qui manquait",
+          "fait": "Quand tu parles, ta voix et ton visage montrent si tu plaisantes ou si tu es fâché. Mais dans un message écrit, tout ça disparaît ! « Super… » peut être sincère ou moqueur. Un emoji 😄 ou 😒 remet le ton qu'un texte tout seul ne peut pas dire."
+        },
+        {
+          "emoji": "🌍",
+          "nom": "Compris partout",
+          "fait": "Un cœur ❤️ ou un visage qui pleure 😢 se comprend dans presque toutes les langues du monde, sans traduction. C'est un peu un langage commun à toute la planète, par-dessus les langues, exactement comme un dessin peut parler à tout le monde."
+        },
+        {
+          "emoji": "⚡",
+          "nom": "Rapides et petits",
+          "fait": "Un seul emoji peut remplacer toute une phrase : au lieu d'écrire « je suis très content », un simple 😍 suffit. Sur un petit écran de téléphone, où l'on veut aller vite, c'est bien pratique. Les premiers emojis ont d'ailleurs été inventés pour ça."
+        }
+      ]
+    },
+    {
+      "id": "premier-emoji",
+      "type": "question",
+      "visuel": "📱",
+      "titre": "Quand et où le tout premier emoji a-t-il été inventé ?",
+      "olli": "Les emojis semblent avoir toujours existé sur nos écrans. Pourtant, ils sont assez récents, et ils viennent d'un pays précis. À ton avis, quand et où le tout premier jeu d'emojis a-t-il été créé ?",
+      "choix": [
+        {
+          "emoji": "🏛️",
+          "texte": "Dans la Rome antique"
+        },
+        {
+          "emoji": "🇯🇵",
+          "texte": "Au Japon, à la fin des années 1990",
+          "bonne": true
+        },
+        {
+          "emoji": "🇺🇸",
+          "texte": "Aux États-Unis, il y a un siècle"
+        }
+      ],
+      "reponseBonne": "Au Japon, vers 1999 ! Un jeune créateur japonais, Shigetaka Kurita, a dessiné un premier jeu de 176 emojis pour les téléphones, sur une minuscule grille de points, pour aider à exprimer les émotions dans les messages. L'idée a tellement plu qu'elle a fait le tour du monde. Le mot « emoji » vient du japonais : « image » et « lettre ».",
+      "reponseAutre": "Au Japon, à la fin des années 1990 ! Vers 1999, un jeune créateur japonais, Shigetaka Kurita, a dessiné un premier jeu de 176 emojis pour les téléphones, sur une minuscule grille de points, pour aider à exprimer les émotions. L'idée a fait le tour du monde. « Emoji » vient du japonais : « image » et « lettre »."
+    },
+    {
+      "id": "au-musee",
+      "type": "anecdote",
+      "visuel": "🖼️",
+      "etiquette": "Ça fait réfléchir",
+      "titre": "Des emojis au musée, comme des œuvres d'art",
+      "texte": "Voici une chose amusante et qui fait réfléchir. Les tout premiers emojis, ces 176 minuscules dessins de 1999, sont aujourd'hui conservés dans un grand musée d'art moderne à New York, comme de véritables œuvres ! Pourquoi ? Parce qu'ils ont changé la façon dont des milliards de gens communiquent. Repense à ton voyage : l'écriture née pour compter le grain, les hiéroglyphes déchiffrés par une pierre, le braille lu du bout des doigts… et maintenant ces dessins sur nos écrans. À chaque époque, les humains inventent de nouvelles façons de partager leurs pensées. L'écriture change avec nous. 🖼️",
+      "olli": "J'adore terminer là-dessus : l'écriture continue de se réinventer, encore aujourd'hui. Tu es né à une époque où elle change à toute vitesse. Peut-être y ajouteras-tu ta pierre.",
+      "sourceRef": "src-moma"
+    },
+    {
+      "id": "mission-emoji",
+      "type": "mission",
+      "visuel": "✏️",
+      "etiquette": "Mission dans le monde réel",
+      "titre": "Écris une histoire en dessins",
+      "texte": "Deviens un inventeur d'écriture ! Sur une feuille, raconte une petite histoire de ta journée avec seulement des dessins, comme des emojis ou des hiéroglyphes : un soleil, un bonhomme qui court, une assiette, un cœur… Puis montre ta feuille à quelqu'un et demande-lui de deviner ton histoire, sans un seul mot. Est-ce qu'il comprend ? Où ça coince ? Tu découvriras la force des dessins (on comprend vite !) et leur limite (dur de dire « pourquoi » ou « demain » avec une image).",
+      "olli": "Compare ton histoire en dessins avec celle d'un ami : avez-vous utilisé les mêmes images pour les mêmes idées ? C'est comme ça que naît une écriture ! 😄"
+    },
+    {
+      "id": "teaser-fin-mots",
+      "type": "teaser",
+      "visuel": "🔢",
+      "titre": "Les premiers signes servaient à compter. Mais d'où viennent les nombres ?",
+      "texte": "Au bout de ce voyage dans les mots, une porte s'ouvre. On a vu que la toute première écriture est née pour compter : des moutons, du grain. Les nombres étaient donc là avant même les lettres ! Mais d'où viennent-ils ? Pourquoi comptons-nous par paquets de dix ? Et jusqu'où peut-on compter… existe-t-il un dernier nombre ?",
+      "olli": "La réponse t'attend dans le Livre des Nombres… Ton passeport a un nouveau tampon ! 🎉",
+      "questionOuverteRef": "compter-dix"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-origine",
+      "fait": "Le premier jeu d'emojis (176 pictogrammes de 12×12 pixels) a été conçu par Shigetaka Kurita au Japon en 1998-1999, pour la plateforme mobile i-mode de l'opérateur NTT DOCOMO.",
+      "reference": "https://www.moma.org/collection/works/196070",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-mot",
+      "fait": "Le mot « emoji » vient du japonais e (« image ») et moji (« caractère/lettre ») ; sa ressemblance avec « emotion » en anglais est une coïncidence.",
+      "reference": "https://www.techtarget.com/whatis/feature/The-history-of-emoji",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-role",
+      "fait": "Les emojis rétablissent le ton et le langage corporel absents du texte écrit, permettant une intonation plus nuancée dans la communication électronique.",
+      "reference": "https://www.moma.org/collection/works/196070",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-pictogrammes",
+      "fait": "Le concept d'écrire par images est ancien : les Égyptiens utilisaient des hiéroglyphes (pictogrammes) pour consigner leurs récits. Les emojis en sont une forme moderne et numérique.",
+      "reference": "https://www.hackreactor.com/resources/the-invention-of-emojis-a-brief-history/",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-moma",
+      "fait": "Le jeu original de 176 emojis de Kurita a été acquis en 2016 par le Museum of Modern Art (MoMA) de New York, reconnaissant son importance dans l'histoire de la communication et du design.",
+      "reference": "https://www.moma.org/collection/works/196070",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "src-nuance",
+      "fait": "NUANCE : Kurita est souvent appelé « créateur de l'emoji », mais il s'appuya sur une équipe et des précurseurs (émoticônes, pictogrammes asiatiques). On compte aujourd'hui plus de 3000 emojis.",
+      "reference": "https://en.wikipedia.org/wiki/Shigetaka_Kurita",
+      "verifiePar": "Mehdi",
+      "date": "2026-07-31"
+    }
+  ]
+}
