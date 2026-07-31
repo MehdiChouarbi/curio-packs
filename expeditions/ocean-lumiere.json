@@ -17,7 +17,9 @@
       "resolueParLivre": "le-corps"
     }
   ],
-  "questionsResolues": [],
+  "questionsResolues": [
+    "lumiere-vivante"
+  ],
   "passeport": {
     "tampon": {
       "emoji": "🔦",
@@ -140,42 +142,42 @@
       "fait": "Selon la NOAA, environ 80 % des animaux vivant entre 200 et 1000 mètres de profondeur (zone pélagique) sont bioluminescents : ils produisent leur propre lumière.",
       "reference": "https://oceanexplorer.noaa.gov/facts/bioluminescence.html",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-31"
     },
     {
       "id": "src-renversement",
       "fait": "L'essentiel de l'espace habitable de la Terre étant l'océan profond, la bioluminescence est très probablement le mode de communication le plus répandu de la planète (MBARI).",
       "reference": "https://www.mbari.org/project/bioluminescence-and-fluorescence/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-31"
     },
     {
       "id": "src-fonctions",
       "fait": "Fonctions de la bioluminescence : effrayer un prédateur, leurrer par un nuage lumineux, attirer des proies (leurre de la baudroie), et contre-illumination pour effacer sa silhouette vue d'en bas.",
       "reference": "https://www.nationalgeographic.com/animals/article/bioluminescence-animals-ocean-glowing",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-31"
     },
     {
       "id": "src-couleur",
       "fait": "La lumière bleu-vert se transmet le mieux dans l'eau de mer ; c'est la couleur dominante. Exception : le poisson « stoplight loosejaw » émet du rouge, invisible pour ses proies.",
       "reference": "https://latzlab.ucsd.edu/bioluminescence/bioluminescence-questions-and-answers/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-31"
     },
     {
       "id": "src-baudroie",
       "fait": "La femelle de la baudroie abyssale (anglerfish) porte un leurre lumineux au-dessus de sa gueule, éclairé par des bactéries, pour attirer ses proies à portée.",
       "reference": "https://www.nationalgeographic.com/animals/article/bioluminescence-animals-ocean-glowing",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-31"
     },
     {
       "id": "src-chiffres",
       "fait": "NUANCE : les proportions varient selon la profondeur et la méthode. La MBARI relève 76 % dans la colonne d'eau et 45 % sur le fond, jusqu'à 4000 m ; d'autres études donnent >90 % en zone profonde.",
       "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6787029/",
       "verifiePar": "Mehdi",
-      "date": "2026-07-26"
+      "date": "2026-07-31"
     }
   ]
 }
